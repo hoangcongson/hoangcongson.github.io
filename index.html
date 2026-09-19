@@ -1,70 +1,169 @@
 <!doctype html>
 <html lang="vi">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Hoàng Công Sơn — Engineer</title>
-<meta name="description" content="Hoàng Công Sơn — Test Engineer, Automation, Production. IPTV & M3U resources.">
+<meta name="description" content="Hoàng Công Sơn — Test Engineer, Automation & Production">
 <style>
-:root{--bg:#03070d;--panel:#07111c;--text:#f5f8fc;--muted:#8e9aa8;--line:rgba(255,255,255,.09);--blue:#38bdf8;--violet:#8067ff;--green:#2ee6a6;--max:1180px}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif}
-body:before{content:"";position:fixed;inset:0;pointer-events:none;background:radial-gradient(circle at 70% 12%,rgba(56,189,248,.10),transparent 28%),radial-gradient(circle at 15% 40%,rgba(128,103,255,.08),transparent 30%)}
-.wrap{width:min(var(--max),92%);margin:auto}a{color:inherit}
-nav{position:fixed;top:0;left:0;right:0;z-index:20;background:rgba(3,7,13,.62);backdrop-filter:blur(18px);border-bottom:1px solid var(--line)}
-.nav{height:72px;display:flex;align-items:center;justify-content:space-between}.brand{text-decoration:none;font-weight:850}.brand b{color:var(--blue)}
-.links{display:flex;gap:27px}.links a{text-decoration:none;color:#9aa5b3;font-size:12px}.links a:hover{color:#fff}
-.hero{min-height:780px;padding:125px 0 70px;display:grid;grid-template-columns:1.02fr .98fr;align-items:center;gap:55px}
-.eyebrow{font-size:10px;letter-spacing:3px;color:var(--blue);font-weight:800;text-transform:uppercase}
-h1{font-size:clamp(54px,7vw,92px);line-height:.91;letter-spacing:-5px;margin:18px 0 18px;font-weight:900}
-.gradient{background:linear-gradient(90deg,#fff,#b9c9ff 45%,#63d8ff);-webkit-background-clip:text;background-clip:text;color:transparent}
-.lead{color:var(--muted);font-size:15px;line-height:1.8;max-width:620px}.buttons{display:flex;gap:10px;flex-wrap:wrap;margin-top:25px}
-.btn{display:inline-flex;align-items:center;gap:8px;padding:12px 17px;border:1px solid var(--line);border-radius:8px;text-decoration:none;font-size:11px;font-weight:800;background:#08101a;transition:.25s}.btn:hover{transform:translateY(-3px);border-color:rgba(56,189,248,.5)}.primary{background:linear-gradient(135deg,#1689ff,#6d5cff);border:0}
-.hero-photo{height:600px;position:relative;overflow:hidden;border:1px solid var(--line);background:#080b10;box-shadow:0 30px 100px rgba(0,0,0,.5)}
-.hero-photo img{width:100%;height:100%;object-fit:cover;object-position:center 38%;filter:saturate(.86) contrast(1.06)}
-.hero-photo:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,#03070d 0%,transparent 35%,transparent 75%,rgba(3,7,13,.3) 100%),linear-gradient(0deg,rgba(3,7,13,.72),transparent 40%);pointer-events:none}
-.photo-label{position:absolute;z-index:2;left:22px;bottom:20px;color:#fff}.photo-label b{font-size:18px}.photo-label span{display:block;color:#9eabb8;font-size:10px;margin-top:5px}
-.live{display:flex;align-items:center;gap:8px;margin-top:22px;font-size:11px;color:#aeb8c5}.live-dot{width:7px;height:7px;border-radius:50%;background:var(--green);box-shadow:0 0 14px var(--green)}
-section{padding:85px 0}.center{text-align:center}.title{font-size:36px;letter-spacing:-1.5px;margin:8px 0 10px}.desc{color:var(--muted);max-width:650px;margin:auto;font-size:13px;line-height:1.75}
-.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:35px}.card{padding:23px;border:1px solid var(--line);background:linear-gradient(145deg,#08111a,#05090e);transition:.25s}.card:hover{transform:translateY(-5px);border-color:rgba(56,189,248,.35)}.icon{font-size:23px}.card h3{font-size:15px;margin:13px 0 8px}.card p{font-size:12px;line-height:1.7;color:var(--muted);margin:0}
-.timeline{margin-top:35px;display:grid;gap:12px}.job{display:grid;grid-template-columns:150px 1fr;gap:25px;padding:20px;border:1px solid var(--line);background:#060b11}.job time{color:var(--blue);font-size:11px}.job h3{margin:0 0 4px;font-size:16px}.job p{margin:0;color:var(--muted);font-size:12px;line-height:1.65}
-.resources{display:grid;grid-template-columns:1fr 1fr;gap:15px;margin-top:35px}.resource{padding:25px;border:1px solid var(--line);background:#07101a}.resource.blue{box-shadow:inset 0 1px 0 rgba(56,189,248,.35)}.resource.green{box-shadow:inset 0 1px 0 rgba(46,230,166,.35)}.resource h3{margin:0 0 8px;font-size:18px}.resource p{font-size:12px;color:var(--muted);line-height:1.6}.url{padding:12px;background:#03070b;border:1px solid var(--line);font:11px ui-monospace,monospace;color:#93dfff;word-break:break-all;margin-top:15px}.resource-actions{display:flex;gap:8px;margin-top:10px;flex-wrap:wrap}
-footer{border-top:1px solid var(--line);padding:32px 0;color:#687583;text-align:center;font-size:11px}
-@media(max-width:800px){.hero{grid-template-columns:1fr;padding-top:115px}.hero-photo{height:520px}.grid,.resources{grid-template-columns:1fr 1fr}.job{grid-template-columns:1fr;gap:7px}.links{display:none}}
-@media(max-width:520px){.grid,.resources{grid-template-columns:1fr}h1{font-size:55px;letter-spacing:-3px}}
+:root{
+  --bg:#030912; --panel:rgba(7,20,34,.78); --panel2:#081728;
+  --line:rgba(38,171,255,.20); --line2:rgba(255,255,255,.08);
+  --text:#f4f8ff; --muted:#a7b5c7; --blue:#19b9ff; --cyan:#16e6ff;
+  --green:#19e6a0; --purple:#635bff; --gold:#ffd22e;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;color:var(--text);font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;
+  background:
+    radial-gradient(circle at 75% 8%,rgba(0,151,255,.13),transparent 28%),
+    radial-gradient(circle at 15% 45%,rgba(0,96,255,.08),transparent 30%),
+    linear-gradient(180deg,#020811,#030b15 55%,#02070e);
+}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;background-image:linear-gradient(rgba(255,255,255,.018) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.018) 1px,transparent 1px);background-size:42px 42px;mask-image:linear-gradient(to bottom,black,transparent 85%);z-index:-1}
+a{color:inherit;text-decoration:none}
+.container{width:min(1160px,calc(100% - 48px));margin:auto}
+.nav{height:76px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line2)}
+.brand{display:flex;align-items:center;gap:12px;font-weight:800}
+.logo{font-size:28px;color:var(--blue);letter-spacing:-2px}
+.brand small{display:block;color:var(--muted);font-size:11px;font-weight:500;letter-spacing:.3px}
+.menu{display:flex;align-items:center;gap:25px;font-size:13px;color:#c8d3e1}
+.menu a{transition:.2s}.menu a:hover{color:var(--blue)}
+.nav-right{display:flex;gap:10px;align-items:center}
+.circle,.nav-btn{border:1px solid var(--line);background:rgba(4,14,25,.8);height:38px;border-radius:20px;display:grid;place-items:center}
+.circle{width:38px}.nav-btn{padding:0 17px;color:#fff;font-size:12px}
+.hero{min-height:570px;display:grid;grid-template-columns:1fr 1.08fr;align-items:center;gap:20px;position:relative;overflow:hidden}
+.hero-copy{position:relative;z-index:2;padding:55px 0}
+.badge{display:inline-flex;align-items:center;gap:8px;border:1px solid rgba(20,213,255,.55);border-radius:22px;padding:9px 14px;font-size:12px;background:rgba(0,130,255,.05)}
+.dot{width:7px;height:7px;border-radius:50%;background:#00e69b;box-shadow:0 0 13px #00e69b}
+.kicker{margin-top:25px;color:var(--blue);font-size:10px;font-weight:800;letter-spacing:3px}
+h1{font-size:clamp(58px,7vw,94px);line-height:.88;letter-spacing:-5px;margin:12px 0 18px;font-weight:900}
+.grad{background:linear-gradient(90deg,#fff 5%,#fff 45%,#3caeff 78%,#6d65ff);-webkit-background-clip:text;background-clip:text;color:transparent}
+.role{font-size:20px;font-weight:700;margin-bottom:15px}
+.lead{color:#c1ccda;line-height:1.75;max-width:560px;font-size:14px}
+.actions{display:flex;gap:12px;margin:25px 0}
+.btn{border:1px solid #2499d7;border-radius:25px;padding:12px 18px;font-size:12px;font-weight:800;background:rgba(4,20,34,.8)}
+.btn.primary{background:#f5f8ff;color:#07101a;border-color:#fff;box-shadow:0 0 30px rgba(255,255,255,.14)}
+.social{display:flex;gap:18px;color:#d7e4f1;font-size:20px;margin-top:20px}
+.hero-art{height:100%;min-height:570px;position:relative}
+.hero-art:before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,#030912 0%,rgba(3,9,18,.45) 25%,rgba(3,9,18,0) 65%),linear-gradient(0deg,#030912 0%,transparent 35%);z-index:1}
+.hero-art img{width:100%;height:100%;object-fit:cover;object-position:center;filter:saturate(.85) contrast(1.08);mask-image:linear-gradient(to right,transparent 0%,black 15%,black 100%)}
+.quote{position:absolute;z-index:3;left:20%;top:95px;width:280px;color:#d7e6f5;font-size:17px;line-height:1.5}
+.quote:before{content:"“";color:var(--blue);font-size:38px}
+.signature{position:absolute;z-index:3;right:8%;top:235px;font-family:cursive;font-size:30px;transform:rotate(-5deg);color:#fff}
+.tech-list{position:absolute;right:2%;top:90px;z-index:3;border-left:1px solid var(--cyan);padding-left:16px;color:#9cb0c4;font-size:9px;line-height:2.5;letter-spacing:2px}
+.status{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:20px;border:1px solid var(--line);border-radius:12px;padding:14px 18px;background:rgba(5,20,34,.65);margin-top:-20px;position:relative;z-index:4}
+.status-left{font-size:12px;color:#cbd6e2}.status-left b{color:#fff}
+.clock{font-size:25px;font-weight:900;letter-spacing:2px}.live{font-size:9px;border:1px solid rgba(255,75,95,.45);padding:5px 8px;border-radius:12px;color:#ff6170;margin-left:8px}
+.status-right{text-align:right;color:#9eafc0;font-size:10px}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:16px}
+.card{border:1px solid var(--line);background:linear-gradient(145deg,rgba(8,24,41,.85),rgba(3,13,23,.86));border-radius:13px;padding:24px}
+.section-label{color:var(--blue);font-size:9px;font-weight:900;letter-spacing:3px}
+h2{font-size:29px;line-height:1.05;margin:9px 0 16px}
+h2 span{color:var(--blue)}
+.card p{color:#aebccc;font-size:12px;line-height:1.75}
+.about-grid{display:grid;grid-template-columns:1fr 170px;gap:20px}
+.mini-list{display:grid;gap:9px}.mini{display:flex;gap:10px;align-items:center;color:#b7c5d5;font-size:10px}.mini i{width:30px;height:30px;border-radius:9px;display:grid;place-items:center;background:#071d34;border:1px solid var(--line);color:var(--blue);font-style:normal}
+.skills{display:grid;grid-template-columns:repeat(4,1fr);gap:9px}
+.skill{border:1px solid var(--line);background:#071827;border-radius:11px;min-height:85px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;font-size:10px;color:#d0d9e5;gap:9px}
+.skill b{font-size:23px;color:var(--blue)}
+.experience{margin-top:16px;display:grid;grid-template-columns:1.15fr .85fr;border:1px solid var(--line);border-radius:13px;overflow:hidden;background:rgba(4,16,28,.82)}
+.exp-copy{padding:25px}.timeline{margin-top:20px;border-left:1px solid #18b8ff;padding-left:20px}.job{position:relative;margin:0 0 18px}.job:before{content:"";position:absolute;width:7px;height:7px;border-radius:50%;background:var(--blue);left:-24px;top:6px;box-shadow:0 0 10px var(--blue)}.job time{color:#cdd7e3;font-size:11px}.job strong{display:block;font-size:12px;margin-top:4px}.job em{font-style:normal;color:#27baff;font-size:10px}.job p{margin:5px 0 0;font-size:10px;color:#9eafbf;line-height:1.55}
+.exp-image{min-height:330px;background:linear-gradient(90deg,rgba(3,11,19,.15),rgba(3,11,19,.0)),url("son-hero.jpg") center/cover;position:relative}.exp-image:after{content:"Good Tools\\A Better Results!";white-space:pre;position:absolute;left:28px;top:35px;font-family:cursive;font-size:31px;line-height:1.2;transform:rotate(-7deg);color:#fff}
+.useful{margin-top:20px}.useful-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.link-card{border-radius:13px;padding:20px;border:1px solid var(--line);min-height:170px;background:linear-gradient(145deg,#091d3b,#071326)}.link-card.green{background:linear-gradient(145deg,#052d2a,#071926);border-color:rgba(0,255,190,.35)}.link-card.gold{background:linear-gradient(145deg,#2c2508,#17130a);border-color:rgba(255,208,32,.35)}.link-icon{width:43px;height:43px;border-radius:10px;display:grid;place-items:center;background:#3423b9;font-size:22px}.green .link-icon{background:#009b74}.gold .link-icon{background:#5d4a00}.link-card h3{margin:12px 0 5px;font-size:14px}.link-card p{margin:0;color:#aebccc;font-size:10px;line-height:1.5}.link-btn{display:block;text-align:center;margin-top:16px;padding:10px;border-radius:8px;background:linear-gradient(90deg,#365cff,#2457ff);font-size:10px;font-weight:800}.green .link-btn{background:linear-gradient(90deg,#00c98c,#00aeea)}.gold .link-btn{background:linear-gradient(90deg,#d9ad00,#6e4e00)}.url{margin-top:12px;color:#93a9bc;font-size:9px;word-break:break-all}
+footer{margin-top:35px;padding:25px 0 30px;border-top:1px solid var(--line2);display:flex;justify-content:space-between;color:#8799ac;font-size:10px}.foot-brand{color:#18c0ff;font-weight:900;font-size:24px}
+@media(max-width:800px){
+ .container{width:min(100% - 28px,600px)}
+ .nav{height:64px}.menu{display:none}.brand small{font-size:9px}
+ .nav-right .circle{display:none}.nav-btn{height:34px;padding:0 12px}
+ .hero{grid-template-columns:1fr;min-height:auto}.hero-copy{padding:45px 0 15px}.hero-art{min-height:430px;height:430px;margin:0 -14px}.hero-art img{mask-image:linear-gradient(to bottom,transparent 0%,black 16%,black 100%);object-position:center 20%}
+ .quote{left:10%;top:30px;font-size:14px;width:220px}.tech-list{display:none}.signature{top:190px;right:10%;font-size:22px}
+ h1{font-size:clamp(55px,16vw,78px);letter-spacing:-4px}.role{font-size:16px}.lead{font-size:13px}
+ .status{grid-template-columns:1fr;text-align:center;gap:8px;margin-top:12px}.status-right{text-align:center}.clock{font-size:22px}
+ .grid2,.experience,.useful-grid{grid-template-columns:1fr}.about-grid{grid-template-columns:1fr}.skills{grid-template-columns:repeat(2,1fr)}
+ .exp-image{min-height:250px}.card{padding:20px}
+ footer{flex-direction:column;gap:15px}
+}
 </style>
 </head>
 <body>
-<nav><div class="wrap nav"><a class="brand" href="#">HCS <b>·</b> HOÀNG CÔNG SƠN</a><div class="links"><a href="#about">GIỚI THIỆU</a><a href="#skills">KỸ NĂNG</a><a href="#experience">KINH NGHIỆM</a><a href="#resources">IPTV / REPO</a></div></div></nav>
+<div class="container">
+<nav class="nav">
+  <a class="brand" href="#"><span class="logo">HCS</span><span><b>Hoàng Công Sơn</b><small>Engineer · Technology · Life</small></span></a>
+  <div class="menu"><a href="#home">Trang chủ</a><a href="#about">Giới thiệu</a><a href="#skills">Kỹ năng</a><a href="#experience">Kinh nghiệm</a><a href="#links">Dự án</a><a href="#contact">Liên hệ</a></div>
+  <div class="nav-right"><span class="circle">☾</span><a class="nav-btn" href="#contact">↗ Liên hệ ngay</a></div>
+</nav>
 
-<header class="wrap hero">
-<div>
-<div class="eyebrow">Engineer · Technology · Life</div>
-<h1>HOÀNG CÔNG<br><span class="gradient">SƠN.</span></h1>
-<p class="lead">Xin chào, mình là Sơn. Mình là kỹ sư tập trung vào <b>Test Engineering, Automation và Production</b>. Website này là không gian cá nhân để giới thiệu công việc, kỹ năng và chia sẻ một số tài nguyên mình đang duy trì.</p>
-<div class="buttons"><a class="btn primary" href="#about">XEM GIỚI THIỆU →</a><a class="btn" href="https://github.com/hoangcongson" target="_blank">GITHUB ↗</a></div>
-<div class="live"><span class="live-dot"></span><span id="date">Đang cập nhật</span><span>•</span><b id="time">--:--:--</b><span>GMT+7</span></div>
+<section class="hero" id="home">
+ <div class="hero-copy">
+  <div class="badge"><span class="dot"></span> Xin chào! Tôi là</div>
+  <div class="kicker">ENGINEER · TECHNOLOGY · LIFE</div>
+  <h1>HOÀNG<br>CÔNG <span class="grad">SƠN.</span></h1>
+  <div class="role">Test Engineer | Automation | Production</div>
+  <div class="lead">Đam mê công nghệ, thích tìm tòi và tối ưu giải pháp. Luôn hướng đến sự đơn giản, hiệu quả và giá trị thực tế trong công việc cũng như cuộc sống.</div>
+  <div class="actions"><a class="btn primary" href="#about">Xem thêm về tôi →</a><a class="btn" href="#links">Tải CV ↓</a></div>
+  <div class="social"><a href="https://github.com/hoangcongson" target="_blank">●</a><a href="#">in</a><a href="mailto:">✉</a></div>
+ </div>
+ <div class="hero-art">
+   <img src="son-hero.jpg" alt="Hoàng Công Sơn">
+   <div class="quote">Không ngừng học hỏi<br>để trở thành phiên bản<br>tốt hơn mỗi ngày.</div>
+   <div class="tech-list">TECHNOLOGY<br>AUTOMATION<br>PRODUCTIVITY<br>A BETTER LIFE</div>
+   <div class="signature">Hoàng Công Sơn<br><small>KEEP GOING</small></div>
+ </div>
+</section>
+
+<div class="status">
+ <div class="status-left">▣ &nbsp; <b id="date">Đang cập nhật</b></div>
+ <div><span class="clock" id="time">--:--:--</span><span class="live">● LIVE</span></div>
+ <div class="status-right">⌖ Việt Nam (GMT+7)<br>Chúc bạn một ngày làm việc hiệu quả!</div>
 </div>
-<div class="hero-photo"><img src="son-hero.jpg" alt="Hoàng Công Sơn"><div class="photo-label"><b>Hoàng Công Sơn</b><span>Test Engineer · Automation · Production</span></div></div>
-</header>
 
-<section id="about"><div class="wrap"><div class="center"><div class="eyebrow">01 / ABOUT ME</div><h2 class="title">Giới thiệu về tôi</h2><p class="desc">Kết hợp kinh nghiệm kỹ thuật sản xuất với tư duy cải tiến, dữ liệu và công nghệ để tạo ra giải pháp thực tế.</p></div>
-<div class="grid"><article class="card"><div class="icon">⚙️</div><h3>Test Engineering</h3><p>FCT, ICT, RF Test, setup model, debug tester, jig/fixture và xử lý lỗi trên production line.</p></article><article class="card"><div class="icon">🤖</div><h3>Automation</h3><p>Vision, sensor, pneumatic, robot, conveyor và các thiết bị tự động hóa trong sản xuất.</p></article><article class="card"><div class="icon">📊</div><h3>MES & Data</h3><p>Yield, FPY, NG Rate, CPK, GR&amp;R, traceability và phân tích dữ liệu theo model/station.</p></article></div></div></section>
+<div class="grid2" id="about">
+ <section class="card">
+  <div class="section-label">// ABOUT ME</div><h2>Giới thiệu<br><span>Về tôi</span></h2>
+  <div class="about-grid"><div><p>Tôi là Hoàng Công Sơn, kỹ sư với kinh nghiệm trong lĩnh vực kiểm thử, tự động hóa và sản xuất. Tôi luôn cầu tiến, thích học hỏi công nghệ mới và mong muốn đóng góp giá trị thực tế cho công việc và đội ngũ.</p><a class="btn primary" href="#experience">Tìm hiểu thêm →</a></div>
+  <div class="mini-list"><div class="mini"><i>♟</i>Kinh nghiệm<br>6+ năm</div><div class="mini"><i>⚙</i>Lĩnh vực<br>Tester / Automation</div><div class="mini"><i>⌖</i>Hiện tại<br>Việt Nam</div><div class="mini"><i>◎</i>Ngôn ngữ<br>Tiếng Việt / 中文 / English</div></div></div>
+ </section>
+ <section class="card" id="skills">
+  <div class="section-label">// MY SKILLS</div><h2>Kỹ năng chuyên môn</h2>
+  <div class="skills">
+   <div class="skill"><b>⚙</b>Test Engineering</div><div class="skill"><b>⌁</b>Automation</div><div class="skill"><b>▥</b>MES & Data</div><div class="skill"><b>🔧</b>Equipment</div>
+   <div class="skill"><b>●</b>Troubleshooting</div><div class="skill"><b>♟</b>Teamwork</div><div class="skill"><b>文</b>Chinese / English</div><div class="skill"><b>▣</b>Office Tools</div>
+  </div>
+ </section>
+</div>
 
-<section id="skills"><div class="wrap"><div class="center"><div class="eyebrow">02 / SKILLS</div><h2 class="title">Kỹ năng chuyên môn</h2></div><div class="grid"><article class="card"><h3>Manufacturing</h3><p>NPI · Line Transfer · Model Change · SOP · PM · 5S</p></article><article class="card"><h3>Quality</h3><p>5 Why · Fishbone · FACA · CPK · GR&amp;R · Yield</p></article><article class="card"><h3>Tools</h3><p>MES · Excel · WMS · AOI · Vision · Tester · Fixture</p></article></div></div></section>
+<section class="experience" id="experience">
+ <div class="exp-copy"><div class="section-label">// EXPERIENCE</div><h2>Kinh nghiệm làm việc</h2>
+  <div class="timeline">
+   <div class="job"><time>2024 - Hiện tại</time><strong>Công ty TNHH ...</strong><em>Production / Test Engineer</em><p>Quản lý line sản xuất, setup test, phân tích NG, cải tiến hiệu suất.</p></div>
+   <div class="job"><time>2023 - 2024</time><strong>Luxshare ICT</strong><em>Test Engineer</em><p>Kiểm thử sản phẩm WiFi, quản lý test data, hỗ trợ NPI / Model change.</p></div>
+   <div class="job"><time>2019 - 2023</time><strong>Foxconn</strong><em>ME Engineer</em><p>Bảo trì thiết bị, support production, cải tiến công đoạn.</p></div>
+  </div>
+  <a class="btn primary" href="#links">Xem chi tiết kinh nghiệm →</a>
+ </div>
+ <div class="exp-image"></div>
+</section>
 
-<section id="experience"><div class="wrap"><div class="center"><div class="eyebrow">03 / EXPERIENCE</div><h2 class="title">Kinh nghiệm làm việc</h2></div><div class="timeline">
-<div class="job"><time>2023 — HIỆN TẠI</time><div><h3>TE Engineer · Luxshare ICT</h3><p>Test sản phẩm WiFi, setup/debug model, theo dõi Yield/NG, MES data, NPI và xử lý sự cố trên line.</p></div></div>
-<div class="job"><time>2019 — 2023</time><div><h3>ME Engineer · Foxconn</h3><p>Thiết bị sản xuất, automation, jig/fixture, maintenance, troubleshooting và cải tiến quy trình.</p></div></div>
-</div></div></section>
+<section class="useful" id="links">
+ <div class="section-label">// USEFUL LINKS</div><h2><span>Tiện ích</span> nhanh</h2>
+ <div class="useful-grid">
+  <div class="link-card"><div class="link-icon">▣</div><h3>M3U Playlist</h3><p>Xem IPTV mọi lúc mọi nơi</p><a class="link-btn" href="https://hoangcongson.github.io/hoangcongson/siro.m3u" target="_blank">Mở link M3U ↗</a><div class="url">https://hoangcongson.github.io/hoangcongson/siro.m3u</div></div>
+  <div class="link-card green"><div class="link-icon">●</div><h3>GitHub Repository</h3><p>Xem mã nguồn và file cấu hình</p><a class="link-btn" href="https://github.com/hoangcongson/hoangcongson.github.io" target="_blank">Truy cập GitHub ↗</a><div class="url">https://github.com/hoangcongson</div></div>
+  <div class="link-card gold"><div class="link-icon">★</div><h3>Ủng hộ & Đóng góp</h3><p>Nếu thấy hữu ích, hãy để lại một ⭐ trên GitHub nhé!</p><a class="link-btn" href="https://github.com/hoangcongson/hoangcongson.github.io" target="_blank">Xem trên GitHub ↗</a></div>
+ </div>
+</section>
 
-<section id="resources"><div class="wrap"><div class="center"><div class="eyebrow">04 / USEFUL LINKS</div><h2 class="title">Tài nguyên nhanh</h2><p class="desc">IPTV và repository chỉ là một phần nhỏ của website — truy cập nhanh khi cần.</p></div>
-<div class="resources">
-<div class="resource blue"><h3>📺 M3U Playlist</h3><p>Playlist IPTV đang được chia sẻ. Copy link để thêm vào ứng dụng hỗ trợ M3U.</p><div class="url">https://hoangcongson.github.io/hoangcongson/siro.m3u</div><div class="resource-actions"><a class="btn primary" href="https://hoangcongson.github.io/hoangcongson/siro.m3u" target="_blank">MỞ M3U ↗</a><button class="btn" onclick="copyText('https://hoangcongson.github.io/hoangcongson/siro.m3u')">COPY LINK</button></div></div>
-<div class="resource green"><h3>⌘ GitHub Repository</h3><p>Nguồn website và các file được công khai trên GitHub.</p><div class="url">https://github.com/hoangcongson/hoangcongson.github.io</div><div class="resource-actions"><a class="btn" href="https://github.com/hoangcongson/hoangcongson.github.io" target="_blank">MỞ REPO ↗</a><a class="btn" href="https://github.com/hoangcongson" target="_blank">PROFILE ↗</a></div></div>
-</div></div></section>
-
-<footer>© 2026 Hoàng Công Sơn · Engineer · Technology · Life</footer>
+<footer id="contact"><div><div class="foot-brand">HCS</div><div>Hoàng Công Sơn · Engineer · Technology · Life</div></div><div>Trang chủ &nbsp;&nbsp; Giới thiệu &nbsp;&nbsp; Kỹ năng &nbsp;&nbsp; Kinh nghiệm &nbsp;&nbsp; Dự án &nbsp;&nbsp; Liên hệ</div><div>© 2026 Hoàng Công Sơn · Make it Better Every Day</div></footer>
+</div>
 <script>
-function tick(){const d=new Date();document.getElementById('date').textContent=d.toLocaleDateString('vi-VN',{weekday:'long',day:'2-digit',month:'2-digit',year:'numeric',timeZone:'Asia/Ho_Chi_Minh'});document.getElementById('time').textContent=d.toLocaleTimeString('vi-VN',{hour12:false,timeZone:'Asia/Ho_Chi_Minh'})}tick();setInterval(tick,1000);
-function copyText(t){navigator.clipboard.writeText(t).then(()=>alert('Đã copy link.'))}
+function clock(){
+ const d=new Date(), opt={timeZone:"Asia/Ho_Chi_Minh",weekday:"long",day:"2-digit",month:"2-digit",year:"numeric"};
+ document.getElementById("date").textContent=d.toLocaleDateString("vi-VN",opt);
+ document.getElementById("time").textContent=d.toLocaleTimeString("vi-VN",{timeZone:"Asia/Ho_Chi_Minh",hour12:false});
+}
+clock();setInterval(clock,1000);
 </script>
-</body></html>
+</body>
+</html>
