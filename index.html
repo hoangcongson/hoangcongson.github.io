@@ -6101,6 +6101,764 @@ body.light .actions .btn.white{
   .actions .btn:before{animation:none !important}
 }
 
+
+/* v62 — Experience photo caption completely outside the image */
+.experience .exp-photo{
+  position:relative !important;
+  display:grid !important;
+  grid-template-rows:minmax(0,1fr) auto !important;
+  min-height:285px !important;
+  overflow:hidden !important;
+  background:none !important;
+  border-left:1px solid rgba(71,198,244,.10);
+}
+.experience .exp-photo-image{
+  min-height:0;
+  background:url("experience-photo.jpg") center 48%/cover no-repeat !important;
+  position:relative;
+}
+.experience .exp-photo-image:after{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:
+    linear-gradient(180deg,rgba(3,12,21,.02),rgba(3,12,21,.05) 65%,rgba(3,12,21,.22)),
+    linear-gradient(90deg,rgba(3,12,21,.12),transparent 30%,rgba(3,12,21,.06));
+  pointer-events:none;
+}
+.experience .exp-photo-info{
+  display:grid !important;
+  grid-template-columns:minmax(0,1fr) auto !important;
+  align-items:center !important;
+  gap:14px !important;
+  min-height:72px !important;
+  padding:11px 16px !important;
+  box-sizing:border-box !important;
+  border-top:1px solid rgba(61,196,242,.18);
+  background:
+    linear-gradient(135deg,rgba(8,32,49,.94),rgba(5,20,34,.90) 60%,rgba(54,53,99,.24)),
+    rgba(4,18,30,.90);
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,.07),
+    0 -10px 26px rgba(0,0,0,.10);
+  backdrop-filter:blur(18px) saturate(155%);
+  -webkit-backdrop-filter:blur(18px) saturate(155%);
+}
+.experience .exp-quote{
+  position:relative !important;
+  inset:auto !important;
+  z-index:2 !important;
+  max-width:none !important;
+  margin:0 !important;
+  color:#d7e8f3 !important;
+  font-size:10px !important;
+  line-height:1.48 !important;
+  text-align:left !important;
+}
+.experience .exp-signature{
+  position:relative;
+  z-index:2;
+  min-width:145px;
+  text-align:right;
+  color:#eef8ff;
+  font-family:"Brush Script MT",cursive;
+  font-size:23px;
+  line-height:1;
+  transform:rotate(-3deg);
+  text-shadow:0 3px 14px rgba(0,0,0,.30);
+}
+.experience .exp-signature small{
+  display:block;
+  margin-top:5px;
+  font-family:inherit;
+  font-size:6px;
+  letter-spacing:3px;
+  color:#70b5cb;
+  transform:rotate(3deg);
+}
+.experience .exp-photo-info:before{
+  content:"";
+  position:absolute;
+  left:10%;
+  right:10%;
+  bottom:0;
+  height:1px;
+  background:linear-gradient(90deg,transparent,#34caff,#7182ff,transparent);
+  opacity:.42;
+  box-shadow:0 0 12px rgba(43,193,255,.14);
+}
+.experience .exp-photo:hover .exp-photo-image{
+  transform:scale(1.015);
+  transition:transform .8s cubic-bezier(.2,.7,.2,1);
+}
+.experience .exp-photo-image{
+  transition:transform .8s cubic-bezier(.2,.7,.2,1);
+}
+
+/* Light mode — caption is a separate light-glass band. */
+body.light .experience .exp-photo{
+  border-left-color:rgba(0,122,180,.10);
+}
+body.light .experience .exp-photo-image:after{
+  background:
+    linear-gradient(180deg,rgba(255,255,255,.02),rgba(20,54,73,.05) 75%,rgba(20,54,73,.12));
+}
+body.light .experience .exp-photo-info{
+  border-top-color:rgba(0,127,186,.16);
+  background:
+    linear-gradient(135deg,rgba(255,255,255,.93),rgba(232,244,249,.90) 62%,rgba(239,238,255,.87)),
+    rgba(255,255,255,.88);
+  box-shadow:
+    inset 0 1px 0 #fff,
+    0 -10px 24px rgba(27,79,103,.06);
+}
+body.light .experience .exp-quote{
+  color:#36576b !important;
+}
+body.light .experience .exp-signature{
+  color:#18374b;
+  text-shadow:0 2px 8px rgba(255,255,255,.8);
+}
+body.light .experience .exp-signature small{
+  color:#5d7f90;
+}
+body.light .experience .exp-photo-info:before{
+  background:linear-gradient(90deg,transparent,#00a7df,#6f79e8,transparent);
+  opacity:.30;
+}
+
+/* Mobile: keep image clearly separate from the text strip. */
+@media(max-width:700px){
+  .experience .exp-photo{
+    min-height:360px !important;
+    grid-template-rows:minmax(0,1fr) auto !important;
+  }
+  .experience .exp-photo-info{
+    grid-template-columns:1fr !important;
+    gap:5px !important;
+    min-height:84px !important;
+    padding:10px 12px !important;
+  }
+  .experience .exp-quote{
+    font-size:9px !important;
+  }
+  .experience .exp-signature{
+    min-width:0;
+    text-align:left;
+    font-size:20px;
+  }
+  .experience .exp-signature small{
+    text-align:left;
+    margin-left:4px;
+  }
+}
+
+
+/* v63 — Experience portrait framing: keep face/head visible */
+.experience .exp-photo-image{
+  background-position:center 22% !important;
+  background-size:cover !important;
+}
+@media(max-width:700px){
+  .experience .exp-photo-image{
+    background-position:center 23% !important;
+  }
+}
+
+
+/* v64 — balanced footer alignment */
+footer{
+  position:relative !important;
+  margin-top:28px !important;
+  padding:16px 0 17px !important;
+  display:grid !important;
+  grid-template-columns:minmax(180px,1fr) auto minmax(180px,1fr) !important;
+  grid-template-areas:
+    "brand nav right"
+    "copy copy copy" !important;
+  align-items:center !important;
+  gap:14px 22px !important;
+  min-height:92px !important;
+  box-sizing:border-box !important;
+}
+.footer-brand{
+  grid-area:brand !important;
+  justify-self:start !important;
+  align-self:center !important;
+}
+.footer-nav{
+  grid-area:nav !important;
+  justify-self:center !important;
+  width:max-content !important;
+  max-width:100% !important;
+  box-sizing:border-box !important;
+  flex-wrap:nowrap !important;
+  gap:4px !important;
+  padding:5px !important;
+  min-height:52px !important;
+  border-radius:17px !important;
+}
+.footer-dock-item{
+  min-width:78px !important;
+  min-height:40px !important;
+  padding:5px 9px !important;
+  gap:4px !important;
+  border-radius:12px !important;
+  font-size:8px !important;
+}
+.footer-dock-item .dock-icon{
+  width:18px !important;
+  height:18px !important;
+  font-size:10px !important;
+}
+.footer-right{
+  grid-area:right !important;
+  justify-self:end !important;
+  align-self:center !important;
+  text-align:right !important;
+}
+.footer-icons{
+  justify-content:flex-end !important;
+  gap:12px !important;
+  margin-bottom:5px !important;
+}
+.footer-icons a{
+  width:27px;
+  height:27px;
+  display:grid;
+  place-items:center;
+  border-radius:9px;
+  border:1px solid rgba(88,184,229,.12);
+  background:linear-gradient(135deg,rgba(255,255,255,.07),rgba(19,104,148,.035));
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.07);
+}
+.footer-right > span{
+  display:block;
+  color:#70889a !important;
+  font-size:7px !important;
+  letter-spacing:.5px;
+}
+.copy{
+  grid-area:copy !important;
+  margin-top:2px !important;
+  padding-top:10px;
+  border-top:1px solid rgba(87,145,175,.10);
+  color:#647b8d;
+  font-size:7px !important;
+  text-align:left !important;
+}
+
+/* Keep the center dock visually independent, never pushing the side content. */
+.footer-nav:before{
+  content:"";
+  position:absolute;
+  width:220px;
+  height:40px;
+  border-radius:50%;
+  background:rgba(37,188,240,.055);
+  filter:blur(22px);
+  pointer-events:none;
+  z-index:-1;
+}
+.footer-nav a.active{
+  background:linear-gradient(135deg,rgba(35,193,255,.14),rgba(95,91,255,.10)) !important;
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,.13),
+    0 5px 15px rgba(0,155,215,.12) !important;
+}
+
+/* Light mode */
+body.light .footer-nav{
+  background:
+    linear-gradient(135deg,rgba(255,255,255,.82),rgba(230,243,249,.76)),
+    rgba(255,255,255,.74) !important;
+  border-color:rgba(0,112,178,.17) !important;
+  box-shadow:
+    0 12px 30px rgba(25,76,101,.09),
+    inset 0 1px 0 #fff !important;
+}
+body.light .footer-dock-item{color:#526b7d !important}
+body.light .footer-dock-item.active{
+  color:#15384d !important;
+  background:linear-gradient(135deg,rgba(0,157,218,.14),rgba(98,101,240,.09)) !important;
+}
+body.light .footer-icons a{
+  background:linear-gradient(135deg,rgba(255,255,255,.90),rgba(228,242,248,.76));
+  border-color:rgba(0,112,178,.13);
+}
+body.light .copy{
+  color:#6d8290 !important;
+  border-top-color:rgba(0,112,178,.10);
+}
+
+/* Tablet / phone */
+@media(max-width:950px){
+  footer{
+    grid-template-columns:1fr auto !important;
+    grid-template-areas:
+      "brand right"
+      "nav nav"
+      "copy copy" !important;
+    gap:12px !important;
+  }
+  .footer-nav{
+    justify-self:center !important;
+  }
+}
+@media(max-width:600px){
+  footer{
+    grid-template-columns:1fr !important;
+    grid-template-areas:
+      "brand"
+      "nav"
+      "right"
+      "copy" !important;
+    justify-items:center !important;
+    text-align:center !important;
+  }
+  .footer-brand,.footer-right,.footer-nav,.copy{
+    justify-self:center !important;
+  }
+  .footer-nav{
+    width:min(100%,430px) !important;
+    overflow-x:auto !important;
+    justify-content:flex-start !important;
+    scrollbar-width:none;
+  }
+  .footer-nav::-webkit-scrollbar{display:none}
+  .copy{
+    width:100%;
+    text-align:center !important;
+  }
+}
+
+
+/* v65 — restore the intended Experience split: content LEFT, portrait RIGHT */
+.experience{
+  position:relative !important;
+  display:grid !important;
+  grid-template-columns:minmax(0,1.08fr) minmax(340px,.92fr) !important;
+  min-height:390px !important;
+  height:auto !important;
+  overflow:hidden !important;
+  isolation:isolate !important;
+}
+.experience .exp-copy{
+  position:relative !important;
+  z-index:4 !important;
+  width:auto !important;
+  min-height:390px !important;
+  box-sizing:border-box !important;
+  padding:23px 18px 18px 22px !important;
+  background:linear-gradient(180deg,rgba(4,17,28,.92),rgba(4,17,28,.76)) !important;
+}
+.experience .exp-photo{
+  position:relative !important;
+  inset:auto !important;
+  z-index:2 !important;
+  width:auto !important;
+  height:390px !important;
+  min-height:390px !important;
+  display:grid !important;
+  grid-template-rows:minmax(0,1fr) auto !important;
+  overflow:hidden !important;
+  background:none !important;
+  border-left:1px solid rgba(57,193,241,.12) !important;
+  border-radius:0 !important;
+  -webkit-mask-image:none !important;
+  mask-image:none !important;
+}
+.experience .exp-photo-image{
+  min-height:0 !important;
+  width:100% !important;
+  height:100% !important;
+  background-image:url("experience-photo.jpg") !important;
+  background-position:center 22% !important;
+  background-size:cover !important;
+  background-repeat:no-repeat !important;
+}
+.experience .exp-photo-image:after{
+  background:
+    linear-gradient(90deg,rgba(3,11,19,.12),transparent 38%,rgba(3,9,15,.16)),
+    linear-gradient(0deg,rgba(3,10,17,.28),transparent 42%,rgba(3,10,17,.06)) !important;
+}
+.experience .exp-photo-info{
+  position:relative !important;
+  z-index:5 !important;
+  display:grid !important;
+  grid-template-columns:minmax(0,1fr) auto !important;
+  align-items:center !important;
+  gap:12px !important;
+  min-height:69px !important;
+  padding:10px 14px !important;
+  box-sizing:border-box !important;
+  border-top:1px solid rgba(61,196,242,.18) !important;
+  background:
+    linear-gradient(135deg,rgba(8,32,49,.95),rgba(5,20,34,.91) 62%,rgba(54,53,99,.24)),
+    rgba(4,18,30,.92) !important;
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,.07),
+    0 -9px 24px rgba(0,0,0,.10) !important;
+  backdrop-filter:blur(17px) saturate(155%) !important;
+  -webkit-backdrop-filter:blur(17px) saturate(155%) !important;
+}
+.experience .exp-quote{
+  position:relative !important;
+  inset:auto !important;
+  max-width:none !important;
+  margin:0 !important;
+  text-align:left !important;
+  color:#d9e9f4 !important;
+  font-size:9px !important;
+  line-height:1.45 !important;
+}
+.experience .exp-signature{
+  position:relative !important;
+  right:auto !important;
+  top:auto !important;
+  min-width:130px !important;
+  color:#eef8ff !important;
+  text-align:right !important;
+  font-family:"Brush Script MT",cursive !important;
+  font-size:21px !important;
+  transform:rotate(-3deg) !important;
+}
+.experience .exp-signature small{
+  display:block !important;
+  margin-top:4px !important;
+  font-family:inherit !important;
+  font-size:5.5px !important;
+  letter-spacing:3px !important;
+  color:#70b6cc !important;
+  transform:rotate(3deg) !important;
+}
+
+/* Better balance inside the left column */
+.experience .experience-focus-card{
+  margin-top:9px !important;
+}
+.experience .timeline{
+  margin-top:15px !important;
+  margin-bottom:14px !important;
+}
+.experience .job-card{
+  min-height:70px !important;
+  margin-bottom:9px !important;
+}
+.experience .job-detail strong{
+  font-size:14px !important;
+}
+.experience .job-detail span{
+  font-size:8.5px !important;
+}
+.experience .job-detail p{
+  font-size:10px !important;
+}
+
+/* Light mode */
+body.light .experience .exp-copy{
+  background:linear-gradient(180deg,rgba(248,252,254,.94),rgba(241,248,251,.86)) !important;
+}
+body.light .experience .exp-photo{
+  border-left-color:rgba(0,122,180,.10) !important;
+}
+body.light .experience .exp-photo-info{
+  background:
+    linear-gradient(135deg,rgba(255,255,255,.95),rgba(233,245,250,.90) 62%,rgba(239,238,255,.88)),
+    rgba(255,255,255,.90) !important;
+  box-shadow:inset 0 1px 0 #fff,0 -9px 22px rgba(27,79,103,.06) !important;
+}
+body.light .experience .exp-quote{color:#38596c !important}
+body.light .experience .exp-signature{color:#18374b !important}
+body.light .experience .exp-signature small{color:#5b7f91 !important}
+
+/* Tablet / mobile */
+@media(max-width:900px){
+  .experience{
+    grid-template-columns:minmax(0,1fr) minmax(300px,.84fr) !important;
+  }
+  .experience .exp-copy{
+    padding:21px 14px 16px 18px !important;
+  }
+  .experience .exp-photo{
+    height:370px !important;
+    min-height:370px !important;
+  }
+}
+@media(max-width:700px){
+  .experience{
+    display:flex !important;
+    flex-direction:column !important;
+    min-height:0 !important;
+  }
+  .experience .exp-copy{
+    width:100% !important;
+    min-height:0 !important;
+    padding:21px 15px 16px !important;
+  }
+  .experience .exp-photo{
+    width:100% !important;
+    height:390px !important;
+    min-height:390px !important;
+    border-left:0 !important;
+    border-top:1px solid rgba(57,193,241,.12) !important;
+  }
+}
+
+
+/* v66 — seamless Experience composition: content + portrait read as one panel */
+.experience{
+  position:relative !important;
+  display:block !important;
+  min-height:410px !important;
+  overflow:hidden !important;
+  isolation:isolate !important;
+  border-radius:18px !important;
+  border:1px solid rgba(54,193,242,.25) !important;
+  background:
+    radial-gradient(720px 420px at 78% 46%,rgba(35,181,235,.10),transparent 58%),
+    linear-gradient(105deg,#061522 0%,#061722 34%,#071a29 58%,#061522 100%) !important;
+}
+
+/* Portrait is a soft right-side layer, not a separate box. */
+.experience .exp-photo{
+  position:absolute !important;
+  z-index:0 !important;
+  top:0 !important;
+  right:0 !important;
+  bottom:0 !important;
+  width:57% !important;
+  height:100% !important;
+  min-height:100% !important;
+  display:block !important;
+  background:none !important;
+  border:0 !important;
+  border-radius:0 !important;
+  overflow:hidden !important;
+  -webkit-mask-image:linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(0,0,0,.18) 9%,
+    rgba(0,0,0,.52) 21%,
+    rgba(0,0,0,.86) 36%,
+    #000 52%,
+    #000 100%
+  ) !important;
+  mask-image:linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(0,0,0,.18) 9%,
+    rgba(0,0,0,.52) 21%,
+    rgba(0,0,0,.86) 36%,
+    #000 52%,
+    #000 100%
+  ) !important;
+}
+
+/* Use the actual image layer for predictable crop and smooth fade. */
+.experience .exp-photo-image{
+  position:absolute !important;
+  inset:0 !important;
+  min-height:0 !important;
+  width:100% !important;
+  height:100% !important;
+  background:url("experience-photo.jpg") center 22%/cover no-repeat !important;
+  transform:scale(1.012);
+  transition:transform .9s cubic-bezier(.2,.7,.2,1),filter .7s ease;
+}
+.experience .exp-photo:hover .exp-photo-image{
+  transform:scale(1.025);
+}
+
+/* Cinematic color wash, with most of the dark fade occurring near the text. */
+.experience .exp-photo-image:after{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:
+    linear-gradient(90deg,
+      rgba(5,16,26,.96) 0%,
+      rgba(5,16,26,.72) 16%,
+      rgba(5,16,26,.25) 36%,
+      rgba(5,16,26,.06) 57%,
+      rgba(5,16,26,.04) 100%),
+    linear-gradient(0deg,
+      rgba(3,10,17,.46) 0%,
+      rgba(3,10,17,.06) 28%,
+      transparent 58%);
+  pointer-events:none;
+}
+
+/* A soft cyan bloom lives exactly at the join. */
+.experience .exp-photo:before{
+  content:"";
+  position:absolute !important;
+  z-index:2 !important;
+  left:0;
+  top:8%;
+  bottom:8%;
+  width:38%;
+  background:linear-gradient(90deg,rgba(28,190,245,.14),rgba(28,190,245,.025),transparent);
+  filter:blur(18px);
+  pointer-events:none;
+}
+
+/* Left copy is transparent: the image can visually flow underneath the panel. */
+.experience .exp-copy{
+  position:relative !important;
+  z-index:5 !important;
+  width:58% !important;
+  min-height:410px !important;
+  box-sizing:border-box !important;
+  padding:23px 20px 19px 23px !important;
+  background:linear-gradient(
+    90deg,
+    rgba(4,17,28,.97) 0%,
+    rgba(4,17,28,.90) 58%,
+    rgba(4,17,28,.56) 88%,
+    rgba(4,17,28,.18) 100%
+  ) !important;
+}
+
+/* Glass cards stay translucent so they belong to the same visual surface. */
+.experience .job-card{
+  background:
+    linear-gradient(115deg,rgba(10,36,54,.76),rgba(9,45,65,.46) 66%,rgba(14,88,108,.17)) !important;
+  border-color:rgba(58,197,246,.22) !important;
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,.06),
+    0 8px 22px rgba(0,0,0,.12) !important;
+  backdrop-filter:blur(10px) saturate(135%);
+  -webkit-backdrop-filter:blur(10px) saturate(135%);
+}
+.experience .job-card:hover{
+  background:
+    linear-gradient(115deg,rgba(12,43,63,.82),rgba(10,59,79,.54) 66%,rgba(15,100,119,.21)) !important;
+  border-color:rgba(68,208,255,.38) !important;
+}
+
+/* Professional focus card is glass, not an opaque slab. */
+.experience .experience-focus-card{
+  background:
+    linear-gradient(115deg,rgba(10,36,54,.74),rgba(8,44,62,.50) 66%,rgba(25,85,102,.18)) !important;
+  border-color:rgba(62,201,247,.24) !important;
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,.06),
+    0 10px 24px rgba(0,0,0,.12) !important;
+  backdrop-filter:blur(12px) saturate(145%);
+  -webkit-backdrop-filter:blur(12px) saturate(145%);
+}
+
+/* Move the quote/signature into a compact glass footnote at the lower-right. */
+.experience .exp-photo-info{
+  position:absolute !important;
+  z-index:6 !important;
+  right:16px !important;
+  left:23% !important;
+  bottom:16px !important;
+  min-height:54px !important;
+  padding:8px 11px !important;
+  grid-template-columns:minmax(0,1fr) auto !important;
+  gap:10px !important;
+  border:1px solid rgba(80,202,248,.16) !important;
+  border-radius:12px !important;
+  background:rgba(4,18,30,.42) !important;
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,.07),
+    0 10px 24px rgba(0,0,0,.16) !important;
+  backdrop-filter:blur(14px) saturate(140%);
+  -webkit-backdrop-filter:blur(14px) saturate(140%);
+}
+.experience .exp-quote{
+  font-size:8px !important;
+  color:#d4e6f1 !important;
+  line-height:1.42 !important;
+}
+.experience .exp-signature{
+  min-width:112px !important;
+  font-size:18px !important;
+  color:#f1f8fc !important;
+}
+.experience .exp-signature small{
+  font-size:5px !important;
+  letter-spacing:2.5px !important;
+  color:#78b9ce !important;
+}
+
+/* Light mode keeps the same unified composition. */
+body.light .experience{
+  background:
+    radial-gradient(720px 420px at 78% 46%,rgba(0,151,214,.075),transparent 58%),
+    linear-gradient(105deg,#f7fbfd 0%,#f3f8fb 34%,#ebf3f7 58%,#f1f6f8 100%) !important;
+  border-color:rgba(0,124,182,.20) !important;
+}
+body.light .experience .exp-copy{
+  background:linear-gradient(
+    90deg,
+    rgba(248,252,254,.97) 0%,
+    rgba(248,252,254,.92) 58%,
+    rgba(248,252,254,.60) 88%,
+    rgba(248,252,254,.10) 100%
+  ) !important;
+}
+body.light .experience .exp-photo-image:after{
+  background:
+    linear-gradient(90deg,
+      rgba(247,251,253,.95) 0%,
+      rgba(247,251,253,.68) 17%,
+      rgba(247,251,253,.24) 36%,
+      rgba(247,251,253,.04) 57%,
+      rgba(247,251,253,.03) 100%),
+    linear-gradient(0deg,rgba(24,55,72,.10),transparent 44%);
+}
+body.light .experience .job-card,
+body.light .experience .experience-focus-card{
+  background:
+    linear-gradient(115deg,rgba(255,255,255,.74),rgba(234,246,251,.55) 66%,rgba(220,239,247,.22)) !important;
+  border-color:rgba(0,125,184,.16) !important;
+}
+body.light .experience .exp-photo-info{
+  background:rgba(255,255,255,.48) !important;
+  border-color:rgba(0,126,184,.14) !important;
+  box-shadow:inset 0 1px 0 #fff,0 10px 24px rgba(26,76,101,.07) !important;
+}
+body.light .experience .exp-quote{color:#38586c !important}
+body.light .experience .exp-signature{color:#17364a !important}
+body.light .experience .exp-signature small{color:#587c8d !important}
+
+/* Tablet and phone remain cleanly stacked. */
+@media(max-width:900px){
+  .experience .exp-copy{width:62% !important}
+  .experience .exp-photo{width:54% !important}
+  .experience .exp-photo-info{left:10% !important}
+}
+@media(max-width:700px){
+  .experience{
+    display:flex !important;
+    flex-direction:column !important;
+    min-height:0 !important;
+  }
+  .experience .exp-copy{
+    width:100% !important;
+    min-height:0 !important;
+    padding:21px 15px 16px !important;
+    background:linear-gradient(180deg,rgba(4,17,28,.97),rgba(4,17,28,.88)) !important;
+  }
+  .experience .exp-photo{
+    position:relative !important;
+    width:100% !important;
+    height:390px !important;
+    min-height:390px !important;
+    -webkit-mask-image:none !important;
+    mask-image:none !important;
+  }
+  .experience .exp-photo-info{
+    left:7% !important;
+    right:7% !important;
+    bottom:12px !important;
+  }
+}
+
 </style>
 </head>
 <body>
@@ -6320,7 +7078,13 @@ body.light .actions .btn.white{
       </div>
     </div>
   </div>
-  <div class="exp-photo"><div class="exp-quote">“ Công nghệ là công cụ,<br>con người mới tạo nên giá trị. ”</div></div>
+  <div class="exp-photo">
+  <div class="exp-photo-image" aria-hidden="true"></div>
+  <div class="exp-photo-info">
+    <div class="exp-quote">“ Công nghệ là công cụ,<br>con người mới tạo nên giá trị. ”</div>
+    <div class="exp-signature">Hoàng Công Sơn<small>KEEP GOING</small></div>
+  </div>
+</div>
 </section>
 
 <section class="useful" id="links">
