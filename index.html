@@ -218,6 +218,7 @@ h2{font-size:27px;line-height:1.05;margin:8px 0 15px}
 .copy-btn{border:1px solid rgba(35,178,255,.38);border-radius:7px;padding:0 11px;background:#09243a;color:#dff5ff;font-size:8px;font-weight:900;cursor:pointer;white-space:nowrap}
 .copy-btn:hover{border-color:#22c5ff;background:#0b304b}
 .sileo-btn{margin-top:7px!important;background:linear-gradient(90deg,#5b42ff,#357cff)!important}
+.donate-info-btn{margin-top:7px!important;border:1px solid rgba(255,204,36,.38);background:rgba(120,88,0,.28)!important;color:#ffe27a;cursor:pointer;width:100%}
 
 
 .modal{display:none;position:fixed;inset:0;z-index:1000;background:rgba(0,4,9,.78);backdrop-filter:blur(8px);align-items:center;justify-content:center;padding:20px}
@@ -229,6 +230,106 @@ h2{font-size:27px;line-height:1.05;margin:8px 0 15px}
 .support-info div{display:flex;justify-content:space-between;gap:15px;border:1px solid var(--whiteLine);border-radius:8px;padding:10px 12px;font-size:9px}
 .support-info span{color:#8fa4b8}.support-info strong{color:#fff;text-align:right}
 @media(max-width:480px){.copy-btn{padding:0 8px}.support-info div{flex-direction:column;gap:3px}.support-info strong{text-align:left}.modal-box{padding:22px 18px}}
+
+
+.donate-box{width:min(760px,100%);padding:0;overflow:hidden;background:#fff;color:#3d3540;border:0;box-shadow:0 25px 90px rgba(0,0,0,.45)}
+.donate-head{text-align:center;padding:24px 22px 20px;background:linear-gradient(135deg,#fffaff,#fff1f5)}
+.donate-title{font-size:27px;font-weight:900;letter-spacing:-.5px}
+.donate-sub{margin-top:8px;color:#786b73;font-size:13px;line-height:1.5}
+.donate-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;padding:0 10px 10px;background:linear-gradient(135deg,#fffaff,#fff1f5)}
+.donate-card{min-height:118px;border-radius:15px;background:#fff;padding:17px;box-shadow:0 4px 18px rgba(80,35,55,.05);display:flex;flex-direction:column;align-items:flex-start;justify-content:flex-start}
+.donate-card span{color:#9a7e8b;font-size:12px}
+.donate-card strong{margin-top:7px;font-size:16px;color:#3d3540}
+.donate-copy{margin-top:10px;border:0;border-radius:9px;padding:9px 13px;background:#9e3d62;color:#fff;font-size:11px;font-weight:800;cursor:pointer}
+.donate-repo{padding:13px 20px;background:#fff;display:flex;justify-content:space-between;gap:15px;align-items:center;border-top:1px solid #f0e5e9;font-size:11px}
+.donate-repo span{color:#9a7e8b}.donate-repo a{color:#9e3d62;font-weight:800}
+@media(max-width:600px){.donate-grid{grid-template-columns:1fr}.donate-card{min-height:90px}.donate-title{font-size:23px}.donate-sub{font-size:11px}.donate-repo{flex-direction:column;align-items:flex-start}}
+
+
+
+.support-dark{
+  width:min(420px,100%);
+  padding:20px 15px 25px;
+  background:linear-gradient(145deg,#061525,#07111d);
+  border:1px solid rgba(24,191,255,.45);
+  color:#fff;
+  box-shadow:0 25px 90px rgba(0,0,0,.65);
+}
+.support-dark h2{font-size:27px;margin:7px 0 12px}
+.support-desc{font-size:10px;line-height:1.7;color:#aebdcb;margin:0 0 15px}
+.support-info{display:grid;gap:8px;margin:0 0 10px}
+.support-info div{
+  display:flex;justify-content:space-between;align-items:center;
+  gap:12px;border:1px solid rgba(255,255,255,.09);border-radius:8px;
+  padding:9px 12px;background:rgba(5,20,34,.45);font-size:9px
+}
+.support-info span{color:#8fa4b8}.support-info strong{color:#fff;text-align:right}
+.donate-bank-info{display:grid;gap:8px;margin:10px 0 14px}
+.donate-row{
+  display:flex;justify-content:space-between;align-items:center;gap:12px;
+  border:1px solid rgba(255,255,255,.09);border-radius:8px;
+  padding:9px 12px;background:rgba(5,20,34,.45);font-size:9px
+}
+.donate-row>span{color:#8fa4b8}.donate-row>strong{color:#fff}
+.account-line{display:flex;align-items:center;justify-content:flex-end;gap:9px}
+.account-line strong{color:#fff}
+.donate-copy{
+  border:0;border-radius:7px;padding:6px 10px;background:#9e3d62;
+  color:#fff;font-size:8px;font-weight:800;cursor:pointer
+}
+.donate-copy:hover{filter:brightness(1.12)}
+.support-dark .link-btn{width:100%;border:0;cursor:pointer}
+@media(max-width:600px){
+  .support-dark{padding:18px 11px 20px}
+  .support-dark h2{font-size:23px}
+  .support-info div,.donate-row{flex-direction:column;align-items:flex-start;gap:4px}
+  .support-info strong{ text-align:left}
+  .account-line{width:100%;justify-content:space-between}
+}
+
+
+.donate-content{
+  display:grid;
+  grid-template-columns:1fr 175px;
+  gap:14px;
+  align-items:center;
+  margin:12px 0 15px;
+}
+.qr-panel{
+  text-align:center;
+}
+.qr-panel img{
+  display:block;
+  width:155px;
+  height:155px;
+  object-fit:cover;
+  margin:0 auto;
+  border-radius:10px;
+  background:#fff;
+  box-shadow:0 8px 28px rgba(0,0,0,.28);
+}
+.qr-caption{
+  margin-top:8px;
+  color:#8fa4b8;
+  font-size:7px;
+  line-height:1.55;
+}
+.qr-caption b{
+  color:#fff;
+  font-size:8px;
+}
+@media(max-width:600px){
+  .donate-content{
+    grid-template-columns:1fr;
+  }
+  .qr-panel{
+    padding-top:4px;
+  }
+  .qr-panel img{
+    width:180px;
+    height:180px;
+  }
+}
 
 /* FOOTER */
 footer{
@@ -357,9 +458,9 @@ footer{
     </div>
     <div class="link green">
       <div class="link-top"><div class="link-icon">●</div><div><h3>GitHub Repository</h3><p>Xem mã nguồn và file cấu hình</p></div></div>
-      <a class="link-btn" href="https://github.com/hoangcongson/hoangcongson.github.io" target="_blank">Truy cập GitHub ↗</a>
-      <a class="link-btn sileo-btn" href="sileo://source/https://hoangcongson.github.io/">＋ Thêm Repo vào Sileo</a>
-      <div class="url">https://github.com/<br>hoangcongson</div>
+      <a class="link-btn" href="https://hoangcongson.github.io/sontung/" target="_blank" rel="noopener">Truy cập Repo ↗</a>
+      <a class="link-btn sileo-btn" href="sileo://source/https://hoangcongson.github.io/sontung/">＋ Thêm Repo vào Sileo</a>
+      <div class="url">https://hoangcongson.github.io/<br>sontung/</div>
     </div>
     <div class="link gold">
       <div class="link-top"><div class="link-icon">★</div><div><h3>Ủng hộ & Đóng góp</h3><p>Nếu thấy hữu ích, hãy để lại một ⭐ trên GitHub nhé!</p></div></div>
@@ -404,17 +505,44 @@ updateClock();setInterval(updateClock,1000);
 </script>
 
 <div class="modal" id="supportModal" onclick="closeSupport(event)">
-  <div class="modal-box">
+  <div class="modal-box support-dark">
     <button class="modal-close" onclick="closeSupport()">×</button>
     <div class="label">// SUPPORT</div>
     <h2>Ủng hộ <span class="blue">Hoàng Công Sơn</span></h2>
-    <p>Nếu thấy website hoặc các tiện ích hữu ích, mày có thể ủng hộ dự án bằng cách ghé GitHub và để lại một ⭐.</p>
+    <p class="support-desc">Nếu thấy website hoặc các tiện ích hữu ích, mày có thể ủng hộ dự án bằng cách ghé GitHub và để lại một ⭐.</p>
+
     <div class="support-info">
       <div><span>GitHub</span><strong>@hoangcongson</strong></div>
-      <div><span>Repository</span><strong>hoangcongson.github.io</strong></div>
+      <div><span>Repository</span><strong>hoangcongson.github.io/sontung/</strong></div>
       <div><span>Website</span><strong>hoangcongson.github.io</strong></div>
     </div>
-    <a class="link-btn" href="https://github.com/hoangcongson/hoangcongson.github.io" target="_blank">Mở GitHub ↗</a>
+
+    <div class="donate-content">
+      <div class="donate-bank-info">
+        <div class="donate-row">
+          <span>Ngân hàng</span>
+          <strong>Techcombank</strong>
+        </div>
+        <div class="donate-row">
+          <span>Số tài khoản</span>
+          <div class="account-line">
+            <strong>1697 8888 8888</strong>
+            <button type="button" class="donate-copy" onclick="copyText('169788888888',this)">Sao chép</button>
+          </div>
+        </div>
+        <div class="donate-row">
+          <span>Chủ tài khoản</span>
+          <strong>Hoàng Công Sơn</strong>
+        </div>
+      </div>
+
+      <div class="qr-panel">
+        <img src="donate-qr.jpeg" alt="VietQR Techcombank - Hoàng Công Sơn">
+        <div class="qr-caption">Quét mã để chuyển tiền đến<br><b>HOÀNG CÔNG SƠN</b><br>1697 8888 8888</div>
+      </div>
+    </div>
+
+    <a class="link-btn" href="https://hoangcongson.github.io/sontung/" target="_blank" rel="noopener">Mở Repo ↗</a>
   </div>
 </div>
 </body>
