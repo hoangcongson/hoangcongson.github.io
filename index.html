@@ -6859,6 +6859,216 @@ body.light .experience .exp-signature small{color:#587c8d !important}
   }
 }
 
+
+/* v67 — clean portrait + animated aura background */
+.experience .exp-photo-info{
+  display:none !important;
+}
+
+/* Aura glows sit behind the portrait, never over the face as text. */
+.experience .exp-photo{
+  position:relative !important;
+  overflow:hidden !important;
+  isolation:isolate !important;
+}
+.experience .exp-photo:before{
+  content:"";
+  position:absolute !important;
+  inset:-18% -8% !important;
+  z-index:0 !important;
+  pointer-events:none !important;
+  background:
+    radial-gradient(ellipse at 63% 38%,
+      rgba(37,205,255,.24) 0%,
+      rgba(37,205,255,.10) 23%,
+      transparent 49%),
+    radial-gradient(ellipse at 82% 70%,
+      rgba(104,92,255,.20) 0%,
+      rgba(104,92,255,.07) 24%,
+      transparent 51%),
+    radial-gradient(ellipse at 43% 72%,
+      rgba(21,219,190,.13) 0%,
+      transparent 42%);
+  filter:blur(24px);
+  opacity:.85;
+  transform:scale(1.04);
+  animation:portraitAura 12s ease-in-out infinite alternate;
+}
+.experience .exp-photo-image{
+  position:absolute !important;
+  inset:0 !important;
+  z-index:1 !important;
+  background-position:center 22% !important;
+  background-size:cover !important;
+  transition:transform 1s cubic-bezier(.2,.7,.2,1), filter .8s ease;
+}
+.experience .exp-photo-image:before{
+  content:"";
+  position:absolute;
+  inset:-10%;
+  z-index:0;
+  pointer-events:none;
+  background:
+    radial-gradient(ellipse at 64% 40%,rgba(52,208,255,.16),transparent 30%),
+    radial-gradient(ellipse at 80% 72%,rgba(105,92,255,.11),transparent 28%);
+  filter:blur(18px);
+  mix-blend-mode:screen;
+  animation:auraDrift 10s ease-in-out infinite alternate;
+}
+.experience .exp-photo-image:after{
+  z-index:2 !important;
+  background:
+    linear-gradient(90deg,
+      rgba(4,14,24,.17),
+      transparent 28%,
+      rgba(4,14,24,.04) 62%,
+      rgba(4,14,24,.16)),
+    linear-gradient(180deg,
+      rgba(4,14,24,.04),
+      transparent 55%,
+      rgba(3,10,17,.30)) !important;
+}
+.experience .exp-photo:hover .exp-photo-image{
+  transform:scale(1.018);
+  filter:saturate(1.02) brightness(1.01);
+}
+.experience .exp-photo:hover:before{
+  opacity:1;
+}
+@keyframes portraitAura{
+  0%{
+    transform:translate3d(-2%,-1%,0) scale(1.03);
+    opacity:.62;
+  }
+  50%{
+    transform:translate3d(2%,2%,0) scale(1.08);
+    opacity:.88;
+  }
+  100%{
+    transform:translate3d(-1%,1%,0) scale(1.05);
+    opacity:.72;
+  }
+}
+@keyframes auraDrift{
+  0%{transform:translate3d(-2%,0,0) scale(1)}
+  50%{transform:translate3d(3%,-2%,0) scale(1.05)}
+  100%{transform:translate3d(-1%,2%,0) scale(1.02)}
+}
+
+/* Light mode — soft pearl/cyan aura, same geometry. */
+body.light .experience .exp-photo:before{
+  background:
+    radial-gradient(ellipse at 63% 38%,
+      rgba(0,174,225,.13) 0%,
+      rgba(0,174,225,.045) 23%,
+      transparent 49%),
+    radial-gradient(ellipse at 82% 70%,
+      rgba(102,95,235,.10) 0%,
+      rgba(102,95,235,.035) 24%,
+      transparent 51%),
+    radial-gradient(ellipse at 43% 72%,
+      rgba(0,187,165,.07) 0%,
+      transparent 42%);
+  opacity:.88;
+}
+body.light .experience .exp-photo-image:before{
+  background:
+    radial-gradient(ellipse at 64% 40%,rgba(0,171,222,.08),transparent 30%),
+    radial-gradient(ellipse at 80% 72%,rgba(106,96,235,.06),transparent 28%);
+  mix-blend-mode:multiply;
+}
+body.light .experience .exp-photo-image:after{
+  background:
+    linear-gradient(90deg,
+      rgba(245,250,253,.10),
+      transparent 28%,
+      rgba(245,250,253,.03) 62%,
+      rgba(245,250,253,.12)),
+    linear-gradient(180deg,
+      rgba(255,255,255,.03),
+      transparent 55%,
+      rgba(15,45,62,.12)) !important;
+}
+
+/* Keep the photo tall and clean on mobile too. */
+@media(max-width:700px){
+  .experience .exp-photo{
+    min-height:390px !important;
+    height:390px !important;
+  }
+  .experience .exp-photo-image{
+    background-position:center 23% !important;
+  }
+}
+@media(prefers-reduced-motion:reduce){
+  .experience .exp-photo:before,
+  .experience .exp-photo-image:before{
+    animation:none !important;
+  }
+}
+
+
+/* v68 — give header breathing room from the viewport edges */
+header{
+  box-sizing:border-box !important;
+  padding-left:22px !important;
+  padding-right:22px !important;
+}
+.brand{
+  margin-left:0 !important;
+}
+.nav-tools{
+  margin-right:0 !important;
+}
+
+/* At wider screens, keep a slightly larger safe margin so the glass dock
+   and social controls never visually touch the browser edge. */
+@media(min-width:1100px){
+  header{
+    padding-left:30px !important;
+    padding-right:30px !important;
+  }
+}
+@media(max-width:850px){
+  header{
+    padding-left:8px !important;
+    padding-right:8px !important;
+  }
+}
+
+
+/* v69 — footer breathing room, balanced like the header */
+footer{
+  box-sizing:border-box !important;
+  padding-left:22px !important;
+  padding-right:22px !important;
+}
+.footer-brand{
+  margin-left:0 !important;
+}
+.footer-right{
+  margin-right:0 !important;
+}
+
+@media(min-width:1100px){
+  footer{
+    padding-left:30px !important;
+    padding-right:30px !important;
+  }
+}
+@media(max-width:950px){
+  footer{
+    padding-left:14px !important;
+    padding-right:14px !important;
+  }
+}
+@media(max-width:600px){
+  footer{
+    padding-left:8px !important;
+    padding-right:8px !important;
+  }
+}
+
 </style>
 </head>
 <body>
@@ -7080,10 +7290,6 @@ body.light .experience .exp-signature small{color:#587c8d !important}
   </div>
   <div class="exp-photo">
   <div class="exp-photo-image" aria-hidden="true"></div>
-  <div class="exp-photo-info">
-    <div class="exp-quote">“ Công nghệ là công cụ,<br>con người mới tạo nên giá trị. ”</div>
-    <div class="exp-signature">Hoàng Công Sơn<small>KEEP GOING</small></div>
-  </div>
 </div>
 </section>
 
