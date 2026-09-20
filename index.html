@@ -4633,23 +4633,11 @@ body.light .hello-live{
   border-radius:0 !important;
   overflow:hidden !important;
 
-  /* transparent -> visible: this removes the hard split */
-  -webkit-mask-image:linear-gradient(
-    90deg,
-    transparent 0%,
-    rgba(0,0,0,.18) 10%,
-    rgba(0,0,0,.68) 27%,
-    #000 43%,
-    #000 100%
-  ) !important;
-  mask-image:linear-gradient(
-    90deg,
-    transparent 0%,
-    rgba(0,0,0,.18) 10%,
-    rgba(0,0,0,.68) 27%,
-    #000 43%,
-    #000 100%
-  ) !important;
+  /* v73: remove CSS mask — it could hide the portrait completely in some browsers */
+  -webkit-mask-image:none !important;
+  mask-image:none !important;
+  opacity:1 !important;
+  visibility:visible !important;
 }
 
 /* Cinematic color wash over the photo, joining it to the blue UI. */
@@ -7161,6 +7149,25 @@ body.light .experience .exp-photo-image:after{
   .experience .experience-portrait{
     object-position:center 23% !important;
   }
+}
+
+/* v73 — guaranteed portrait visibility */
+.experience .exp-photo{
+  display:block !important;
+  opacity:1 !important;
+  visibility:visible !important;
+  background:#061522 !important;
+}
+.experience .exp-photo-image{
+  display:block !important;
+  opacity:1 !important;
+  visibility:visible !important;
+}
+.experience .experience-portrait{
+  display:block !important;
+  opacity:1 !important;
+  visibility:visible !important;
+  object-fit:cover !important;
 }
 
 </style>
