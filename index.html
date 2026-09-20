@@ -7394,6 +7394,188 @@ body.light .experience .experience-focus-card{
   .experience .exp-copy{padding:20px 16px 330px !important;}
 }
 
+
+/* v76 — GLOBAL BALANCE / ALIGNMENT PASS */
+:root{
+  --page-max:1180px;
+  --page-gutter:28px;
+  --section-gap:18px;
+}
+html{overflow-x:hidden}
+body{overflow-x:hidden}
+.page{
+  width:min(var(--page-max),calc(100% - (var(--page-gutter) * 2))) !important;
+  max-width:var(--page-max) !important;
+  margin-left:auto !important;
+  margin-right:auto !important;
+}
+header{
+  width:100% !important;
+  min-height:76px !important;
+  margin:0 !important;
+}
+.hero{
+  width:100% !important;
+  min-height:500px !important;
+  height:500px !important;
+  margin:0 !important;
+}
+.hero-copy{padding-left:8px !important;padding-right:18px !important}
+.top-grid{
+  width:100% !important;
+  grid-template-columns:minmax(0,1fr) minmax(0,1fr) !important;
+  gap:var(--section-gap) !important;
+  margin-top:var(--section-gap) !important;
+  align-items:stretch !important;
+}
+.top-grid > .card{
+  width:100% !important;
+  min-width:0 !important;
+  margin:0 !important;
+}
+#about,#skills{min-height:0 !important}
+.experience{
+  width:100% !important;
+  margin:var(--section-gap) 0 0 !important;
+  min-height:455px !important;
+  height:455px !important;
+  border-radius:16px !important;
+}
+.experience .exp-copy{
+  min-height:455px !important;
+  height:455px !important;
+  padding:28px 43% 26px 26px !important;
+}
+.experience .timeline{margin-top:18px !important;margin-bottom:14px !important}
+.experience .job-card{
+  min-height:78px !important;
+  margin-bottom:10px !important;
+}
+.experience .experience-focus-card{margin-top:2px !important}
+.useful{
+  width:100% !important;
+  margin:var(--section-gap) 0 0 !important;
+}
+.links{
+  width:100% !important;
+  grid-template-columns:repeat(3,minmax(0,1fr)) !important;
+  gap:var(--section-gap) !important;
+}
+.links > .link{
+  min-width:0 !important;
+  width:100% !important;
+}
+footer{
+  width:100% !important;
+  margin-top:var(--section-gap) !important;
+}
+footer:before{left:0 !important;right:0 !important}
+footer{
+  padding-left:0 !important;
+  padding-right:0 !important;
+}
+.footer-brand{min-width:0 !important}
+.footer-right{min-width:0 !important}
+
+/* Keep every major heading aligned to the same content edge. */
+.top-grid .card,
+.experience,
+.useful{box-sizing:border-box !important}
+.experience .label,
+.experience h2,
+.experience .experience-highlight,
+.experience .timeline,
+.experience .experience-focus-card{
+  max-width:100% !important;
+}
+
+/* Prevent long labels from making one column visually heavier. */
+.links h3,.links p,.links .url{overflow-wrap:anywhere}
+.skills .skill{min-width:0 !important}
+.skills .skill strong,.skills .skill small{display:block;max-width:100%}
+
+/* Desktop: a little more breathing room without changing the overall width. */
+@media(min-width:1200px){
+  :root{--page-max:1200px}
+  .hero-copy{padding-left:10px !important}
+  .experience .exp-copy{padding-left:28px !important;padding-right:43% !important}
+}
+@media(min-width:1500px){
+  :root{--page-max:1240px}
+}
+
+/* Tablet: keep the two upper cards equal, then stack cleanly. */
+@media(max-width:900px){
+  .page{width:calc(100% - 28px) !important}
+  .hero{height:auto !important;min-height:0 !important}
+  .hero-copy{padding-left:6px !important;padding-right:6px !important}
+  .top-grid{grid-template-columns:1fr !important}
+  .experience{
+    height:620px !important;
+    min-height:620px !important;
+  }
+  .experience .exp-copy{
+    height:620px !important;
+    min-height:620px !important;
+    padding:24px 24px 360px !important;
+  }
+  .links{grid-template-columns:1fr 1fr !important}
+}
+@media(max-width:600px){
+  :root{--page-gutter:12px}
+  .page{width:calc(100% - 24px) !important}
+  .hero-copy{padding-left:4px !important;padding-right:4px !important}
+  .experience{height:620px !important;min-height:620px !important}
+  .experience .exp-copy{padding:20px 16px 330px !important}
+  .links{grid-template-columns:1fr !important}
+}
+
+/* v77 — EXPERIENCE PHOTO COMPOSITION / responsive framing */
+/* Keep the cinematic full-canvas composition on tablets and small laptops.
+   Only stack the photo below the content on true phone widths. */
+.experience .experience-portrait{
+  object-position:68% 22% !important;
+}
+@media (min-width:701px) and (max-width:900px){
+  .experience{
+    height:455px !important;
+    min-height:455px !important;
+  }
+  .experience .exp-copy{
+    height:455px !important;
+    min-height:455px !important;
+    padding:28px 43% 26px 26px !important;
+  }
+  .experience .exp-photo{
+    position:absolute !important;
+    inset:0 !important;
+    width:100% !important;
+    height:100% !important;
+    min-height:100% !important;
+    bottom:auto !important;
+  }
+  .experience .experience-portrait{
+    object-position:68% 22% !important;
+  }
+  .experience .exp-photo-image:after{
+    background:
+      linear-gradient(90deg,
+        rgba(3,14,24,.99) 0%,
+        rgba(3,15,26,.96) 18%,
+        rgba(4,18,30,.78) 32%,
+        rgba(5,20,32,.48) 45%,
+        rgba(5,20,32,.16) 60%,
+        rgba(5,20,32,.02) 74%,
+        transparent 88%),
+      linear-gradient(180deg,rgba(2,12,21,.16),transparent 30%,rgba(2,11,19,.18) 100%) !important;
+  }
+}
+@media (max-width:700px){
+  .experience .experience-portrait{
+    object-position:62% 22% !important;
+  }
+}
+
 </style>
 </head>
 <body>
