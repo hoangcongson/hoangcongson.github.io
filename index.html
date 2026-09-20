@@ -8217,3 +8217,49 @@ footer{margin-top:18px !important}
 @media(min-width:1200px){.page{width:min(1170px,calc(100% - 56px)) !important}}
 @media(max-width:700px){.page{width:calc(100% - 24px) !important}}
 </style>
+<style>
+/* v81 — remove the visible vertical seam between content and experience photo */
+.experience{overflow:hidden !important; background:#06121d !important;}
+.experience .exp-photo{
+  left:34% !important;
+  right:0 !important;
+  width:auto !important;
+  height:100% !important;
+  z-index:1 !important;
+}
+.experience .exp-photo-image{
+  left:-2% !important;
+  width:102% !important;
+}
+/* Long, soft atmospheric blend: no hard start/end line */
+.experience .exp-photo-image:before{
+  background:linear-gradient(90deg,
+    rgba(6,18,29,1) 0%,
+    rgba(6,18,29,.98) 12%,
+    rgba(6,18,29,.88) 26%,
+    rgba(6,18,29,.64) 40%,
+    rgba(6,18,29,.34) 55%,
+    rgba(6,18,29,.12) 70%,
+    rgba(6,18,29,0) 84%) !important;
+}
+/* Let the copy itself fade out instead of ending as a vertical rectangle */
+.experience .exp-copy{
+  width:72% !important;
+  padding-right:31% !important;
+  background:linear-gradient(90deg,
+    rgba(3,12,20,.98) 0%,
+    rgba(3,12,20,.96) 46%,
+    rgba(3,12,20,.78) 66%,
+    rgba(3,12,20,.36) 82%,
+    rgba(3,12,20,0) 100%) !important;
+}
+@media(min-width:701px) and (max-width:1100px){
+  .experience .exp-photo{left:32% !important;width:auto !important;}
+  .experience .exp-copy{width:74% !important;padding-right:31% !important;}
+}
+@media(max-width:700px){
+  .experience .exp-photo{left:0 !important;width:100% !important;}
+  .experience .exp-photo-image{left:0 !important;width:100% !important;}
+  .experience .exp-copy{width:100% !important;padding-right:18px !important;background:linear-gradient(180deg,rgba(3,12,20,.97) 0%,rgba(3,12,20,.90) 52%,rgba(3,12,20,.32) 72%,rgba(3,12,20,.12) 100%) !important;}
+}
+</style>
