@@ -7603,7 +7603,7 @@ footer{
   width:100% !important;
   height:100% !important;
   object-fit:cover !important;
-  object-position:center 48% !important;
+  object-position:center 22% !important;
   transform:none !important;
   filter:none !important;
 }
@@ -8131,7 +8131,7 @@ updateClock();setInterval(updateClock,1000);
   height:100% !important;
   max-width:none !important;
   object-fit:cover !important;
-  object-position:center 48% !important;
+  object-position:center 22% !important;
   opacity:1 !important;
   visibility:visible !important;
   transform:none !important;
@@ -8262,4 +8262,10 @@ footer{margin-top:18px !important}
   .experience .exp-photo-image{left:0 !important;width:100% !important;}
   .experience .exp-copy{width:100% !important;padding-right:18px !important;background:linear-gradient(180deg,rgba(3,12,20,.97) 0%,rgba(3,12,20,.90) 52%,rgba(3,12,20,.32) 72%,rgba(3,12,20,.12) 100%) !important;}
 }
+</style>
+
+<style>
+/* v82 — restore the exact portrait framing from v80 */
+.experience .experience-portrait{object-position:center 22% !important;}
+@media(max-width:700px){.experience .experience-portrait{object-position:center 23% !important;}}
 </style>
