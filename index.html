@@ -7230,6 +7230,170 @@ body.light .experience .exp-photo-image:after{
   }
   .experience .experience-portrait{object-position:center 23% !important;}
 }
+
+/* v75 — CINEMATIC SEAMLESS EXPERIENCE / no hard image split */
+.experience{
+  position:relative !important;
+  display:block !important;
+  min-height:470px !important;
+  overflow:hidden !important;
+  border-radius:16px !important;
+  border:1px solid rgba(54,190,239,.22) !important;
+  background:#061522 !important;
+}
+/* Photo becomes the full canvas behind the content. */
+.experience .exp-photo{
+  position:absolute !important;
+  inset:0 !important;
+  width:100% !important;
+  height:100% !important;
+  min-height:100% !important;
+  z-index:1 !important;
+  overflow:hidden !important;
+  background:transparent !important;
+}
+.experience .exp-photo-image{
+  position:absolute !important;
+  inset:0 !important;
+  width:100% !important;
+  height:100% !important;
+  z-index:1 !important;
+  overflow:hidden !important;
+  background:transparent !important;
+}
+.experience .experience-portrait{
+  position:absolute !important;
+  inset:0 !important;
+  width:100% !important;
+  height:100% !important;
+  display:block !important;
+  object-fit:cover !important;
+  object-position:center 22% !important;
+  opacity:1 !important;
+  visibility:visible !important;
+  transform:scale(1.01) !important;
+  filter:saturate(.96) contrast(.98) !important;
+}
+/* One broad atmospheric overlay: dark on left, transparent on portrait side. */
+.experience .exp-photo-image:after{
+  content:"" !important;
+  position:absolute !important;
+  inset:0 !important;
+  z-index:2 !important;
+  pointer-events:none !important;
+  background:
+    linear-gradient(90deg,
+      rgba(3,14,24,.99) 0%,
+      rgba(3,15,26,.96) 19%,
+      rgba(4,18,30,.82) 33%,
+      rgba(5,20,32,.56) 45%,
+      rgba(5,20,32,.22) 58%,
+      rgba(5,20,32,.04) 72%,
+      transparent 86%),
+    linear-gradient(180deg,rgba(2,12,21,.22),transparent 30%,rgba(2,11,19,.20) 100%) !important;
+}
+/* Very soft cyan atmosphere at the blend zone; no visible edge. */
+.experience .exp-photo-image:before{
+  content:"" !important;
+  position:absolute !important;
+  inset:-8% 25% -8% 20% !important;
+  z-index:3 !important;
+  pointer-events:none !important;
+  background:radial-gradient(ellipse at 62% 48%,rgba(48,202,255,.12),transparent 58%) !important;
+  filter:blur(24px) !important;
+  mix-blend-mode:screen !important;
+}
+/* Content floats over the photo instead of sitting on a separate solid column. */
+.experience .exp-copy{
+  position:relative !important;
+  z-index:10 !important;
+  width:100% !important;
+  min-height:470px !important;
+  box-sizing:border-box !important;
+  padding:28px 42% 28px 28px !important;
+  background:transparent !important;
+}
+/* Let the glass cards reveal a little of the portrait underneath. */
+.experience .job-card{
+  background:
+    linear-gradient(110deg,rgba(6,27,43,.84),rgba(8,40,56,.60) 62%,rgba(21,99,116,.24)) !important;
+  backdrop-filter:blur(11px) saturate(135%) !important;
+  -webkit-backdrop-filter:blur(11px) saturate(135%) !important;
+  border-color:rgba(58,198,245,.28) !important;
+}
+.experience .experience-focus-card{
+  background:
+    linear-gradient(110deg,rgba(6,27,43,.80),rgba(8,40,56,.54) 66%,rgba(21,99,116,.20)) !important;
+  backdrop-filter:blur(12px) saturate(140%) !important;
+  -webkit-backdrop-filter:blur(12px) saturate(140%) !important;
+}
+.experience .timeline{
+  position:relative !important;
+  z-index:12 !important;
+}
+.experience .experience-highlight,
+.experience .label,
+.experience h2{
+  position:relative !important;
+  z-index:12 !important;
+}
+/* Hide legacy image-only captions/quotes that would float over the portrait. */
+.experience .exp-caption,
+.experience .exp-quote,
+.experience .exp-photo-info,
+.experience .exp-signature{
+  display:none !important;
+}
+/* Light mode: same composition, bright glass and soft dark-to-transparent blend. */
+body.light .experience{
+  background:#edf5f8 !important;
+  border-color:rgba(0,128,186,.18) !important;
+}
+body.light .experience .exp-photo-image:after{
+  background:
+    linear-gradient(90deg,
+      rgba(239,247,250,.96) 0%,
+      rgba(239,247,250,.91) 19%,
+      rgba(239,247,250,.76) 33%,
+      rgba(239,247,250,.48) 45%,
+      rgba(239,247,250,.20) 58%,
+      rgba(239,247,250,.05) 72%,
+      transparent 86%),
+    linear-gradient(180deg,rgba(255,255,255,.10),transparent 30%,rgba(22,64,83,.10) 100%) !important;
+}
+body.light .experience .exp-photo-image:before{
+  background:radial-gradient(ellipse at 62% 48%,rgba(0,167,219,.08),transparent 58%) !important;
+  mix-blend-mode:multiply !important;
+}
+body.light .experience .job-card{
+  background:linear-gradient(110deg,rgba(255,255,255,.82),rgba(237,247,251,.68) 62%,rgba(218,239,247,.34)) !important;
+}
+body.light .experience .experience-focus-card{
+  background:linear-gradient(110deg,rgba(255,255,255,.80),rgba(237,247,251,.64) 66%,rgba(218,239,247,.30)) !important;
+}
+@media(max-width:900px){
+  .experience{min-height:620px !important;}
+  .experience .exp-copy{
+    min-height:620px !important;
+    padding:24px 24px 360px !important;
+  }
+  .experience .exp-photo{
+    top:auto !important;
+    bottom:0 !important;
+    height:390px !important;
+    min-height:390px !important;
+  }
+  .experience .exp-photo-image:after{
+    background:linear-gradient(180deg,rgba(4,16,27,.96) 0%,rgba(4,16,27,.62) 28%,rgba(4,16,27,.10) 58%,transparent 82%) !important;
+  }
+  body.light .experience .exp-photo-image:after{
+    background:linear-gradient(180deg,rgba(239,247,250,.94) 0%,rgba(239,247,250,.60) 28%,rgba(239,247,250,.10) 58%,transparent 82%) !important;
+  }
+}
+@media(max-width:600px){
+  .experience .exp-copy{padding:20px 16px 330px !important;}
+}
+
 </style>
 </head>
 <body>
