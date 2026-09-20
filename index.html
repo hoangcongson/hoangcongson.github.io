@@ -4628,7 +4628,7 @@ body.light .hello-live{
   width:62% !important;
   height:auto !important;
   min-height:100% !important;
-  background:url("experience-photo.jpg") center 48%/cover no-repeat !important;
+  background:url("experience-photo.jpg") center 22%/cover no-repeat !important;
   border:0 !important;
   border-radius:0 !important;
   overflow:hidden !important;
@@ -7067,6 +7067,17 @@ footer{
     padding-left:8px !important;
     padding-right:8px !important;
   }
+}
+
+/* v70 — guarantee Experience portrait visibility */
+.experience .exp-photo-image{
+  display:block !important;
+  background-image:url("experience-photo.jpg") !important;
+  background-position:center 22% !important;
+  background-size:cover !important;
+  background-repeat:no-repeat !important;
+  opacity:1 !important;
+  visibility:visible !important;
 }
 
 </style>
