@@ -9117,3 +9117,643 @@ body.light .job-detail span{
 }
 </style>
 
+
+<style id="hcs-experience-bottom-space-v97">
+/* V97 — tạo khoảng thở dưới Professional Focus, không sát mép */
+.experience .exp-copy{
+  padding-bottom:36px !important;
+}
+
+.experience .experience-focus-card{
+  margin-bottom:18px !important;
+}
+
+/* Giữ cân đối ở tablet */
+@media (min-width:701px) and (max-width:900px){
+  .experience .exp-copy{
+    padding-bottom:34px !important;
+  }
+  .experience .experience-focus-card{
+    margin-bottom:16px !important;
+  }
+}
+
+/* Mobile: tránh ăn quá nhiều chiều cao nhưng vẫn có khoảng cách */
+@media (max-width:700px){
+  .experience .exp-copy{
+    padding-bottom:28px !important;
+  }
+  .experience .experience-focus-card{
+    margin-bottom:12px !important;
+  }
+}
+</style>
+
+
+<style id="hcs-focus-dock-v98">
+/* V98 — Professional Focus dock: cách đáy rõ hơn + viền phát sáng chạy quanh dock */
+.experience .experience-focus-card{
+  position:relative !important;
+  margin-top:14px !important;
+  margin-bottom:26px !important;
+  border:1px solid transparent !important;
+  border-radius:16px !important;
+  isolation:isolate !important;
+  background:
+    linear-gradient(
+      135deg,
+      rgba(7,29,45,.90),
+      rgba(8,38,54,.72) 62%,
+      rgba(18,79,100,.28)
+    ) padding-box,
+    conic-gradient(
+      from 0deg,
+      rgba(39,204,255,.10),
+      rgba(39,204,255,.22) 14%,
+      rgba(74,227,255,.98) 25%,
+      rgba(126,105,255,.92) 38%,
+      rgba(39,204,255,.22) 54%,
+      rgba(39,204,255,.10) 72%,
+      rgba(39,204,255,.14) 88%,
+      rgba(39,204,255,.10)
+    ) border-box !important;
+  background-size:100% 100%, 260% 260% !important;
+  animation:hcsFocusBorder98 4.8s linear infinite !important;
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,.05),
+    0 8px 22px rgba(0,0,0,.14) !important;
+  transition:
+    transform .22s ease,
+    box-shadow .22s ease,
+    filter .22s ease !important;
+}
+
+/* Quầng sáng bám sát viền */
+.experience .experience-focus-card::after{
+  content:"" !important;
+  position:absolute !important;
+  inset:-3px !important;
+  border-radius:inherit !important;
+  pointer-events:none !important;
+  z-index:-1 !important;
+  background:
+    conic-gradient(
+      from 0deg,
+      transparent 0deg 30deg,
+      rgba(40,211,255,.48) 45deg,
+      rgba(124,98,255,.34) 62deg,
+      transparent 78deg 360deg
+    ) !important;
+  filter:blur(7px) !important;
+  opacity:.42 !important;
+  animation:hcsFocusAura98 4.8s linear infinite !important;
+}
+
+@keyframes hcsFocusBorder98{
+  0%{
+    background-position:0 0, 0% 50%;
+    filter:brightness(1);
+  }
+  50%{
+    background-position:0 0, 100% 50%;
+    filter:brightness(1.035);
+  }
+  100%{
+    background-position:0 0, 200% 50%;
+    filter:brightness(1);
+  }
+}
+
+@keyframes hcsFocusAura98{
+  0%{transform:rotate(0deg);opacity:.34}
+  50%{transform:rotate(180deg);opacity:.52}
+  100%{transform:rotate(360deg);opacity:.34}
+}
+
+/* Hover: dock nhấc nhẹ + viền sáng mạnh */
+.experience .experience-focus-card:hover{
+  transform:translateY(-2px) !important;
+  filter:brightness(1.035) !important;
+  animation-duration:1.9s !important;
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,.10),
+    0 0 0 1px rgba(54,219,255,.10),
+    0 0 22px rgba(38,203,255,.20),
+    0 12px 28px rgba(0,0,0,.18) !important;
+}
+.experience .experience-focus-card:hover::after{
+  opacity:.72 !important;
+  animation-duration:1.7s !important;
+}
+
+/* Click: đổi màu viền + lóe một nhịp */
+.experience .experience-focus-card.hcs-focus-click{
+  animation:hcsFocusClick98 .72s ease-out 1 !important;
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,.14),
+    0 0 0 1px rgba(255,103,219,.18),
+    0 0 22px rgba(255,91,214,.32),
+    0 0 38px rgba(57,228,255,.22),
+    0 14px 30px rgba(0,0,0,.20) !important;
+}
+.experience .experience-focus-card.hcs-focus-click::after{
+  opacity:1 !important;
+  background:
+    conic-gradient(
+      from 0deg,
+      transparent 0deg 18deg,
+      rgba(255,100,220,.92) 32deg,
+      rgba(93,232,255,1) 48deg,
+      rgba(126,100,255,.88) 64deg,
+      transparent 82deg 360deg
+    ) !important;
+  animation:hcsFocusClickAura98 .72s ease-out 1 !important;
+}
+
+@keyframes hcsFocusClick98{
+  0%{filter:brightness(1)}
+  34%{filter:brightness(1.22)}
+  66%{filter:brightness(1.08)}
+  100%{filter:brightness(1)}
+}
+@keyframes hcsFocusClickAura98{
+  0%{transform:rotate(-30deg);opacity:.35}
+  45%{transform:rotate(150deg);opacity:1}
+  100%{transform:rotate(330deg);opacity:.22}
+}
+
+/* Nội dung bên trong không dính sát đáy */
+.experience .experience-focus-card > *:last-child{
+  margin-bottom:3px !important;
+}
+
+/* Light mode */
+body.light .experience .experience-focus-card{
+  background:
+    linear-gradient(
+      135deg,
+      rgba(255,255,255,.88),
+      rgba(239,248,252,.76) 62%,
+      rgba(221,240,248,.32)
+    ) padding-box,
+    conic-gradient(
+      from 0deg,
+      rgba(15,155,214,.10),
+      rgba(15,184,231,.25) 14%,
+      rgba(65,207,241,.96) 25%,
+      rgba(112,96,235,.86) 38%,
+      rgba(15,184,231,.20) 54%,
+      rgba(15,155,214,.10) 72%,
+      rgba(15,155,214,.10)
+    ) border-box !important;
+  box-shadow:
+    inset 0 1px 0 #fff,
+    0 8px 20px rgba(30,85,110,.08) !important;
+}
+
+/* Responsive: luôn chừa khoảng đáy */
+@media (max-width:900px){
+  .experience .experience-focus-card{
+    margin-bottom:22px !important;
+  }
+}
+@media (max-width:700px){
+  .experience .experience-focus-card{
+    margin-bottom:18px !important;
+  }
+}
+
+/* Tắt chuyển động khi hệ thống yêu cầu */
+@media (prefers-reduced-motion:reduce){
+  .experience .experience-focus-card,
+  .experience .experience-focus-card::after{
+    animation:none !important;
+  }
+}
+</style>
+
+
+<script id="hcs-focus-dock-click-v98">
+document.addEventListener("DOMContentLoaded", function(){
+  document.querySelectorAll(".experience .experience-focus-card").forEach(function(card){
+    card.addEventListener("click", function(){
+      card.classList.remove("hcs-focus-click");
+      void card.offsetWidth;
+      card.classList.add("hcs-focus-click");
+      clearTimeout(card._hcsFocusTimer);
+      card._hcsFocusTimer = setTimeout(function(){
+        card.classList.remove("hcs-focus-click");
+      }, 760);
+    });
+  });
+});
+</script>
+
+
+<style id="hcs-focus-dock-independent-v99">
+/* V99 — tách hẳn viền dock Professional Focus khỏi viền khung Experience */
+
+/* Khung Experience giữ viền riêng */
+.experience{
+  box-sizing:border-box !important;
+  padding-bottom:18px !important;
+  overflow:hidden !important;
+}
+
+/* Rail nội dung có khoảng thở, không cho dock chạm đáy khung */
+.experience .exp-copy{
+  box-sizing:border-box !important;
+  height:100% !important;
+  min-height:0 !important;
+  padding-bottom:40px !important;
+}
+
+/* Dock Professional Focus là một khối độc lập */
+.experience .experience-focus-card{
+  box-sizing:border-box !important;
+  display:block !important;
+  position:relative !important;
+  width:100% !important;
+  margin-top:14px !important;
+  margin-bottom:0 !important;
+  border-radius:16px !important;
+  transform:translateZ(0) !important;
+}
+
+/* Tạo khoảng cách nhìn thấy rõ giữa hai viền */
+.experience .experience-focus-card::before{
+  content:"" !important;
+  position:absolute !important;
+  inset:-1px !important;
+  border-radius:16px !important;
+  pointer-events:none !important;
+  z-index:8 !important;
+  border:1px solid rgba(67,220,255,.22) !important;
+}
+
+/* Tắt các pseudo-element cũ có thể kéo viền xuống mép */
+.experience .experience-focus-card::after{
+  inset:-4px !important;
+  pointer-events:none !important;
+}
+
+/* Desktop: khoảng cách đáy rõ */
+@media (min-width:901px){
+  .experience{
+    padding-bottom:20px !important;
+  }
+  .experience .exp-copy{
+    padding-bottom:42px !important;
+  }
+}
+
+/* Tablet */
+@media (min-width:701px) and (max-width:900px){
+  .experience{
+    padding-bottom:18px !important;
+  }
+  .experience .exp-copy{
+    padding-bottom:36px !important;
+  }
+}
+
+/* Mobile: hai viền vẫn độc lập */
+@media (max-width:700px){
+  .experience{
+    padding-bottom:14px !important;
+  }
+  .experience .exp-copy{
+    padding-bottom:28px !important;
+  }
+  .experience .experience-focus-card{
+    margin-bottom:0 !important;
+  }
+}
+
+/* Light mode */
+body.light .experience .experience-focus-card::before{
+  border-color:rgba(14,166,214,.20) !important;
+}
+</style>
+
+
+<style id="hcs-focus-remove-extra-rail-v100">
+/* V100 — bỏ hẳn vệt/viền dọc chạy qua lại ngoài dock Professional Focus.
+   Giữ viền chính của dock + hover/click, nhưng không dùng aura pseudo-element. */
+
+/* Vệt dọc thừa đến từ lớp glow pseudo-element mở rộng ra ngoài dock */
+.experience .experience-focus-card::after{
+  content:none !important;
+  display:none !important;
+  visibility:hidden !important;
+  opacity:0 !important;
+  animation:none !important;
+  background:none !important;
+  box-shadow:none !important;
+  filter:none !important;
+  inset:auto !important;
+}
+
+/* ::before chỉ là viền trong của chính dock, không vượt khung */
+.experience .experience-focus-card::before{
+  inset:0 !important;
+  border-radius:inherit !important;
+  pointer-events:none !important;
+  z-index:8 !important;
+  border:1px solid rgba(67,220,255,.22) !important;
+  box-sizing:border-box !important;
+  background:none !important;
+  box-shadow:none !important;
+}
+
+/* Hover vẫn sáng bằng box-shadow, không tạo thêm một đường dọc */
+.experience .experience-focus-card:hover{
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,.10),
+    0 0 0 1px rgba(54,219,255,.10),
+    0 0 22px rgba(38,203,255,.20),
+    0 12px 28px rgba(0,0,0,.18) !important;
+}
+
+/* Click vẫn đổi màu/flash bằng viền thật của dock */
+.experience .experience-focus-card.hcs-focus-click{
+  border-color:rgba(255,103,219,.78) !important;
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,.14),
+    0 0 0 1px rgba(255,103,219,.20),
+    0 0 22px rgba(255,91,214,.32),
+    0 0 38px rgba(57,228,255,.20),
+    0 14px 30px rgba(0,0,0,.20) !important;
+}
+
+/* Light mode cũng không có aura thừa */
+body.light .experience .experience-focus-card::after{
+  content:none !important;
+  display:none !important;
+  background:none !important;
+  box-shadow:none !important;
+  filter:none !important;
+}
+body.light .experience .experience-focus-card::before{
+  border-color:rgba(14,166,214,.20) !important;
+}
+
+/* Không kéo viền ra khỏi dock ở mobile */
+@media(max-width:700px){
+  .experience .experience-focus-card::before{
+    inset:0 !important;
+  }
+}
+</style>
+
+
+<style id="hcs-focus-clean-border-v101">
+/* V101 — bỏ hoàn toàn viền chạy dọc/conic của Professional Focus.
+   Giữ dock độc lập, viền sạch; hover/click chỉ glow bằng box-shadow. */
+
+.experience .experience-focus-card{
+  border:1px solid rgba(39,194,255,.44) !important;
+  border-radius:16px !important;
+  background:
+    linear-gradient(
+      135deg,
+      rgba(7,29,45,.90),
+      rgba(8,38,54,.70) 62%,
+      rgba(18,79,100,.24)
+    ) !important;
+
+  /* Không còn gradient viền chạy quanh */
+  background-image:linear-gradient(
+    135deg,
+    rgba(7,29,45,.90),
+    rgba(8,38,54,.70) 62%,
+    rgba(18,79,100,.24)
+  ) !important;
+
+  animation:none !important;
+  filter:none !important;
+  transform:translateZ(0) !important;
+
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,.05),
+    0 8px 22px rgba(0,0,0,.14) !important;
+}
+
+/* Không cho pseudo-element tạo bất kỳ đường ngoài/đường chạy nào */
+.experience .experience-focus-card::before,
+.experience .experience-focus-card::after{
+  content:none !important;
+  display:none !important;
+  visibility:hidden !important;
+  opacity:0 !important;
+  animation:none !important;
+  background:none !important;
+  border:0 !important;
+  box-shadow:none !important;
+  filter:none !important;
+  inset:auto !important;
+}
+
+/* Hover: chỉ sáng cả viền, không có vệt chạy */
+.experience .experience-focus-card:hover{
+  transform:translateY(-2px) !important;
+  filter:brightness(1.04) !important;
+  border-color:rgba(61,216,255,.82) !important;
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,.10),
+    0 0 0 1px rgba(54,219,255,.10),
+    0 0 20px rgba(38,203,255,.22),
+    0 12px 28px rgba(0,0,0,.18) !important;
+}
+
+/* Click: đổi màu toàn viền rồi trở về */
+.experience .experience-focus-card.hcs-focus-click{
+  border-color:rgba(255,103,219,.90) !important;
+  animation:hcsFocusClickClean101 .72s ease-out 1 !important;
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,.14),
+    0 0 0 1px rgba(255,103,219,.18),
+    0 0 18px rgba(255,91,214,.34),
+    0 0 32px rgba(57,228,255,.20),
+    0 14px 30px rgba(0,0,0,.20) !important;
+}
+
+@keyframes hcsFocusClickClean101{
+  0%{filter:brightness(1)}
+  35%{filter:brightness(1.22)}
+  68%{filter:brightness(1.08)}
+  100%{filter:brightness(1)}
+}
+
+/* Light mode */
+body.light .experience .experience-focus-card{
+  border-color:rgba(14,166,214,.38) !important;
+  background:linear-gradient(
+    135deg,
+    rgba(255,255,255,.89),
+    rgba(239,248,252,.76) 62%,
+    rgba(221,240,248,.30)
+  ) !important;
+  box-shadow:
+    inset 0 1px 0 #fff,
+    0 8px 20px rgba(30,85,110,.08) !important;
+}
+
+body.light .experience .experience-focus-card:hover{
+  border-color:rgba(15,184,231,.72) !important;
+  box-shadow:
+    inset 0 1px 0 #fff,
+    0 0 0 1px rgba(25,180,231,.08),
+    0 0 20px rgba(25,180,231,.18),
+    0 12px 26px rgba(20,68,98,.09) !important;
+}
+
+body.light .experience .experience-focus-card.hcs-focus-click{
+  border-color:rgba(223,83,208,.82) !important;
+}
+
+/* Giữ khoảng cách với mép dưới */
+.experience .experience-focus-card{
+  margin-bottom:18px !important;
+}
+@media(max-width:900px){
+  .experience .experience-focus-card{margin-bottom:18px !important}
+}
+@media(max-width:700px){
+  .experience .experience-focus-card{margin-bottom:14px !important}
+}
+</style>
+
+
+<style id="hcs-light-experience-seam-v102">
+/* V102 — chỉ sửa chế độ sáng: ảnh tràn dưới vùng chữ để hòa hoàn toàn, bỏ mép dọc */
+
+/* Không có đường viền phân cách ở khung ảnh */
+body.light .experience .exp-photo{
+  border:0 !important;
+  border-left:0 !important;
+  outline:0 !important;
+  left:22% !important;
+  right:0 !important;
+  width:78% !important;
+  background:transparent !important;
+}
+
+/* Ảnh phủ rộng hơn, nằm dưới phần nội dung thay vì bắt đầu tại một mép cố định */
+body.light .experience .exp-photo-image{
+  left:0 !important;
+  width:100% !important;
+  background:transparent !important;
+}
+
+/* Tắt các lớp cũ có thể tạo seam */
+body.light .experience .exp-photo-image:after{
+  background:
+    linear-gradient(
+      180deg,
+      rgba(255,255,255,.03) 0%,
+      transparent 34%,
+      transparent 76%,
+      rgba(30,68,84,.08) 100%
+    ) !important;
+  mix-blend-mode:normal !important;
+}
+
+/* Lớp hòa nền mới: trắng ở sâu bên trái, tan dần rất dài sang ảnh */
+body.light .experience .exp-photo-image:before{
+  content:"" !important;
+  position:absolute !important;
+  inset:0 !important;
+  z-index:2 !important;
+  pointer-events:none !important;
+  background:linear-gradient(
+    90deg,
+    rgba(247,251,254,1) 0%,
+    rgba(247,251,254,.98) 12%,
+    rgba(247,251,254,.91) 24%,
+    rgba(247,251,254,.76) 36%,
+    rgba(247,251,254,.56) 48%,
+    rgba(247,251,254,.34) 60%,
+    rgba(247,251,254,.16) 72%,
+    rgba(247,251,254,.05) 84%,
+    rgba(247,251,254,0) 100%
+  ) !important;
+}
+
+/* Phần chữ cũng tan vào ảnh, không có cạnh thẳng */
+body.light .experience .exp-copy{
+  width:72% !important;
+  padding-right:31% !important;
+  background:linear-gradient(
+    90deg,
+    rgba(247,251,254,.99) 0%,
+    rgba(247,251,254,.97) 40%,
+    rgba(247,251,254,.88) 58%,
+    rgba(247,251,254,.62) 74%,
+    rgba(247,251,254,.25) 88%,
+    rgba(247,251,254,0) 100%
+  ) !important;
+}
+
+/* Card kính vẫn trong, tránh tạo một dải trắng dọc */
+body.light .experience .job-card,
+body.light .experience .experience-focus-card{
+  background:
+    linear-gradient(
+      110deg,
+      rgba(255,255,255,.76),
+      rgba(238,248,252,.58) 66%,
+      rgba(220,240,248,.20)
+    ) !important;
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,.95),
+    0 8px 22px rgba(20,76,99,.07) !important;
+}
+
+/* Giữ ảnh người tự nhiên, không đổi crop */
+body.light .experience .experience-portrait{
+  object-position:center 22% !important;
+  filter:saturate(.93) brightness(.99) contrast(1.01) !important;
+}
+
+/* Tablet light */
+@media (min-width:701px) and (max-width:900px){
+  body.light .experience .exp-photo{
+    left:20% !important;
+    width:80% !important;
+  }
+  body.light .experience .exp-copy{
+    width:76% !important;
+    padding-right:28% !important;
+  }
+}
+
+/* Mobile light: giữ layout mobile cũ, chỉ làm mép ảnh mềm */
+@media (max-width:700px){
+  body.light .experience .exp-photo{
+    left:0 !important;
+    width:100% !important;
+  }
+  body.light .experience .exp-copy{
+    width:100% !important;
+    padding-right:16px !important;
+    background:linear-gradient(
+      180deg,
+      rgba(247,251,254,.98) 0%,
+      rgba(247,251,254,.92) 52%,
+      rgba(247,251,254,.42) 76%,
+      rgba(247,251,254,0) 100%
+    ) !important;
+  }
+  body.light .experience .exp-photo-image:before{
+    background:linear-gradient(
+      180deg,
+      rgba(247,251,254,.72) 0%,
+      rgba(247,251,254,.24) 34%,
+      rgba(247,251,254,.04) 64%,
+      rgba(247,251,254,0) 100%
+    ) !important;
+  }
+}
+</style>
+
