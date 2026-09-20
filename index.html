@@ -8019,11 +8019,11 @@ body.light .hello-time-dock:hover{
       <p>Hơn 6 năm kinh nghiệm tại các tập đoàn công nghệ lớn, tập trung vào
         <strong>FCT/ICT Test, Automation, MES &amp; NPI / Line Improvement.</strong></p>
       <div class="tags">
-        <span class="tag"><i>⌁</i> FCT · ICT · TEST</span>
-        <span class="tag"><i>⚡</i> AUTOMATION · ROBOT · JIG</span>
-        <span class="tag"><i>◈</i> MES · YIELD · DATA</span>
-        <span class="tag"><i>↗</i> NPI · LINE IMPROVEMENT</span>
-      </div>
+<span class="tag"><i>⌁</i> FCT · ICT · TEST</span>
+<span class="tag"><i>⚡</i> AUTOMATION · ROBOT · JIG</span>
+<span class="tag"><i>↗</i> NPI · LINE IMPROVEMENT</span>
+<span class="tag"><i>◈</i> MES · YIELD · DATA</span>
+</div>
     </div>
   </div>
   <div class="exp-photo">
@@ -10488,4 +10488,32 @@ body:not(.light) .experience .tags > *:hover{
   }
 }
 </style>
+
+
+<style id="hcs-mobile-tag-order-v111">
+/* V111 — Mobile: NPI · LINE IMPROVEMENT nằm ngay dưới AUTOMATION · ROBOT · JIG */
+@media (max-width:700px){
+  .experience .experience-focus-card .tags{
+    grid-template-columns:minmax(0,1fr) minmax(0,1fr) !important;
+  }
+
+  .experience .experience-focus-card .tag:nth-child(1){
+    grid-column:1 !important;
+    grid-row:1 !important;
+  }
+  .experience .experience-focus-card .tag:nth-child(2){
+    grid-column:2 !important;
+    grid-row:1 !important;
+  }
+  .experience .experience-focus-card .tag:nth-child(3){
+    grid-column:2 !important;
+    grid-row:2 !important;
+  }
+  .experience .experience-focus-card .tag:nth-child(4){
+    grid-column:1 !important;
+    grid-row:2 !important;
+    width:auto !important;
+    justify-self:stretch !important;
+  }
+}
 
