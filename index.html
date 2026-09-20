@@ -7867,7 +7867,7 @@ body.light .hello-time-dock:hover{
     <span class="photo-shine"></span>
     <span class="photo-edge"></span>
     <div class="quote">Không ngừng học hỏi<br>để trở thành phiên bản<br>tốt hơn mỗi ngày.<span class="quote-line"></span></div>
-    <div class="tech">TECHNOLOGY<br>AUTOMATION<br>PRODUCTIVITY<br>A BETTER LIFE</div>
+    <div class="tech">TECHNOLOGY<br>AUTOMATION · ROBOT<br>PRODUCTIVITY<br>A BETTER LIFE</div>
     <div class="signature">Hoàng Công Sơn<small>KEEP GOING</small></div>
     <div class="photo-chip"><i></i><span>Build · Automate · Explore</span></div>
   </div>
@@ -8017,12 +8017,12 @@ body.light .hello-time-dock:hover{
         <span class="focus-live"><i></i> ACTIVE</span>
       </div>
       <p>Hơn 6 năm kinh nghiệm tại các tập đoàn công nghệ lớn, tập trung vào
-        <strong>Test Engineering, Automation & Production Improvement.</strong></p>
+        <strong>FCT/ICT Test, Automation, MES &amp; NPI / Line Improvement.</strong></p>
       <div class="tags">
-        <span class="tag"><i>⌘</i> TEST ENGINEERING</span>
-        <span class="tag"><i>⚡</i> AUTOMATION</span>
-        <span class="tag"><i>◈</i> MES & DATA</span>
-        <span class="tag"><i>↗</i> PRODUCTION IMPROVEMENT</span>
+        <span class="tag"><i>⌁</i> FCT · ICT · TEST</span>
+        <span class="tag"><i>⚡</i> AUTOMATION · ROBOT · JIG</span>
+        <span class="tag"><i>◈</i> MES · YIELD · DATA</span>
+        <span class="tag"><i>↗</i> NPI · LINE IMPROVEMENT</span>
       </div>
     </div>
   </div>
@@ -8137,10 +8137,10 @@ function closeSupport(e){
 }
 
 const experienceWords = [
-  "TEST ENGINEERING",
-  "AUTOMATION",
+  "FCT / ICT TEST",
+  "AUTOMATION · ROBOT",
   "MES & DATA",
-  "PRODUCTION IMPROVEMENT",
+  "NPI / LINE IMPROVEMENT",
   "iOS TOOLS"
 ];
 let experienceIndex = 0;
@@ -10007,6 +10007,308 @@ body.light .experience{
   .experience .exp-photo{
     height:320px !important;
   }
+}
+</style>
+<style id="hcs-experience-tags-v106">
+/* V106 — thông tin tag sát với kinh nghiệm thực tế hơn */
+.experience .tags{
+  display:flex !important;
+  flex-wrap:wrap !important;
+  align-items:center !important;
+  gap:8px !important;
+  margin-top:12px !important;
+}
+.experience .tag{
+  min-height:34px !important;
+  box-sizing:border-box !important;
+  display:inline-flex !important;
+  align-items:center !important;
+  gap:7px !important;
+  padding:7px 13px !important;
+  border-radius:999px !important;
+  white-space:nowrap !important;
+  letter-spacing:.045em !important;
+  font-size:10.5px !important;
+  font-weight:800 !important;
+}
+.experience .tag i{
+  font-style:normal !important;
+  font-size:13px !important;
+  line-height:1 !important;
+}
+@media(max-width:700px){
+  .experience .tags{gap:7px !important}
+  .experience .tag{font-size:9.5px !important; padding:7px 11px !important}
+}
+@media(max-width:440px){
+  .experience .tag{font-size:8.8px !important; padding:6px 10px !important}
+}
+</style>
+
+
+<style id="hcs-tags-dock-v107">
+/* V107 — dock tag/kỹ năng: viền sáng chạy chuyển động + hover/click */
+.experience .tags{
+  position:relative !important;
+  isolation:isolate !important;
+  width:max-content !important;
+  max-width:100% !important;
+  padding:5px !important;
+  margin:2px 0 0 -5px !important;
+  border:1px solid transparent !important;
+  border-radius:16px !important;
+  background:
+    linear-gradient(
+      135deg,
+      rgba(5,20,32,.38),
+      rgba(10,43,60,.22)
+    ) padding-box,
+    linear-gradient(
+      90deg,
+      rgba(29,194,255,.10) 0%,
+      rgba(61,221,255,.95) 24%,
+      rgba(124,101,255,.95) 45%,
+      rgba(61,221,255,.95) 67%,
+      rgba(29,194,255,.10) 100%
+    ) border-box !important;
+  background-size:100% 100%,240% 100% !important;
+  animation:hcsTagsSweep107 4.2s linear infinite !important;
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,.04),
+    0 0 14px rgba(42,204,255,.06) !important;
+  transition:
+    transform .2s ease,
+    box-shadow .2s ease,
+    filter .2s ease !important;
+}
+
+@keyframes hcsTagsSweep107{
+  0%{
+    background-position:0 0,160% 0;
+    filter:brightness(1);
+  }
+  50%{
+    background-position:0 0,50% 0;
+    filter:brightness(1.04);
+  }
+  100%{
+    background-position:0 0,-60% 0;
+    filter:brightness(1);
+  }
+}
+
+/* Quầng sáng mảnh chạy quanh dock */
+.experience .tags::before{
+  content:"" !important;
+  position:absolute !important;
+  inset:-2px !important;
+  border-radius:inherit !important;
+  pointer-events:none !important;
+  z-index:-1 !important;
+  background:linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(48,215,255,0) 25%,
+    rgba(48,215,255,.42) 50%,
+    rgba(120,101,255,0) 75%,
+    transparent 100%
+  ) !important;
+  background-size:220% 100% !important;
+  animation:hcsTagsAura107 3.2s linear infinite !important;
+  filter:blur(6px) !important;
+  opacity:.46 !important;
+}
+
+@keyframes hcsTagsAura107{
+  0%{background-position:160% 0;opacity:.25}
+  50%{background-position:50% 0;opacity:.55}
+  100%{background-position:-60% 0;opacity:.25}
+}
+
+/* Hover */
+.experience .tags:hover{
+  transform:translateY(-1px) !important;
+  filter:brightness(1.06) !important;
+  animation-duration:1.8s !important;
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,.08),
+    0 0 0 1px rgba(50,216,255,.08),
+    0 0 20px rgba(38,203,255,.18) !important;
+}
+.experience .tags:hover::before{
+  opacity:.78 !important;
+  animation-duration:1.5s !important;
+}
+
+/* Khi click/nhấn: đổi màu và flash rõ */
+.experience .tags.hcs-tags-click{
+  animation:hcsTagsClick107 .7s ease-out 1 !important;
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,.12),
+    0 0 0 1px rgba(255,94,217,.16),
+    0 0 18px rgba(255,87,214,.26),
+    0 0 32px rgba(62,225,255,.20) !important;
+}
+.experience .tags.hcs-tags-click::before{
+  opacity:1 !important;
+  animation:hcsTagsClickAura107 .7s ease-out 1 !important;
+}
+
+@keyframes hcsTagsClick107{
+  0%{filter:brightness(1)}
+  35%{filter:brightness(1.23)}
+  68%{filter:brightness(1.08)}
+  100%{filter:brightness(1)}
+}
+@keyframes hcsTagsClickAura107{
+  0%{background-position:160% 0;opacity:.25}
+  45%{background-position:50% 0;opacity:1}
+  100%{background-position:-60% 0;opacity:.22}
+}
+
+/* Các tag con nổi nhẹ khi hover */
+.experience .tags > *{
+  position:relative !important;
+  z-index:2 !important;
+  transition:
+    transform .18s ease,
+    filter .18s ease !important;
+}
+.experience .tags > *:hover{
+  transform:translateY(-1px) scale(1.015) !important;
+  filter:brightness(1.10) drop-shadow(0 0 6px rgba(48,215,255,.18)) !important;
+}
+
+/* Light mode */
+body.light .experience .tags{
+  background:
+    linear-gradient(
+      135deg,
+      rgba(255,255,255,.38),
+      rgba(231,246,251,.20)
+    ) padding-box,
+    linear-gradient(
+      90deg,
+      rgba(17,163,217,.10) 0%,
+      rgba(28,192,231,.82) 24%,
+      rgba(111,93,235,.82) 45%,
+      rgba(28,192,231,.82) 67%,
+      rgba(17,163,217,.10) 100%
+    ) border-box !important;
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,.92),
+    0 0 14px rgba(25,180,231,.05) !important;
+}
+body.light .experience .tags::before{
+  background:linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(28,192,231,0) 25%,
+    rgba(80,170,235,.28) 50%,
+    rgba(111,93,235,0) 75%,
+    transparent 100%
+  ) !important;
+}
+
+@media (max-width:700px){
+  .experience .tags{
+    width:auto !important;
+    margin-left:-4px !important;
+    padding:4px !important;
+    border-radius:14px !important;
+  }
+}
+
+@media (prefers-reduced-motion:reduce){
+  .experience .tags,
+  .experience .tags::before{
+    animation:none !important;
+  }
+}
+</style>
+
+
+<script id="hcs-tags-dock-click-v107">
+document.addEventListener("DOMContentLoaded",function(){
+  document.querySelectorAll(".experience .tags").forEach(function(tags){
+    tags.addEventListener("click",function(){
+      tags.classList.remove("hcs-tags-click");
+      void tags.offsetWidth;
+      tags.classList.add("hcs-tags-click");
+      clearTimeout(tags._hcsTagsTimer);
+      tags._hcsTagsTimer=setTimeout(function(){
+        tags.classList.remove("hcs-tags-click");
+      },760);
+    });
+  });
+});
+</script>
+
+
+<style id="hcs-dark-tag-softlight-v109">
+/* V109 — Dark mode: giảm ánh xanh, giữ dock sáng nhẹ và sạch hơn */
+body:not(.light) .experience .tags{
+  background:
+    linear-gradient(
+      135deg,
+      rgba(6,20,31,.66),
+      rgba(8,31,45,.46) 64%,
+      rgba(13,64,82,.16)
+    ) padding-box,
+    linear-gradient(
+      90deg,
+      rgba(35,175,222,.07) 0%,
+      rgba(58,195,232,.42) 25%,
+      rgba(94,101,214,.32) 48%,
+      rgba(58,195,232,.42) 70%,
+      rgba(35,175,222,.07) 100%
+    ) border-box !important;
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,.025),
+    0 0 9px rgba(38,177,220,.035) !important;
+  filter:none !important;
+  animation-duration:5.4s !important;
+}
+
+body:not(.light) .experience .tags::before{
+  background:linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(52,193,228,0) 28%,
+    rgba(52,193,228,.20) 50%,
+    rgba(89,101,219,.10) 62%,
+    rgba(52,193,228,0) 76%,
+    transparent 100%
+  ) !important;
+  filter:blur(5px) !important;
+  opacity:.28 !important;
+  animation-duration:4.4s !important;
+}
+
+body:not(.light) .experience .tags:hover{
+  filter:brightness(1.025) !important;
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,.045),
+    0 0 0 1px rgba(52,197,229,.05),
+    0 0 13px rgba(37,183,224,.10) !important;
+}
+
+body:not(.light) .experience .tags.hcs-tags-click{
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,.08),
+    0 0 0 1px rgba(237,105,207,.08),
+    0 0 14px rgba(236,92,205,.16),
+    0 0 22px rgba(48,201,226,.10) !important;
+  animation-duration:.72s !important;
+}
+
+body:not(.light) .experience .tags.hcs-tags-click::before{
+  opacity:.55 !important;
+  filter:blur(6px) !important;
+}
+
+body:not(.light) .experience .tags > *:hover{
+  filter:brightness(1.055) drop-shadow(0 0 4px rgba(54,204,229,.10)) !important;
 }
 </style>
 
