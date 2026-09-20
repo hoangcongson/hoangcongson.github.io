@@ -7576,6 +7576,70 @@ footer{
   }
 }
 
+
+/* v78 — restore original experience-photo.jpg composition */
+.experience .exp-photo{
+  position:absolute !important;
+  top:0 !important;
+  right:0 !important;
+  bottom:0 !important;
+  left:auto !important;
+  width:46% !important;
+  height:100% !important;
+  min-height:0 !important;
+  overflow:hidden !important;
+  background:transparent !important;
+  z-index:2 !important;
+}
+.experience .exp-photo-image{
+  position:absolute !important;
+  inset:0 !important;
+  width:100% !important;
+  height:100% !important;
+  overflow:hidden !important;
+  background:transparent !important;
+}
+.experience .experience-portrait{
+  width:100% !important;
+  height:100% !important;
+  object-fit:cover !important;
+  object-position:center 48% !important;
+  transform:none !important;
+  filter:none !important;
+}
+.experience .exp-photo:hover .experience-portrait{transform:none !important}
+.experience .exp-photo-image:after{
+  background:
+    linear-gradient(90deg,
+      rgba(3,14,24,1) 0%,
+      rgba(3,14,24,.86) 10%,
+      rgba(3,14,24,.48) 25%,
+      rgba(3,14,24,.16) 42%,
+      rgba(3,14,24,.02) 60%,
+      transparent 100%),
+    linear-gradient(180deg,rgba(3,14,24,.04),transparent 35%,rgba(3,14,24,.20) 100%) !important;
+}
+body.light .experience .exp-photo-image:after{
+  background:
+    linear-gradient(90deg,
+      rgba(247,251,254,1) 0%,
+      rgba(247,251,254,.86) 10%,
+      rgba(247,251,254,.46) 25%,
+      rgba(247,251,254,.15) 42%,
+      rgba(247,251,254,.02) 60%,
+      transparent 100%),
+    linear-gradient(180deg,rgba(255,255,255,.02),transparent 35%,rgba(15,45,62,.10) 100%) !important;
+}
+@media (min-width:701px) and (max-width:900px){
+  .experience .exp-photo{inset:0 0 0 auto !important;width:46% !important;height:100% !important}
+  .experience .exp-copy{padding-right:46% !important}
+  .experience .experience-portrait{object-position:center 48% !important}
+}
+@media(max-width:700px){
+  .experience .exp-photo{position:absolute !important;inset:auto 0 0 0 !important;width:100% !important;height:48% !important}
+  .experience .exp-copy{padding-bottom:50% !important}
+  .experience .experience-portrait{object-position:center 48% !important}
+}
 </style>
 </head>
 <body>
@@ -8016,3 +8080,117 @@ updateClock();setInterval(updateClock,1000);
 </div>
 </body>
 </html>
+<style>
+/* v79 — final Experience composition: original photo, balanced layout, soft blend */
+.experience{
+  position:relative !important;
+  isolation:isolate !important;
+  min-height:520px !important;
+  height:auto !important;
+  overflow:hidden !important;
+  border-radius:22px !important;
+  background:#06121d !important;
+}
+.experience .exp-copy{
+  position:relative !important;
+  z-index:5 !important;
+  width:66% !important;
+  min-height:520px !important;
+  padding:34px 35% 34px 34px !important;
+  background:linear-gradient(90deg,
+    rgba(3,12,20,.98) 0%,
+    rgba(3,13,22,.96) 40%,
+    rgba(4,15,24,.78) 64%,
+    rgba(4,15,24,.20) 100%) !important;
+}
+.experience .exp-photo{
+  position:absolute !important;
+  z-index:1 !important;
+  top:0 !important;
+  right:0 !important;
+  bottom:0 !important;
+  left:auto !important;
+  width:56% !important;
+  height:100% !important;
+  min-height:0 !important;
+  overflow:hidden !important;
+  background:none !important;
+}
+.experience .exp-photo-image{
+  position:absolute !important;
+  inset:0 !important;
+  width:100% !important;
+  height:100% !important;
+  overflow:hidden !important;
+  background:none !important;
+}
+.experience .experience-portrait{
+  position:absolute !important;
+  inset:0 !important;
+  display:block !important;
+  width:100% !important;
+  height:100% !important;
+  max-width:none !important;
+  object-fit:cover !important;
+  object-position:center 48% !important;
+  opacity:1 !important;
+  visibility:visible !important;
+  transform:none !important;
+  filter:saturate(.96) contrast(1.02) !important;
+}
+/* The blend is done with transparent gradients, not a hard panel edge. */
+.experience .exp-photo-image:before{
+  content:"" !important;
+  position:absolute !important;
+  z-index:2 !important;
+  inset:0 !important;
+  pointer-events:none !important;
+  background:linear-gradient(90deg,
+    rgba(4,15,24,1) 0%,
+    rgba(4,15,24,.92) 10%,
+    rgba(4,15,24,.55) 28%,
+    rgba(4,15,24,.14) 52%,
+    rgba(4,15,24,0) 72%) !important;
+}
+.experience .exp-photo-image:after{
+  content:"" !important;
+  position:absolute !important;
+  z-index:3 !important;
+  inset:0 !important;
+  pointer-events:none !important;
+  background:
+    linear-gradient(180deg,rgba(3,12,20,.08),transparent 28%,transparent 76%,rgba(3,12,20,.34)),
+    radial-gradient(ellipse at 72% 48%,rgba(30,210,255,.08),transparent 42%) !important;
+}
+.experience .timeline,
+.experience .experience-focus-card{
+  position:relative !important;
+  z-index:7 !important;
+}
+.experience .job-card,
+.experience .experience-focus-card{
+  background:linear-gradient(105deg,rgba(5,24,39,.78),rgba(7,28,43,.56)) !important;
+  backdrop-filter:blur(14px) saturate(120%) !important;
+  -webkit-backdrop-filter:blur(14px) saturate(120%) !important;
+}
+@media(min-width:1101px){
+  .experience .exp-copy{width:68% !important;padding-right:31% !important}
+  .experience .exp-photo{width:53% !important}
+}
+@media(min-width:701px) and (max-width:1100px){
+  .experience{min-height:500px !important}
+  .experience .exp-copy{width:70% !important;min-height:500px !important;padding:28px 31% 28px 24px !important}
+  .experience .exp-photo{width:55% !important}
+  .experience .experience-portrait{object-position:56% 48% !important}
+}
+@media(max-width:700px){
+  .experience{min-height:760px !important}
+  .experience .exp-copy{width:100% !important;min-height:760px !important;padding:24px 18px 360px !important;background:linear-gradient(180deg,rgba(3,12,20,.97) 0%,rgba(3,12,20,.90) 52%,rgba(3,12,20,.32) 72%,rgba(3,12,20,.12) 100%) !important}
+  .experience .exp-photo{top:auto !important;right:0 !important;bottom:0 !important;left:0 !important;width:100% !important;height:46% !important}
+  .experience .exp-photo-image:before{background:linear-gradient(180deg,rgba(4,15,24,.72) 0%,rgba(4,15,24,.16) 42%,rgba(4,15,24,0) 72%) !important}
+  .experience .experience-portrait{object-position:center 48% !important}
+}
+/* Keep the entire page on one shared content rail. */
+.page{width:min(1170px,calc(100% - 44px)) !important;margin-inline:auto !important}
+@media(max-width:700px){.page{width:calc(100% - 24px) !important}}
+</style>
