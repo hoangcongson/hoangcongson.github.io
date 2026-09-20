@@ -9964,3 +9964,49 @@ body.light .experience{
 }
 </style>
 
+
+<style id="hcs-experience-height-v105">
+/* V105 — nâng viền dưới Experience lên đúng vị trí đã đánh dấu */
+.experience{
+  min-height:0 !important;
+  height:590px !important;
+  box-sizing:border-box !important;
+}
+
+/* Giữ ảnh và nội dung phủ đúng chiều cao mới */
+.experience .exp-copy,
+.experience .exp-photo{
+  height:590px !important;
+  min-height:0 !important;
+}
+
+/* Không tạo khoảng trống giả phía dưới */
+.experience .experience-focus-card{
+  margin-bottom:18px !important;
+}
+
+/* Tablet */
+@media (min-width:701px) and (max-width:900px){
+  .experience{
+    height:520px !important;
+  }
+  .experience .exp-copy,
+  .experience .exp-photo{
+    height:520px !important;
+  }
+}
+
+/* Mobile */
+@media (max-width:700px){
+  .experience{
+    height:620px !important;
+  }
+  .experience .exp-copy{
+    height:620px !important;
+  }
+  .experience .exp-photo{
+    height:320px !important;
+  }
+}
+</style>
+
