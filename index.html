@@ -9757,3 +9757,210 @@ body.light .experience .experience-portrait{
 }
 </style>
 
+
+<style id="hcs-experience-bottom-blend-v103">
+/* V103 — hòa nền/ảnh cho tới sát viền dưới, áp dụng cả Dark + Light.
+   Không đổi crop ảnh, không đảo bố cục, không tạo đường dọc. */
+
+/* Lớp haze ở đáy toàn bộ Experience: tan dần vào đúng nền của section. */
+.experience{
+  position:relative !important;
+  overflow:hidden !important;
+}
+
+/* Chỉ làm mềm 55px cuối; nằm dưới nội dung/card để không che chữ */
+.experience::before{
+  content:"" !important;
+  position:absolute !important;
+  left:0 !important;
+  right:0 !important;
+  bottom:0 !important;
+  height:58px !important;
+  z-index:5 !important;
+  pointer-events:none !important;
+  background:linear-gradient(
+    to bottom,
+    rgba(3,12,20,0) 0%,
+    rgba(3,12,20,.03) 18%,
+    rgba(3,12,20,.16) 45%,
+    rgba(3,12,20,.42) 72%,
+    rgba(3,12,20,.72) 100%
+  ) !important;
+}
+
+/* Phần ảnh: fade nhẹ xuống đúng màu nền tối, không để mép ngang */
+.experience .exp-photo-image:after{
+  background:
+    linear-gradient(
+      to bottom,
+      rgba(3,12,20,.04) 0%,
+      rgba(3,12,20,0) 58%,
+      rgba(3,12,20,.20) 82%,
+      rgba(3,12,20,.58) 100%
+    ),
+    linear-gradient(
+      180deg,
+      rgba(3,12,20,.08),
+      transparent 30%,
+      transparent 72%,
+      rgba(3,12,20,.34)
+    ) !important;
+}
+
+/* Phần content cũng có một lớp fade rất nhẹ ở đáy để nền đi liên tục tới viền */
+.experience .exp-copy::after{
+  content:"" !important;
+  position:absolute !important;
+  left:0 !important;
+  right:0 !important;
+  bottom:0 !important;
+  height:38px !important;
+  z-index:1 !important;
+  pointer-events:none !important;
+  background:linear-gradient(
+    to bottom,
+    rgba(3,12,20,0) 0%,
+    rgba(3,12,20,.18) 70%,
+    rgba(3,12,20,.48) 100%
+  ) !important;
+}
+.experience .exp-copy > *{
+  position:relative !important;
+  z-index:2 !important;
+}
+
+/* Light mode — đáy chuyển mềm về nền sáng, không còn dải trắng cắt ngang */
+body.light .experience::before{
+  background:linear-gradient(
+    to bottom,
+    rgba(247,251,254,0) 0%,
+    rgba(247,251,254,.03) 18%,
+    rgba(247,251,254,.14) 45%,
+    rgba(247,251,254,.42) 72%,
+    rgba(247,251,254,.82) 100%
+  ) !important;
+}
+
+body.light .experience .exp-photo-image:after{
+  background:
+    linear-gradient(
+      to bottom,
+      rgba(247,251,254,.03) 0%,
+      rgba(247,251,254,0) 55%,
+      rgba(247,251,254,.16) 82%,
+      rgba(247,251,254,.58) 100%
+    ) !important;
+}
+
+body.light .experience .exp-copy::after{
+  background:linear-gradient(
+    to bottom,
+    rgba(247,251,254,0) 0%,
+    rgba(247,251,254,.18) 70%,
+    rgba(247,251,254,.72) 100%
+  ) !important;
+}
+
+/* Đảm bảo lớp đáy không đè lên viền dock/focus */
+.experience .experience-focus-card,
+.experience .timeline{
+  position:relative !important;
+  z-index:7 !important;
+}
+.experience .experience-focus-card{
+  margin-bottom:18px !important;
+}
+
+/* Tablet/mobile vẫn chạm tới đúng mép nhưng fade ngắn hơn */
+@media (max-width:900px){
+  .experience::before{
+    height:50px !important;
+  }
+  .experience .exp-copy::after{
+    height:34px !important;
+  }
+}
+@media (max-width:700px){
+  .experience::before{
+    height:46px !important;
+  }
+  .experience .exp-copy::after{
+    height:28px !important;
+  }
+}
+</style>
+
+
+<style id="hcs-experience-no-bottom-band-v104">
+/* V104 — xóa dải màu ngang ở đáy Experience.
+   Ảnh/nền được phép chạy tự nhiên tới sát viền dưới; chỉ hòa theo chiều ngang. */
+
+/* 1) Không dùng overlay theo chiều dọc ở đáy toàn panel */
+.experience::before{
+  content:none !important;
+  display:none !important;
+  background:none !important;
+}
+
+/* 2) Không dùng lớp fade đáy của cột nội dung */
+.experience .exp-copy::after{
+  content:none !important;
+  display:none !important;
+  background:none !important;
+}
+
+/* 3) Ảnh không bị nhuộm thành một dải ngang ở đáy */
+.experience .exp-photo-image:after{
+  background:
+    linear-gradient(
+      180deg,
+      rgba(3,12,20,.05) 0%,
+      rgba(3,12,20,0) 32%,
+      rgba(3,12,20,0) 100%
+    ) !important;
+}
+
+/* 4) Light mode — hoàn toàn không có dải trắng ở đáy */
+body.light .experience .exp-photo-image:after{
+  background:
+    linear-gradient(
+      180deg,
+      rgba(255,255,255,.035) 0%,
+      rgba(255,255,255,0) 34%,
+      rgba(255,255,255,0) 100%
+    ) !important;
+}
+
+/* 5) Nền của panel chạy liên tục tới border */
+.experience{
+  background-color:#061522 !important;
+  background-clip:border-box !important;
+}
+
+/* 6) Cho phần ảnh chạm đúng đáy panel, không tạo mép phụ */
+.experience .exp-photo,
+.experience .exp-photo-image{
+  bottom:0 !important;
+  height:100% !important;
+  min-height:0 !important;
+}
+
+/* 7) Content vẫn có khoảng thở với dock dưới, nhưng không tô dải nền */
+.experience .exp-copy{
+  box-sizing:border-box !important;
+  padding-bottom:36px !important;
+}
+
+/* Light panel */
+body.light .experience{
+  background-color:#edf6fa !important;
+}
+
+/* Mobile: giữ nguyên cấu trúc, chỉ bỏ fade đáy */
+@media(max-width:700px){
+  .experience .exp-copy{
+    padding-bottom:28px !important;
+  }
+}
+</style>
+
