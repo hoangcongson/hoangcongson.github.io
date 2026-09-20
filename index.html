@@ -7805,7 +7805,6 @@ body.light .experience .exp-photo-image:after{
       </div>
     </div>
 </section>
-</div>
 
 <section class="experience" id="experience">
   <div class="exp-copy">
@@ -8192,5 +8191,29 @@ updateClock();setInterval(updateClock,1000);
 }
 /* Keep the entire page on one shared content rail. */
 .page{width:min(1170px,calc(100% - 44px)) !important;margin-inline:auto !important}
+@media(max-width:700px){.page{width:calc(100% - 24px) !important}}
+</style>
+
+<style>
+/* v80 — restore one shared page rail for ALL sections */
+html,body{overflow-x:hidden !important}
+.page{
+  width:min(1170px,calc(100% - 44px)) !important;
+  max-width:1170px !important;
+  margin-left:auto !important;
+  margin-right:auto !important;
+  box-sizing:border-box !important;
+}
+.experience,.useful,footer{
+  width:100% !important;
+  max-width:100% !important;
+  margin-left:0 !important;
+  margin-right:0 !important;
+  box-sizing:border-box !important;
+}
+.experience{margin-top:18px !important}
+.useful{margin-top:18px !important}
+footer{margin-top:18px !important}
+@media(min-width:1200px){.page{width:min(1170px,calc(100% - 56px)) !important}}
 @media(max-width:700px){.page{width:calc(100% - 24px) !important}}
 </style>
