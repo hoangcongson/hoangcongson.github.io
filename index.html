@@ -252,7 +252,7 @@ h2{font-size:27px;line-height:1.05;margin:8px 0 15px}
 }
 .green .link-btn{background:linear-gradient(90deg,#00d99b,#00aeea)}
 .gold .link-btn{background:linear-gradient(90deg,#d9ae00,#775700)}
-.url{font-size:8px;color:#9aafc0;margin-top:10px;line-height:1.45;word-break:break-all}
+.url{white-space:nowrap;font-size:8px;color:#9aafc0;margin-top:10px;line-height:1.45;word-break:break-all}
 .copy-btn{border:1px solid rgba(35,178,255,.38);border-radius:7px;padding:0 11px;background:#09243a;color:#dff5ff;font-size:8px;font-weight:900;cursor:pointer;white-space:nowrap}
 .copy-btn:hover{border-color:#22c5ff;background:#0b304b}
 .sileo-btn{margin-top:7px!important;background:linear-gradient(90deg,#5b42ff,#357cff)!important}
@@ -1034,7 +1034,7 @@ footer:before{
   filter:brightness(1.06);
 }
 .link:hover:before{transform:translateX(80%) rotate(3deg)}
-.link-top,.link-btn,.url{position:relative;z-index:2}
+.link-top,.link-btn,.url{white-space:nowrap;position:relative;z-index:2}
 .link-icon{
   box-shadow:
     0 8px 18px rgba(0,0,0,.2),
@@ -2059,7 +2059,7 @@ body.light .footer-nav{
 body.light .footer-nav a{color:#466172}
 body.light .footer-nav a:hover{color:#007eb9}
 body.light .link{box-shadow:0 10px 24px rgba(20,68,98,.06)}
-body.light .url{color:#5d7384}
+body.light .url{white-space:nowrap;color:#5d7384}
 
 /* Keep modals readable in light mode. */
 body.light .modal{background:rgba(12,30,45,.42)}
@@ -7511,7 +7511,7 @@ footer{
 }
 
 /* Prevent long labels from making one column visually heavier. */
-.links h3,.links p,.links .url{overflow-wrap:anywhere}
+.links h3,.links p,.links .url{white-space:nowrap;overflow-wrap:anywhere}
 .skills .skill{min-width:0 !important}
 .skills .skill strong,.skills .skill small{display:block;max-width:100%}
 
@@ -8389,6 +8389,15 @@ html.vtv-fs-lock,body.vtv-fs-lock{overflow:hidden!important;width:100%!important
   .tv-link-actions .copy-btn{height:29px !important;padding:0 6px !important;font-size:7px !important;}
 }
 </style>
+
+<style id="vtv-video-fullscreen-fix">
+#vtv1LivePreview:fullscreen {
+  width:100vw !important; height:100vh !important;
+  max-width:none !important; max-height:none !important;
+  object-fit:contain !important; background:#000 !important;
+}
+#vtv1LivePreview::-webkit-media-controls-fullscreen-button { display:block; }
+</style>
 </head>
 <body>
 <div class="page">
@@ -8647,7 +8656,7 @@ html.vtv-fs-lock,body.vtv-fs-lock{overflow:hidden!important;width:100%!important
       <div class="link-top"><div class="link-icon">●</div><div><h3>GitHub Repository</h3><p>Xem mã nguồn và file cấu hình</p></div></div>
       <a class="link-btn" href="https://hoangcongson.github.io/sontung/" target="_blank" rel="noopener">Truy cập Repo ↗</a>
       <a class="link-btn sileo-btn" href="sileo://source/https://hoangcongson.github.io/sontung/">＋ Thêm Repo vào Sileo</a>
-      <div class="url">https://hoangcongson.github.io/<br>sontung/</div>
+      <div class="url">https://hoangcongson.github.io/sontung/</div>
     </div>
     <div class="link gold">
       <div class="link-top"><div class="link-icon">★</div><div><h3>Ủng hộ & Đóng góp</h3><p>Nếu thấy hữu ích, hãy để lại một ⭐ trên GitHub nhé!</p></div></div>
@@ -9249,19 +9258,77 @@ body.light .experience .job-card.hcs-flash:after{
   }
 
   if (fullscreenBtn) {
+    function isNativeFullscreen(){
+      return !!(document.fullscreenElement || document.webkitFullscreenElement);
+    }
+    function setFsButton(on){
+      fullscreenBtn.textContent = on ? '↙' : '⛶';
+      fullscreenBtn.title = on ? 'Thu nhỏ' : 'Phóng to';
+    }
+    function enterFakeFullscreen(){
+      preview.classList.add('vtv-mobile-fake-fs');
+      document.documentElement.classList.add('vtv-mobile-fs-lock');
+      document.body.classList.add('vtv-mobile-fs-lock');
+      setFsButton(true);
+    }
+    function exitFakeFullscreen(){
+      preview.classList.remove('vtv-mobile-fake-fs');
+      document.documentElement.classList.remove('vtv-mobile-fs-lock');
+      document.body.classList.remove('vtv-mobile-fs-lock');
+      setFsButton(false);
+    }
+    function exitFullscreen(){
+      if (isNativeFullscreen()) {
+        try {
+          const r = document.exitFullscreen ? document.exitFullscreen() : document.webkitExitFullscreen?.();
+          if (r && r.catch) r.catch(function(){});
+        } catch(e) {}
+      }
+      exitFakeFullscreen();
+    }
+    function enterFullscreen(){
+      // Fullscreen the player container, not the whole page and not just the raw video.
+      // This is much more reliable on mobile Safari/Chrome and keeps the video visible.
+      try {
+        if (preview && preview.requestFullscreen) {
+          const r = preview.requestFullscreen({navigationUI:'hide'});
+          if (r && r.then) {
+            r.then(function(){ setFsButton(true); }).catch(function(){ enterFakeFullscreen(); });
+          } else {
+            setFsButton(true);
+          }
+          return;
+        }
+      } catch(e) {}
+      try {
+        if (preview && preview.webkitRequestFullscreen) {
+          preview.webkitRequestFullscreen();
+          setFsButton(true);
+          return;
+        }
+      } catch(e) {}
+      enterFakeFullscreen();
+    }
+
     fullscreenBtn.addEventListener('click', function(e) {
       e.preventDefault();
       e.stopPropagation();
-      const target = preview || video;
-      if (document.fullscreenElement) {
-        document.exitFullscreen().catch(function(){});
-      } else if (target && target.requestFullscreen) {
-        target.requestFullscreen().catch(function(){});
-      } else if (video.webkitEnterFullscreen) {
-        video.webkitEnterFullscreen();
+      e.stopImmediatePropagation();
+      if (isNativeFullscreen() || preview.classList.contains('vtv-mobile-fake-fs')) {
+        exitFullscreen();
+      } else {
+        enterFullscreen();
       }
+    }, true);
+
+    document.addEventListener('fullscreenchange', function(){
+      if (!isNativeFullscreen() && !preview.classList.contains('vtv-mobile-fake-fs')) setFsButton(false);
+    });
+    document.addEventListener('webkitfullscreenchange', function(){
+      if (!isNativeFullscreen() && !preview.classList.contains('vtv-mobile-fake-fs')) setFsButton(false);
     });
   }
+
 
   // KHÔNG tự tải M3U khi mở trang.
   // Chỉ tải và phát khi người dùng bấm ▶.
@@ -9513,89 +9580,7 @@ body.light .experience .job-card.hcs-flash:after{
 </script>
 
 
-<script id="vtv1-fullscreen-safe">
-(function(){
-  const btn=document.getElementById('vtv1FullscreenBtn');
-  const video=document.getElementById('vtv1LivePreview');
-  const target=video && video.closest('.tv-live-preview');
-  if(!btn || !video || !target) return;
 
-  let fallback=false;
-
-  function clearFallback(){
-    fallback=false;
-    target.classList.remove('vtv-fs');
-    document.documentElement.classList.remove('vtv-fs-lock');
-    document.body.classList.remove('vtv-fs-lock');
-    btn.textContent='⛶';
-    btn.setAttribute('aria-label','Phóng to');
-    btn.title='Phóng to';
-  }
-
-  async function enter(){
-    try{
-      if(target.requestFullscreen){
-        await target.requestFullscreen();
-        btn.textContent='↙';
-        btn.setAttribute('aria-label','Thu nhỏ');
-        btn.title='Thu nhỏ';
-        return;
-      }
-    }catch(e){}
-
-    // Safari legacy.
-    try{
-      if(target.webkitRequestFullscreen){
-        target.webkitRequestFullscreen();
-        btn.textContent='↙';
-        btn.setAttribute('aria-label','Thu nhỏ');
-        btn.title='Thu nhỏ';
-        return;
-      }
-    }catch(e){}
-
-    // Guaranteed visual fullscreen fallback.
-    fallback=true;
-    target.classList.add('vtv-fs');
-    document.documentElement.classList.add('vtv-fs-lock');
-    document.body.classList.add('vtv-fs-lock');
-    btn.textContent='↙';
-    btn.setAttribute('aria-label','Thu nhỏ');
-    btn.title='Thu nhỏ';
-  }
-
-  function exit(){
-    if(document.fullscreenElement){
-      try{document.exitFullscreen();}catch(e){}
-    }
-    try{
-      if(document.webkitFullscreenElement && document.webkitExitFullscreen)
-        document.webkitExitFullscreen();
-    }catch(e){}
-    clearFallback();
-  }
-
-  btn.addEventListener('click',function(e){
-    e.preventDefault();
-    e.stopPropagation();
-    e.stopImmediatePropagation();
-
-    if(fallback || document.fullscreenElement || document.webkitFullscreenElement){
-      exit();
-    }else{
-      enter();
-    }
-  },true);
-
-  document.addEventListener('fullscreenchange',function(){
-    if(!document.fullscreenElement && !fallback) clearFallback();
-  });
-
-  document.addEventListener('keydown',function(e){
-    if(e.key==='Escape' && fallback) clearFallback();
-  });
-})();
-</script>
 
 <style id="vtv-dock-center-fix">
 .vtv-channel-docks{
@@ -11795,3 +11780,111 @@ body:not(.light) .experience .tags > *:hover{
   }
 }
 
+
+<style id="vtv-light-mode-final-fix">
+/* Light mode: keep the VTV dock readable and keep the control row separated. */
+body.light .tv-control-row{
+  align-items:center !important;
+  gap:7px !important;
+  flex-wrap:nowrap !important;
+}
+body.light .tv-control-row .vtv-channel-docks{
+  flex:0 0 auto !important;
+  background:rgba(20,45,70,.92) !important;
+  border:1px solid rgba(18,65,100,.34) !important;
+  box-shadow:0 5px 16px rgba(20,65,100,.14),inset 0 1px 0 rgba(255,255,255,.35) !important;
+}
+body.light .tv-control-row .vtv-dock{
+  color:#17334a !important;
+  background:linear-gradient(180deg,rgba(255,255,255,.98),rgba(225,237,246,.92)) !important;
+  border-color:rgba(30,75,105,.28) !important;
+  text-shadow:none !important;
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.95),0 1px 4px rgba(20,55,80,.12) !important;
+}
+body.light .tv-control-row .vtv-dock:hover{
+  color:#09243a !important;
+  background:linear-gradient(180deg,#ffffff,#e9f4fb) !important;
+  border-color:rgba(0,126,196,.48) !important;
+  box-shadow:0 0 10px rgba(0,126,196,.16),inset 0 1px 0 #fff !important;
+}
+body.light .tv-control-row .vtv-dock.active{
+  color:#fff !important;
+  background:linear-gradient(180deg,#4f78ff,#2f5fe8) !important;
+  border-color:#7397ff !important;
+  box-shadow:0 0 8px rgba(47,95,232,.38),0 0 15px rgba(47,95,232,.18),inset 0 1px 0 rgba(255,255,255,.55) !important;
+  text-shadow:0 1px 3px rgba(0,0,0,.25) !important;
+}
+body.light .tv-link-actions{
+  flex:1 1 auto !important;
+  min-width:0 !important;
+  display:flex !important;
+  align-items:center !important;
+  gap:6px !important;
+}
+body.light .tv-link-actions .tv-watch-btn{
+  flex:1 1 auto !important;
+  min-width:0 !important;
+  overflow:hidden !important;
+  text-overflow:ellipsis !important;
+  white-space:nowrap !important;
+  color:#fff !important;
+  background:linear-gradient(135deg,#4b6fff,#2f62ed) !important;
+  border-color:rgba(65,104,255,.55) !important;
+  text-shadow:0 1px 3px rgba(0,0,0,.22) !important;
+}
+body.light .tv-link-actions .copy-btn{
+  flex:0 0 auto !important;
+  color:#12314a !important;
+  background:rgba(255,255,255,.84) !important;
+  border-color:rgba(0,105,165,.30) !important;
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.95),0 4px 12px rgba(20,65,100,.10) !important;
+}
+@media(max-width:480px){
+  body.light .tv-control-row{gap:5px !important;}
+  body.light .tv-control-row .vtv-channel-docks{gap:2px !important;padding:2px !important;}
+  body.light .tv-control-row .vtv-dock{min-width:27px !important;width:27px !important;font-size:6px !important;}
+  body.light .tv-link-actions{gap:4px !important;}
+  body.light .tv-link-actions .tv-watch-btn{font-size:8px !important;padding:8px 5px !important;}
+  body.light .tv-link-actions .copy-btn{font-size:7px !important;padding:0 6px !important;}
+}
+</style>
+
+<style id="vtv-mobile-fullscreen-safe">
+html.vtv-mobile-fs-lock, body.vtv-mobile-fs-lock{
+  overflow:hidden !important;
+  width:100% !important;
+  height:100% !important;
+  overscroll-behavior:none !important;
+}
+.tv-live-preview.vtv-mobile-fake-fs{
+  position:fixed !important;
+  inset:0 !important;
+  width:100vw !important;
+  height:100dvh !important;
+  min-height:100dvh !important;
+  max-width:none !important;
+  max-height:none !important;
+  margin:0 !important;
+  padding:0 !important;
+  border:0 !important;
+  border-radius:0 !important;
+  background:#000 !important;
+  box-shadow:none !important;
+  z-index:2147483647 !important;
+  overflow:hidden !important;
+}
+.tv-live-preview.vtv-mobile-fake-fs video{
+  position:absolute !important;
+  inset:0 !important;
+  width:100% !important;
+  height:100% !important;
+  max-width:none !important;
+  max-height:none !important;
+  min-height:0 !important;
+  object-fit:contain !important;
+  background:#000 !important;
+}
+@supports not (height:100dvh){
+  .tv-live-preview.vtv-mobile-fake-fs{height:100vh !important;min-height:100vh !important;}
+}
+</style>
