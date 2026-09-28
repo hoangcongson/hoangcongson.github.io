@@ -7980,40 +7980,6 @@ body.light .hello-time-dock:hover{
   display:flex !important;
 }
 </style>
-
-
-<style id="vtv1-real-fullscreen-css">
-/* Fullscreen fallback: works even when browser blocks the Fullscreen API */
-.tv-live-preview.vtv1-fake-fullscreen{
-  position:fixed !important;
-  left:0 !important;
-  top:0 !important;
-  width:100vw !important;
-  height:100vh !important;
-  min-height:100vh !important;
-  margin:0 !important;
-  z-index:2147483647 !important;
-  border:0 !important;
-  border-radius:0 !important;
-  background:#000 !important;
-  box-shadow:none !important;
-}
-.tv-live-preview.vtv1-fake-fullscreen video{
-  width:100% !important;
-  height:100% !important;
-  min-height:100% !important;
-  object-fit:contain !important;
-  background:#000 !important;
-}
-body.vtv1-fullscreen-lock{
-  overflow:hidden !important;
-}
-.tv-live-preview.vtv1-fake-fullscreen #vtv1FullscreenBtn::after{
-  content:' ↙' !important;
-}
-</style>
-
-
 <style id="vtv-channel-glass-dock">
 .vtv-channel-docks{
   width:100%;
@@ -8125,22 +8091,6 @@ body.vtv1-fullscreen-lock{
   .vtv-dock{min-width:34px !important;height:21px !important;font-size:8px !important;line-height:21px !important;padding:0 5px !important;}
 }
 </style>
-
-
-<style id="vtv1-fullscreen-fallback">
-html.vtv-fs-lock,body.vtv-fs-lock{overflow:hidden!important;width:100%!important;height:100%!important}
-.tv-live-preview.vtv-fs{
- position:fixed!important;inset:0!important;width:100vw!important;height:100vh!important;
- max-width:none!important;max-height:none!important;margin:0!important;padding:0!important;
- z-index:2147483647!important;background:#000!important;border-radius:0!important;
-}
-.tv-live-preview.vtv-fs video{
- width:100%!important;height:100%!important;max-width:none!important;max-height:none!important;
- object-fit:contain!important;background:#000!important;
-}
-</style>
-
-
 <style id="vtv-dock-glow-enhanced">
 /* Premium animated Liquid Glass dock */
 .vtv-channel-docks{
@@ -8389,15 +8339,6 @@ html.vtv-fs-lock,body.vtv-fs-lock{overflow:hidden!important;width:100%!important
   .tv-link-actions .copy-btn{height:29px !important;padding:0 6px !important;font-size:7px !important;}
 }
 </style>
-
-<style id="vtv-video-fullscreen-fix">
-#vtv1LivePreview:fullscreen {
-  width:100vw !important; height:100vh !important;
-  max-width:none !important; max-height:none !important;
-  object-fit:contain !important; background:#000 !important;
-}
-#vtv1LivePreview::-webkit-media-controls-fullscreen-button { display:block; }
-</style>
 </head>
 <body>
 <div class="page">
@@ -8645,7 +8586,6 @@ html.vtv-fs-lock,body.vtv-fs-lock{overflow:hidden!important;width:100%!important
 </div>
 <div class="vtv1-controls" id="vtv1Controls" aria-label="Điều khiển VTV1">
   <button type="button" id="vtv1MuteBtn" aria-label="Bật âm thanh" title="Bật/tắt âm thanh">🔇</button>
-  <button type="button" id="vtv1FullscreenBtn" aria-label="Phóng to" title="Phóng to">⛶</button>
 </div>
         <video id="vtv1LivePreview" autoplay muted playsinline preload="metadata"></video>
         <div class="tv-live-name">VTV1 HD</div>
@@ -9070,7 +9010,6 @@ body.light .experience .job-card.hcs-flash:after{
   const badge = document.getElementById('vtv1LiveBadge');
   const controls = document.getElementById('vtv1Controls');
   const muteBtn = document.getElementById('vtv1MuteBtn');
-  const fullscreenBtn = document.getElementById('vtv1FullscreenBtn');
   const preview = video.closest('.tv-live-preview');
   if (!video || !playBtn) return;
 
@@ -9256,79 +9195,6 @@ body.light .experience .job-card.hcs-flash:after{
       if (!video.muted) video.volume = 1;
     });
   }
-
-  if (fullscreenBtn) {
-    function isNativeFullscreen(){
-      return !!(document.fullscreenElement || document.webkitFullscreenElement);
-    }
-    function setFsButton(on){
-      fullscreenBtn.textContent = on ? '↙' : '⛶';
-      fullscreenBtn.title = on ? 'Thu nhỏ' : 'Phóng to';
-    }
-    function enterFakeFullscreen(){
-      preview.classList.add('vtv-mobile-fake-fs');
-      document.documentElement.classList.add('vtv-mobile-fs-lock');
-      document.body.classList.add('vtv-mobile-fs-lock');
-      setFsButton(true);
-    }
-    function exitFakeFullscreen(){
-      preview.classList.remove('vtv-mobile-fake-fs');
-      document.documentElement.classList.remove('vtv-mobile-fs-lock');
-      document.body.classList.remove('vtv-mobile-fs-lock');
-      setFsButton(false);
-    }
-    function exitFullscreen(){
-      if (isNativeFullscreen()) {
-        try {
-          const r = document.exitFullscreen ? document.exitFullscreen() : document.webkitExitFullscreen?.();
-          if (r && r.catch) r.catch(function(){});
-        } catch(e) {}
-      }
-      exitFakeFullscreen();
-    }
-    function enterFullscreen(){
-      // Fullscreen the player container, not the whole page and not just the raw video.
-      // This is much more reliable on mobile Safari/Chrome and keeps the video visible.
-      try {
-        if (preview && preview.requestFullscreen) {
-          const r = preview.requestFullscreen({navigationUI:'hide'});
-          if (r && r.then) {
-            r.then(function(){ setFsButton(true); }).catch(function(){ enterFakeFullscreen(); });
-          } else {
-            setFsButton(true);
-          }
-          return;
-        }
-      } catch(e) {}
-      try {
-        if (preview && preview.webkitRequestFullscreen) {
-          preview.webkitRequestFullscreen();
-          setFsButton(true);
-          return;
-        }
-      } catch(e) {}
-      enterFakeFullscreen();
-    }
-
-    fullscreenBtn.addEventListener('click', function(e) {
-      e.preventDefault();
-      e.stopPropagation();
-      e.stopImmediatePropagation();
-      if (isNativeFullscreen() || preview.classList.contains('vtv-mobile-fake-fs')) {
-        exitFullscreen();
-      } else {
-        enterFullscreen();
-      }
-    }, true);
-
-    document.addEventListener('fullscreenchange', function(){
-      if (!isNativeFullscreen() && !preview.classList.contains('vtv-mobile-fake-fs')) setFsButton(false);
-    });
-    document.addEventListener('webkitfullscreenchange', function(){
-      if (!isNativeFullscreen() && !preview.classList.contains('vtv-mobile-fake-fs')) setFsButton(false);
-    });
-  }
-
 
   // KHÔNG tự tải M3U khi mở trang.
   // Chỉ tải và phát khi người dùng bấm ▶.
@@ -11846,45 +11712,5 @@ body.light .tv-link-actions .copy-btn{
   body.light .tv-link-actions{gap:4px !important;}
   body.light .tv-link-actions .tv-watch-btn{font-size:8px !important;padding:8px 5px !important;}
   body.light .tv-link-actions .copy-btn{font-size:7px !important;padding:0 6px !important;}
-}
-</style>
-
-<style id="vtv-mobile-fullscreen-safe">
-html.vtv-mobile-fs-lock, body.vtv-mobile-fs-lock{
-  overflow:hidden !important;
-  width:100% !important;
-  height:100% !important;
-  overscroll-behavior:none !important;
-}
-.tv-live-preview.vtv-mobile-fake-fs{
-  position:fixed !important;
-  inset:0 !important;
-  width:100vw !important;
-  height:100dvh !important;
-  min-height:100dvh !important;
-  max-width:none !important;
-  max-height:none !important;
-  margin:0 !important;
-  padding:0 !important;
-  border:0 !important;
-  border-radius:0 !important;
-  background:#000 !important;
-  box-shadow:none !important;
-  z-index:2147483647 !important;
-  overflow:hidden !important;
-}
-.tv-live-preview.vtv-mobile-fake-fs video{
-  position:absolute !important;
-  inset:0 !important;
-  width:100% !important;
-  height:100% !important;
-  max-width:none !important;
-  max-height:none !important;
-  min-height:0 !important;
-  object-fit:contain !important;
-  background:#000 !important;
-}
-@supports not (height:100dvh){
-  .tv-live-preview.vtv-mobile-fake-fs{height:100vh !important;min-height:100vh !important;}
 }
 </style>
