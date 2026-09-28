@@ -7889,6 +7889,130 @@ body.light .hello-time-dock:hover{
   .hello,.hello-time-dock{transition:none !important}
 }
 </style>
+
+<style id="vtv1-play-button-style">
+.tv-live-badge{
+  display:flex !important;
+  align-items:center !important;
+  gap:6px !important;
+}
+.vtv1-play-btn{
+  width:22px !important;
+  height:22px !important;
+  padding:0 !important;
+  margin-left:3px !important;
+  border:1px solid rgba(255,255,255,.28) !important;
+  border-radius:50% !important;
+  background:#2563eb !important;
+  color:#fff !important;
+  font-size:10px !important;
+  line-height:20px !important;
+  text-align:center !important;
+  cursor:pointer !important;
+  display:inline-flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+}
+.vtv1-play-btn:hover{filter:brightness(1.15);}
+.vtv1-play-btn:disabled{opacity:.55;cursor:wait;}
+</style>
+
+
+<style id="vtv1-mini-controls">
+.tv-live-badge{
+  left:7px !important;
+  top:6px !important;
+  padding:3px 5px !important;
+  gap:4px !important;
+  background:rgba(2,9,16,.34) !important;
+  border:1px solid rgba(255,255,255,.10) !important;
+  backdrop-filter:blur(5px) !important;
+  -webkit-backdrop-filter:blur(5px) !important;
+  font-size:6px !important;
+  opacity:.88 !important;
+}
+.tv-live-dot{
+  width:4px !important;
+  height:4px !important;
+}
+.vtv1-play-btn{
+  width:18px !important;
+  height:18px !important;
+  min-width:18px !important;
+  margin-left:1px !important;
+  border:1px solid rgba(255,255,255,.20) !important;
+  background:rgba(37,99,235,.82) !important;
+  font-size:8px !important;
+  line-height:16px !important;
+  backdrop-filter:blur(4px) !important;
+  -webkit-backdrop-filter:blur(4px) !important;
+}
+.vtv1-controls{
+  position:absolute !important;
+  left:7px !important;
+  top:6px !important;
+  z-index:4 !important;
+  display:none !important;
+  align-items:center !important;
+  gap:4px !important;
+}
+.vtv1-controls button{
+  width:22px !important;
+  height:22px !important;
+  padding:0 !important;
+  border-radius:7px !important;
+  border:1px solid rgba(255,255,255,.16) !important;
+  background:rgba(2,9,16,.34) !important;
+  color:#fff !important;
+  font-size:11px !important;
+  line-height:20px !important;
+  cursor:pointer !important;
+  backdrop-filter:blur(6px) !important;
+  -webkit-backdrop-filter:blur(6px) !important;
+}
+.vtv1-controls button:hover{
+  background:rgba(37,99,235,.55) !important;
+}
+.tv-live-preview.vtv1-playing .tv-live-badge{
+  display:none !important;
+}
+.tv-live-preview.vtv1-playing .vtv1-controls{
+  display:flex !important;
+}
+</style>
+
+
+<style id="vtv1-real-fullscreen-css">
+/* Fullscreen fallback: works even when browser blocks the Fullscreen API */
+.tv-live-preview.vtv1-fake-fullscreen{
+  position:fixed !important;
+  left:0 !important;
+  top:0 !important;
+  width:100vw !important;
+  height:100vh !important;
+  min-height:100vh !important;
+  margin:0 !important;
+  z-index:2147483647 !important;
+  border:0 !important;
+  border-radius:0 !important;
+  background:#000 !important;
+  box-shadow:none !important;
+}
+.tv-live-preview.vtv1-fake-fullscreen video{
+  width:100% !important;
+  height:100% !important;
+  min-height:100% !important;
+  object-fit:contain !important;
+  background:#000 !important;
+}
+body.vtv1-fullscreen-lock{
+  overflow:hidden !important;
+}
+.tv-live-preview.vtv1-fake-fullscreen #vtv1FullscreenBtn::after{
+  content:' ↙' !important;
+}
+</style>
+
 </head>
 <body>
 <div class="page">
@@ -8121,7 +8245,14 @@ body.light .hello-time-dock:hover{
       </div>
       <div class="url">https://hoangcongson.github.io/tv/</div>
       <div class="tv-live-preview">
-        <div class="tv-live-badge"><span class="tv-live-dot"></span> ĐANG PHÁT</div>
+        <div class="tv-live-badge" id="vtv1LiveBadge">
+  <span class="tv-live-dot"></span><span>ĐANG PHÁT</span>
+  <button type="button" id="vtv1PlayBtn" class="vtv1-play-btn" aria-label="Phát VTV1 HD">▶</button>
+</div>
+<div class="vtv1-controls" id="vtv1Controls" aria-label="Điều khiển VTV1">
+  <button type="button" id="vtv1MuteBtn" aria-label="Bật âm thanh" title="Bật/tắt âm thanh">🔇</button>
+  <button type="button" id="vtv1FullscreenBtn" aria-label="Phóng to" title="Phóng to">⛶</button>
+</div>
         <video id="vtv1LivePreview" autoplay muted playsinline preload="metadata"></video>
         <div class="tv-live-name">VTV1 HD</div>
         <div class="tv-live-fallback" id="vtv1LiveFallback">Đang tải VTV1 HD…</div>
@@ -8532,6 +8663,334 @@ body.light .experience .job-card.hcs-flash:after{
 
 <script src="https://cdn.jsdelivr.net/npm/hls.js@1.6.15/dist/hls.min.js"></script>
 
+
+
+
+
+
+<script>
+(function () {
+  const video = document.getElementById('vtv1LivePreview');
+  const fallback = document.getElementById('vtv1LiveFallback');
+  const playBtn = document.getElementById('vtv1PlayBtn');
+  const badge = document.getElementById('vtv1LiveBadge');
+  const controls = document.getElementById('vtv1Controls');
+  const muteBtn = document.getElementById('vtv1MuteBtn');
+  const fullscreenBtn = document.getElementById('vtv1FullscreenBtn');
+  const preview = video.closest('.tv-live-preview');
+  if (!video || !playBtn) return;
+
+  // tv.m3u nằm ở ROOT của GitHub Pages, không nằm trong /tv/
+  const M3U_URL = 'https://hoangcongson.github.io/tv.m3u';
+  let hls = null;
+  let playing = false;
+  video.muted = true;
+
+  function msg(text) {
+    if (fallback) {
+      fallback.textContent = text;
+      fallback.style.display = 'grid';
+    }
+    console.log('[VTV1]', text);
+  }
+
+  function hideMsg() {
+    if (fallback) fallback.style.display = 'none';
+  }
+
+  function findVTV1HD(m3u) {
+    const lines = m3u.replace(/^\uFEFF/, '').split(/\r?\n/);
+
+    for (let i = 0; i < lines.length; i++) {
+      const line = lines[i].trim();
+      if (!/^#EXTINF/i.test(line)) continue;
+
+      const name = line.includes(',')
+        ? line.slice(line.indexOf(',') + 1).trim()
+        : '';
+
+      if (!/VTV1\s*[-_ ]?\s*HD/i.test(name)) continue;
+
+      for (let j = i + 1; j < lines.length; j++) {
+        const url = lines[j].trim();
+        if (url && !url.startsWith('#')) return url;
+      }
+    }
+    return null;
+  }
+
+  function setPlayingUI(on) {
+    if (preview) preview.classList.toggle('vtv1-playing', !!on);
+    if (on && controls) controls.style.display = 'flex';
+    if (!on && controls) controls.style.display = 'none';
+    if (on && muteBtn) {
+      muteBtn.textContent = video.muted ? '🔇' : '🔊';
+      muteBtn.setAttribute('aria-label', video.muted ? 'Bật âm thanh' : 'Tắt âm thanh');
+    }
+  }
+
+  function setLoading(on) {
+    playBtn.disabled = on;
+    playBtn.textContent = on ? '…' : (playing ? '■' : '▶');
+  }
+
+  function playStream(stream) {
+    if (!stream) {
+      setLoading(false);
+      msg('Không tìm thấy VTV1 HD trong tv.m3u');
+      return;
+    }
+
+    console.log('[VTV1] Stream từ tv.m3u:', stream);
+
+    if (hls) {
+      try { hls.destroy(); } catch (e) {}
+      hls = null;
+    }
+
+    if (video.canPlayType('application/vnd.apple.mpegurl')) {
+      video.src = stream;
+
+      video.addEventListener('loadedmetadata', function onMeta() {
+        video.removeEventListener('loadedmetadata', onMeta);
+        hideMsg();
+        playing = true;
+        setPlayingUI(true);
+        setLoading(false);
+        video.play().catch(function () {});
+      });
+
+      video.addEventListener('error', function onErr() {
+        video.removeEventListener('error', onErr);
+        playing = false;
+        setPlayingUI(false);
+        setLoading(false);
+        msg('VTV1 HD có trong M3U nhưng luồng không phát được');
+      });
+
+      video.load();
+      return;
+    }
+
+    if (window.Hls && Hls.isSupported()) {
+      hls = new Hls({
+        enableWorker: true,
+        lowLatencyMode: true,
+        backBufferLength: 30,
+        manifestLoadingTimeOut: 10000,
+        manifestLoadingMaxRetry: 2
+      });
+
+      hls.attachMedia(video);
+
+      hls.on(Hls.Events.MEDIA_ATTACHED, function () {
+        hls.loadSource(stream);
+      });
+
+      hls.on(Hls.Events.MANIFEST_PARSED, function () {
+        hideMsg();
+        playing = true;
+        setPlayingUI(true);
+        setLoading(false);
+        video.play().catch(function () {});
+      });
+
+      hls.on(Hls.Events.ERROR, function (_, data) {
+        console.error('[VTV1 HLS]', data);
+
+        if (!data || !data.fatal) return;
+
+        playing = false;
+        setPlayingUI(false);
+        setLoading(false);
+
+        if (data.details === 'manifestLoadError' ||
+            data.details === 'manifestLoadTimeOut') {
+          msg('Luồng VTV1 HD không truy cập được');
+        } else {
+          msg('Không phát được VTV1 HD');
+        }
+
+        try { hls.destroy(); } catch (e) {}
+        hls = null;
+      });
+
+      return;
+    }
+
+    playing = false;
+    setLoading(false);
+    msg('Trình duyệt không hỗ trợ HLS');
+  }
+
+  async function start() {
+    setLoading(true);
+    msg('Đang lấy VTV1 HD từ tv.m3u…');
+
+    try {
+      // Quan trọng: dùng URL tuyệt đối ở ROOT.
+      const res = await fetch(M3U_URL, {
+        cache: 'no-store',
+        credentials: 'omit'
+      });
+
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+
+      const m3u = await res.text();
+      if (!m3u.trim()) throw new Error('Playlist rỗng');
+
+      const stream = findVTV1HD(m3u);
+      if (!stream) throw new Error('Không tìm thấy VTV1 HD');
+
+      playStream(stream);
+    } catch (e) {
+      console.error('[VTV1] tv.m3u:', e);
+      playing = false;
+      setLoading(false);
+      msg('Không tải được tv.m3u (' + (e.message || 'lỗi kết nối') + ')');
+    }
+  }
+
+
+  if (muteBtn) {
+    muteBtn.addEventListener('click', function(e) {
+      e.preventDefault();
+      e.stopPropagation();
+      video.muted = !video.muted;
+      muteBtn.textContent = video.muted ? '🔇' : '🔊';
+      muteBtn.setAttribute('aria-label', video.muted ? 'Bật âm thanh' : 'Tắt âm thanh');
+      if (!video.muted) video.volume = 1;
+    });
+  }
+
+  if (fullscreenBtn) {
+    fullscreenBtn.addEventListener('click', function(e) {
+      e.preventDefault();
+      e.stopPropagation();
+      const target = preview || video;
+      if (document.fullscreenElement) {
+        document.exitFullscreen().catch(function(){});
+      } else if (target && target.requestFullscreen) {
+        target.requestFullscreen().catch(function(){});
+      } else if (video.webkitEnterFullscreen) {
+        video.webkitEnterFullscreen();
+      }
+    });
+  }
+
+  // KHÔNG tự tải M3U khi mở trang.
+  // Chỉ tải và phát khi người dùng bấm ▶.
+  playBtn.addEventListener('click', function () {
+    if (playing) {
+      video.pause();
+      if (hls) {
+        try { hls.destroy(); } catch (e) {}
+        hls = null;
+      }
+      video.removeAttribute('src');
+      video.load();
+      playing = false;
+      setPlayingUI(false);
+      playBtn.textContent = '▶';
+      msg('Đã dừng VTV1 HD');
+      return;
+    }
+
+    start();
+  });
+})();
+</script>
+
+
+
+<script id="vtv1-fullscreen-handler">
+(function(){
+  const video = document.getElementById('vtv1LivePreview');
+  const btn = document.getElementById('vtv1FullscreenBtn');
+  const preview = video && video.closest('.tv-live-preview');
+  if (!video || !btn || !preview) return;
+
+  let fake = false;
+
+  function enterFake(){
+    fake = true;
+    preview.classList.add('vtv1-fake-fullscreen');
+    document.body.classList.add('vtv1-fullscreen-lock');
+    btn.textContent = '↙';
+    btn.title = 'Thu nhỏ';
+    btn.setAttribute('aria-label','Thu nhỏ');
+  }
+
+  function exitFake(){
+    fake = false;
+    preview.classList.remove('vtv1-fake-fullscreen');
+    document.body.classList.remove('vtv1-fullscreen-lock');
+    btn.textContent = '⛶';
+    btn.title = 'Phóng to';
+    btn.setAttribute('aria-label','Phóng to');
+  }
+
+  async function enter(){
+    // Try native fullscreen first.
+    try {
+      if (preview.requestFullscreen) {
+        await preview.requestFullscreen();
+        return;
+      }
+    } catch(e) {
+      console.log('[VTV1] Native fullscreen unavailable, using fallback.');
+    }
+
+    // Safari legacy.
+    try {
+      if (preview.webkitRequestFullscreen) {
+        preview.webkitRequestFullscreen();
+        return;
+      }
+    } catch(e) {}
+
+    // Universal visual fullscreen fallback.
+    enterFake();
+  }
+
+  function exit(){
+    if (document.fullscreenElement) {
+      document.exitFullscreen().catch(function(){});
+    }
+    if (document.webkitFullscreenElement && document.webkitExitFullscreen) {
+      try { document.webkitExitFullscreen(); } catch(e) {}
+    }
+    exitFake();
+  }
+
+  // Capture phase makes sure another click handler cannot swallow the button click.
+  btn.addEventListener('click', function(e){
+    e.preventDefault();
+    e.stopPropagation();
+    if (fake || document.fullscreenElement || document.webkitFullscreenElement) {
+      exit();
+    } else {
+      enter();
+    }
+  }, true);
+
+  document.addEventListener('fullscreenchange', function(){
+    if (document.fullscreenElement === preview) {
+      btn.textContent='↙';
+      btn.title='Thu nhỏ';
+      btn.setAttribute('aria-label','Thu nhỏ');
+    } else if (!fake) {
+      btn.textContent='⛶';
+      btn.title='Phóng to';
+      btn.setAttribute('aria-label','Phóng to');
+    }
+  });
+
+  document.addEventListener('keydown', function(e){
+    if (e.key === 'Escape' && fake) exitFake();
+  });
+})();
+</script>
 
 </body>
 </html>
