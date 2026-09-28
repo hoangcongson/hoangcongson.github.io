@@ -11714,3 +11714,68 @@ body.light .tv-link-actions .copy-btn{
   body.light .tv-link-actions .copy-btn{font-size:7px !important;padding:0 6px !important;}
 }
 </style>
+
+<style id="vtv-card-compact-taller-player">
+/* TV card compact header + taller 16:9 mini player */
+.links > .link:first-child{
+  padding:11px !important;
+}
+.links > .link:first-child .link-top{
+  gap:8px !important;
+}
+.links > .link:first-child .link-icon{
+  width:34px !important;
+  height:34px !important;
+  min-width:34px !important;
+  border-radius:8px !important;
+  font-size:16px !important;
+}
+.links > .link:first-child .link-top h3{
+  font-size:11px !important;
+  margin-bottom:2px !important;
+}
+.links > .link:first-child .link-top p{
+  font-size:7px !important;
+}
+.links > .link:first-child .tv-control-row{
+  margin-top:6px !important;
+  margin-bottom:4px !important;
+}
+.links > .link:first-child .tv-live-preview{
+  aspect-ratio:16 / 9 !important;
+  height:auto !important;
+  min-height:0 !important;
+  margin-top:3px !important;
+}
+.links > .link:first-child .tv-live-preview video{
+  width:100% !important;
+  height:100% !important;
+  min-height:0 !important;
+  object-fit:cover !important;
+}
+@media(max-width:600px){
+  .links > .link:first-child{
+    padding:9px !important;
+  }
+  .links > .link:first-child .link-icon{
+    width:31px !important;
+    height:31px !important;
+    min-width:31px !important;
+    font-size:14px !important;
+  }
+  .links > .link:first-child .link-top h3{
+    font-size:10px !important;
+  }
+  .links > .link:first-child .link-top p{
+    font-size:6.5px !important;
+  }
+  .links > .link:first-child .tv-control-row{
+    margin-top:4px !important;
+    margin-bottom:3px !important;
+  }
+  .links > .link:first-child .tv-live-preview{
+    aspect-ratio:16 / 9 !important;
+    margin-top:2px !important;
+  }
+}
+</style>
