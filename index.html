@@ -8013,6 +8013,382 @@ body.vtv1-fullscreen-lock{
 }
 </style>
 
+
+<style id="vtv-channel-glass-dock">
+.vtv-channel-docks{
+  width:100%;
+  display:flex;
+  align-items:center;
+  justify-content:flex-end;
+  gap:5px;
+  margin-top:9px;
+  margin-bottom:-5px;
+  position:relative;
+  z-index:8;
+  pointer-events:auto;
+}
+.vtv-channel-dock{
+  appearance:none;
+  -webkit-appearance:none;
+  border:1px solid rgba(255,255,255,.18);
+  border-radius:9px;
+  min-width:42px;
+  height:25px;
+  padding:0 8px;
+  color:rgba(240,250,255,.92);
+  background:rgba(255,255,255,.055);
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,.10),
+    0 4px 14px rgba(0,0,0,.12);
+  backdrop-filter:blur(14px) saturate(135%);
+  -webkit-backdrop-filter:blur(14px) saturate(135%);
+  font:800 7px/1 Arial,sans-serif;
+  letter-spacing:.35px;
+  cursor:pointer;
+  transition:transform .16s ease, background .16s ease, border-color .16s ease, box-shadow .16s ease;
+}
+.vtv-channel-dock:hover{
+  transform:translateY(-1px);
+  border-color:rgba(96,165,250,.55);
+  background:rgba(37,99,235,.22);
+  box-shadow:0 5px 16px rgba(37,99,235,.18), inset 0 1px 0 rgba(255,255,255,.12);
+}
+.vtv-channel-dock.active{
+  color:#fff;
+  border-color:rgba(96,165,250,.65);
+  background:rgba(37,99,235,.32);
+  box-shadow:0 0 12px rgba(37,99,235,.18), inset 0 1px 0 rgba(255,255,255,.14);
+}
+@media(max-width:600px){
+  .vtv-channel-docks{gap:4px;margin-top:8px;margin-bottom:-4px;}
+  .vtv-channel-dock{min-width:38px;height:23px;padding:0 7px;font-size:6.5px;border-radius:8px;}
+}
+</style>
+
+<style id="vtv-dock-order-style">
+.vtv-channel-docks{
+  display:flex !important;
+  flex-direction:row !important;
+  flex-wrap:nowrap !important;
+  align-items:center !important;
+  justify-content:center !important;
+}
+</style>
+
+
+<style id="vtv-liquid-glass-docks">
+.vtv-channel-docks{
+  display:flex !important;
+  align-items:center !important;
+  justify-content:flex-end !important;
+  gap:4px !important;
+  margin:0 0 7px auto !important;
+  padding:3px !important;
+  width:max-content !important;
+  max-width:100% !important;
+  border:1px solid rgba(255,255,255,.20) !important;
+  border-radius:12px !important;
+  background:rgba(255,255,255,.075) !important;
+  box-shadow:0 6px 18px rgba(0,0,0,.16), inset 0 1px 0 rgba(255,255,255,.18) !important;
+  backdrop-filter:blur(18px) saturate(145%) !important;
+  -webkit-backdrop-filter:blur(18px) saturate(145%) !important;
+}
+.vtv-dock{
+  appearance:none !important;
+  -webkit-appearance:none !important;
+  border:1px solid rgba(255,255,255,.13) !important;
+  border-radius:8px !important;
+  min-width:38px !important;
+  height:23px !important;
+  padding:0 7px !important;
+  color:rgba(255,255,255,.82) !important;
+  background:rgba(255,255,255,.045) !important;
+  font:700 9px/23px Arial,sans-serif !important;
+  text-align:center !important;
+  cursor:pointer !important;
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.12) !important;
+  transition:transform .15s ease,background .15s ease,border-color .15s ease,color .15s ease !important;
+}
+.vtv-dock:hover{
+  transform:translateY(-1px) !important;
+  color:#fff !important;
+  background:rgba(255,255,255,.14) !important;
+}
+.vtv-dock.active{
+  color:#fff !important;
+  background:rgba(59,130,246,.72) !important;
+  border-color:rgba(147,197,253,.78) !important;
+  box-shadow:0 0 12px rgba(59,130,246,.22), inset 0 1px 0 rgba(255,255,255,.28) !important;
+}
+@media(max-width:480px){
+  .vtv-channel-docks{gap:3px !important;padding:2px !important;border-radius:10px !important;}
+  .vtv-dock{min-width:34px !important;height:21px !important;font-size:8px !important;line-height:21px !important;padding:0 5px !important;}
+}
+</style>
+
+
+<style id="vtv1-fullscreen-fallback">
+html.vtv-fs-lock,body.vtv-fs-lock{overflow:hidden!important;width:100%!important;height:100%!important}
+.tv-live-preview.vtv-fs{
+ position:fixed!important;inset:0!important;width:100vw!important;height:100vh!important;
+ max-width:none!important;max-height:none!important;margin:0!important;padding:0!important;
+ z-index:2147483647!important;background:#000!important;border-radius:0!important;
+}
+.tv-live-preview.vtv-fs video{
+ width:100%!important;height:100%!important;max-width:none!important;max-height:none!important;
+ object-fit:contain!important;background:#000!important;
+}
+</style>
+
+
+<style id="vtv-dock-glow-enhanced">
+/* Premium animated Liquid Glass dock */
+.vtv-channel-docks{
+  position:relative !important;
+  isolation:isolate !important;
+  overflow:visible !important;
+  padding:4px !important;
+  gap:4px !important;
+  border:1px solid rgba(255,255,255,.28) !important;
+  border-radius:13px !important;
+  background:
+    linear-gradient(180deg,rgba(255,255,255,.13),rgba(255,255,255,.045)) !important;
+  box-shadow:
+    0 7px 24px rgba(0,0,0,.22),
+    inset 0 1px 0 rgba(255,255,255,.30),
+    inset 0 -1px 0 rgba(255,255,255,.06) !important;
+}
+
+/* Moving luminous rim around the whole dock */
+.vtv-channel-docks::before{
+  content:"";
+  position:absolute;
+  inset:-1px;
+  z-index:-2;
+  border-radius:inherit;
+  padding:1px;
+  background:conic-gradient(
+    from 0deg,
+    transparent 0deg,
+    rgba(125,211,252,.05) 35deg,
+    rgba(255,255,255,.72) 72deg,
+    rgba(96,165,250,.38) 112deg,
+    transparent 155deg,
+    transparent 220deg,
+    rgba(167,243,208,.32) 270deg,
+    rgba(255,255,255,.62) 310deg,
+    transparent 350deg
+  );
+  -webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);
+  -webkit-mask-composite:xor;
+  mask-composite:exclude;
+  filter:blur(.25px);
+  animation:none;
+  opacity:.85;
+  pointer-events:none;
+}
+
+/* Soft ambient glow */
+.vtv-channel-docks::after{
+  content:"";
+  position:absolute;
+  inset:-7px;
+  z-index:-3;
+  border-radius:18px;
+  background:radial-gradient(ellipse at 50% 50%,rgba(96,165,250,.22),transparent 68%);
+  filter:blur(8px);
+  opacity:.5;
+  animation:vtvDockPulse 3.2s ease-in-out infinite;
+  pointer-events:none;
+}
+
+.vtv-dock{
+  position:relative !important;
+  overflow:hidden !important;
+  min-width:39px !important;
+  height:24px !important;
+  border-radius:9px !important;
+  border:1px solid rgba(255,255,255,.20) !important;
+  color:rgba(255,255,255,.86) !important;
+  background:linear-gradient(180deg,rgba(255,255,255,.105),rgba(255,255,255,.035)) !important;
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,.22),
+    inset 0 -1px 0 rgba(255,255,255,.035),
+    0 2px 7px rgba(0,0,0,.12) !important;
+  text-shadow:0 1px 5px rgba(0,0,0,.42) !important;
+  transition:transform .22s cubic-bezier(.2,.8,.2,1),
+             background .22s ease,
+             border-color .22s ease,
+             box-shadow .22s ease,
+             filter .22s ease !important;
+}
+
+/* Glass reflection sweeping across each button */
+.vtv-dock::before{
+  content:"";
+  position:absolute;
+  top:-60%;
+  left:-65%;
+  width:42%;
+  height:220%;
+  transform:rotate(22deg);
+  background:linear-gradient(90deg,transparent,rgba(255,255,255,.42),transparent);
+  filter:blur(1px);
+  opacity:0;
+  transition:left .55s ease,opacity .25s ease;
+  pointer-events:none;
+}
+.vtv-dock:hover::before,
+.vtv-dock.active::before{
+  left:125%;
+  opacity:.9;
+}
+
+.vtv-dock:hover{
+  transform:translateY(-1px) scale(1.035) !important;
+  color:#fff !important;
+  border-color:rgba(191,219,254,.60) !important;
+  background:linear-gradient(180deg,rgba(255,255,255,.19),rgba(255,255,255,.07)) !important;
+  box-shadow:
+    0 0 12px rgba(96,165,250,.18),
+    inset 0 1px 0 rgba(255,255,255,.36) !important;
+}
+
+.vtv-dock.active{
+  color:#fff !important;
+  border-color:rgba(147,197,253,.95) !important;
+  background:linear-gradient(180deg,rgba(59,130,246,.86),rgba(37,99,235,.54)) !important;
+  box-shadow:
+    0 0 7px rgba(96,165,250,.58),
+    0 0 18px rgba(59,130,246,.30),
+    inset 0 1px 0 rgba(255,255,255,.48),
+    inset 0 -1px 0 rgba(255,255,255,.08) !important;
+  animation:vtvActiveBreath 2.4s ease-in-out infinite;
+}
+
+@keyframes vtvDockPulse{
+  0%,100%{opacity:.34;transform:scale(.985)}
+  50%{opacity:.68;transform:scale(1.015)}
+}
+@keyframes vtvActiveBreath{
+  0%,100%{filter:brightness(1);}
+  50%{filter:brightness(1.12);}
+}
+
+@media(prefers-reduced-motion:reduce){
+  .vtv-channel-docks::before,.vtv-channel-docks::after,.vtv-dock.active{animation:none !important}
+  .vtv-dock::before{transition:none !important}
+}
+
+@media(max-width:480px){
+  .vtv-channel-docks{gap:3px !important;padding:3px !important;border-radius:12px !important}
+  .vtv-dock{min-width:35px !important;height:22px !important;font-size:8px !important;line-height:22px !important;padding:0 5px !important}
+}
+</style>
+
+
+<style id="vtv-dock-safe-center">
+/* Dock nằm trong flow, tuyệt đối không đè lên màn mini */
+.vtv-channel-docks{
+  position:relative !important;
+  top:auto !important;
+  right:auto !important;
+  bottom:auto !important;
+  left:auto !important;
+  float:none !important;
+  clear:both !important;
+  display:flex !important;
+  width:max-content !important;
+  max-width:100% !important;
+  margin:0 auto 8px auto !important;
+  transform:none !important;
+  z-index:8 !important;
+}
+.tv-live-preview{
+  position:relative !important;
+  clear:both !important;
+  margin-top:0 !important;
+  z-index:1 !important;
+}
+@media(max-width:480px){
+  .vtv-channel-docks{margin:0 auto 7px auto !important;}
+}
+</style>
+
+<style id="vtv-dock-final-spacing">
+/* Legacy spacing retained; inline TV control row overrides it. */
+.vtv-channel-docks{
+  justify-content:center !important;
+  margin:9px auto 7px auto !important;
+}
+@media(max-width:480px){
+  .vtv-channel-docks{
+    justify-content:center !important;
+    margin:8px auto 7px auto !important;
+  }
+}
+</style>
+
+<style id="vtv-dock-watch-inline-final">
+/* VTV dock + TV link: one compact row aligned to the mini player */
+.tv-control-row{
+  width:100% !important;
+  display:flex !important;
+  align-items:center !important;
+  justify-content:flex-start !important;
+  gap:7px !important;
+  margin:14px 0 5px 0 !important;
+  min-width:0 !important;
+}
+.tv-control-row .vtv-channel-docks{
+  flex:0 0 auto !important;
+  width:max-content !important;
+  margin:0 !important;
+  justify-content:flex-start !important;
+}
+.tv-link-actions{
+  flex:1 1 auto !important;
+  min-width:0 !important;
+  display:flex !important;
+  align-items:center !important;
+  gap:6px !important;
+}
+.tv-link-actions .tv-watch-btn{
+  flex:1 1 auto !important;
+  min-width:0 !important;
+  margin:0 !important;
+  padding:9px 7px !important;
+  white-space:nowrap !important;
+}
+.tv-link-actions .copy-btn{
+  flex:0 0 auto !important;
+  height:31px !important;
+  padding:0 8px !important;
+}
+/* compact dock so the whole row fits neatly on the same line */
+.tv-control-row .vtv-channel-docks{
+  gap:2px !important;
+  padding:2px !important;
+  border-radius:9px !important;
+}
+.tv-control-row .vtv-dock{
+  min-width:29px !important;
+  width:29px !important;
+  height:19px !important;
+  padding:0 2px !important;
+  border-radius:6px !important;
+  font-size:6.5px !important;
+  line-height:19px !important;
+}
+@media(max-width:480px){
+  .tv-control-row{gap:5px !important;margin:12px 0 5px 0 !important;}
+  .tv-control-row .vtv-channel-docks{gap:2px !important;padding:2px !important;}
+  .tv-control-row .vtv-dock{min-width:27px !important;width:27px !important;height:18px !important;font-size:6px !important;line-height:18px !important;}
+  .tv-link-actions{gap:4px !important;}
+  .tv-link-actions .tv-watch-btn{padding:8px 5px !important;font-size:8px !important;}
+  .tv-link-actions .copy-btn{height:29px !important;padding:0 6px !important;font-size:7px !important;}
+}
+</style>
 </head>
 <body>
 <div class="page">
@@ -8239,11 +8615,20 @@ body.vtv1-fullscreen-lock{
   <div class="links">
     <div class="link">
       <div class="link-top"><div class="link-icon">▣</div><div><h3>Truyền hình Việt Nam</h3><p>Xem các kênh truyền hình Việt Nam</p></div></div>
-      <div style="display:flex;gap:7px;margin-top:14px">
-        <a class="link-btn" style="margin-top:0;flex:1" href="https://hoangcongson.github.io/tv/" target="_blank">Xem truyền hình ↗</a>
-        <button class="copy-btn" onclick="copyText('https://hoangcongson.github.io/tv/',this)">⧉ Copy</button>
+      <div class="tv-control-row">
+        <div class="vtv-channel-docks" aria-label="Kênh VTV">
+          <button type="button" class="vtv-dock active" data-vtv="VTV1">VTV1</button>
+          <button type="button" class="vtv-dock" data-vtv="VTV2">VTV2</button>
+          <button type="button" class="vtv-dock" data-vtv="VTV3">VTV3</button>
+          <button type="button" class="vtv-dock" data-vtv="VTV5">VTV5</button>
+          <button type="button" class="vtv-dock" data-vtv="VTV6">VTV6</button>
+        </div>
+        <div class="tv-link-actions">
+          <a class="link-btn tv-watch-btn" href="https://hoangcongson.github.io/tv/" target="_blank">Xem thêm các kênh khác</a>
+          <button class="copy-btn" onclick="copyText('https://hoangcongson.github.io/tv/',this)">⧉ Copy</button>
+        </div>
       </div>
-      <div class="url">https://hoangcongson.github.io/tv/</div>
+
       <div class="tv-live-preview">
         <div class="tv-live-badge" id="vtv1LiveBadge">
   <span class="tv-live-dot"></span><span>ĐANG PHÁT</span>
@@ -8903,95 +9288,440 @@ body.light .experience .job-card.hcs-flash:after{
 
 
 
-<script id="vtv1-fullscreen-handler">
+<script id="vtv-channel-switcher">
 (function(){
   const video = document.getElementById('vtv1LivePreview');
-  const btn = document.getElementById('vtv1FullscreenBtn');
+  const fallback = document.getElementById('vtv1LiveFallback');
+  const nameEl = document.querySelector('.tv-live-name');
   const preview = video && video.closest('.tv-live-preview');
-  if (!video || !btn || !preview) return;
+  const playBtn = document.getElementById('vtv1PlayBtn');
+  const docks = document.querySelectorAll('.vtv-channel-dock[data-channel]');
+  if (!video || !preview || !docks.length) return;
 
-  let fake = false;
+  const M3U_URL = 'https://hoangcongson.github.io/tv.m3u';
+  let switchHls = null;
+  let currentChannel = 'VTV1 HD';
 
-  function enterFake(){
-    fake = true;
-    preview.classList.add('vtv1-fake-fullscreen');
-    document.body.classList.add('vtv1-fullscreen-lock');
-    btn.textContent = '↙';
-    btn.title = 'Thu nhỏ';
-    btn.setAttribute('aria-label','Thu nhỏ');
+  function show(text){
+    if (fallback){
+      fallback.textContent = text;
+      fallback.style.display = 'grid';
+    }
+  }
+  function hide(){
+    if (fallback) fallback.style.display = 'none';
   }
 
-  function exitFake(){
-    fake = false;
-    preview.classList.remove('vtv1-fake-fullscreen');
-    document.body.classList.remove('vtv1-fullscreen-lock');
-    btn.textContent = '⛶';
-    btn.title = 'Phóng to';
-    btn.setAttribute('aria-label','Phóng to');
-  }
+  function findChannel(m3u, wanted){
+    const lines = m3u.replace(/^\uFEFF/,'').split(/\r?\n/);
+    const re = new RegExp('^' + wanted.replace(/[.*+?^${}()|[\]\\]/g,'\\$&') + '(?:\\s+HD)?(?:\\s*[-–].*)?$', 'i');
 
-  async function enter(){
-    // Try native fullscreen first.
-    try {
-      if (preview.requestFullscreen) {
-        await preview.requestFullscreen();
-        return;
+    for(let i=0;i<lines.length;i++){
+      const line = lines[i].trim();
+      if(!/^#EXTINF/i.test(line)) continue;
+      const name = line.includes(',') ? line.slice(line.indexOf(',')+1).trim() : '';
+      if(!re.test(name) && !new RegExp('\\b'+wanted.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+'\\b','i').test(name)) continue;
+
+      for(let j=i+1;j<lines.length;j++){
+        const u=lines[j].trim();
+        if(u && !u.startsWith('#')) return u;
       }
-    } catch(e) {
-      console.log('[VTV1] Native fullscreen unavailable, using fallback.');
     }
-
-    // Safari legacy.
-    try {
-      if (preview.webkitRequestFullscreen) {
-        preview.webkitRequestFullscreen();
-        return;
-      }
-    } catch(e) {}
-
-    // Universal visual fullscreen fallback.
-    enterFake();
+    return null;
   }
 
-  function exit(){
-    if (document.fullscreenElement) {
-      document.exitFullscreen().catch(function(){});
-    }
-    if (document.webkitFullscreenElement && document.webkitExitFullscreen) {
-      try { document.webkitExitFullscreen(); } catch(e) {}
-    }
-    exitFake();
+  function active(name){
+    docks.forEach(b=>b.classList.toggle('active', b.dataset.channel.toUpperCase() === name.toUpperCase()));
   }
 
-  // Capture phase makes sure another click handler cannot swallow the button click.
-  btn.addEventListener('click', function(e){
-    e.preventDefault();
-    e.stopPropagation();
-    if (fake || document.fullscreenElement || document.webkitFullscreenElement) {
-      exit();
-    } else {
-      enter();
+  function stop(){
+    if(switchHls){
+      try{switchHls.destroy();}catch(e){}
+      switchHls=null;
     }
-  }, true);
+    video.pause();
+    video.removeAttribute('src');
+    video.load();
+  }
 
-  document.addEventListener('fullscreenchange', function(){
-    if (document.fullscreenElement === preview) {
-      btn.textContent='↙';
-      btn.title='Thu nhỏ';
-      btn.setAttribute('aria-label','Thu nhỏ');
-    } else if (!fake) {
-      btn.textContent='⛶';
-      btn.title='Phóng to';
-      btn.setAttribute('aria-label','Phóng to');
+  function play(channel, stream){
+    currentChannel = channel;
+    active(channel);
+    stop();
+
+    if(nameEl) nameEl.textContent = channel + (channel === 'VTV1' ? ' HD' : '');
+
+    if(video.canPlayType('application/vnd.apple.mpegurl')){
+      video.src=stream;
+      video.load();
+      video.addEventListener('loadedmetadata', function once(){
+        video.removeEventListener('loadedmetadata', once);
+        hide();
+        preview.classList.add('vtv1-playing');
+        if(playBtn) playBtn.style.display='none';
+        video.play().catch(()=>{});
+      });
+      return;
     }
-  });
 
-  document.addEventListener('keydown', function(e){
-    if (e.key === 'Escape' && fake) exitFake();
+    if(window.Hls && Hls.isSupported()){
+      switchHls=new Hls({
+        enableWorker:true,
+        lowLatencyMode:true,
+        backBufferLength:30,
+        manifestLoadingTimeOut:10000,
+        manifestLoadingMaxRetry:2
+      });
+      switchHls.attachMedia(video);
+      switchHls.on(Hls.Events.MEDIA_ATTACHED,()=>switchHls.loadSource(stream));
+      switchHls.on(Hls.Events.MANIFEST_PARSED,()=>{
+        hide();
+        preview.classList.add('vtv1-playing');
+        if(playBtn) playBtn.style.display='none';
+        video.play().catch(()=>{});
+      });
+      switchHls.on(Hls.Events.ERROR,(_,data)=>{
+        if(data && data.fatal){
+          show('Không phát được '+channel);
+          try{switchHls.destroy();}catch(e){}
+          switchHls=null;
+        }
+      });
+      return;
+    }
+
+    show('Trình duyệt không hỗ trợ HLS');
+  }
+
+  async function choose(channel){
+    show('Đang tải '+channel+'…');
+    try{
+      const res=await fetch(M3U_URL,{cache:'no-store',credentials:'omit'});
+      if(!res.ok) throw new Error('HTTP '+res.status);
+      const m3u=await res.text();
+      const stream=findChannel(m3u,channel);
+      if(!stream) throw new Error('Không tìm thấy '+channel+' trong tv.m3u');
+      play(channel,stream);
+    }catch(e){
+      show(e.message || ('Không tải được '+channel));
+    }
+  }
+
+  docks.forEach(btn=>{
+    btn.addEventListener('click',function(e){
+      e.preventDefault();
+      e.stopPropagation();
+      choose(this.dataset.channel);
+    });
   });
 })();
 </script>
 
+
+
+<script id="vtv-dock-switcher">
+(function(){
+  const video = document.getElementById('vtv1LivePreview');
+  const preview = video && video.closest('.tv-live-preview');
+  const docks = document.querySelectorAll('.vtv-dock[data-vtv]');
+  if (!video || !preview || !docks.length) return;
+
+  const STREAMS = {
+    VTV1: 'https://vips-livecdn.fptplay.net/live/media/vtv1/live247-hls-avc/vtv1-avc1_5600000=10000-mp4a_131600=20000.m3u8',
+    VTV2: 'https://vips-livecdn.fptplay.net/live/media/vtv2/live247-hls-avc/vtv2-avc1_5600000=10000-mp4a_131600=20000.m3u8',
+    VTV3: 'https://vips-livecdn.fptplay.net/live/media/vtv3/live247-hls-avc/vtv3-avc1_5600000=10000-mp4a_131600=20000.m3u8',
+    VTV5: 'https://vips-livecdn.fptplay.net/live/media/vtv5/live247-hls-avc/vtv5-avc1_5600000=10000-mp4a_131600=20000.m3u8',
+    VTV6: 'https://vips-livecdn.fptplay.net/live/media/vtv6/live247-hls-avc/vtv6-avc1_5600000=10000-mp4a_140800_vie=20000.m3u8'
+  };
+
+  let hls = null;
+
+  function setActive(name){
+    docks.forEach(function(btn){
+      btn.classList.toggle('active', btn.dataset.vtv === name);
+    });
+    const title = preview.querySelector('.tv-live-name');
+    if (title) title.textContent = name === 'VTV1' ? 'VTV1 HD' : name;
+  }
+
+  function stop(){
+    if (hls) {
+      try { hls.destroy(); } catch(e) {}
+      hls = null;
+    }
+    try { video.pause(); } catch(e) {}
+    video.removeAttribute('src');
+    video.load();
+  }
+
+  function play(name){
+    const url = STREAMS[name];
+    if (!url) return;
+
+    setActive(name);
+    preview.classList.add('vtv1-playing');
+
+    stop();
+
+    // HLS native: Safari/iPhone/macOS.
+    if (video.canPlayType('application/vnd.apple.mpegurl')) {
+      video.src = url;
+      video.load();
+      video.play().catch(function(){});
+      return;
+    }
+
+    // HLS.js: Chrome/Edge/Firefox.
+    if (window.Hls && Hls.isSupported()) {
+      hls = new Hls({
+        enableWorker:true,
+        lowLatencyMode:true,
+        backBufferLength:30,
+        manifestLoadingTimeOut:10000,
+        manifestLoadingMaxRetry:2
+      });
+
+      hls.attachMedia(video);
+      hls.on(Hls.Events.MEDIA_ATTACHED, function(){
+        if (hls) hls.loadSource(url);
+      });
+      hls.on(Hls.Events.MANIFEST_PARSED, function(){
+        video.play().catch(function(){});
+      });
+      hls.on(Hls.Events.ERROR, function(_, data){
+        if (data && data.fatal) {
+          try { hls.destroy(); } catch(e) {}
+          hls = null;
+        }
+      });
+      return;
+    }
+
+    video.src = url;
+    video.load();
+    video.play().catch(function(){});
+  }
+
+  docks.forEach(function(btn){
+    btn.addEventListener('click', function(e){
+      e.preventDefault();
+      e.stopPropagation();
+      play(btn.dataset.vtv);
+    });
+  });
+})();
+</script>
+
+
+<script id="vtv1-fullscreen-safe">
+(function(){
+  const btn=document.getElementById('vtv1FullscreenBtn');
+  const video=document.getElementById('vtv1LivePreview');
+  const target=video && video.closest('.tv-live-preview');
+  if(!btn || !video || !target) return;
+
+  let fallback=false;
+
+  function clearFallback(){
+    fallback=false;
+    target.classList.remove('vtv-fs');
+    document.documentElement.classList.remove('vtv-fs-lock');
+    document.body.classList.remove('vtv-fs-lock');
+    btn.textContent='⛶';
+    btn.setAttribute('aria-label','Phóng to');
+    btn.title='Phóng to';
+  }
+
+  async function enter(){
+    try{
+      if(target.requestFullscreen){
+        await target.requestFullscreen();
+        btn.textContent='↙';
+        btn.setAttribute('aria-label','Thu nhỏ');
+        btn.title='Thu nhỏ';
+        return;
+      }
+    }catch(e){}
+
+    // Safari legacy.
+    try{
+      if(target.webkitRequestFullscreen){
+        target.webkitRequestFullscreen();
+        btn.textContent='↙';
+        btn.setAttribute('aria-label','Thu nhỏ');
+        btn.title='Thu nhỏ';
+        return;
+      }
+    }catch(e){}
+
+    // Guaranteed visual fullscreen fallback.
+    fallback=true;
+    target.classList.add('vtv-fs');
+    document.documentElement.classList.add('vtv-fs-lock');
+    document.body.classList.add('vtv-fs-lock');
+    btn.textContent='↙';
+    btn.setAttribute('aria-label','Thu nhỏ');
+    btn.title='Thu nhỏ';
+  }
+
+  function exit(){
+    if(document.fullscreenElement){
+      try{document.exitFullscreen();}catch(e){}
+    }
+    try{
+      if(document.webkitFullscreenElement && document.webkitExitFullscreen)
+        document.webkitExitFullscreen();
+    }catch(e){}
+    clearFallback();
+  }
+
+  btn.addEventListener('click',function(e){
+    e.preventDefault();
+    e.stopPropagation();
+    e.stopImmediatePropagation();
+
+    if(fallback || document.fullscreenElement || document.webkitFullscreenElement){
+      exit();
+    }else{
+      enter();
+    }
+  },true);
+
+  document.addEventListener('fullscreenchange',function(){
+    if(!document.fullscreenElement && !fallback) clearFallback();
+  });
+
+  document.addEventListener('keydown',function(e){
+    if(e.key==='Escape' && fallback) clearFallback();
+  });
+})();
+</script>
+
+<style id="vtv-dock-center-fix">
+.vtv-channel-docks{
+  justify-content:center !important;
+  margin:0 auto 7px auto !important;
+}
+</style>
+
+<style id="vtv-dock-extra-small">
+/* Extra compact VTV dock — centered above the mini player */
+.vtv-channel-docks{
+  gap:2px !important;
+  padding:2px !important;
+  margin:0 auto 6px auto !important;
+  border-radius:9px !important;
+}
+.vtv-dock{
+  min-width:31px !important;
+  width:31px !important;
+  height:19px !important;
+  padding:0 3px !important;
+  border-radius:7px !important;
+  font-size:7px !important;
+  line-height:19px !important;
+  letter-spacing:.1px !important;
+}
+@media(max-width:480px){
+  .vtv-channel-docks{gap:2px !important;padding:2px !important;margin:0 auto 6px auto !important;}
+  .vtv-dock{min-width:29px !important;width:29px !important;height:18px !important;padding:0 2px !important;font-size:6.5px !important;line-height:18px !important;border-radius:6px !important;}
+}
+</style>
+<style id="vtv-dock-close-to-player">
+/* Dock sát mini-player nhưng không chồng lên player */
+.vtv-channel-docks{
+  margin-top:0 !important;
+  margin-bottom:3px !important;
+  flex-shrink:0 !important;
+}
+.tv-live-preview{
+  margin-top:0 !important;
+  clear:both !important;
+}
+@media(max-width:480px){
+  .vtv-channel-docks{margin-bottom:3px !important;}
+}
+</style>
+
+<style id="vtv-control-row-no-overlap-final">
+/* Final: control row is strictly in normal document flow; it can never cover the mini player. */
+.tv-control-row{
+  position:relative !important;
+  inset:auto !important;
+  float:none !important;
+  clear:both !important;
+  display:flex !important;
+  align-items:center !important;
+  justify-content:flex-start !important;
+  width:100% !important;
+  max-width:100% !important;
+  height:auto !important;
+  min-height:0 !important;
+  box-sizing:border-box !important;
+  margin:12px 0 5px 0 !important;
+  padding:0 !important;
+  overflow:visible !important;
+  transform:none !important;
+  z-index:2 !important;
+}
+.tv-control-row .vtv-channel-docks{
+  position:relative !important;
+  inset:auto !important;
+  float:none !important;
+  clear:none !important;
+  flex:0 0 auto !important;
+  display:flex !important;
+  align-items:center !important;
+  justify-content:flex-start !important;
+  width:max-content !important;
+  max-width:none !important;
+  height:auto !important;
+  margin:0 !important;
+  transform:none !important;
+}
+.tv-control-row .tv-link-actions{
+  position:relative !important;
+  inset:auto !important;
+  float:none !important;
+  flex:1 1 auto !important;
+  min-width:0 !important;
+  height:auto !important;
+  margin:0 !important;
+}
+.tv-control-row .tv-watch-btn{
+  position:relative !important;
+  display:block !important;
+  margin:0 !important;
+}
+.tv-live-preview{
+  position:relative !important;
+  inset:auto !important;
+  float:none !important;
+  clear:both !important;
+  display:block !important;
+  width:100% !important;
+  max-width:100% !important;
+  height:auto !important;
+  min-height:82px !important;
+  margin:5px 0 0 0 !important;
+  transform:none !important;
+  z-index:1 !important;
+  box-sizing:border-box !important;
+}
+.tv-live-preview video{
+  position:relative !important;
+  display:block !important;
+  width:100% !important;
+  height:118px !important;
+  max-width:100% !important;
+  margin:0 !important;
+}
+@media(max-width:600px){
+  .tv-control-row{margin:10px 0 4px 0 !important;gap:4px !important;}
+  .tv-live-preview{margin-top:4px !important;}
+  .tv-live-preview video{height:105px !important;}
+}
+</style>
 </body>
 </html>
 <style>
