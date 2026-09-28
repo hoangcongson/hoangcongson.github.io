@@ -7661,6 +7661,85 @@ body.light .experience .exp-photo-image:after{
   .experience .exp-copy{padding-bottom:50% !important}
   .experience .experience-portrait{object-position:center 48% !important}
 }
+
+/* MINI LIVE TV PREVIEW */
+.tv-live-preview{
+  position:relative;
+  margin-top:12px;
+  width:100%;
+  min-height:82px;
+  border:1px solid rgba(35,178,255,.28);
+  border-radius:10px;
+  overflow:hidden;
+  background:#020a12;
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.06),0 8px 22px rgba(0,0,0,.22);
+}
+.tv-live-preview video{
+  display:block;
+  width:100%;
+  height:118px;
+  object-fit:cover;
+  background:#02070d;
+}
+.tv-live-badge{
+  position:absolute;
+  left:8px;
+  top:7px;
+  z-index:3;
+  display:inline-flex;
+  align-items:center;
+  gap:5px;
+  padding:4px 7px;
+  border-radius:999px;
+  background:rgba(2,9,16,.78);
+  border:1px solid rgba(255,255,255,.12);
+  backdrop-filter:blur(8px);
+  -webkit-backdrop-filter:blur(8px);
+  color:#fff;
+  font-size:7px;
+  font-weight:900;
+  letter-spacing:.45px;
+}
+.tv-live-dot{
+  width:5px;
+  height:5px;
+  border-radius:50%;
+  background:#ff4356;
+  box-shadow:0 0 9px rgba(255,67,86,.9);
+  animation:tvLivePulse 1.2s ease-in-out infinite;
+}
+@keyframes tvLivePulse{
+  0%,100%{opacity:1;transform:scale(1)}
+  50%{opacity:.55;transform:scale(.78)}
+}
+.tv-live-name{
+  position:absolute;
+  right:8px;
+  bottom:7px;
+  z-index:3;
+  padding:4px 7px;
+  border-radius:6px;
+  background:rgba(2,9,16,.72);
+  color:#fff;
+  font-size:7px;
+  font-weight:800;
+  backdrop-filter:blur(7px);
+  -webkit-backdrop-filter:blur(7px);
+}
+.tv-live-fallback{
+  position:absolute;
+  inset:0;
+  display:grid;
+  place-items:center;
+  color:#8ea4b7;
+  font-size:8px;
+  background:linear-gradient(145deg,#061321,#02070d);
+  pointer-events:none;
+}
+@media(max-width:600px){
+  .tv-live-preview video{height:105px}
+}
+
 </style>
 
 <style>
@@ -8041,6 +8120,12 @@ body.light .hello-time-dock:hover{
         <button class="copy-btn" onclick="copyText('https://hoangcongson.github.io/tv/',this)">⧉ Copy</button>
       </div>
       <div class="url">https://hoangcongson.github.io/tv/</div>
+      <div class="tv-live-preview">
+        <div class="tv-live-badge"><span class="tv-live-dot"></span> ĐANG PHÁT</div>
+        <video id="vtv1LivePreview" autoplay muted playsinline preload="metadata"></video>
+        <div class="tv-live-name">VTV1 HD</div>
+        <div class="tv-live-fallback" id="vtv1LiveFallback">Đang tải VTV1 HD…</div>
+      </div>
     </div>
     <div class="link green">
       <div class="link-top"><div class="link-icon">●</div><div><h3>GitHub Repository</h3><p>Xem mã nguồn và file cấu hình</p></div></div>
@@ -8443,6 +8528,10 @@ body.light .experience .job-card.hcs-flash:after{
   }
 }
 </style>
+
+
+<script src="https://cdn.jsdelivr.net/npm/hls.js@1.6.15/dist/hls.min.js"></script>
+
 
 </body>
 </html>
