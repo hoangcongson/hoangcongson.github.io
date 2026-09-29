@@ -1902,7 +1902,16 @@ footer{
 /* MOBILE */
 @media(max-width:850px){
   .page{width:calc(100% - 24px)}
-  header{height:65px}.nav{display:none}.brand{min-width:auto}.nav-tools{margin-left:auto}
+  header{height:auto;min-height:65px;padding:7px 0 8px;display:flex;flex-wrap:wrap;align-items:center;row-gap:7px}
+  .brand{min-width:auto;flex:1 1 auto}
+  .nav-tools{margin-left:auto;flex:0 0 auto}
+  .nav{display:flex;order:3;width:100%;box-sizing:border-box;gap:4px;align-items:center;overflow-x:auto;overflow-y:hidden;padding:2px 3px 4px;white-space:nowrap;scrollbar-width:none;border-top:1px solid rgba(130,190,220,.10)}
+  .nav::-webkit-scrollbar{display:none}
+  .nav a{display:flex;align-items:center;justify-content:center;padding:7px 11px;min-height:30px;box-sizing:border-box;border:1px solid rgba(130,190,220,.18);border-radius:18px;background:rgba(8,25,40,.72);color:#c9d3de;flex:0 0 auto;font-size:10px;line-height:1}
+  .nav a.active,.nav a:hover{color:#fff;border-color:#18bfff;background:rgba(14,74,105,.78);box-shadow:0 0 12px rgba(24,191,255,.16)}
+  body.light .nav{border-top-color:rgba(40,100,130,.12)}
+  body.light .nav a{color:#405568;background:rgba(255,255,255,.82);border-color:rgba(40,100,130,.20)}
+  body.light .nav a.active,body.light .nav a:hover{color:#fff;background:#0b8fca;border-color:#0b8fca}
   .hero{height:auto;grid-template-columns:1fr}
   .hero-copy{padding:38px 7px 18px}
   h1{font-size:clamp(56px,17vw,82px);letter-spacing:-4px}
@@ -8339,6 +8348,236 @@ body.light .hello-time-dock:hover{
   .tv-link-actions .copy-btn{height:29px !important;padding:0 6px !important;font-size:7px !important;}
 }
 </style>
+
+<style id="hcs-nav-glass-bright-v2">
+/* HCS navigation dock — chữ sáng hơn, to hơn, Liquid Glass, không xoay */
+header{position:relative;z-index:50;}
+.nav{
+  position:relative !important;
+  isolation:isolate !important;
+  gap:4px !important;
+  padding:5px !important;
+  border:1px solid rgba(120,210,255,.34) !important;
+  border-radius:18px !important;
+  background:linear-gradient(180deg,rgba(255,255,255,.13),rgba(255,255,255,.045)) !important;
+  box-shadow:
+    0 8px 28px rgba(0,0,0,.24),
+    0 0 20px rgba(30,190,255,.10),
+    inset 0 1px 0 rgba(255,255,255,.28),
+    inset 0 -1px 0 rgba(0,0,0,.16) !important;
+  backdrop-filter:blur(22px) saturate(165%) !important;
+  -webkit-backdrop-filter:blur(22px) saturate(165%) !important;
+  overflow:hidden !important;
+}
+.nav::before{
+  content:"";
+  position:absolute;
+  top:0;bottom:0;left:-28%;width:18%;
+  background:linear-gradient(90deg,transparent,rgba(255,255,255,.28),transparent);
+  transform:skewX(-18deg);
+  filter:blur(1px);
+  opacity:.7;
+  animation:hcsNavSheen 4.8s ease-in-out infinite;
+  pointer-events:none;
+  z-index:0;
+}
+.nav::after{
+  content:"";
+  position:absolute;inset:-1px;
+  border-radius:inherit;
+  box-shadow:0 0 0 1px rgba(75,205,255,.08),0 0 18px rgba(52,190,255,.08);
+  pointer-events:none;
+  z-index:-1;
+}
+@keyframes hcsNavSheen{
+  0%,18%{left:-28%;opacity:0}
+  30%{opacity:.65}
+  55%{left:112%;opacity:.38}
+  100%{left:112%;opacity:0}
+}
+.nav a{
+  position:relative !important;
+  z-index:1 !important;
+  display:flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+  min-height:34px !important;
+  padding:0 13px !important;
+  border:1px solid transparent !important;
+  border-radius:12px !important;
+  color:#dff5ff !important;
+  font-size:12px !important;
+  font-weight:800 !important;
+  letter-spacing:.1px !important;
+  text-shadow:0 1px 8px rgba(0,0,0,.38) !important;
+  transition:transform .2s ease,background .2s ease,border-color .2s ease,box-shadow .2s ease,color .2s ease !important;
+}
+.nav a::after{
+  content:"";
+  position:absolute;
+  left:18%;right:18%;bottom:4px;height:1px;
+  background:linear-gradient(90deg,transparent,#5edbff,transparent);
+  opacity:0;
+  filter:blur(.4px);
+  transition:opacity .2s ease;
+}
+.nav a:hover{
+  color:#fff !important;
+  background:rgba(72,190,255,.12) !important;
+  border-color:rgba(111,218,255,.28) !important;
+  box-shadow:0 0 14px rgba(44,188,255,.12),inset 0 1px 0 rgba(255,255,255,.16) !important;
+  transform:translateY(-1px) !important;
+}
+.nav a.active{
+  color:#fff !important;
+  background:linear-gradient(180deg,rgba(37,137,205,.38),rgba(37,99,235,.20)) !important;
+  border-color:rgba(94,210,255,.52) !important;
+  box-shadow:0 0 14px rgba(45,178,255,.20),inset 0 1px 0 rgba(255,255,255,.30) !important;
+  text-shadow:0 0 9px rgba(128,225,255,.34) !important;
+}
+.nav a.active::after,.nav a:hover::after{opacity:1}
+body.light .nav{
+  border-color:rgba(0,112,178,.28) !important;
+  background:linear-gradient(180deg,rgba(255,255,255,.88),rgba(226,241,249,.72)) !important;
+  box-shadow:0 8px 24px rgba(20,70,100,.13),0 0 18px rgba(0,140,210,.08),inset 0 1px 0 rgba(255,255,255,1) !important;
+}
+body.light .nav a{
+  color:#24465d !important;
+  font-weight:850 !important;
+  text-shadow:none !important;
+}
+body.light .nav a:hover{
+  color:#062b43 !important;
+  background:rgba(43,168,221,.10) !important;
+  border-color:rgba(0,126,196,.25) !important;
+}
+body.light .nav a.active{
+  color:#fff !important;
+  background:linear-gradient(180deg,#3984ff,#2f61e8) !important;
+  border-color:#75a1ff !important;
+  box-shadow:0 0 13px rgba(47,95,232,.25),inset 0 1px 0 rgba(255,255,255,.55) !important;
+  text-shadow:0 1px 4px rgba(0,0,0,.25) !important;
+}
+@media(max-width:700px){
+  .nav{
+    gap:4px !important;
+    padding:5px !important;
+    border-radius:16px !important;
+    max-width:100% !important;
+  }
+  .nav a{
+    min-height:35px !important;
+    padding:0 13px !important;
+    font-size:12px !important;
+    border-radius:11px !important;
+  }
+}
+@media(max-width:390px){
+  .nav a{min-height:33px !important;padding:0 11px !important;font-size:11px !important;}
+}
+@media(prefers-reduced-motion:reduce){.nav::before{animation:none !important}.nav a{transition:none !important}}
+</style>
+
+<style id="hcs-footer-nav-motion-v2">
+/* Footer only — richer motion, top navigation unchanged. No rotating ring. */
+.footer-nav{
+  overflow:hidden !important;
+}
+.footer-nav::before{
+  content:"";
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:-35%;
+  width:28%;
+  background:linear-gradient(90deg,transparent,rgba(105,225,255,.16),rgba(255,255,255,.22),rgba(105,225,255,.10),transparent);
+  transform:skewX(-18deg);
+  filter:blur(3px);
+  pointer-events:none;
+  animation:hcsFooterSweep 4.8s ease-in-out infinite;
+  z-index:0;
+}
+.footer-nav > *{position:relative;z-index:1}
+.footer-dock-item{
+  position:relative !important;
+  overflow:hidden !important;
+  isolation:isolate;
+  will-change:transform,box-shadow;
+}
+.footer-dock-item::before{
+  content:"";
+  position:absolute;
+  inset:1px;
+  border-radius:12px;
+  background:linear-gradient(115deg,transparent 15%,rgba(255,255,255,.10) 45%,rgba(105,225,255,.14) 52%,transparent 78%);
+  transform:translateX(-125%);
+  pointer-events:none;
+  opacity:.75;
+  animation:hcsFooterItemShine 5.2s ease-in-out infinite;
+}
+.footer-dock-item::after{
+  content:"";
+  position:absolute;
+  left:12%;right:12%;bottom:2px;height:1px;
+  border-radius:999px;
+  background:linear-gradient(90deg,transparent,rgba(95,220,255,.65),transparent);
+  opacity:.35;
+  transform:scaleX(.55);
+  transition:opacity .25s ease,transform .25s ease;
+  pointer-events:none;
+}
+.footer-dock-item:hover::after,
+.footer-dock-item.active::after{
+  opacity:1;
+  transform:scaleX(1);
+}
+.footer-dock-item:hover{
+  transform:translateY(-2px) scale(1.025) !important;
+}
+.footer-dock-item.active{
+  animation:hcsFooterActive 2.2s ease-in-out infinite;
+}
+.footer-dock-item.active .dock-icon{
+  animation:hcsFooterIcon 2.2s ease-in-out infinite;
+}
+@keyframes hcsFooterSweep{
+  0%,18%{left:-35%;opacity:0}
+  30%{opacity:.9}
+  58%{left:108%;opacity:.65}
+  75%,100%{left:108%;opacity:0}
+}
+@keyframes hcsFooterItemShine{
+  0%,20%{transform:translateX(-125%);opacity:0}
+  34%{opacity:.75}
+  58%{transform:translateX(125%);opacity:.35}
+  70%,100%{transform:translateX(125%);opacity:0}
+}
+@keyframes hcsFooterActive{
+  0%,100%{box-shadow:inset 0 1px 0 rgba(255,255,255,.20),0 0 15px rgba(38,187,245,.22),0 5px 18px rgba(31,128,220,.15)}
+  50%{box-shadow:inset 0 1px 0 rgba(255,255,255,.30),0 0 25px rgba(38,205,255,.38),0 6px 22px rgba(31,128,220,.22)}
+}
+@keyframes hcsFooterIcon{
+  0%,100%{transform:translateY(0) scale(1)}
+  50%{transform:translateY(-1px) scale(1.08)}
+}
+body.light .footer-nav::before{
+  background:linear-gradient(90deg,transparent,rgba(0,157,214,.10),rgba(255,255,255,.75),rgba(0,157,214,.08),transparent);
+}
+body.light .footer-dock-item::before{
+  background:linear-gradient(115deg,transparent 15%,rgba(255,255,255,.35) 45%,rgba(0,171,225,.12) 52%,transparent 78%);
+}
+body.light .footer-dock-item.active{
+  animation:hcsFooterActiveLight 2.2s ease-in-out infinite;
+}
+@keyframes hcsFooterActiveLight{
+  0%,100%{box-shadow:inset 0 1px 0 rgba(255,255,255,.95),0 0 13px rgba(0,156,216,.16)}
+  50%{box-shadow:inset 0 1px 0 #fff,0 0 24px rgba(0,156,216,.30)}
+}
+@media(prefers-reduced-motion:reduce){
+  .footer-nav::before,.footer-dock-item::before,.footer-dock-item.active,.footer-dock-item.active .dock-icon{animation:none !important}
+}
+</style>
+
 </head>
 <body>
 <div class="page">
@@ -11777,5 +12016,133 @@ body.light .tv-link-actions .copy-btn{
     aspect-ratio:16 / 9 !important;
     margin-top:2px !important;
   }
+}
+</style>
+
+<style id="hcs-footer-nav-bright-v1">
+/* Footer navigation — brighter, larger, premium glass; no rotating effect */
+.footer-nav{
+  position:relative !important;
+  padding:6px !important;
+  gap:6px !important;
+  min-height:56px !important;
+  border-radius:18px !important;
+  border:1px solid rgba(70,190,245,.30) !important;
+  background:linear-gradient(135deg,rgba(12,34,49,.92),rgba(8,24,38,.82)) !important;
+  box-shadow:
+    0 0 0 1px rgba(255,255,255,.035) inset,
+    0 8px 28px rgba(0,130,190,.14),
+    0 0 22px rgba(38,190,245,.10) !important;
+  isolation:isolate;
+}
+.footer-dock-item{
+  min-width:88px !important;
+  min-height:43px !important;
+  padding:6px 11px !important;
+  gap:5px !important;
+  border-radius:13px !important;
+  color:#d9f5ff !important;
+  font-size:10px !important;
+  font-weight:700 !important;
+  letter-spacing:.15px !important;
+  text-shadow:0 0 8px rgba(125,220,255,.22) !important;
+  transition:transform .2s ease,background .2s ease,box-shadow .2s ease,color .2s ease !important;
+}
+.footer-dock-item .dock-icon{
+  width:20px !important;
+  height:20px !important;
+  font-size:12px !important;
+  color:#8fe6ff !important;
+  filter:drop-shadow(0 0 5px rgba(70,205,255,.45));
+}
+.footer-dock-item:hover{
+  transform:translateY(-1px) !important;
+  color:#fff !important;
+  background:rgba(40,166,220,.13) !important;
+  box-shadow:0 0 16px rgba(42,192,245,.13) !important;
+}
+.footer-dock-item.active{
+  color:#fff !important;
+  background:linear-gradient(135deg,rgba(34,184,245,.25),rgba(85,103,255,.22)) !important;
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,.20),
+    0 0 16px rgba(38,187,245,.25),
+    0 5px 18px rgba(31,128,220,.18) !important;
+}
+.footer-dock-item.active .dock-icon{
+  color:#b9f3ff !important;
+  filter:drop-shadow(0 0 7px rgba(90,220,255,.65));
+}
+/* Soft breathing glow only; no rotating ring */
+.footer-nav:after{
+  content:"";
+  position:absolute;
+  inset:-2px;
+  border-radius:20px;
+  border:1px solid rgba(73,205,255,.16);
+  box-shadow:0 0 18px rgba(45,193,246,.10);
+  pointer-events:none;
+  animation:hcsFooterGlow 2.8s ease-in-out infinite;
+}
+@keyframes hcsFooterGlow{
+  0%,100%{opacity:.55;box-shadow:0 0 14px rgba(45,193,246,.08)}
+  50%{opacity:1;box-shadow:0 0 24px rgba(45,193,246,.20)}
+}
+
+/* Light mode: strong readable text + brighter glass */
+body.light .footer-nav{
+  background:linear-gradient(135deg,rgba(255,255,255,.96),rgba(229,244,251,.94)) !important;
+  border-color:rgba(0,137,194,.28) !important;
+  box-shadow:
+    0 10px 30px rgba(28,88,115,.12),
+    0 0 18px rgba(0,164,220,.10),
+    inset 0 1px 0 #fff !important;
+}
+body.light .footer-dock-item{
+  color:#183c52 !important;
+  text-shadow:none !important;
+}
+body.light .footer-dock-item .dock-icon{
+  color:#087da9 !important;
+  filter:drop-shadow(0 0 4px rgba(0,157,214,.28));
+}
+body.light .footer-dock-item:hover{
+  color:#062d42 !important;
+  background:rgba(0,157,214,.10) !important;
+}
+body.light .footer-dock-item.active{
+  color:#062b40 !important;
+  background:linear-gradient(135deg,rgba(0,166,225,.18),rgba(92,103,245,.14)) !important;
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,.95),
+    0 0 16px rgba(0,156,216,.18) !important;
+}
+body.light .footer-dock-item.active .dock-icon{
+  color:#006f9d !important;
+  filter:drop-shadow(0 0 6px rgba(0,147,208,.38));
+}
+
+@media(max-width:600px){
+  .footer-nav{
+    width:min(100%,460px) !important;
+    min-height:54px !important;
+    padding:5px !important;
+    gap:5px !important;
+    border-radius:17px !important;
+  }
+  .footer-dock-item{
+    min-width:82px !important;
+    min-height:42px !important;
+    padding:6px 10px !important;
+    font-size:10px !important;
+  }
+  .footer-dock-item .dock-icon{
+    width:19px !important;
+    height:19px !important;
+    font-size:11px !important;
+  }
+}
+@media(prefers-reduced-motion:reduce){
+  .footer-nav:after{animation:none !important}
 }
 </style>
