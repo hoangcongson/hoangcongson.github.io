@@ -2328,17 +2328,6 @@ footer{
   z-index:-1;
   animation:heroOrb 6s ease-in-out infinite;
 }
-.hero-copy:after{
-  content:"";
-  position:absolute;
-  left:5px;
-  top:42px;
-  width:1px;
-  height:125px;
-  background:linear-gradient(to bottom,#20bfff,transparent);
-  box-shadow:0 0 15px rgba(32,191,255,.38);
-  opacity:.55;
-}
 @keyframes heroOrb{
   0%,100%{transform:translate3d(0,0,0);opacity:.65}
   50%{transform:translate3d(24px,-14px,0);opacity:1}
@@ -2556,7 +2545,6 @@ body.light .social a:hover{color:#007fb9}
 
 @media(max-width:700px){
   .hero-copy{padding:40px 7px 15px}
-  .hero-copy:after{height:100px;top:33px}
   .hero-kicker{font-size:7px;margin-top:21px}
   .hero h1{font-size:clamp(53px,15.8vw,76px) !important;letter-spacing:-4px !important}
   .role{font-size:10px !important;gap:7px;padding:7px 10px}
@@ -12144,5 +12132,32 @@ body.light .footer-dock-item.active .dock-icon{
 }
 @media(prefers-reduced-motion:reduce){
   .footer-nav:after{animation:none !important}
+}
+</style>
+<style id="mobile-date-visible-fix">
+/* Mobile: keep the date visible inside the compact top status dock. */
+@media (max-width:480px){
+  .hello-date{
+    display:flex !important;
+    align-items:center !important;
+    gap:3px !important;
+    white-space:nowrap !important;
+    flex:none !important;
+    font-size:6px !important;
+    line-height:1 !important;
+    color:#a9c8da !important;
+  }
+  .hello-calendar{font-size:7px !important; flex:none !important;}
+  .hello-right{gap:4px !important; min-width:0 !important;}
+  .hello-meta{gap:5px !important; padding-left:4px !important; padding-right:2px !important; min-width:0 !important;}
+  .hello-time{font-size:10px !important; letter-spacing:.5px !important;}
+  .hello-live{font-size:5px !important; padding:3px 4px !important;}
+}
+@media (max-width:370px){
+  .hello-date{font-size:5.5px !important; gap:2px !important;}
+  .hello-calendar{font-size:6.5px !important;}
+  .hello-time{font-size:9px !important;}
+  .hello-live{font-size:4.5px !important; padding:2px 4px !important;}
+  .hello-meta{gap:3px !important;}
 }
 </style>
