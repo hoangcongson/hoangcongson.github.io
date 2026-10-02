@@ -1,0 +1,46 @@
+name: Update Football M3U
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/10 * * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Generate bongda.m3u
+        run: node scripts/football.mjs > bongda.m3u
+
+      - name: Show result
+        run: |
+          echo "Generated bongda.m3u"
+          wc -l bongda.m3u
+          head -20 bongda.m3u
+
+      - name: Commit updated playlist
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add bongda.m3u
+
+          if git diff --cached --quiet; then
+            echo "No playlist changes."
+            exit 0
+          fi
+
+          git commit -m "Update football playlist"
+          git push
