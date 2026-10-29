@@ -1,18 +1,6 @@
 #EXTM3U
 #Cập nhật động từ https://thtt.pages.dev/tttt.m3u
 #--- Lịch đấu 29/10 ---
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/20456802ad5f8243dc282c4650c414e1.png!w80" group-title="29/10" , 🟢 07:30 29/10 ⚽ Bahia vs CLB Sao Paulo (BLV TEPPY) [flv]
-https://live05.miekgo.app/live/33860426.flv
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/20456802ad5f8243dc282c4650c414e1.png!w80" group-title="29/10" , 🟢 07:30 29/10 ⚽ Bahia vs CLB Sao Paulo (BLV TEPPY) [hls]
-https://live05.miekgo.app/live/33860426.m3u8
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/20456802ad5f8243dc282c4650c414e1.png!w80" group-title="29/10" , 🟢 07:30 29/10 ⚽ Bahia vs CLB Sao Paulo (BLV TEPPY) [hls 2]
-https://live05.yefpwmc.app/live/33860426_tsc.m3u8
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133534_1c504b8c.png" group-title="29/10" , 🟢 08:05 29/10 ⚽ Inter Bogotá vs Independiente Medellín (Chuối Già) [FHD] [hls]
-https://gckc0525.edgemaxcdn.org/live/chuoigiahd/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/47240.png" group-title="29/10" , 🟢 08:05 29/10 ⚽ Internacional de Bogotá vs Independiente Medellín (Tít) [hls]
-https://wtyi0525.edgemaxcdn.org/live/x2-hd-1111/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/1134.webp" group-title="29/10" , 🟢 08:05 29/10 ⚽ Internacional de Bogota vs Independiente Medellin (Venom)
-https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.DCzMkknJjoRy.m3u8?expires=1793256624&signature=hiTaFyyaSHX2-fXgCKkbLgx_K_eV879icOwvl3GO6Bo
 #EXTINF:-1 tvg-logo="https://apiv3.apifootball.com/badges/289_vancouver-whitecaps-fc.jpg" group-title="29/10" , 🟢 09:30 29/10 ⚽ Vancouver Whitecaps vs San Diego FC (BLV Khô Cay) [hls]
 https://livecdn321.cdnfastter.xyz/live/live_753c90457f/index.m3u8?token=2DSSWeXAxyGpTCzUauOg-F4WPR6MfTkyCr51jCWcnQ0&expires=1852800615
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/san-jose-earthquakes.png" group-title="29/10" , 🟢 09:30 29/10 ⚽ San Jose Earthquakes vs Colorado Rapids (Bee) [hls]
@@ -22,15 +10,15 @@ https://ftlh5sc02iliv.vcdn.cloud/1793221963_hd/1793221963_hd@720p.m3u8
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/e4wyrn4hpv2q86p/image/small" group-title="29/10" , 🟢 09:30 29/10 ⚽ Vancouver Whitecaps vs San Diego FC (JOHAN)
 https://live2.jorvakstreamcache.com/live/channel12.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/e4wyrn4hpv2q86p/image/small" group-title="29/10" , 🟢 09:30 29/10 ⚽ Vancouver Whitecaps vs San Diego FC (HD JOHAN)
-https://live2.domaincdn.cc/livecdn/channel-12.flv?auth_key=3000001793242238-0-0-62b821a9a325bc3189732627b4386807
+https://live2.domaincdn.cc/livecdn/channel-12.flv?auth_key=3000001793243133-0-0-08e04e6a2bd16c1aa227be43e0494056
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/yl5ergph6ver8k0/image/small" group-title="29/10" , 🟢 09:30 29/10 ⚽ SJ Earthquakes vs Colorado Rapids (LOGAN)
 https://live2.jorvakstreamcache.com/live/channel23.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/yl5ergph6ver8k0/image/small" group-title="29/10" , 🟢 09:30 29/10 ⚽ SJ Earthquakes vs Colorado Rapids (HD LOGAN)
-https://live2.domaincdn.cc/livecdn/channel-23.flv?auth_key=3000001793242243-0-0-b3ef907de8db8e0c614935ddbb73bb1c
+https://live2.domaincdn.cc/livecdn/channel-23.flv?auth_key=3000001793243156-0-0-9997c30270faca7b098f4e05dd9663ac
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/l5ergphol4xr8k0/image/small" group-title="29/10" , 🟢 09:30 29/10 ⚽ Seattle Sounders vs Houston Dynamo (TOM)
 https://live2.jorvakstreamcache.com/live/channel4.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/l5ergphol4xr8k0/image/small" group-title="29/10" , 🟢 09:30 29/10 ⚽ Seattle Sounders vs Houston Dynamo (HD TOM)
-https://live2.domaincdn.cc/livecdn/channel-4.flv?auth_key=3000001793242251-0-0-1fae3ba4eb137d4fcd2798bcfca42e4c
+https://live2.domaincdn.cc/livecdn/channel-4.flv?auth_key=3000001793243162-0-0-08dec957c981671feb187d92ab6805c3
 #EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/527dcdb6260004a2c8f61fae9345f133.png" group-title="29/10" , 🟢 09:40 29/10 ⚽ Vancouver Whitecaps vs San Diego FC (Lưu Triệt)
 https://cdn1-global.ebaclofen.org/live/pro3/index.m3u8
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/cef1725baaf3f3be0cb7215c5f39d162.png" group-title="29/10" , 🟢 09:40 29/10 ⚽ Seattle Sounders vs Houston Dynamo (Gà Siêu Son) [flv]
@@ -68,7 +56,7 @@ https://wtyi0525.edgemaxcdn.org/live/x31-hd-1111/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/3glrw7hwo01qdyj/image/small" group-title="29/10" , 🟢 10:00 29/10 ⚽ CD Olimpia vs Cartagines Deportiva (OLER)
 https://live2.jorvakstreamcache.com/live/channel28.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/3glrw7hwo01qdyj/image/small" group-title="29/10" , 🟢 10:00 29/10 ⚽ CD Olimpia vs Cartagines Deportiva (HD OLER)
-https://live2.domaincdn.cc/livecdn/channel-28.flv?auth_key=3000001793242230-0-0-21088e5f40ffa795954a08ade906ce22
+https://live2.domaincdn.cc/livecdn/channel-28.flv?auth_key=3000001793243177-0-0-040b192292ec43afd95c66f02484f43f
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/775a930b77d31e8f8a6d6ba8afc17c03.png!w80" group-title="29/10" , 🟢 10:00 29/10 ⚽ Club America vs Club Tijuana (BLV 7UP) [flv]
 https://live05.miekgo.app/live/78905744.flv
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/775a930b77d31e8f8a6d6ba8afc17c03.png!w80" group-title="29/10" , 🟢 10:00 29/10 ⚽ Club America vs Club Tijuana (BLV 7UP) [hls]
@@ -76,7 +64,7 @@ https://live05.miekgo.app/live/78905744.m3u8
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/775a930b77d31e8f8a6d6ba8afc17c03.png!w80" group-title="29/10" , 🟢 10:00 29/10 ⚽ Club America vs Club Tijuana (BLV 7UP) [hls 2]
 https://live05.yefpwmc.app/live/78905744_tsc.m3u8
 #EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/2287.webp" group-title="29/10" , 🟢 10:00 29/10 ⚽ Club America vs Club Tijuana (Joker)
-https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.JQAnwezRId3H.m3u8?expires=1793256630&signature=p4-iPCIaHNOS61tXFoyeKLwquMU2c0_tQumLI_F94gY
+https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.JQAnwezRId3H.m3u8?expires=1793257530&signature=WXW2b8KT-Z-DXSMyMNO_pytI_SpAOO0UcYzpwGjYZvk
 #EXTINF:-1 tvg-logo="https://s8tvkc.top/wp-json/s8-image/0a91c8f8-74ec-4d51-bf2c-68b7a8e22728" group-title="29/10" , 12:00 29/10 ⚽ Hunters FC vs Central Stallions (NGƯỜI BẠC) [hls]
 https://hls.lauthaitv.cc/live/hunter-central-mglprem/index.m3u8
 #EXTINF:-1 tvg-logo="https://s8tvkc.top/wp-json/s8-image/0a91c8f8-74ec-4d51-bf2c-68b7a8e22728" group-title="29/10" , 12:00 29/10 ⚽ Hunters FC vs Central Stallions (NGƯỜI BẠC) [flv]
@@ -84,7 +72,7 @@ https://flv.lauthaitv.cc/live/hunter-central-mglprem.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/pxwrxlhj55oryk0/image/small" group-title="29/10" , 12:00 29/10 ⚽ Hunters FC vs Central Stallions (JEAN)
 https://live2.jorvakstreamcache.com/live/channel7.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/pxwrxlhj55oryk0/image/small" group-title="29/10" , 12:00 29/10 ⚽ Hunters FC vs Central Stallions (HD JEAN)
-https://live2.domaincdn.cc/livecdn/channel-7.flv?auth_key=3000001793242283-0-0-629f8725d7593a37eac851cea3c3fb87
+https://live2.domaincdn.cc/livecdn/channel-7.flv?auth_key=3000001793243202-0-0-16afed6d590ba0cd973a27f67122dc83
 #EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/330px-Flag_of_Vietnam.svg.png" group-title="29/10" , 14:30 29/10 ⚽ U15 Việt Nam vs U15 Cuba (LÝ LÀNG LÁ) [geo]
 https://pull1.digitalcdn.net/live/f6838fc8fb624dc6b1e9f84c6defbdd0/index.m3u8
 #EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/a27d297d3cfaa7a71ce91a3fa0d40dbf.png" group-title="29/10" , 14:45 29/10 ⚽ Adelaide United vs Lion City Sailors (Huyền Diệp)
@@ -191,6 +179,14 @@ https://flv.lauthaitv.cc/live/gangwon-kuching-afc2.flv
 https://wtyi0525.edgemaxcdn.org/live/x83-hd-1111/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/164734.png" group-title="29/10" , 17:00 29/10 ⚽ Gangwon FC vs Kuching City (Teppy) [hls]
 https://wtyi0525.edgemaxcdn.org/live/x31-hd-1111/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/8yomo4h78n0q0j6/image/small" group-title="29/10" , 17:00 29/10 ⚽ Gangwon FC vs Kuching City FC (BRADY)
+https://live2.pro2cdnlive.com/live/channel15.flv
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/8yomo4h78n0q0j6/image/small" group-title="29/10" , 17:00 29/10 ⚽ Gangwon FC vs Kuching City FC (HD BRADY)
+https://live2.pro2cdnlive.com/live/channel-15.flv
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/vl7oqdeh51yr510/image/small" group-title="29/10" , 17:00 29/10 ⚽ Tampines Rovers vs Svay Rieng FC (RIO)
+https://live2.pro2cdnlive.com/live/channel16.flv
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/vl7oqdeh51yr510/image/small" group-title="29/10" , 17:00 29/10 ⚽ Tampines Rovers vs Svay Rieng FC (HD RIO)
+https://live2.pro2cdnlive.com/live/channel-16.flv
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/23dc72567ad2999491dfe56b50f7df62.png" group-title="29/10" , 17:00 29/10 ⚽ Tampines Rovers FC vs Preah Khan Reach Svay Rieng FC (Gà Siêu Nhí) [flv]
 https://live2.zktsva.app/live/301263.flv
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/23dc72567ad2999491dfe56b50f7df62.png" group-title="29/10" , 17:00 29/10 ⚽ Tampines Rovers FC vs Preah Khan Reach Svay Rieng FC (Gà Siêu Nhí) [hls]
@@ -477,6 +473,8 @@ https://freem3u.xyz/static/no-signal/low.m3u8
 https://hls.lauthaitv.cc/live/quwa-minaa-irqstars/index.m3u8
 #EXTINF:-1 tvg-logo="https://s8tvkc.top/wp-json/s8-image/c6143e71-f54a-4fdd-b6a9-f3644106c9d0" group-title="29/10" , 22:30 29/10 ⚽ Al Quwa Al Jawiya vs Al-Mina'a SC (NGƯỜI TRÂU) [flv]
 https://flv.lauthaitv.cc/live/quwa-minaa-irqstars.flv
+#EXTINF:-1 tvg-logo="https://apiv3.apifootball.com/badges/3542_inter-turku.jpg" group-title="29/10" , 23:00 29/10 ⚽ Inter Turku vs HJK (BLV Tam Mao) [hls]
+https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_131801_2eece028.png" group-title="29/10" , 23:00 29/10 ⚽ Inter Turku vs HJK helsinki (Chuối Nhỏ) [FHD] [hls]
 https://gckc0525.edgemaxcdn.org/live/chuoinhohd/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://s8tvkc.top/wp-json/s8-image/0a4170bb-6c24-46a6-aafb-ee8c252584d2" group-title="29/10" , 23:00 29/10 ⚽ Inter Turku vs HJK Helsinki (NGƯỜI DÊ) [hls]
