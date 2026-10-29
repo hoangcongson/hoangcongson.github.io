@@ -1,24 +1,6 @@
 #EXTM3U
 #Cập nhật động từ https://thtt.pages.dev/tttt.m3u
 #--- Lịch đấu 29/10 ---
-#EXTINF:-1 tvg-logo="https://apiv3.apifootball.com/badges/381_shanghai-shenhua.jpg" group-title="29/10" , 🟢 19:15 29/10 ⚽ Shanghai Shenhua vs Machida (BLV Khô Mật) [hls]
-https://livecdn321.cdnfastter.xyz/live/live_b30ba5315c/index.m3u8?token=ZNaU8SPI--3-JASIZXv-JImAVGukJOEv6T9_GMWMfU0&expires=1852800615
-#EXTINF:-1 tvg-logo="https://apiv3.apifootball.com/badges/381_shanghai-shenhua.jpg" group-title="29/10" , 🟢 19:15 29/10 ⚽ Shanghai Shenhua vs Machida (BLV Khô Mật) [flv]
-https://live.khoga.space/live/livehub13.flv
-#EXTINF:-1 tvg-logo="https://apiv3.apifootball.com/badges/448_wofoo-tai-po.jpg" group-title="29/10" , 🟢 19:15 29/10 ⚽ Tai Po vs Pathum United (BLV Khô Chè) [hls]
-https://livecdn321.cdnfastter.xyz/live/live_a7657aeb05/index.m3u8?token=JhV-r8e3ccnFy-WcOqY4LotVZyi-effj_AKbg9uCVjU&expires=1852800615
-#EXTINF:-1 tvg-logo="https://d1c0s7hi3ugzoc.cloudfront.net/teams/wofoo-tai-po-5971" group-title="29/10" , 🟢 19:15 29/10 ⚽ Wofoo Tai Po vs BG Pathum United (TRÚC BẠCH) [flv]
-https://cdnflv.xbdbotv.live/live/MTk4NjIyNzY6bjlsaDFnc2lrZDhzZjZhZW5oZjl2cG9xOml5bDcycDBleXp5cHdiNnJ5N29qcTZnZQ.flv
-#EXTINF:-1 tvg-logo="https://d1c0s7hi3ugzoc.cloudfront.net/teams/wofoo-tai-po-5971" group-title="29/10" , 🟢 19:15 29/10 ⚽ Wofoo Tai Po vs BG Pathum United (TRÚC BẠCH) [hls]
-https://cdnhls.xbdbotv.live/live/MTk4NjIyNzY6bjlsaDFnc2lrZDhzZjZhZW5oZjl2cG9xOml5bDcycDBleXp5cHdiNnJ5N29qcTZnZQ/index.m3u8
-#EXTINF:-1 tvg-logo="https://d1c0s7hi3ugzoc.cloudfront.net/teams/shanghai-shenhua-9279" group-title="29/10" , 🟢 19:15 29/10 ⚽ Shanghai Shenhua vs Machida Zelvia (333) [flv]
-https://cdnflv.xbdbotv.live/live/MTk4NjIyNzE6bHEzbHRwejVpcXZwcnF4Ym42cmVlc3Q2OnpoYTVtODMxcHBodHZ3MTZveWpuM3g5OA.flv
-#EXTINF:-1 tvg-logo="https://d1c0s7hi3ugzoc.cloudfront.net/teams/shanghai-shenhua-9279" group-title="29/10" , 🟢 19:15 29/10 ⚽ Shanghai Shenhua vs Machida Zelvia (333) [hls]
-https://cdnhls.xbdbotv.live/live/MTk4NjIyNzE6bHEzbHRwejVpcXZwcnF4Ym42cmVlc3Q2OnpoYTVtODMxcHBodHZ3MTZveWpuM3g5OA/index.m3u8
-#EXTINF:-1 tvg-logo="https://d1c0s7hi3ugzoc.cloudfront.net/teams/phnom-penh-crown-9822" group-title="29/10" , 🟢 19:15 29/10 ⚽ Phnom Penh Crown vs Kitchee (Lẩu Ếch) [flv]
-https://cdnflv.xbdbotv.live/live/MTk4NjIyNjY6YThsY2E2YTk4dWpna3Q2bXcydDZwYXRxOnhsMGgxaHV1YW5obWlsbjJ0Z3JxdmduNQ.flv
-#EXTINF:-1 tvg-logo="https://d1c0s7hi3ugzoc.cloudfront.net/teams/phnom-penh-crown-9822" group-title="29/10" , 🟢 19:15 29/10 ⚽ Phnom Penh Crown vs Kitchee (Lẩu Ếch) [hls]
-https://cdnhls.xbdbotv.live/live/MTk4NjIyNjY6YThsY2E2YTk4dWpna3Q2bXcydDZwYXRxOnhsMGgxaHV1YW5obWlsbjJ0Z3JxdmduNQ/index.m3u8
 #EXTINF:-1 tvg-logo="https://s8tvkc.top/wp-json/s8-image/396940ff-72d9-4bc6-820b-0e7f97fab229" group-title="29/10" , 🟢 20:45 29/10 ⚽ Al-Naft SC vs Al Kahraba Club (NGƯỜI PHÁO) [hls]
 https://hls.lauthaitv.cc/live/naft-kahraba-irqstars/index.m3u8
 #EXTINF:-1 tvg-logo="https://s8tvkc.top/wp-json/s8-image/396940ff-72d9-4bc6-820b-0e7f97fab229" group-title="29/10" , 🟢 20:45 29/10 ⚽ Al-Naft SC vs Al Kahraba Club (NGƯỜI PHÁO) [flv]
@@ -30,11 +12,11 @@ https://flv.lauthaitv.cc/live/modern-ahly-egyprem.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/8yomo4h2kddq0j6/image/small" group-title="29/10" , 🟢 21:00 29/10 ⚽ Future FC vs Al Ahly FC (FELIX)
 https://live2.jorvakstreamcache.com/live/channel24.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/8yomo4h2kddq0j6/image/small" group-title="29/10" , 🟢 21:00 29/10 ⚽ Future FC vs Al Ahly FC (HD FELIX)
-https://live2.domaincdn.cc/livecdn/channel-24.flv?auth_key=3000001793286332-0-0-d593941a36a3bed7848834f2be730eb4
+https://live2.domaincdn.cc/livecdn/channel-24.flv?auth_key=3000001793287230-0-0-4ff8f07f93042490b3d702ff6b6ee294
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/jednm9wh42dryox/image/small" group-title="29/10" , 🟢 21:00 29/10 ⚽ Krylya Sovetov vs Dynamo Makhachkala (FILIP)
 https://live2.jorvakstreamcache.com/live/channel19.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/jednm9wh42dryox/image/small" group-title="29/10" , 🟢 21:00 29/10 ⚽ Krylya Sovetov vs Dynamo Makhachkala (HD FILIP)
-https://live2.domaincdn.cc/livecdn/channel-19.flv?auth_key=3000001793286351-0-0-8ae9d1c6f83e4735c61c227fab747df6
+https://live2.domaincdn.cc/livecdn/channel-19.flv?auth_key=3000001793287240-0-0-5a899d431579203e887df9db242008a1
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/340d41d735133c7d7ed375b9a4a18d3f.png" group-title="29/10" , 🟢 21:00 29/10 ⚽ Krylya Sovetov vs Dynamo Makhachkala (Gà Siêu Kiêu) [flv]
 https://live2.zktsva.app/live/741294.flv
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/340d41d735133c7d7ed375b9a4a18d3f.png" group-title="29/10" , 🟢 21:00 29/10 ⚽ Krylya Sovetov vs Dynamo Makhachkala (Gà Siêu Kiêu) [hls]
@@ -56,7 +38,7 @@ https://live05.miekgo.app/live/59444581.m3u8
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/53f4bc55c48cd39be78fa4fa69645f31.png!w80" group-title="29/10" , 🟢 21:00 29/10 ⚽ FC tương lai vs Al Ahly (BLV PEPSI) [hls 2]
 https://live05.yefpwmc.app/live/59444581_tsc.m3u8
 #EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/1079.webp" group-title="29/10" , 🟢 21:00 29/10 ⚽ Krylia Sovetov vs Dinamo Makhachkala (Super Man)
-https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.tRTHz1GYvMe2.m3u8?expires=1793300727&signature=kgsV2j_ECDcJ9DMocg6w8-j894qcEwtJtBe83bIGFAs
+https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.tRTHz1GYvMe2.m3u8?expires=1793301626&signature=mwuK245_X0sBDe9QRv7z_CjXYOIU9R5PDY5gA2hcezk
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/jednm9wh42dryox/image/small" group-title="29/10" , 🟢 21:00 29/10 ⚽ Krylya Sovetov vs Dynamo Makhachkala (LÝ LINH LỰC) [geo]
 https://pull.digitalcdn.net/live/5db8cc3306234e85906beaf5027b1d4b/index.m3u8
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/jednm9wh42dryox/image/small" group-title="29/10" , 🟢 21:00 29/10 ⚽ Krylya Sovetov vs Dynamo Makhachkala (LÝ LINH LỰC) (HD2) [geo]
@@ -78,7 +60,7 @@ https://wtyi0525.edgemaxcdn.org/live/x1-hd-1111/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/3glrw7hwzl8qdyj/image/small" group-title="29/10" , 🟢 21:35 29/10 ⚽ Al Khaleej vs Al Hazem (ROY)
 https://live2.jorvakstreamcache.com/live/channel1.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/3glrw7hwzl8qdyj/image/small" group-title="29/10" , 🟢 21:35 29/10 ⚽ Al Khaleej vs Al Hazem (HD ROY)
-https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001793286358-0-0-f090a8bcbdfee1a5bec5871f6ca792bd
+https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001793287245-0-0-ffe9bd2abd2c23ffa7b0d557a4e9cc7a
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/6d48cbd483dee74ed9aef387bb082d64.png" group-title="29/10" , 🟢 21:35 29/10 ⚽ Al Khaleej vs Al Hazem (Gà Siêu Quỷ) [flv]
 https://live2.zktsva.app/live/304565.flv
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/6d48cbd483dee74ed9aef387bb082d64.png" group-title="29/10" , 🟢 21:35 29/10 ⚽ Al Khaleej vs Al Hazem (Gà Siêu Quỷ) [hls]
@@ -90,33 +72,33 @@ https://live05.miekgo.app/live/14830711.m3u8
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/6d48cbd483dee74ed9aef387bb082d64.png!w80" group-title="29/10" , 🟢 21:35 29/10 ⚽ Al Khaleej vs CLB Al Hazm (BLV GIÀ LÀNG) [hls 2]
 https://live05.yefpwmc.app/live/14830711_tsc.m3u8
 #EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/2928.webp" group-title="29/10" , 🟢 21:35 29/10 ⚽ Al Khaleej Saihat vs Al-Hazm (Hawkeye)
-https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.BFalpTGVghes.m3u8?expires=1793300730&signature=TG9YOU95zGtvLKuWFmV74DjtBT9Cc7XQGMQwu3bh1Os
+https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.BFalpTGVghes.m3u8?expires=1793301628&signature=GvPu330vBaX9dB5PMECuXLM6LlS_W57zgshfhB79voU
 #EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/2928.webp" group-title="29/10" , 🟢 21:35 29/10 ⚽ Al Khaleej Saihat vs Al-Hazm (Deal Pool)
-https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.7magCF6hRxm3.m3u8?expires=1793300732&signature=sx6tyFFp-nU9i4U8nI3rZRXNruGGlSqP52SviZytYmg
+https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.7magCF6hRxm3.m3u8?expires=1793301630&signature=Fo8Erm4phdYoyOvLTFBPXXKRNK4w8idGfnjIPYM88NM
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/zp5rzghj7npq82w/image/small" group-title="29/10" , 🟢 22:00 29/10 ⚽ Concordia Chiajna vs Sepsi OSK (KEN)
 https://live2.jorvakstreamcache.com/live/channel18.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/zp5rzghj7npq82w/image/small" group-title="29/10" , 🟢 22:00 29/10 ⚽ Concordia Chiajna vs Sepsi OSK (HD KEN)
-https://live2.domaincdn.cc/livecdn/channel-18.flv?auth_key=3000001793286363-0-0-5ec9888a20069452295d4a538767957d
+https://live2.domaincdn.cc/livecdn/channel-18.flv?auth_key=3000001793287252-0-0-2617d6c5f8761c65b0867e981798442b
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/23xmvkho372qg8n/image/small" group-title="29/10" , 🟢 22:00 29/10 ⚽ Nữ Trung Quốc U17 vs Nữ Pháp U17 (TOM)
 https://live2.jorvakstreamcache.com/live/channel4.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/23xmvkho372qg8n/image/small" group-title="29/10" , 🟢 22:00 29/10 ⚽ Nữ Trung Quốc U17 vs Nữ Pháp U17 (HD TOM)
-https://live2.domaincdn.cc/livecdn/channel-4.flv?auth_key=3000001793286369-0-0-9108b5a11aeeefdb39fbe67482f63a29
+https://live2.domaincdn.cc/livecdn/channel-4.flv?auth_key=3000001793287258-0-0-f23d198c491d4c49c54a6675d7638f62
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/4wyrn4he8j3q86p/image/small" group-title="29/10" , 🟢 22:00 29/10 ⚽ Nữ Nigeria U17 vs Nữ Mexico U17 (JOHAN)
 https://live2.jorvakstreamcache.com/live/channel12.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/4wyrn4he8j3q86p/image/small" group-title="29/10" , 🟢 22:00 29/10 ⚽ Nữ Nigeria U17 vs Nữ Mexico U17 (HD JOHAN)
-https://live2.domaincdn.cc/livecdn/channel-12.flv?auth_key=3000001793286375-0-0-a0d36c0bde7113e95f5c428ed3e18e16
+https://live2.domaincdn.cc/livecdn/channel-12.flv?auth_key=3000001793287264-0-0-016a570794eb623f3ed67dcaa4cf1982
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/8yomo4hkxn6q0j6/image/small" group-title="29/10" , 🟢 22:00 29/10 ⚽ Al-Salt vs Al-Jazeera (XMEN)
 https://live2.jorvakstreamcache.com/live/channel13.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/8yomo4hkxn6q0j6/image/small" group-title="29/10" , 🟢 22:00 29/10 ⚽ Al-Salt vs Al-Jazeera (HD XMEN)
-https://live2.domaincdn.cc/livecdn/channel-13.flv?auth_key=3000001793286380-0-0-1d2d7d2b05214ac97c55dd74e53f73cd
+https://live2.domaincdn.cc/livecdn/channel-13.flv?auth_key=3000001793287273-0-0-6fb3d9799b7b1324177147e0c1c2a99c
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/318q66hvpp7qo9j/image/small" group-title="29/10" , 🟢 22:00 29/10 ⚽ FC Noah vs FC Syunik (JEAN)
 https://live2.jorvakstreamcache.com/live/channel7.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/318q66hvpp7qo9j/image/small" group-title="29/10" , 🟢 22:00 29/10 ⚽ FC Noah vs FC Syunik (HD JEAN)
-https://live2.domaincdn.cc/livecdn/channel-7.flv?auth_key=3000001793286386-0-0-925abd7665829cf589b8ddfbd0f67456
+https://live2.domaincdn.cc/livecdn/channel-7.flv?auth_key=3000001793287279-0-0-2aef490946969a3571d81b57690ec31d
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/gpxwrxlh81wryk0/image/small" group-title="29/10" , 🟢 22:00 29/10 ⚽ Kasimpasa vs Corluspor (SILVA)
 https://live2.jorvakstreamcache.com/live/channel20.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/gpxwrxlh81wryk0/image/small" group-title="29/10" , 🟢 22:00 29/10 ⚽ Kasimpasa vs Corluspor (HD SILVA)
-https://live2.domaincdn.cc/livecdn/channel-20.flv?auth_key=3000001793286392-0-0-f8ae8434643f30847ad6ce4950617a4c
+https://live2.domaincdn.cc/livecdn/channel-20.flv?auth_key=3000001793287287-0-0-64c0a1d39a91bd92db39c53e2fafeb76
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/7d158aa590b16ee3d8e23afa6f12d417.png!w80" group-title="29/10" , 🟢 22:00 29/10 ⚽ Nữ Trung QuốcU17 vs Pháp U17 Nữ (BLV MOUNTAIN DEW) [flv]
 https://live05.miekgo.app/live/87547578.flv
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/7d158aa590b16ee3d8e23afa6f12d417.png!w80" group-title="29/10" , 🟢 22:00 29/10 ⚽ Nữ Trung QuốcU17 vs Pháp U17 Nữ (BLV MOUNTAIN DEW) [hls]
@@ -144,11 +126,11 @@ https://wtyi0525.edgemaxcdn.org/live/x22-hd-1111/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/e4wyrn4hnwnq86p/image/small" group-title="29/10" , 🟡 23:00 29/10 ⚽ Inter Turku vs HJK Helsinki (BRADY)
 https://live2.jorvakstreamcache.com/live/channel15.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/e4wyrn4hnwnq86p/image/small" group-title="29/10" , 🟡 23:00 29/10 ⚽ Inter Turku vs HJK Helsinki (HD BRADY)
-https://live2.domaincdn.cc/livecdn/channel-15.flv?auth_key=3000001793286431-0-0-70bd7236897a781c1ed805e8cb271e20
+https://live2.domaincdn.cc/livecdn/channel-15.flv?auth_key=3000001793287329-0-0-4d6e5ba8bd368b3b4911c10a0322f95f
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/3glrw7hjjg8qdyj/image/small" group-title="29/10" , 🟡 23:00 29/10 ⚽ Volos NPS vs Atromitos Athens (HIRO)
 https://live2.jorvakstreamcache.com/live/channel14.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/3glrw7hjjg8qdyj/image/small" group-title="29/10" , 🟡 23:00 29/10 ⚽ Volos NPS vs Atromitos Athens (HD HIRO)
-https://live2.domaincdn.cc/livecdn/channel-14.flv?auth_key=3000001793286438-0-0-57c8e4b6371d448c36d0386adc0c2562
+https://live2.domaincdn.cc/livecdn/channel-14.flv?auth_key=3000001793287336-0-0-2d9e089936d8772fc970bceb566d071e
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/5427773b290ec40281efd5e751191a67.png" group-title="29/10" , 🟡 23:00 29/10 ⚽ Volos NPS vs Atromitos Athens (Gà Siêu Péo) [flv]
 https://live2.zktsva.app/live/303098.flv
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/5427773b290ec40281efd5e751191a67.png" group-title="29/10" , 🟡 23:00 29/10 ⚽ Volos NPS vs Atromitos Athens (Gà Siêu Péo) [hls]
