@@ -3,12 +3,6 @@
 #--- Lịch đấu 02/11 ---
 #EXTINF:-1 tvg-logo="https://apiv3.apifootball.com/badges/7964_los-angeles.jpg" group-title="02/11" , 🟢 08:30 02/11 ⚽ Los Angeles FC vs Minnesota United (BLV Khô Cay) [hls]
 https://livecdn321.cdnfastter.xyz/live/live_753c90457f/index.m3u8?token=2DSSWeXAxyGpTCzUauOg-F4WPR6MfTkyCr51jCWcnQ0&expires=1852800615
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/3b1eedbf7ab45c8c57b3eeb7c7ade1c6.png!w80" group-title="02/11" , 🟢 09:10 02/11 ⚽ Sacramento Republic vs FC Tulsa (BLV HỔ VẰN) [flv]
-https://live05.miekgo.app/live/07428422.flv
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/3b1eedbf7ab45c8c57b3eeb7c7ade1c6.png!w80" group-title="02/11" , 🟢 09:10 02/11 ⚽ Sacramento Republic vs FC Tulsa (BLV HỔ VẰN) [hls]
-https://live05.miekgo.app/live/07428422.m3u8
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/3b1eedbf7ab45c8c57b3eeb7c7ade1c6.png!w80" group-title="02/11" , 🟢 09:10 02/11 ⚽ Sacramento Republic vs FC Tulsa (BLV HỔ VẰN) [hls 2]
-https://live05.yefpwmc.app/live/07428422_tsc.m3u8
 #EXTINF:-1 tvg-logo="https://apiv3.apifootball.com/badges/297_portland-timbers.jpg" group-title="02/11" , 🟢 09:45 02/11 ⚽ Portland Timbers vs Houston Dynamo (BLV Khô Mật) [hls]
 https://livecdn321.cdnfastter.xyz/live/live_b30ba5315c/index.m3u8?token=ZNaU8SPI--3-JASIZXv-JImAVGukJOEv6T9_GMWMfU0&expires=1852800615
 #EXTINF:-1 tvg-logo="https://apiv3.apifootball.com/badges/297_portland-timbers.jpg" group-title="02/11" , 🟢 09:45 02/11 ⚽ Portland Timbers vs Houston Dynamo (BLV Khô Mật) [flv]
@@ -20,9 +14,9 @@ https://flv.lauthaitv.cc/live/portland-houston-mls.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/yl5ergphxn8r8k0/image/small" group-title="02/11" , 🟢 09:45 02/11 ⚽ Portland Timbers vs Houston Dynamo (BRADY)
 https://live2.jorvakstreamcache.com/live/channel15.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/yl5ergphxn8r8k0/image/small" group-title="02/11" , 🟢 09:45 02/11 ⚽ Portland Timbers vs Houston Dynamo (HD BRADY)
-https://live2.domaincdn.cc/livecdn/channel-15.flv?auth_key=3000001793592326-0-0-62f08f58feac3c84985f7ae1b7897d8f
+https://live2.domaincdn.cc/livecdn/channel-15.flv?auth_key=3000001793593223-0-0-153aa773d82cd570bb9d67f5b05795ae
 #EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/1617.webp" group-title="02/11" , 🟢 09:45 02/11 ⚽ Portland Timbers vs Houston Dynamo (Hawkeye)
-https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.8OyGTA6aOf0s.m3u8?expires=1793606723&signature=JXwQam8ZUhLi3Q6w2vRUXNvvWkX-th2_uH5VsmVVmuE
+https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.8OyGTA6aOf0s.m3u8?expires=1793607621&signature=Di93lKgF-94iTrgikfFbdzeHsU_X-ABIMSWuIRePX2o
 #EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/5dcc5306778fc1089f808833ac7fc477.png" group-title="02/11" , 🟢 09:50 02/11 ⚽ Portland Timbers vs Houston Dynamo (Doanh Chính)
 https://wncdnhls-global.ebaclofen.org/live/vsc-channel-2.m3u8
 #EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/5dcc5306778fc1089f808833ac7fc477.png" group-title="02/11" , 🟢 09:50 02/11 ⚽ Portland Timbers vs Houston Dynamo (Doanh Chính)
@@ -44,7 +38,7 @@ https://playback.livetl002.com/live/6a2a59b347bbddd62a8dc4e4.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/pxwrxlhj55oryk0/image/small" group-title="02/11" , 🟡 12:00 02/11 ⚽ Hunters FC vs FC Ulaanbaatar (JEAN)
 https://live2.jorvakstreamcache.com/live/channel7.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/pxwrxlhj55oryk0/image/small" group-title="02/11" , 🟡 12:00 02/11 ⚽ Hunters FC vs FC Ulaanbaatar (HD JEAN)
-https://live2.domaincdn.cc/livecdn/channel-7.flv?auth_key=3000001793592359-0-0-3917d72bf94e7663795ab14362bc25dd
+https://live2.domaincdn.cc/livecdn/channel-7.flv?auth_key=3000001793593258-0-0-78558a4fd7f86d803f35d059bffd89e2
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/e8082f36740ea4295a8bc67e28741933.png" group-title="02/11" , 🟡 12:00 02/11 ⚽ Hunters FC vs FC Ulaanbaatar (Gà Siêu Bệu) [flv]
 https://live2.zktsva.app/live/289650.flv
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/e8082f36740ea4295a8bc67e28741933.png" group-title="02/11" , 🟡 12:00 02/11 ⚽ Hunters FC vs FC Ulaanbaatar (Gà Siêu Bệu) [hls]
@@ -73,8 +67,10 @@ https://hls.lauthaitv.cc/live/central-deren-mglprem/index.m3u8
 https://flv.lauthaitv.cc/live/central-deren-mglprem.flv
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_142519_2495057f.png" group-title="02/11" , 15:00 02/11 ⚽ Tuv Azarganuud vs Deren (Tít) [hls]
 https://wtyi0525.edgemaxcdn.org/live/x2-hd-1111/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/zp5rzghpzyvq82w/image/small" group-title="02/11" , 15:00 02/11 ⚽ Central Stallions vs Deren FC (HD 1)
-https://live1.quickscoreboardz.com/live/channel2.flv?wsSecret=bb4bffa266d5577d94d4c4ffa5c2a46a&wsABSTime=1793635563
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/zp5rzghpzyvq82w/image/small" group-title="02/11" , 15:00 02/11 ⚽ Central Stallions vs Deren FC (LOGAN)
+https://live2.jorvakstreamcache.com/live/channel23.flv
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/zp5rzghpzyvq82w/image/small" group-title="02/11" , 15:00 02/11 ⚽ Central Stallions vs Deren FC (HD LOGAN)
+https://live2.domaincdn.cc/livecdn/channel-23.flv?auth_key=3000001793593265-0-0-267a28086b4ecc950fe9019aac873ac5
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/83e44ba57d434d8cbf781f7ee0b249bd.png" group-title="02/11" , 15:00 02/11 ⚽ Central Stallions vs Deren FC (Gà Siêu Péo) [flv]
 https://live2.zktsva.app/live/303098.flv
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/83e44ba57d434d8cbf781f7ee0b249bd.png" group-title="02/11" , 15:00 02/11 ⚽ Central Stallions vs Deren FC (Gà Siêu Péo) [hls]
@@ -135,8 +131,10 @@ https://hls.lauthaitv.cc/live/zorya-dunay-ukrprem/index.m3u8
 https://flv.lauthaitv.cc/live/zorya-dunay-ukrprem.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/4jwq2gh4107m0ve/image/small" group-title="02/11" , 18:00 02/11 ⚽ Zorya vs FK Epitsentr Dunayivtsi (HD 1)
 https://live2.pro2cdnlive.com/live/channel5.flv
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/gpxwrxlhoo1ryk0/image/small" group-title="02/11" , 18:00 02/11 ⚽ Kryvbas vs Dynamo Kyiv (HD 1)
-https://live2.pro2cdnlive.com/live/channel6.flv
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/gpxwrxlhoo1ryk0/image/small" group-title="02/11" , 18:00 02/11 ⚽ Kryvbas vs Dynamo Kyiv (ZANE)
+https://live2.pro2cdnlive.com/live/channel22.flv
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/gpxwrxlhoo1ryk0/image/small" group-title="02/11" , 18:00 02/11 ⚽ Kryvbas vs Dynamo Kyiv (HD ZANE)
+https://live2.pro2cdnlive.com/live/channel-22.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/vjxm8gh4o05r6od/image/small" group-title="02/11" , 18:00 02/11 ⚽ Nữ Slovakia U17 vs Nữ Croatia U17 (HD 1)
 https://live2.pro2cdnlive.com/live/channel7.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/zp5rzgh102zq82w/image/small" group-title="02/11" , 18:00 02/11 ⚽ FC Gomel B vs FK Minsk B (FILIP)
@@ -195,12 +193,18 @@ https://hls.lauthaitv.cc/live/chonburi-pathum-thait1/index.m3u8
 https://flv.lauthaitv.cc/live/chonburi-pathum-thait1.flv
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/109378.png" group-title="02/11" , 19:00 02/11 ⚽ Chonburi FC vs BG Pathum United (Teppy) [hls]
 https://wtyi0525.edgemaxcdn.org/live/x31-hd-1111/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/1l4rjnh61z5m7vx/image/small" group-title="02/11" , 19:00 02/11 ⚽ Chonburi FC vs BG Pathum United (HD 1)
-https://live2.pro2cdnlive.com/live/channel-1.flv
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/2y8m4zhg3nlql07/image/small" group-title="02/11" , 19:00 02/11 ⚽ FK Graficar Beograd vs FK Napredak (HD 1)
-https://live2.pro2cdnlive.com/live/channel12.flv
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/k82rekhvdg5repz/image/small" group-title="02/11" , 19:00 02/11 ⚽ FC Molodechno vs Osipovichy (HD 1)
-https://live2.pro2cdnlive.com/live/channel15.flv
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/1l4rjnh61z5m7vx/image/small" group-title="02/11" , 19:00 02/11 ⚽ Chonburi FC vs BG Pathum United (FABIO)
+https://live2.pro2cdnlive.com/live/channel2.flv
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/1l4rjnh61z5m7vx/image/small" group-title="02/11" , 19:00 02/11 ⚽ Chonburi FC vs BG Pathum United (HD FABIO)
+https://live2.pro2cdnlive.com/live/channel-2.flv
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/2y8m4zhg3nlql07/image/small" group-title="02/11" , 19:00 02/11 ⚽ FK Graficar Beograd vs FK Napredak (KEN)
+https://live2.pro2cdnlive.com/live/channel18.flv
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/2y8m4zhg3nlql07/image/small" group-title="02/11" , 19:00 02/11 ⚽ FK Graficar Beograd vs FK Napredak (HD KEN)
+https://live2.pro2cdnlive.com/live/channel-18.flv
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/k82rekhvdg5repz/image/small" group-title="02/11" , 19:00 02/11 ⚽ FC Molodechno vs Osipovichy (XMEN)
+https://live2.pro2cdnlive.com/live/channel13.flv
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/k82rekhvdg5repz/image/small" group-title="02/11" , 19:00 02/11 ⚽ FC Molodechno vs Osipovichy (HD XMEN)
+https://live2.pro2cdnlive.com/live/channel-13.flv
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/d410490bcdb98830e91041cfa544b809.png" group-title="02/11" , 19:00 02/11 ⚽ Chonburi FC vs BG Pathum United (Gà Ô Long) [flv]
 https://live2.zktsva.app/live/432017.flv
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/d410490bcdb98830e91041cfa544b809.png" group-title="02/11" , 19:00 02/11 ⚽ Chonburi FC vs BG Pathum United (Gà Ô Long) [hls]
