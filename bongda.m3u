@@ -1,12 +1,6 @@
 #EXTM3U
 #Cập nhật động từ https://thtt.pages.dev/tttt.m3u
 #--- Lịch đấu 03/11 ---
-#EXTINF:-1 tvg-logo="https://apiv3.apifootball.com/badges/85_atalanta.jpg" group-title="03/11" , 🟢 02:45 03/11 ⚽ Atalanta vs Parma (BLV Xôi Xoài) [hls]
-https://livecdn321.cdnfastter.xyz/live/live_09982ecf49/index.m3u8?token=5VclvTpM2E-bfUL2cfww643kT_KZYDbKiUUT4C8ng8o&expires=1852800615
-#EXTINF:-1 tvg-logo="https://apiv3.apifootball.com/badges/3814_lorient.jpg" group-title="03/11" , 🟢 02:45 03/11 ⚽ Lorient vs Brest (BLV Khô Bò) [hls]
-https://livecdn321.cdnfastter.xyz/live/live_f3d9c6a005/index.m3u8?token=rr1el4pzxOrMeroS7m-gXYnBMw8InO7dtXeJtJksyhA&expires=1852800615
-#EXTINF:-1 tvg-logo="https://apiv3.apifootball.com/badges/3814_lorient.jpg" group-title="03/11" , 🟢 02:45 03/11 ⚽ Lorient vs Brest (BLV Khô Bò) [flv]
-https://live.khoga.space/live/livehub12.flv
 #EXTINF:-1 tvg-logo="https://apiv3.apifootball.com/badges/7200_deportivo-de-la-coruna.jpg" group-title="03/11" , 🟢 03:00 03/11 ⚽ Dep. A Coruna vs Osasuna (BLV Khô Cay) [hls]
 https://livecdn321.cdnfastter.xyz/live/live_753c90457f/index.m3u8?token=2DSSWeXAxyGpTCzUauOg-F4WPR6MfTkyCr51jCWcnQ0&expires=1852800615
 #EXTINF:-1 tvg-logo="https://apiv3.apifootball.com/badges/3100_newcastle-united.jpg" group-title="03/11" , 🟢 03:00 03/11 ⚽ Newcastle vs Everton (BLV Khô Cá) [hls]
@@ -31,9 +25,9 @@ https://live05.miekgo.app/live/59444581.flv
 https://live05.miekgo.app/live/59444581.m3u8
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/49a35dd00c51fc958ebf44054bce4c48.png!w80" group-title="03/11" , 🟢 05:00 03/11 ⚽ Defensa y Justicia vs Independiente (BLV PEPSI) [hls 2]
 https://live05.yefpwmc.app/live/59444581_tsc.m3u8
-#EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/9e9d18ccd36d42462fc896e22de890c2.png" group-title="03/11" , 🟡 06:00 03/11 ⚽ Red Bull Bragantino vs Santos FC _ SP (Doanh Chính)
+#EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/9e9d18ccd36d42462fc896e22de890c2.png" group-title="03/11" , 🟢 06:00 03/11 ⚽ Red Bull Bragantino vs Santos FC _ SP (Doanh Chính)
 https://wncdnhls-global.ebaclofen.org/live/vsc-channel-2.m3u8
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125541_3d20e7da.png" group-title="03/11" , 🟡 06:00 03/11 ⚽ RB Bragantino vs Santos (Chuối Tây) [FHD] [hls]
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125541_3d20e7da.png" group-title="03/11" , 🟢 06:00 03/11 ⚽ RB Bragantino vs Santos (Chuối Tây) [FHD] [hls]
 https://gckc0525.edgemaxcdn.org/live/chuoitayhd/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/bragantino.png" group-title="03/11" , 🟢 06:00 03/11 ⚽ Bragantino SP vs Santos (Ngọng) [hls]
 https://pzhgifbkllliv.vcdn.cloud/1793515603_hd/1793515603_hd@720p.m3u8
@@ -41,7 +35,7 @@ https://pzhgifbkllliv.vcdn.cloud/1793515603_hd/1793515603_hd@720p.m3u8
 https://hls.lauthaitv.cc/live/rbbragan-santos-brasa/index.m3u8
 #EXTINF:-1 tvg-logo="https://s8tvkc.top/wp-json/s8-image/1bedbf0c-4edf-4546-b96b-631738913ea5" group-title="03/11" , 🟢 06:00 03/11 ⚽ Red Bull Bragantino vs Santos FC (NGƯỜI THỎ) [flv]
 https://flv.lauthaitv.cc/live/rbbragan-santos-brasa.flv
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/109705.png" group-title="03/11" , 🟡 06:00 03/11 ⚽ RB Bragantino vs Santos (Long Ruồi) [hls]
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/109705.png" group-title="03/11" , 🟢 06:00 03/11 ⚽ RB Bragantino vs Santos (Long Ruồi) [hls]
 https://wtyi0525.edgemaxcdn.org/live/x1-hd-1111/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/9e9d18ccd36d42462fc896e22de890c2.png!w80" group-title="03/11" , 🟢 06:00 03/11 ⚽ Bragantino vs CLB Santos (BLV REDBULL) [flv]
 https://live05.miekgo.app/live/49572724.flv
@@ -49,24 +43,12 @@ https://live05.miekgo.app/live/49572724.flv
 https://live05.miekgo.app/live/49572724.m3u8
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/9e9d18ccd36d42462fc896e22de890c2.png!w80" group-title="03/11" , 🟢 06:00 03/11 ⚽ Bragantino vs CLB Santos (BLV REDBULL) [hls 2]
 https://live05.yefpwmc.app/live/49572724_tsc.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261031/a418a5586bf1411de9677a22763ea3d6.png" group-title="03/11" , 🟡 06:00 03/11 ⚽ Red Bull Bragantino vs Santos FC _ SP (BLV TOMIA)
-https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261031/a418a5586bf1411de9677a22763ea3d6.png" group-title="03/11" , 🟡 06:00 03/11 ⚽ Red Bull Bragantino vs Santos FC _ SP (A PÁO)
-https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261031/a418a5586bf1411de9677a22763ea3d6.png" group-title="03/11" , 🟡 06:00 03/11 ⚽ Red Bull Bragantino vs Santos FC _ SP (BLV ALEX)
-https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261031/a418a5586bf1411de9677a22763ea3d6.png" group-title="03/11" , 🟡 06:00 03/11 ⚽ Red Bull Bragantino vs Santos FC _ SP (BLV CÒ)
-https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261031/a418a5586bf1411de9677a22763ea3d6.png" group-title="03/11" , 🟡 06:00 03/11 ⚽ Red Bull Bragantino vs Santos FC _ SP (PEANUT)
-https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261031/a418a5586bf1411de9677a22763ea3d6.png" group-title="03/11" , 🟡 06:00 03/11 ⚽ Red Bull Bragantino vs Santos FC _ SP (BLV HUCK)
-https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/9e9d18ccd36d42462fc896e22de890c2.png" group-title="03/11" , 🟡 06:00 03/11 ⚽ Bragantino vs Santos (Kayti) [hls]
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/9e9d18ccd36d42462fc896e22de890c2.png" group-title="03/11" , 🟢 06:00 03/11 ⚽ Bragantino vs Santos (Kayti) [hls]
 https://playback.livetl002.com/live/69b8e6f43bcf2231c35d5144.m3u8
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/9e9d18ccd36d42462fc896e22de890c2.png" group-title="03/11" , 🟡 06:00 03/11 ⚽ Bragantino vs Santos (Kayti) [flv]
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/9e9d18ccd36d42462fc896e22de890c2.png" group-title="03/11" , 🟢 06:00 03/11 ⚽ Bragantino vs Santos (Kayti) [flv]
 https://playback.livetl002.com/live/69b8e6f43bcf2231c35d5144.flv
-#EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/794.webp" group-title="03/11" , 🟡 06:00 03/11 ⚽ RB Bragantino vs Santos (Joker)
-https://freem3u.xyz/static/no-signal/low.m3u8
+#EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/794.webp" group-title="03/11" , 🟢 06:00 03/11 ⚽ RB Bragantino vs Santos (Joker)
+https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.KWCq8SidA4xU.m3u8?expires=1793674227&signature=xvGNY73NqwJSSQlBjdHlYT9s1zwS3M7gonzSMgtMPm8
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261031/cc8a26def243086d43d6543d550c0ff7.png" group-title="03/11" , 🟡 06:30 03/11 ⚽ D. Concepcion vs Palestino (BLV A WIN)
 https://freem3u.xyz/static/no-signal/low.m3u8
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261031/cc8a26def243086d43d6543d550c0ff7.png" group-title="03/11" , 🟡 06:30 03/11 ⚽ D. Concepcion vs Palestino (BLV A TÚ)
@@ -415,6 +397,14 @@ https://freem3u.xyz/static/no-signal/low.m3u8
 https://freem3u.xyz/static/no-signal/low.m3u8
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/56ypq3nhd7kmd7o/image/small" group-title="03/11" , 17:00 03/11 ⚽ Vissel Kobe vs Ratchaburi (LÝ LIỀU LĨNH) [geo]
 https://pull1.digitalcdn.net/live/3bc2af8b32214605a338f27dbaa14479/index.m3u8
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/09645e4b4538fcbe06e5a64ecfd40fd5.png!w80" group-title="03/11" , 18:00 03/11 ⚽ Estrela FC U23 vs Santa Clara U23 (BLV ROCKSTAR) [flv]
+https://live05.miekgo.app/live/82054853.flv
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/09645e4b4538fcbe06e5a64ecfd40fd5.png!w80" group-title="03/11" , 18:00 03/11 ⚽ Estrela FC U23 vs Santa Clara U23 (BLV ROCKSTAR) [hls]
+https://live05.miekgo.app/live/82054853.m3u8
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/09645e4b4538fcbe06e5a64ecfd40fd5.png!w80" group-title="03/11" , 18:00 03/11 ⚽ Estrela FC U23 vs Santa Clara U23 (BLV ROCKSTAR) [hls 2]
+https://live05.yefpwmc.app/live/82054853_tsc.m3u8
+#EXTINF:-1 tvg-logo="https://xoigac.top/uploads/stream-logos/2026-11/c2ecb31873f8450ea7b1c58976aea17f.webp" group-title="03/11" , 18:00 03/11 ⚽ Khonkaen FC vs Kasetsart FC (Moon Kight)
+https://freem3u.xyz/static/no-signal/low.m3u8
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/y0or5jhg362qwzv/image/small" group-title="03/11" , 18:00 03/11 ⚽ Estrela FC U23 vs Santa Clara U23 (Unknown) [geo]
 https://pull1.digitalcdn.net/live/4a099eb4d1174ff2ab15294191366c28/index.m3u8
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/y0or5jhg362qwzv/image/small" group-title="03/11" , 18:00 03/11 ⚽ Estrela FC U23 vs Santa Clara U23 (Nhà đài)
@@ -431,6 +421,10 @@ https://wncdnhls-global.ebaclofen.org/live/vsc-channel-20.m3u8
 https://wncdnhls-global.ebaclofen.org/live/vsc-channel-11.m3u8
 #EXTINF:-1 tvg-logo="https://apiv3.apifootball.com/badges/8045_cong-an-ha-ni.jpg" group-title="03/11" , 19:15 03/11 ⚽ Cong An Ha Noi vs Kyoto (BLV Khô Cay) [hls]
 https://livecdn321.cdnfastter.xyz/live/live_753c90457f/index.m3u8?token=2DSSWeXAxyGpTCzUauOg-F4WPR6MfTkyCr51jCWcnQ0&expires=1852800615
+#EXTINF:-1 tvg-logo="https://apiv3.apifootball.com/badges/413_port.jpg" group-title="03/11" , 19:15 03/11 ⚽ Port MTI FC vs Beijing Guoan (BLV Xôi Gấc) [hls]
+https://livecdn321.cdnfastter.xyz/live/live_5e3f2549e4/index.m3u8?token=pCk_XLBJTDboKaC3LME17XPjU4pgaPXEOkc_CroCj0U&expires=1852800615
+#EXTINF:-1 tvg-logo="https://apiv3.apifootball.com/badges/413_port.jpg" group-title="03/11" , 19:15 03/11 ⚽ Port MTI FC vs Beijing Guoan (BLV Xôi Gấc) [flv]
+https://live.khoga.space/live/livehub11.flv
 #EXTINF:-1 tvg-logo="https://d1c0s7hi3ugzoc.cloudfront.net/teams/port-fc-5461" group-title="03/11" , 19:15 03/11 ⚽ Port FC vs Beijing Guoan (TÔM CHIÊN) [flv]
 https://cdnflv.xbdbotv.live/live/MTk4NjcwNDk6dGljMHIwY2xmNjhsaWxyajl3eDMyeXd6OmhiZmc4d2s2eWN3N3Jna3oyZHA3dmNlNA.flv
 #EXTINF:-1 tvg-logo="https://d1c0s7hi3ugzoc.cloudfront.net/teams/port-fc-5461" group-title="03/11" , 19:15 03/11 ⚽ Port FC vs Beijing Guoan (TÔM CHIÊN) [hls]
@@ -449,6 +443,8 @@ https://hls.lauthaitv.cc/live/port-beijing-afcc1/index.m3u8
 https://flv.lauthaitv.cc/live/port-beijing-afcc1.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/23xmvkho9w9qg8n/image/small" group-title="03/11" , 19:15 03/11 ⚽ Công An Hà Nội vs Kyoto Sanga (LÝ LA LÀNG) [geo]
 https://pull1.digitalcdn.net/live/4a24fcde99544b92b6de0fc397b8e80d/index.m3u8
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/23xmvkho9w9qg8n/image/small" group-title="03/11" , 19:15 03/11 ⚽ Công An Hà Nội vs Kyoto Sanga (Nhà đài)
+https://lilive1.eu.cc/live/289009f756e035ebaab178a51e5e9d71/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/21649c3d173c8f4ec9d526432ad9f088.png" group-title="03/11" , 20:45 03/11 ⚽ East Bengal FC vs Al Seeb SC (Huyền Diệp)
 https://wncdnhls-global.ebaclofen.org/live/vsc-channel-4.m3u8
 #EXTINF:-1 tvg-logo="https://s8tvkc.top/wp-json/s8-image/a726bcd6-cf67-47d2-a1c7-5d78ed1edf41" group-title="03/11" , 20:45 03/11 ⚽ East Bengal vs Al Seeb SC (NGƯỜI CHIẾN) [hls]
@@ -457,6 +453,8 @@ https://hls.lauthaitv.cc/live/bengal-seeb-afcc2/index.m3u8
 https://flv.lauthaitv.cc/live/bengal-seeb-afcc2.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/4jwq2gh4g9om0ve/image/small" group-title="03/11" , 20:45 03/11 ⚽ East Bengal vs Al Seeb (LÝ LINH LỰC) [geo]
 https://pull1.digitalcdn.net/live/079d0004f99b44c1b5d583f336591e2c/index.m3u8
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/4jwq2gh4g9om0ve/image/small" group-title="03/11" , 20:45 03/11 ⚽ East Bengal vs Al Seeb (Nhà đài)
+https://lilive1.eu.cc/live/82544c163c843d7650c1c38dae09f68e/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://s8tvkc.top/wp-json/s8-image/24edbdfe-3fd2-49d9-aa08-a32938c144ac" group-title="03/11" , 22:00 03/11 ⚽ Barcelona U19 vs Aston Villa U19 (NGƯỜI RÂM) [hls]
 https://hls.lauthaitv.cc/live/barceu19-astu19-uefayouth/index.m3u8
 #EXTINF:-1 tvg-logo="https://s8tvkc.top/wp-json/s8-image/24edbdfe-3fd2-49d9-aa08-a32938c144ac" group-title="03/11" , 22:00 03/11 ⚽ Barcelona U19 vs Aston Villa U19 (NGƯỜI RÂM) [flv]
