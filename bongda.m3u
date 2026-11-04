@@ -1,6 +1,14 @@
 #EXTM3U
 #Cập nhật động từ https://thtt.pages.dev/tttt.m3u
 #--- Lịch đấu 05/11 ---
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/3a52398498773a8ed0006583046d8050.png" group-title="05/11" , 🟢 00:00 05/11 ⚽ Erbil vs Kazma (Rio) [hls]
+https://playback.livetl002.com/live/6a01a2511e8555d7a3685f5c.m3u8
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/3a52398498773a8ed0006583046d8050.png" group-title="05/11" , 🟢 00:00 05/11 ⚽ Erbil vs Kazma (Rio) [flv]
+https://playback.livetl002.com/live/6a01a2511e8555d7a3685f5c.flv
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/61db5a6c416c91b512e659a9d70f0b8e.png" group-title="05/11" , 🟢 00:00 05/11 ⚽ SK Artis Brno vs Bohemians Prague 1905 (Mán Núi) [hls]
+https://playback.livetl002.com/live/69cf6331585c5992182f4160.m3u8
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/61db5a6c416c91b512e659a9d70f0b8e.png" group-title="05/11" , 🟢 00:00 05/11 ⚽ SK Artis Brno vs Bohemians Prague 1905 (Mán Núi) [flv]
+https://playback.livetl002.com/live/69cf6331585c5992182f4160.flv
 #EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/12dcc69bef67aa2a93107e940ee89144.png" group-title="05/11" , 🟢 00:45 05/11 ⚽ AEK Athens vs Real Madrid (Lưu Bang)
 https://wncdnhls-global.ebaclofen.org/live/vsc-channel-7.m3u8
 #EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/dff00f1fd4a7dd2feac000b462416867.png" group-title="05/11" , 🟢 00:45 05/11 ⚽ Fenerbahce vs Liverpool (Lê Lợi)
@@ -44,29 +52,29 @@ https://wtyi0525.edgemaxcdn.org/live/x1-hd-1111/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8563.png" group-title="05/11" , 🟢 00:45 05/11 ⚽ AEK Athens vs Real Madrid (Ricky) [hls]
 https://wtyi0525.edgemaxcdn.org/live/x83-hd-1111/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/56ypq3nhdpymd7o/image/small" group-title="05/11" , 🟢 00:45 05/11 ⚽ Fenerbahce vs Liverpool (NICK)
-https://live1.quickscoreboardz.com/live/channel5.flv?wsSecret=8f5978288025c785cfabea329f312ba3&wsABSTime=1793858874
+https://live1.quickscoreboardz.com/live/channel5.flv?wsSecret=7b45640695bbdadfe30383485ec80655&wsABSTime=1793859629
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/56ypq3nhdpymd7o/image/small" group-title="05/11" , 🟢 00:45 05/11 ⚽ Fenerbahce vs Liverpool (HD NICK)
-https://live2.domaincdn.cc/livecdn/channel-5.flv?auth_key=3000001793815676-0-0-cf8911209d7e19780122c4abd2e2feb8
+https://live2.domaincdn.cc/livecdn/channel-5.flv?auth_key=3000001793816432-0-0-3f3964a778759475090e6618107ec705
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/56ypq3nhdpymd7o/image/small" group-title="05/11" , 🟢 00:45 05/11 ⚽ Fenerbahce vs Liverpool (FABIO)
 https://live2.jorvakstreamcache.com/live/channel2.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/56ypq3nhdpymd7o/image/small" group-title="05/11" , 🟢 00:45 05/11 ⚽ Fenerbahce vs Liverpool (HD FABIO)
-https://live2.domaincdn.cc/livecdn/channel-2.flv?auth_key=3000001793815684-0-0-8d244ba8f4dbcb3de90d8affe8f235b0
+https://live2.domaincdn.cc/livecdn/channel-2.flv?auth_key=3000001793816438-0-0-46df3b6c31c2bea648b55d378987255f
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/56ypq3nhdpymd7o/image/small" group-title="05/11" , 🟢 00:45 05/11 ⚽ Fenerbahce vs Liverpool (RIO)
-https://live1.quickscoreboardz.com/live/channel16.flv?wsSecret=f409c64720da1f7d293e782945233dad&wsABSTime=1793858886
+https://live1.quickscoreboardz.com/live/channel16.flv?wsSecret=db04206ff55bc7bc33cfd29da8549046&wsABSTime=1793859640
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/56ypq3nhdpymd7o/image/small" group-title="05/11" , 🟢 00:45 05/11 ⚽ Fenerbahce vs Liverpool (HD RIO)
-https://live2.domaincdn.cc/livecdn/channel-16.flv?auth_key=3000001793815688-0-0-2101fb11ded9c065c4358d188165dd56
+https://live2.domaincdn.cc/livecdn/channel-16.flv?auth_key=3000001793816442-0-0-c73975bfe590f591308132c14e37032f
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/v2y8m4zh9y8ql07/image/small" group-title="05/11" , 🟢 00:45 05/11 ⚽ AEK Athens vs Real Madrid (ROY)
 https://live2.jorvakstreamcache.com/live/channel1.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/v2y8m4zh9y8ql07/image/small" group-title="05/11" , 🟢 00:45 05/11 ⚽ AEK Athens vs Real Madrid (HD ROY)
-https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001793815696-0-0-760dd3de1dd99311ef43d16d554c5c7c
+https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001793816449-0-0-459b34fe7a9d0257f7c3adf64e0e430a
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/v2y8m4zh9y8ql07/image/small" group-title="05/11" , 🟢 00:45 05/11 ⚽ AEK Athens vs Real Madrid (BRADY)
-https://live1.quickscoreboardz.com/live/channel15.flv?wsSecret=5cb2228d25be8b65cb75666621c4c1b0&wsABSTime=1793858899
+https://live1.quickscoreboardz.com/live/channel15.flv?wsSecret=936504b255944a1576e72bd1b5498905&wsABSTime=1793859651
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/v2y8m4zh9y8ql07/image/small" group-title="05/11" , 🟢 00:45 05/11 ⚽ AEK Athens vs Real Madrid (HD BRADY)
-https://live2.domaincdn.cc/livecdn/channel-15.flv?auth_key=3000001793815700-0-0-3e665edee16a6e7b5df7c414da5c3147
+https://live2.domaincdn.cc/livecdn/channel-15.flv?auth_key=3000001793816452-0-0-db90a16f6af52dc766469c159840bbed
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/v2y8m4zh9y8ql07/image/small" group-title="05/11" , 🟢 00:45 05/11 ⚽ AEK Athens vs Real Madrid (KEN)
 https://live2.jorvakstreamcache.com/live/channel18.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/v2y8m4zh9y8ql07/image/small" group-title="05/11" , 🟢 00:45 05/11 ⚽ AEK Athens vs Real Madrid (HD KEN)
-https://live1.quickscoreboardz.com/live/channel18.flv?wsSecret=70998fbf9db0df37ee807623ba51c262&wsABSTime=1793858906
+https://live1.quickscoreboardz.com/live/channel18.flv?wsSecret=67df63ea12287baa726f95171232eb1b&wsABSTime=1793859657
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/dff00f1fd4a7dd2feac000b462416867.png" group-title="05/11" , 🟢 00:45 05/11 ⚽ Fenerbahce vs Liverpool (Gà Siêu Quỷ) [flv]
 https://live2.zktsva.app/live/304565.flv
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/dff00f1fd4a7dd2feac000b462416867.png" group-title="05/11" , 🟢 00:45 05/11 ⚽ Fenerbahce vs Liverpool (Gà Siêu Quỷ) [hls]
@@ -102,17 +110,17 @@ https://playback.livetl002.com/live/69aa9525f5ec459ae275b43f.m3u8
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/dff00f1fd4a7dd2feac000b462416867.png" group-title="05/11" , 🟢 00:45 05/11 ⚽ Fenerbahce vs Liverpool (Cris) [flv]
 https://playback.livetl002.com/live/69aa9525f5ec459ae275b43f.flv
 #EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/575.webp" group-title="05/11" , 🟢 00:45 05/11 ⚽ AEK Athens FC vs Real Madrid (Joker)
-https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.BSDOxvb0K5sa.m3u8?expires=1793830066&signature=xl270oG-V0tVpjqdSw2tAhcG0dmqWznHKvQ83SW20gs
+https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.BSDOxvb0K5sa.m3u8?expires=1793830827&signature=C3AkmO7EvL-hnaPT1GzlkSTPCcsIEzhi2v7OafcDnuM
 #EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/611.webp" group-title="05/11" , 🟢 00:45 05/11 ⚽ Fenerbahçe vs Liverpool (Thanos)
-https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.Z7uK6NgciZg9.m3u8?expires=1793830076&signature=dK90TgCsRoiJYNPe_05lH6a_qgFYIdYI5wJRgl-6kKg
+https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.Z7uK6NgciZg9.m3u8?expires=1793830829&signature=maPokXdiSruphhkjf4TeTVXUhkjXGC8Jq7EnE5sz5wo
 #EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/611.webp" group-title="05/11" , 🟢 00:45 05/11 ⚽ Fenerbahçe vs Liverpool (Deal Pool)
-https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.WcxEohOS8bP3.m3u8?expires=1793830079&signature=G8MT20qErb_VKdyOsCM_rJqqBj2XMEVHaWdnz8gFinQ
+https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.WcxEohOS8bP3.m3u8?expires=1793830832&signature=iQuEiHZ0S-VLrPRF7p9Sw2ggUcrOAtuwRlMH6gAyfEI
 #EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/611.webp" group-title="05/11" , 🟢 00:45 05/11 ⚽ Fenerbahçe vs Liverpool (Nova)
-https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.bSPZ1IRBwuXX.m3u8?expires=1793830081&signature=ohzHgUp2YSWCsBU5eN156H37XrdJX2RBrv2Ge23ZJpw
+https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.bSPZ1IRBwuXX.m3u8?expires=1793830834&signature=j1qWfsQI5hFsYMyvtf0-6SL_VcNusNtjR3gtrwixd8c
 #EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/575.webp" group-title="05/11" , 🟢 00:45 05/11 ⚽ AEK Athens FC vs Real Madrid (Super Man)
-https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.fgaO5sfgUs3u.m3u8?expires=1793830084&signature=wRW1kZKXlMHxccldLfwparmKtSMzgboz8MfjDZM-zyg
+https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.fgaO5sfgUs3u.m3u8?expires=1793830837&signature=c49b6I_5IC0IZCUhHxVwktrm9hjcydhcfS-iFPT3xPk
 #EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/575.webp" group-title="05/11" , 🟢 00:45 05/11 ⚽ AEK Athens FC vs Real Madrid (Black Panther)
-https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.GxdDjQN2YT47.m3u8?expires=1793830086&signature=3FLb7nOZEd96yvQ4A2RUSuBl457HLE4oKyCVrP_SDN0
+https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.GxdDjQN2YT47.m3u8?expires=1793830840&signature=feEa-_cTWM5LkRt64o_3GfLecXMQ0jxbUJKWPUhxLtQ
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/v2y8m4zh9y8ql07/image/small" group-title="05/11" , 🟢 00:45 05/11 ⚽ AEK Athens vs Real Madrid (LÝ LÀNG LÁ) [geo]
 https://pull.digitalcdn.net/live/094f0ffa014647979dba0ed4b3ece250/index.m3u8
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/v2y8m4zh9y8ql07/image/small" group-title="05/11" , 🟢 00:45 05/11 ⚽ AEK Athens vs Real Madrid (LÝ LÀNG LÁ) (HD2) [geo]
@@ -128,11 +136,11 @@ https://lilive1.eu.cc/live/a967bf3b1275cf7da7a647b9cf87293f/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/4zp5rzghl5eq82w/image/small" group-title="05/11" , 🟢 01:00 05/11 ⚽ Nữ Brazil U17 vs Nữ Nigeria U17 (LOGAN)
 https://live2.jorvakstreamcache.com/live/channel23.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/4zp5rzghl5eq82w/image/small" group-title="05/11" , 🟢 01:00 05/11 ⚽ Nữ Brazil U17 vs Nữ Nigeria U17 (HD LOGAN)
-https://live2.domaincdn.cc/livecdn/channel-23.flv?auth_key=3000001793815711-0-0-c583997235b36ba7e845a076a1c3709b
+https://live2.domaincdn.cc/livecdn/channel-23.flv?auth_key=3000001793816462-0-0-9935164a23806248235744ae5b823c4d
 #EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/440da1fad5d16ada9a9742bf5d14c98e.png" group-title="05/11" , 🟢 01:15 05/11 ⚽ Al Taawoun vs Al-Faisaly Amman (Huyền Diệp)
 https://wncdnhls-global.ebaclofen.org/live/vsc-channel-4.m3u8
 #EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/4e9422ab24a8dff2521be20e1c129f20.png" group-title="05/11" , 🟢 01:15 05/11 ⚽ Al-Muharraq vs Al-Jazira(UAE) (Tào Duệ)
-https://wncdnhls-global.ebaclofen.org/live/vsc-channel-17.m3u8
+https://wncdnhls-global.ebaclofen.org/live/vsc-channel-15.m3u8
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/4e9422ab24a8dff2521be20e1c129f20.png" group-title="05/11" , 🟢 01:15 05/11 ⚽ Al-Muharraq vs Al-Jazira(UAE) (Gà Siêu Nhí) [flv]
 https://live2.zktsva.app/live/301263.flv
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/4e9422ab24a8dff2521be20e1c129f20.png" group-title="05/11" , 🟢 01:15 05/11 ⚽ Al-Muharraq vs Al-Jazira(UAE) (Gà Siêu Nhí) [hls]
@@ -153,26 +161,16 @@ https://pull.digitalcdn.net/live/01d84ad2f4d646c5abf393e1003600f9/index.m3u8
 https://pull1.digitalcdn.net/live/01d84ad2f4d646c5abf393e1003600f9/index.m3u8
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/gpxwrxlhwenryk0/image/small" group-title="05/11" , 02:45 05/11 ⚽ Cardiff City vs West Ham (Nhà đài)
 https://lilive1.eu.cc/live/79646c14a46305828dc5032122f47686/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/cad5af4d1ff0e6f3119af3d273d95d31.png" group-title="05/11" , 03:00 05/11 ⚽ PSV Eindhoven vs Club Brugge (Triệu Hằng)
-https://wncdnhls-global.ebaclofen.org/live/vsc-channel-20.m3u8
 #EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/c166a220bf20977df2bd82fc067696f5.png" group-title="05/11" , 03:00 05/11 ⚽ RB Leipzig vs Manchester City (Trần Cảnh)
 https://wncdnhls-global.ebaclofen.org/live/vsc-channel-18.m3u8
-#EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/bbfacbdbe67705172c6414d7e9c21b58.png" group-title="05/11" , 03:00 05/11 ⚽ Borussia Dortmund vs Real Betis (Dương Kiên)
-https://wncdnhls-global.ebaclofen.org/live/vsc-channel-3.m3u8
-#EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/2080ede2c5d09638a7188913c81075ef.png" group-title="05/11" , 03:00 05/11 ⚽ SK Slavia Praha vs Arsenal (Lưu Bang)
-https://wncdnhls-global.ebaclofen.org/live/vsc-channel-7.m3u8
 #EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/83aa826e3c45d5047a8c917fb0b41a5e.png" group-title="05/11" , 03:00 05/11 ⚽ FC Porto vs Napoli (Ngô Quyền)
 https://wncdnhls-global.ebaclofen.org/live/vsc-channel-10.m3u8
-#EXTINF:-1 tvg-logo="https://apiv3.apifootball.com/badges/92_borussia-dortmund.jpg" group-title="05/11" , 03:00 05/11 ⚽ Dortmund vs Betis (BLV Tam Mao) [hls]
-https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615
-#EXTINF:-1 tvg-logo="https://apiv3.apifootball.com/badges/81_porto.jpg" group-title="05/11" , 03:00 05/11 ⚽ FC Porto vs Napoli (BLV Xôi Gấc) [hls]
-https://livecdn321.cdnfastter.xyz/live/live_5e3f2549e4/index.m3u8?token=pCk_XLBJTDboKaC3LME17XPjU4pgaPXEOkc_CroCj0U&expires=1852800615
-#EXTINF:-1 tvg-logo="https://apiv3.apifootball.com/badges/81_porto.jpg" group-title="05/11" , 03:00 05/11 ⚽ FC Porto vs Napoli (BLV Xôi Gấc) [flv]
-https://live.khoga.space/live/livehub11.flv
-#EXTINF:-1 tvg-logo="https://apiv3.apifootball.com/badges/3821_lens.jpg" group-title="05/11" , 03:00 05/11 ⚽ Lens vs Como (BLV Khô Cay) [hls]
-https://livecdn321.cdnfastter.xyz/live/live_753c90457f/index.m3u8?token=2DSSWeXAxyGpTCzUauOg-F4WPR6MfTkyCr51jCWcnQ0&expires=1852800615
-#EXTINF:-1 tvg-logo="https://apiv3.apifootball.com/badges/150_psv.jpg" group-title="05/11" , 03:00 05/11 ⚽ PSV vs Club Brugge KV (BLV Khô Chè) [hls]
-https://livecdn321.cdnfastter.xyz/live/live_a7657aeb05/index.m3u8?token=JhV-r8e3ccnFy-WcOqY4LotVZyi-effj_AKbg9uCVjU&expires=1852800615
+#EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/bbfacbdbe67705172c6414d7e9c21b58.png" group-title="05/11" , 03:00 05/11 ⚽ Borussia Dortmund vs Real Betis (Dương Kiên)
+https://wncdnhls-global.ebaclofen.org/live/vsc-channel-3.m3u8
+#EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/cad5af4d1ff0e6f3119af3d273d95d31.png" group-title="05/11" , 03:00 05/11 ⚽ PSV Eindhoven vs Club Brugge (Triệu Hằng)
+https://wncdnhls-global.ebaclofen.org/live/vsc-channel-20.m3u8
+#EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/2080ede2c5d09638a7188913c81075ef.png" group-title="05/11" , 03:00 05/11 ⚽ SK Slavia Praha vs Arsenal (Lưu Bang)
+https://wncdnhls-global.ebaclofen.org/live/vsc-channel-7.m3u8
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125555_332e69fe.png" group-title="05/11" , 03:00 05/11 ⚽ Borussia Dortmund vs Real Betis (Chuối Nhỏ) [FHD] [hls]
 https://gckc0525.edgemaxcdn.org/live/chuoinhohd/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125615_3ace82b6.png" group-title="05/11" , 03:00 05/11 ⚽ FC Porto vs Napoli (Trốc Tru) [FHD] [hls]
@@ -244,29 +242,29 @@ https://wtyi0525.edgemaxcdn.org/live/x31-hd-1111/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/7787.png" group-title="05/11" , 03:00 05/11 ⚽ Slavia Prague vs Arsenal (Ricky) [hls]
 https://wtyi0525.edgemaxcdn.org/live/x83-hd-1111/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/z318q66hdleqo9j/image/small" group-title="05/11" , 03:00 05/11 ⚽ RB Leipzig vs Manchester City (NICK)
-https://live1.quickscoreboardz.com/live/channel5.flv?wsSecret=06c62f663992a48e43f8973da56f6579&wsABSTime=1793858927
+https://live1.quickscoreboardz.com/live/channel5.flv?wsSecret=267aceffd36a1a4ab85315c30fe0b7a4&wsABSTime=1793859674
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/z318q66hdleqo9j/image/small" group-title="05/11" , 03:00 05/11 ⚽ RB Leipzig vs Manchester City (HD NICK)
-https://live2.domaincdn.cc/livecdn/channel-5.flv?auth_key=3000001793815730-0-0-b4cbb22139c3152712caf2e6a93d026a
+https://live2.domaincdn.cc/livecdn/channel-5.flv?auth_key=3000001793816477-0-0-02cb0209ff08608c79512442209b5656
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/z318q66hdleqo9j/image/small" group-title="05/11" , 03:00 05/11 ⚽ RB Leipzig vs Manchester City (ASTRA)
 https://live2.jorvakstreamcache.com/live/channel11.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/z318q66hdleqo9j/image/small" group-title="05/11" , 03:00 05/11 ⚽ RB Leipzig vs Manchester City (HD ASTRA)
-https://live2.domaincdn.cc/livecdn/channel-11.flv?auth_key=3000001793815734-0-0-d8680a39e8e413e52c57689487dd1f61
+https://live2.domaincdn.cc/livecdn/channel-11.flv?auth_key=3000001793816481-0-0-095cd08860a118295eff641b4dbffd84
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/z318q66hdleqo9j/image/small" group-title="05/11" , 03:00 05/11 ⚽ RB Leipzig vs Manchester City (FILIP)
-https://live1.quickscoreboardz.com/live/channel19.flv?wsSecret=35707a70f4a4f5fead5b2ba4aa91502c&wsABSTime=1793858937
+https://live1.quickscoreboardz.com/live/channel19.flv?wsSecret=7f46099e597b7d011a1e9976c6bc7b76&wsABSTime=1793859685
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/z318q66hdleqo9j/image/small" group-title="05/11" , 03:00 05/11 ⚽ RB Leipzig vs Manchester City (HD FILIP)
-https://live2.domaincdn.cc/livecdn/channel-19.flv?auth_key=3000001793815739-0-0-99135653db66c1e3b1bb7eb4ad9c1706
+https://live2.domaincdn.cc/livecdn/channel-19.flv?auth_key=3000001793816486-0-0-0725c9647f99b66eaed522227a2f6be0
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/vl7oqdehk56r510/image/small" group-title="05/11" , 03:00 05/11 ⚽ SK Slavia Praha vs Arsenal (ROY)
 https://live2.jorvakstreamcache.com/live/channel1.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/vl7oqdehk56r510/image/small" group-title="05/11" , 03:00 05/11 ⚽ SK Slavia Praha vs Arsenal (HD ROY)
-https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001793815745-0-0-fe886d148262cd68f9f984d0cf4b86b7
+https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001793816492-0-0-88ca8b4848889ddb80fc0a667aba1d1d
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/vl7oqdehk56r510/image/small" group-title="05/11" , 03:00 05/11 ⚽ SK Slavia Praha vs Arsenal (MAX)
-https://live1.quickscoreboardz.com/live/channel6.flv?wsSecret=5de2ca35d903d21f2fa9fa837bfe3425&wsABSTime=1793858947
+https://live1.quickscoreboardz.com/live/channel6.flv?wsSecret=e90891a1e21d5ed098cb2cda7f18110f&wsABSTime=1793859694
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/vl7oqdehk56r510/image/small" group-title="05/11" , 03:00 05/11 ⚽ SK Slavia Praha vs Arsenal (HD MAX)
-https://live2.domaincdn.cc/livecdn/channel-6.flv?auth_key=3000001793815748-0-0-190770b23f2a2f0aa557af4d7947abc1
+https://live2.domaincdn.cc/livecdn/channel-6.flv?auth_key=3000001793816497-0-0-527dcb8e83fbf10054ea34693c6e078f
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/vl7oqdehk56r510/image/small" group-title="05/11" , 03:00 05/11 ⚽ SK Slavia Praha vs Arsenal (JOHAN)
 https://live2.jorvakstreamcache.com/live/channel12.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/vl7oqdehk56r510/image/small" group-title="05/11" , 03:00 05/11 ⚽ SK Slavia Praha vs Arsenal (HD JOHAN)
-https://live1.quickscoreboardz.com/live/channel12.flv?wsSecret=616c909ad9a9f829984cd785aec45256&wsABSTime=1793858953
+https://live1.quickscoreboardz.com/live/channel12.flv?wsSecret=5166dba1028590e5388f2322400c155e&wsABSTime=1793859701
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/bbfacbdbe67705172c6414d7e9c21b58.png" group-title="05/11" , 03:00 05/11 ⚽ Borussia Dortmund vs Real Betis (Gà Siêu Péo) [flv]
 https://live2.zktsva.app/live/303098.flv
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/bbfacbdbe67705172c6414d7e9c21b58.png" group-title="05/11" , 03:00 05/11 ⚽ Borussia Dortmund vs Real Betis (Gà Siêu Péo) [hls]
@@ -275,10 +273,6 @@ https://live2.zktsva.app/live/303098.m3u8
 https://live2.zktsva.app/live/289650.flv
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/83aa826e3c45d5047a8c917fb0b41a5e.png" group-title="05/11" , 03:00 05/11 ⚽ FC Porto vs Napoli (Gà Siêu Bệu) [hls]
 https://live2.zktsva.app/live/289650.m3u8
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/b8c5038ebb0e21b09a72008b7cb6219f.png" group-title="05/11" , 03:00 05/11 ⚽ RC Lens vs Como (Gà Ô Long) [flv]
-https://live2.zktsva.app/live/432017.flv
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/b8c5038ebb0e21b09a72008b7cb6219f.png" group-title="05/11" , 03:00 05/11 ⚽ RC Lens vs Como (Gà Ô Long) [hls]
-https://live2.zktsva.app/live/432017.m3u8
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/cad5af4d1ff0e6f3119af3d273d95d31.png" group-title="05/11" , 03:00 05/11 ⚽ PSV Eindhoven vs Club Brugge (Gà Siêu Mõm) [flv]
 https://live2.zktsva.app/live/300523.flv
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/cad5af4d1ff0e6f3119af3d273d95d31.png" group-title="05/11" , 03:00 05/11 ⚽ PSV Eindhoven vs Club Brugge (Gà Siêu Mõm) [hls]
@@ -623,20 +617,20 @@ https://live05.miekgo.app/live/90865415.m3u8
 https://live05.yefpwmc.app/live/90865415_tsc.m3u8
 #EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/573572e4e9a8486a02fbc7eeeaffba7b.png" group-title="05/11" , 16:30 05/11 ⚽ Pakistan vs India (Nguyễn Ánh)
 https://wncdnhls-global.ebaclofen.org/live/vsc-channel-11.m3u8
-#EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/a17724405028a3e21a2a2372736aa757.png" group-title="05/11" , 17:00 05/11 ⚽ Lion City Sailors vs Adelaide United (Nguyễn Đảm)
-https://wncdnhls-global.ebaclofen.org/live/vsc-channel-12.m3u8
-#EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/539c489a7bd94dd9d785308fd0f0a6b9.png" group-title="05/11" , 17:00 05/11 ⚽ Machida Zelvia vs Shanghai Shenhua (Lê Lợi)
-https://wncdnhls-global.ebaclofen.org/live/vsc-channel-6.m3u8
 #EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/8d9561a580262bbe28642af67c42cf83.png" group-title="05/11" , 17:00 05/11 ⚽ Kitchee vs Phnom Penh Crown FC (Tôn Quyền)
 https://wncdnhls-global.ebaclofen.org/live/vsc-channel-17.m3u8
+#EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/539c489a7bd94dd9d785308fd0f0a6b9.png" group-title="05/11" , 17:00 05/11 ⚽ Machida Zelvia vs Shanghai Shenhua (Lê Lợi)
+https://wncdnhls-global.ebaclofen.org/live/vsc-channel-6.m3u8
+#EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/a17724405028a3e21a2a2372736aa757.png" group-title="05/11" , 17:00 05/11 ⚽ Lion City Sailors vs Adelaide United (Nguyễn Đảm)
+https://wncdnhls-global.ebaclofen.org/live/vsc-channel-12.m3u8
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/318q66hoe05qo9j/image/small" group-title="05/11" , 17:00 05/11 ⚽ Machida Zelvia vs Shanghai Shenhua (LÝ LINH LỰC) [geo]
 https://pull.digitalcdn.net/live/d0ea1d52cfe1415b89110d50f94281b6/index.m3u8
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/318q66hoe05qo9j/image/small" group-title="05/11" , 17:00 05/11 ⚽ Machida Zelvia vs Shanghai Shenhua (LÝ LINH LỰC) (HD2) [geo]
 https://pull1.digitalcdn.net/live/d0ea1d52cfe1415b89110d50f94281b6/index.m3u8
-#EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/8b784b23ff2eac9bbdb4437cbc291d52.png" group-title="05/11" , 19:15 05/11 ⚽ Preah Khan Reach Svay Rieng FC vs Tampines Rovers FC (Lê Hoàn)
-https://wncdnhls-global.ebaclofen.org/live/vsc-channel-5.m3u8
 #EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/81f5727743f8759ae7a99b8d7f2557e3.png" group-title="05/11" , 19:15 05/11 ⚽ Kuching City FC vs Gangwon Football Club (Huyền Diệp)
 https://wncdnhls-global.ebaclofen.org/live/vsc-channel-4.m3u8
+#EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/8b784b23ff2eac9bbdb4437cbc291d52.png" group-title="05/11" , 19:15 05/11 ⚽ Preah Khan Reach Svay Rieng FC vs Tampines Rovers FC (Lê Hoàn)
+https://wncdnhls-global.ebaclofen.org/live/vsc-channel-5.m3u8
 #EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/12fe4d3ee5c01134d48584015c4646f3.png" group-title="05/11" , 19:15 05/11 ⚽ BG Pathum United vs Tai Po (Trần Hoàng)
 https://wncdnhls-global.ebaclofen.org/live/vsc-channel-19.m3u8
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/vjxm8ghgzx3r6od/image/small" group-title="05/11" , 19:15 05/11 ⚽ Kuching City FC vs Gangwon FC (LÝ LÀNG LÁ) [geo]
