@@ -1,10 +1,6 @@
 #EXTM3U
 #Cập nhật động từ https://thtt.pages.dev/tttt.m3u
 #--- Lịch đấu 05/11 ---
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/2y8m4zh33xkql07/image/small" group-title="05/11" , 🟢 08:30 05/11 ⚽ Uni. Deportes vs Sport Boys (JEAN)
-https://live2.jorvakstreamcache.com/live/channel7.flv
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/2y8m4zh33xkql07/image/small" group-title="05/11" , 🟢 08:30 05/11 ⚽ Uni. Deportes vs Sport Boys (HD JEAN)
-https://live2.domaincdn.cc/livecdn/channel-7.flv?auth_key=3000001793849734-0-0-9a205a0e9c827a93d401a46233a3a984
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/0604e2ebbd9f4650cea0491167ecbd32.png!w80" group-title="05/11" , 🟢 09:00 05/11 ⚽ Escorpiones Belen vs Alajuelense (BLV BÍ ĐAO) [flv]
 https://live05.miekgo.app/live/99121525.flv
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/0604e2ebbd9f4650cea0491167ecbd32.png!w80" group-title="05/11" , 🟢 09:00 05/11 ⚽ Escorpiones Belen vs Alajuelense (BLV BÍ ĐAO) [hls]
@@ -14,7 +10,7 @@ https://live05.yefpwmc.app/live/99121525_tsc.m3u8
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/8yomo4hv2e4q0j6/image/small" group-title="05/11" , 12:00 05/11 ⚽ Khovd Western vs Ulaangom City (JEAN)
 https://live2.jorvakstreamcache.com/live/channel7.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/8yomo4hv2e4q0j6/image/small" group-title="05/11" , 12:00 05/11 ⚽ Khovd Western vs Ulaangom City (HD JEAN)
-https://live2.domaincdn.cc/livecdn/channel-7.flv?auth_key=3000001793849758-0-0-b58869473f56a33eaeed9ac8067f7355
+https://live2.domaincdn.cc/livecdn/channel-7.flv?auth_key=3000001793850654-0-0-33d71ca95b12ab251c3861a2785183dd
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/9ae36debba0abd59c01de2e60fc42648.png!w80" group-title="05/11" , 12:00 05/11 ⚽ Khovd Western vs Ulaangom City FC (BLV 247) [flv]
 https://live05.miekgo.app/live/90865415.flv
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/9ae36debba0abd59c01de2e60fc42648.png!w80" group-title="05/11" , 12:00 05/11 ⚽ Khovd Western vs Ulaangom City FC (BLV 247) [hls]
@@ -277,10 +273,10 @@ https://playback.livetl002.com/live/6a5df755b89dded67b39b8bc.flv
 https://freem3u.xyz/static/no-signal/low.m3u8
 #EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/12fe4d3ee5c01134d48584015c4646f3.png" group-title="05/11" , 19:15 05/11 ⚽ BG Pathum United vs Tai Po (Trần Hoàng)
 https://wncdnhls-global.ebaclofen.org/live/vsc-channel-19.m3u8
-#EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/8b784b23ff2eac9bbdb4437cbc291d52.png" group-title="05/11" , 19:15 05/11 ⚽ Preah Khan Reach Svay Rieng FC vs Tampines Rovers FC (Lê Hoàn)
-https://wncdnhls-global.ebaclofen.org/live/vsc-channel-5.m3u8
 #EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/81f5727743f8759ae7a99b8d7f2557e3.png" group-title="05/11" , 19:15 05/11 ⚽ Kuching City FC vs Gangwon Football Club (Huyền Diệp)
 https://wncdnhls-global.ebaclofen.org/live/vsc-channel-4.m3u8
+#EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/8b784b23ff2eac9bbdb4437cbc291d52.png" group-title="05/11" , 19:15 05/11 ⚽ Preah Khan Reach Svay Rieng FC vs Tampines Rovers FC (Lê Hoàn)
+https://wncdnhls-global.ebaclofen.org/live/vsc-channel-5.m3u8
 #EXTINF:-1 tvg-logo="https://apiv3.apifootball.com/badges/5306_kuching-city.jpg" group-title="05/11" , 19:15 05/11 ⚽ Kuching City FC vs Gangwon (BLV Xôi Gấc) [hls]
 https://livecdn321.cdnfastter.xyz/live/live_5e3f2549e4/index.m3u8?token=pCk_XLBJTDboKaC3LME17XPjU4pgaPXEOkc_CroCj0U&expires=1852800615
 #EXTINF:-1 tvg-logo="https://apiv3.apifootball.com/badges/5306_kuching-city.jpg" group-title="05/11" , 19:15 05/11 ⚽ Kuching City FC vs Gangwon (BLV Xôi Gấc) [flv]
@@ -574,8 +570,6 @@ https://pull1.digitalcdn.net/live/33d5f106f68b4b7da4aed6fbb2db4e58/index.m3u8
 https://livecdn321.cdnfastter.xyz/live/live_a7657aeb05/index.m3u8?token=JhV-r8e3ccnFy-WcOqY4LotVZyi-effj_AKbg9uCVjU&expires=1852800615
 #EXTINF:-1 tvg-logo="https://apiv3.apifootball.com/badges/7689_trabzonspor.jpg" group-title="06/11" , 00:45 06/11 ⚽ Trabzonspor vs Freiburg (BLV Tam Mao) [hls]
 https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615
-#EXTINF:-1 tvg-logo="https://apiv3.apifootball.com/badges/159_milan.jpg" group-title="06/11" , 00:45 06/11 ⚽ AC Milan vs Ferencvaros (BLV Xôi Xoài) [hls]
-https://livecdn321.cdnfastter.xyz/live/live_09982ecf49/index.m3u8?token=5VclvTpM2E-bfUL2cfww643kT_KZYDbKiUUT4C8ng8o&expires=1852800615
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125600_dcceb506.png" group-title="06/11" , 00:45 06/11 ⚽ AC Milan vs Ferencvarosi TC (Chuối Chao) [FHD] [hls]
 https://gckc0525.edgemaxcdn.org/live/chuoichaohd/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125523_f1b99b5e.png" group-title="06/11" , 00:45 06/11 ⚽ Anderlecht vs Red Bull Salzburg (Chuối Tây) [FHD] [hls]
