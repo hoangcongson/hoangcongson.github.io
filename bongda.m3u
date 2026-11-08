@@ -1,10 +1,10 @@
 #EXTM3U
 #Cập nhật động từ https://thtt.pages.dev/tttt.m3u
 #--- Lịch đấu 08/11 ---
-#EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/a27d297d3cfaa7a71ce91a3fa0d40dbf.png" group-title="08/11" , 🟢 13:00 08/11 ⚽ Adelaide United vs Melbourne Victory (Triệu Hằng)
-https://wncdnhls-global.losartang.org/live/vsc-channel-20.m3u8
 #EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/91008a96b5de8c75376d17057f89890e.png" group-title="08/11" , 🟢 13:00 08/11 ⚽ Gamba Osaka vs Cerezo Osaka (Nguyễn Ánh)
 https://wncdnhls-global.losartang.org/live/vsc-channel-11.m3u8
+#EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/a27d297d3cfaa7a71ce91a3fa0d40dbf.png" group-title="08/11" , 🟢 13:00 08/11 ⚽ Adelaide United vs Melbourne Victory (Triệu Hằng)
+https://wncdnhls-global.losartang.org/live/vsc-channel-20.m3u8
 #EXTINF:-1 tvg-logo="https://apiv3.apifootball.com/badges/1052_adelaide-united-fc.jpg" group-title="08/11" , 🟢 13:00 08/11 ⚽ Adelaide United vs Melbourne Victory (BLV Khô Mật) [hls]
 https://livecdn321.cdnfastter.xyz/live/live_b30ba5315c/index.m3u8?token=ZNaU8SPI--3-JASIZXv-JImAVGukJOEv6T9_GMWMfU0&expires=1852800615
 #EXTINF:-1 tvg-logo="https://apiv3.apifootball.com/badges/1052_adelaide-united-fc.jpg" group-title="08/11" , 🟢 13:00 08/11 ⚽ Adelaide United vs Melbourne Victory (BLV Khô Mật) [flv]
@@ -22,11 +22,11 @@ https://wtyi0525.edgemaxcdn.org/live/x2-hd-1111/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/gpxwrxlhwxnryk0/image/small" group-title="08/11" , 🟢 13:00 08/11 ⚽ Gamba Osaka vs Cerezo Osaka (KEN)
 https://live2.jorvakstreamcache.com/live/channel18.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/gpxwrxlhwxnryk0/image/small" group-title="08/11" , 🟢 13:00 08/11 ⚽ Gamba Osaka vs Cerezo Osaka (HD KEN)
-https://live2.domaincdn.cc/livecdn/channel-18.flv?auth_key=3000001794123328-0-0-b613042bfdbd2cedb51ae9205780650e
+https://live2.domaincdn.cc/livecdn/channel-18.flv?auth_key=3000001794124256-0-0-f606bef64d1e1a2c49f880f019161e84
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/dn1m1gh4nvdmoep/image/small" group-title="08/11" , 🟢 13:00 08/11 ⚽ Adelaide United vs Melbourne Victory (ASTRA)
 https://live2.jorvakstreamcache.com/live/channel11.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/dn1m1gh4nvdmoep/image/small" group-title="08/11" , 🟢 13:00 08/11 ⚽ Adelaide United vs Melbourne Victory (HD ASTRA)
-https://live2.domaincdn.cc/livecdn/channel-11.flv?auth_key=3000001794123353-0-0-2dda2a27472f55286a7e31eed1596bca
+https://live2.domaincdn.cc/livecdn/channel-11.flv?auth_key=3000001794124262-0-0-456660c5a415882150f68c0a75cd74ce
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/91008a96b5de8c75376d17057f89890e.png" group-title="08/11" , 🟢 13:00 08/11 ⚽ Gamba Osaka vs Cerezo Osaka (Gà Siêu Ngố) [flv]
 https://live2.zktsva.app/live/301238.flv
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/91008a96b5de8c75376d17057f89890e.png" group-title="08/11" , 🟢 13:00 08/11 ⚽ Gamba Osaka vs Cerezo Osaka (Gà Siêu Ngố) [hls]
@@ -47,12 +47,8 @@ https://live05.wecile.app/live/18812304.flv
 https://live05.wecile.app/live/18812304.m3u8
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/91008a96b5de8c75376d17057f89890e.png!w80" group-title="08/11" , 🟢 13:00 08/11 ⚽ Gamba Osaka vs Cerezo Osaka (BLV AQUA) [hls 2]
 https://live05.yefpwmc.app/live/18812304_tsc.m3u8
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/91008a96b5de8c75376d17057f89890e.png" group-title="08/11" , 🟢 13:00 08/11 ⚽ Gamba Osaka vs Cerezo Osaka (Meomeo) [hls]
-https://playback.livetl002.com/live/69be75e0a0a45974afb67776.m3u8
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/91008a96b5de8c75376d17057f89890e.png" group-title="08/11" , 🟢 13:00 08/11 ⚽ Gamba Osaka vs Cerezo Osaka (Meomeo) [flv]
-https://playback.livetl002.com/live/69be75e0a0a45974afb67776.flv
 #EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/948.webp" group-title="08/11" , 🟢 13:00 08/11 ⚽ Adelaide United vs Melbourne Victory (Nova)
-https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.xvqJDfgTql6f.m3u8?expires=1794137722&signature=u3XM3HiXp-7EJ_JMLSgMo25Bt3DqmIiLwIApNlYEmVA
+https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.xvqJDfgTql6f.m3u8?expires=1794138625&signature=XXd8qkiNU0FJWo9U73nPPT_Sae-87OanTJoxEpS0eME
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/beijing-guoan.png" group-title="08/11" , 🟢 14:30 08/11 ⚽ Beijing Guoan vs Chongqing Tonglianglong (Mù) [hls]
 https://pzhgifbkllliv.vcdn.cloud/1794016695_hd/1794016695_hd@720p.m3u8
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/shandong-taishan.png" group-title="08/11" , 🟢 14:30 08/11 ⚽ Shandong Taishan vs Chengdu Rongcheng (Tỵ) [hls]
@@ -66,27 +62,27 @@ https://flv.lauthaitv.cc/live/shandong-chengdu-csl.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/318q66hogyeqo9j/image/small" group-title="08/11" , 🟢 14:30 08/11 ⚽ Bucheon 1995 vs Pohang Steelers (RIO)
 https://live2.jorvakstreamcache.com/live/channel16.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/318q66hogyeqo9j/image/small" group-title="08/11" , 🟢 14:30 08/11 ⚽ Bucheon 1995 vs Pohang Steelers (HD RIO)
-https://live2.domaincdn.cc/livecdn/channel-16.flv?auth_key=3000001794123359-0-0-d95ce7136396c178214e65bef0b39d8e
+https://live2.domaincdn.cc/livecdn/channel-16.flv?auth_key=3000001794124268-0-0-38e95b457971edbccd26dedded0b8b65
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/8yomo4h78n0q0j6/image/small" group-title="08/11" , 🟢 14:30 08/11 ⚽ Gangwon FC vs Jeonbuk Hyundai (MAX)
 https://live2.jorvakstreamcache.com/live/channel6.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/8yomo4h78n0q0j6/image/small" group-title="08/11" , 🟢 14:30 08/11 ⚽ Gangwon FC vs Jeonbuk Hyundai (HD MAX)
-https://live2.domaincdn.cc/livecdn/channel-6.flv?auth_key=3000001794123365-0-0-38c59d0b102eaaa58915c9ddc8e3ee73
+https://live2.domaincdn.cc/livecdn/channel-6.flv?auth_key=3000001794124274-0-0-092572747ba6d1a7cad72c551761e2da
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/9k82rekh4jerepz/image/small" group-title="08/11" , 🟢 14:30 08/11 ⚽ Zhejiang Greentown vs Henan FC (POLO)
 https://live2.jorvakstreamcache.com/live/channel10.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/9k82rekh4jerepz/image/small" group-title="08/11" , 🟢 14:30 08/11 ⚽ Zhejiang Greentown vs Henan FC (HD POLO)
-https://live2.domaincdn.cc/livecdn/channel-10.flv?auth_key=3000001794123372-0-0-4d9cec9314c31069d9fa5ca59ad2c483
+https://live2.domaincdn.cc/livecdn/channel-10.flv?auth_key=3000001794124283-0-0-c6d0613ff920a2f6eedd65eb954f735b
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/z8yomo4hjjnq0j6/image/small" group-title="08/11" , 🟢 14:30 08/11 ⚽ Shanghai Shenhua vs Qingdao Island (OLER)
 https://live2.jorvakstreamcache.com/live/channel28.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/z8yomo4hjjnq0j6/image/small" group-title="08/11" , 🟢 14:30 08/11 ⚽ Shanghai Shenhua vs Qingdao Island (HD OLER)
-https://live2.domaincdn.cc/livecdn/channel-28.flv?auth_key=3000001794123378-0-0-f96719f56ee603cd1ec234f04b1e02e5
+https://live2.domaincdn.cc/livecdn/channel-28.flv?auth_key=3000001794124288-0-0-3a0bb6f42f7c152593712b34fa271097
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/jednm9whlxkryox/image/small" group-title="08/11" , 🟢 14:30 08/11 ⚽ Beijing Guoan vs Tongliang Long FC (FABIO)
 https://live2.jorvakstreamcache.com/live/channel2.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/jednm9whlxkryox/image/small" group-title="08/11" , 🟢 14:30 08/11 ⚽ Beijing Guoan vs Tongliang Long FC (HD FABIO)
-https://live2.domaincdn.cc/livecdn/channel-2.flv?auth_key=3000001794123383-0-0-2f49088e925b342e02f642053786c51f
+https://live2.domaincdn.cc/livecdn/channel-2.flv?auth_key=3000001794124295-0-0-f9f93a0336f4013f37a4034e1bc46e0f
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/8yomo4h7401q0j6/image/small" group-title="08/11" , 🟢 14:30 08/11 ⚽ Shanghai Port vs Liaoning Tieren (JOHAN)
 https://live2.jorvakstreamcache.com/live/channel12.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/8yomo4h7401q0j6/image/small" group-title="08/11" , 🟢 14:30 08/11 ⚽ Shanghai Port vs Liaoning Tieren (HD JOHAN)
-https://live2.domaincdn.cc/livecdn/channel-12.flv?auth_key=3000001794123389-0-0-a8601f68bba195d2150c89fc31c43749
+https://live2.domaincdn.cc/livecdn/channel-12.flv?auth_key=3000001794124303-0-0-c5a1d9a4d0a2555d5114a56cb97b729f
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/f9f803b7f492448da2201101b8f98d13.png" group-title="08/11" , 🟢 14:30 08/11 ⚽ Beijing Guoan vs Chongqing Tonglianglong (Gà Siêu Bệu) [flv]
 https://live2.zktsva.app/live/289650.flv
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/f9f803b7f492448da2201101b8f98d13.png" group-title="08/11" , 🟢 14:30 08/11 ⚽ Beijing Guoan vs Chongqing Tonglianglong (Gà Siêu Bệu) [hls]
@@ -115,6 +111,12 @@ https://live05.wecile.app/live/07808742.flv
 https://live05.wecile.app/live/07808742.m3u8
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/771a93ae7f62b1a47a71c3d62b89dca3.png!w80" group-title="08/11" , 🟢 14:30 08/11 ⚽ Gangwon vs CLB Jeonbuk Hyundai Motors (BLV SAMURAI) [hls 2]
 https://live05.yefpwmc.app/live/07808742_tsc.m3u8
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/0e5467034917e26c6e60a7162711c150.png!w80" group-title="08/11" , 🟢 14:30 08/11 ⚽ Dalian Yingbo vs Tianjin Jinmen Tiger (BLV MONSTER) [flv]
+https://live05.wecile.app/live/75915087.flv
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/0e5467034917e26c6e60a7162711c150.png!w80" group-title="08/11" , 🟢 14:30 08/11 ⚽ Dalian Yingbo vs Tianjin Jinmen Tiger (BLV MONSTER) [hls]
+https://live05.wecile.app/live/75915087.m3u8
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/0e5467034917e26c6e60a7162711c150.png!w80" group-title="08/11" , 🟢 14:30 08/11 ⚽ Dalian Yingbo vs Tianjin Jinmen Tiger (BLV MONSTER) [hls 2]
+https://live05.yefpwmc.app/live/75915087_tsc.m3u8
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/640f8c62cb294e1cc308a44ed2a62891.png!w80" group-title="08/11" , 🟢 14:30 08/11 ⚽ Bucheon FC 1995 vs CLB Pohang Steelers (BLV BÍ ĐAO) [flv]
 https://live05.wecile.app/live/99121525.flv
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/640f8c62cb294e1cc308a44ed2a62891.png!w80" group-title="08/11" , 🟢 14:30 08/11 ⚽ Bucheon FC 1995 vs CLB Pohang Steelers (BLV BÍ ĐAO) [hls]
@@ -133,32 +135,18 @@ https://live05.wecile.app/live/59444581.flv
 https://live05.wecile.app/live/59444581.m3u8
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/85c080cf02a7161687ddd5b5800dc303.png!w80" group-title="08/11" , 🟢 14:30 08/11 ⚽ Shandong Taishan vs Chengdu Rongcheng (BLV PEPSI) [hls 2]
 https://live05.yefpwmc.app/live/59444581_tsc.m3u8
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/0e5467034917e26c6e60a7162711c150.png!w80" group-title="08/11" , 🟢 14:30 08/11 ⚽ Dalian Yingbo vs Tianjin Jinmen Tiger (BLV MONSTER) [flv]
-https://live05.wecile.app/live/75915087.flv
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/0e5467034917e26c6e60a7162711c150.png!w80" group-title="08/11" , 🟢 14:30 08/11 ⚽ Dalian Yingbo vs Tianjin Jinmen Tiger (BLV MONSTER) [hls]
-https://live05.wecile.app/live/75915087.m3u8
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/0e5467034917e26c6e60a7162711c150.png!w80" group-title="08/11" , 🟢 14:30 08/11 ⚽ Dalian Yingbo vs Tianjin Jinmen Tiger (BLV MONSTER) [hls 2]
-https://live05.yefpwmc.app/live/75915087_tsc.m3u8
 #EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/844.webp" group-title="08/11" , 🟢 14:30 08/11 ⚽ Shandong Luneng vs Chengdu Better City (Hawkeye)
-https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.LVi49mOACDvk.m3u8?expires=1794137729&signature=6BLEQ9RxgR0-vFY-armffskU9jIGLJ-glzj7jQzgZI0
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/9ce2dfe0c36e6a9774eaecf9731375b6.png" group-title="08/11" , 🟡 15:00 08/11 ⚽ JEF United Ichihara Chiba vs Mito Hollyhock (Gà Siêu Tốc) [flv]
+https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.LVi49mOACDvk.m3u8?expires=1794138632&signature=mIRTWbCJlb3x8s3vKn3CWp2Rk_hTw3I3WdJUWhA0IbI
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/9ce2dfe0c36e6a9774eaecf9731375b6.png" group-title="08/11" , 🟢 15:00 08/11 ⚽ JEF United Ichihara Chiba vs Mito Hollyhock (Gà Siêu Tốc) [flv]
 https://live2.zktsva.app/live/307240.flv
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/9ce2dfe0c36e6a9774eaecf9731375b6.png" group-title="08/11" , 🟡 15:00 08/11 ⚽ JEF United Ichihara Chiba vs Mito Hollyhock (Gà Siêu Tốc) [hls]
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/9ce2dfe0c36e6a9774eaecf9731375b6.png" group-title="08/11" , 🟢 15:00 08/11 ⚽ JEF United Ichihara Chiba vs Mito Hollyhock (Gà Siêu Tốc) [hls]
 https://live2.zktsva.app/live/307240.m3u8
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/9ce2dfe0c36e6a9774eaecf9731375b6.png!w80" group-title="08/11" , 🟡 15:00 08/11 ⚽ Chiba vs Mito Hollyhock (BLV AQUA) [flv]
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/9ce2dfe0c36e6a9774eaecf9731375b6.png!w80" group-title="08/11" , 🟢 15:00 08/11 ⚽ Chiba vs Mito Hollyhock (BLV AQUA) [flv]
 https://live05.wecile.app/live/18812304.flv
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/9ce2dfe0c36e6a9774eaecf9731375b6.png!w80" group-title="08/11" , 🟡 15:00 08/11 ⚽ Chiba vs Mito Hollyhock (BLV AQUA) [hls]
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/9ce2dfe0c36e6a9774eaecf9731375b6.png!w80" group-title="08/11" , 🟢 15:00 08/11 ⚽ Chiba vs Mito Hollyhock (BLV AQUA) [hls]
 https://live05.wecile.app/live/18812304.m3u8
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/9ce2dfe0c36e6a9774eaecf9731375b6.png!w80" group-title="08/11" , 🟡 15:00 08/11 ⚽ Chiba vs Mito Hollyhock (BLV AQUA) [hls 2]
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/9ce2dfe0c36e6a9774eaecf9731375b6.png!w80" group-title="08/11" , 🟢 15:00 08/11 ⚽ Chiba vs Mito Hollyhock (BLV AQUA) [hls 2]
 https://live05.yefpwmc.app/live/18812304_tsc.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261104/ba0e71a0443f57e8d369b356dc83bb74.png" group-title="08/11" , 🟡 15:00 08/11 ⚽ JEF United Ichihara Chiba vs Mito Hollyhock (ZIZOU)
-https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261104/ba0e71a0443f57e8d369b356dc83bb74.png" group-title="08/11" , 🟡 15:00 08/11 ⚽ JEF United Ichihara Chiba vs Mito Hollyhock (BLV BÉO)
-https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261104/ba0e71a0443f57e8d369b356dc83bb74.png" group-title="08/11" , 🟡 15:00 08/11 ⚽ JEF United Ichihara Chiba vs Mito Hollyhock (BLV CÒ)
-https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261104/ba0e71a0443f57e8d369b356dc83bb74.png" group-title="08/11" , 🟡 15:00 08/11 ⚽ JEF United Ichihara Chiba vs Mito Hollyhock (BOSS)
-https://freem3u.xyz/static/no-signal/low.m3u8
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134617_73ab7535.png" group-title="08/11" , 🟡 15:30 08/11 ⚽ Bali United vs Persik Kediri (Chuối Già) [FHD] [hls]
 https://gckc0525.edgemaxcdn.org/live/chuoigiahd/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://s8tvkc.top/wp-json/s8-image/26dc5ca7-9a4d-4c77-9b66-cf3f1a023dfb" group-title="08/11" , 🟡 15:30 08/11 ⚽ Bali United vs Persik Kediri (NGƯỜI NẶN) [hls]
@@ -439,12 +427,12 @@ https://live05.yefpwmc.app/live/07808742_tsc.m3u8
 https://freem3u.xyz/static/no-signal/low.m3u8
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261104/e2f28e5f9586cf76ba99633b63063ef5.png" group-title="08/11" , 20:30 08/11 ⚽ FC Twente Enschede vs AFC Ajax (MP3)
 https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/42396d18444156e640c37476c2b41b93.png" group-title="08/11" , 21:00 08/11 ⚽ Crystal Palace vs Liverpool (Lê Lợi)
-https://wncdnhls-global.losartang.org/live/vsc-channel-6.m3u8
-#EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/eab8f0e847742fd328bb581299bd99ca.png" group-title="08/11" , 21:00 08/11 ⚽ Stade Rennais FC vs LOSC Lille (Nguyễn Ánh)
-https://wncdnhls-global.losartang.org/live/vsc-channel-11.m3u8
 #EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/957bdc50c307e2a9b526b34b3792da1a.png" group-title="08/11" , 21:00 08/11 ⚽ Sunderland vs Chelsea (Lưu Bang)
 https://wncdnhls-global.losartang.org/live/vsc-channel-7.m3u8
+#EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/eab8f0e847742fd328bb581299bd99ca.png" group-title="08/11" , 21:00 08/11 ⚽ Stade Rennais FC vs LOSC Lille (Nguyễn Ánh)
+https://wncdnhls-global.losartang.org/live/vsc-channel-11.m3u8
+#EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/42396d18444156e640c37476c2b41b93.png" group-title="08/11" , 21:00 08/11 ⚽ Crystal Palace vs Liverpool (Lê Lợi)
+https://wncdnhls-global.losartang.org/live/vsc-channel-6.m3u8
 #EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/cec3eaaa5271c1f2f036469593ecbcd8.png" group-title="08/11" , 21:00 08/11 ⚽ Ipswich Town vs Bournemouth AFC (Huyền Diệp)
 https://wncdnhls-global.losartang.org/live/vsc-channel-4.m3u8
 #EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/9b43a690d5a09f1e319f036821e8e1d3.png" group-title="08/11" , 21:00 08/11 ⚽ Brighton Hove Albion vs Brentford (Dương Kiên)
@@ -785,10 +773,10 @@ https://live05.wecile.app/live/07808742.m3u8
 https://live05.yefpwmc.app/live/07808742_tsc.m3u8
 #EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/526150064f4f983d670deb33fa6385b6.png" group-title="08/11" , 23:15 08/11 ⚽ Angers SCO vs OGC Nice (Nguyễn Ánh)
 https://wncdnhls-global.losartang.org/live/vsc-channel-11.m3u8
-#EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/8fd50a53dad5ea4fd2d32bd3ce727f58.png" group-title="08/11" , 23:15 08/11 ⚽ Havre Athletic Club vs Lorient (Lê Hoàn)
-https://wncdnhls-global.ebaclofen.org/live/vsc-channel-5.m3u8
 #EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/bb7e6346a3860008e4ff266ba3b655e8.png" group-title="08/11" , 23:15 08/11 ⚽ Stade Brestois 29 vs Lyon (Trần Cảnh)
 https://wncdnhls-global.losartang.org/live/vsc-channel-18.m3u8
+#EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/8fd50a53dad5ea4fd2d32bd3ce727f58.png" group-title="08/11" , 23:15 08/11 ⚽ Havre Athletic Club vs Lorient (Lê Hoàn)
+https://wncdnhls-global.ebaclofen.org/live/vsc-channel-5.m3u8
 #EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/5de17e3d35ef312559baf1f8c0b0b585.png" group-title="08/11" , 23:15 08/11 ⚽ Le Mans vs AS Monaco (Lê Lợi)
 https://wncdnhls-global.losartang.org/live/vsc-channel-6.m3u8
 #EXTINF:-1 tvg-logo="https://d1c0s7hi3ugzoc.cloudfront.net/teams/brest-266" group-title="08/11" , 23:15 08/11 ⚽ Brest vs Olympique Lyon (HÀU NƯỚNG) [flv]
@@ -1210,6 +1198,12 @@ https://freem3u.xyz/static/no-signal/low.m3u8
 https://freem3u.xyz/static/no-signal/low.m3u8
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125622_72c24d7d.png" group-title="09/11" , 03:00 09/11 ⚽ Atletico Madrid vs Barcelona (Chuối Chao) [FHD] [hls]
 https://gckc0525.edgemaxcdn.org/live/chuoichaohd/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/atletico-madrid.png" group-title="09/11" , 03:00 09/11 ⚽ Atletico Madrid vs Barcelona (blv-mason) [hls]
+https://freem3u.xyz/static/no-signal/low.m3u8
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/atletico-madrid.png" group-title="09/11" , 03:00 09/11 ⚽ Atletico Madrid vs Barcelona (blv-nem) [hls]
+https://freem3u.xyz/static/no-signal/low.m3u8
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/vasco-da-gama.png" group-title="09/11" , 03:00 09/11 ⚽ Vasco Gama vs Palmeiras (blv-ngong) [hls]
+https://freem3u.xyz/static/no-signal/low.m3u8
 #EXTINF:-1 tvg-logo="https://d1c0s7hi3ugzoc.cloudfront.net/teams/atletico-madrid-7980" group-title="09/11" , 03:00 09/11 ⚽ Atlético Madrid vs FC Barcelona (TÔM CHIÊN) [flv]
 https://cdnflv.xbdbotv.live/live/MTk3MzI2MzI6dGljMHIwY2xmNjhsaWxyajl3eDMyeXd6OmZybHRyd3pldnE5cjQ5cXBkeTF5bjR2aA.flv
 #EXTINF:-1 tvg-logo="https://d1c0s7hi3ugzoc.cloudfront.net/teams/atletico-madrid-7980" group-title="09/11" , 03:00 09/11 ⚽ Atlético Madrid vs FC Barcelona (TÔM CHIÊN) [hls]
@@ -1224,6 +1218,46 @@ https://hls.lauthaitv.cc/live/atm-barce-laliga/index.m3u8
 https://flv.lauthaitv.cc/live/atm-barce-laliga.flv
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/9906.png" group-title="09/11" , 03:00 09/11 ⚽ Atlético Madrid vs Barcelona (Long Ruồi) [hls]
 https://wtyi0525.edgemaxcdn.org/live/x1-hd-1111/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/390977b0421bce136c562057ea171ecf.png" group-title="09/11" , 03:00 09/11 ⚽ Atletico Madrid vs FC Barcelona (Gà Siêu Phệ + Gà Siêu Quỷ) [flv]
+https://live2.zktsva.app/live/304565.flv
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/390977b0421bce136c562057ea171ecf.png" group-title="09/11" , 03:00 09/11 ⚽ Atletico Madrid vs FC Barcelona (Gà Siêu Phệ + Gà Siêu Quỷ) [hls]
+https://live2.zktsva.app/live/304565.m3u8
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/390977b0421bce136c562057ea171ecf.png!w80" group-title="09/11" , 03:00 09/11 ⚽ Atlético Madrid vs FC Barcelona (BLV C2) [flv]
+https://live05.wecile.app/live/08552895.flv
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/390977b0421bce136c562057ea171ecf.png!w80" group-title="09/11" , 03:00 09/11 ⚽ Atlético Madrid vs FC Barcelona (BLV C2) [hls]
+https://live05.wecile.app/live/08552895.m3u8
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/390977b0421bce136c562057ea171ecf.png!w80" group-title="09/11" , 03:00 09/11 ⚽ Atlético Madrid vs FC Barcelona (BLV C2) [hls 2]
+https://live05.yefpwmc.app/live/08552895_tsc.m3u8
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/390977b0421bce136c562057ea171ecf.png!w80" group-title="09/11" , 03:00 09/11 ⚽ Atlético Madrid vs FC Barcelona (BLV 7UP) [flv]
+https://live05.wecile.app/live/78905744.flv
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/390977b0421bce136c562057ea171ecf.png!w80" group-title="09/11" , 03:00 09/11 ⚽ Atlético Madrid vs FC Barcelona (BLV 7UP) [hls]
+https://live05.wecile.app/live/78905744.m3u8
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/390977b0421bce136c562057ea171ecf.png!w80" group-title="09/11" , 03:00 09/11 ⚽ Atlético Madrid vs FC Barcelona (BLV 7UP) [hls 2]
+https://live05.yefpwmc.app/live/78905744_tsc.m3u8
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/390977b0421bce136c562057ea171ecf.png!w80" group-title="09/11" , 03:00 09/11 ⚽ Atlético Madrid vs FC Barcelona (BLV WARRIOR) [flv]
+https://live05.wecile.app/live/97885009.flv
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/390977b0421bce136c562057ea171ecf.png!w80" group-title="09/11" , 03:00 09/11 ⚽ Atlético Madrid vs FC Barcelona (BLV WARRIOR) [hls]
+https://live05.wecile.app/live/97885009.m3u8
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/390977b0421bce136c562057ea171ecf.png!w80" group-title="09/11" , 03:00 09/11 ⚽ Atlético Madrid vs FC Barcelona (BLV WARRIOR) [hls 2]
+https://live05.yefpwmc.app/live/97885009_tsc.m3u8
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261105/33e7215de455be1b440aa776f8f8c839.png" group-title="09/11" , 03:00 09/11 ⚽ Atletico Madrid vs FC Barcelona (BLV PIRLO)
+https://freem3u.xyz/static/no-signal/low.m3u8
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261105/33e7215de455be1b440aa776f8f8c839.png" group-title="09/11" , 03:00 09/11 ⚽ Atletico Madrid vs FC Barcelona (SAO LA)
+https://freem3u.xyz/static/no-signal/low.m3u8
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261105/33e7215de455be1b440aa776f8f8c839.png" group-title="09/11" , 03:00 09/11 ⚽ Atletico Madrid vs FC Barcelona (BLV ALEX)
+https://freem3u.xyz/static/no-signal/low.m3u8
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261105/33e7215de455be1b440aa776f8f8c839.png" group-title="09/11" , 03:00 09/11 ⚽ Atletico Madrid vs FC Barcelona (CACAO)
+https://freem3u.xyz/static/no-signal/low.m3u8
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261105/33e7215de455be1b440aa776f8f8c839.png" group-title="09/11" , 03:00 09/11 ⚽ Atletico Madrid vs FC Barcelona (BÒ TƯƠI)
+https://freem3u.xyz/static/no-signal/low.m3u8
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261105/33e7215de455be1b440aa776f8f8c839.png" group-title="09/11" , 03:00 09/11 ⚽ Atletico Madrid vs FC Barcelona (CURRY)
+https://freem3u.xyz/static/no-signal/low.m3u8
+#EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/530.webp" group-title="09/11" , 03:00 09/11 ⚽ Atletico Madrid vs Barcelona (Thanos)
+https://freem3u.xyz/static/no-signal/low.m3u8
+#EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/530.webp" group-title="09/11" , 03:00 09/11 ⚽ Atletico Madrid vs Barcelona (Black Panther)
+https://freem3u.xyz/static/no-signal/low.m3u8
+#EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/530.webp" group-title="09/11" , 03:00 09/11 ⚽ Atletico Madrid vs Barcelona (Nova)
+https://freem3u.xyz/static/no-signal/low.m3u8
 #EXTINF:-1 tvg-logo="https://s8tvkc.top/wp-json/s8-image/8c4378cc-d5de-427e-adaa-ee55de68f857" group-title="09/11" , 04:15 09/11 ⚽ Bolivar vs The Strongest (NGƯỜI CÁO) [hls]
 https://hls.lauthaitv.cc/live/bolivar-strongest-bolprim/index.m3u8
 #EXTINF:-1 tvg-logo="https://s8tvkc.top/wp-json/s8-image/8c4378cc-d5de-427e-adaa-ee55de68f857" group-title="09/11" , 04:15 09/11 ⚽ Bolivar vs The Strongest (NGƯỜI CÁO) [flv]
