@@ -1,34 +1,22 @@
 #EXTM3U
 #Cập nhật động từ https://thtt.pages.dev/tttt.m3u
 #--- Lịch đấu 10/11 ---
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/plymouth-argyle.png" group-title="10/11" , 🟢 02:30 10/11 ⚽ Plymouth Parkway vs Berkhamsted (Ngọng) [hls]
-https://pzhgifbkllliv.vcdn.cloud/1794165334_hd/1794165334_hd@720p.m3u8
 #EXTINF:-1 tvg-logo="https://d1c0s7hi3ugzoc.cloudfront.net/teams/torreense-7067" group-title="10/11" , 🟢 03:15 10/11 ⚽ Torreense vs União de Leiria (TÔM CHIÊN) [flv]
 https://cdnflv.xbdbotv.live/live/MTk3MzY0NjA6dGljMHIwY2xmNjhsaWxyajl3eDMyeXd6OnZiOXl2cGN4cnJ4YTMwaTVqN2w4c2N5ZA.flv
 #EXTINF:-1 tvg-logo="https://d1c0s7hi3ugzoc.cloudfront.net/teams/torreense-7067" group-title="10/11" , 🟢 03:15 10/11 ⚽ Torreense vs União de Leiria (TÔM CHIÊN) [hls]
 https://cdnhls.xbdbotv.live/live/MTk3MzY0NjA6dGljMHIwY2xmNjhsaWxyajl3eDMyeXd6OnZiOXl2cGN4cnJ4YTMwaTVqN2w4c2N5ZA/index.m3u8
-#EXTINF:-1 tvg-logo="https://s8tvkc.top/wp-json/s8-image/f629eb2b-86fa-4bc4-a9f0-922b487beedc" group-title="10/11" , 🟢 03:30 10/11 ⚽ Tecnico Universitario vs Manta FC (NGƯỜI TRÂU) [hls]
-https://hls.lauthaitv.cc/live/tecnico-manta-ligapro/index.m3u8
-#EXTINF:-1 tvg-logo="https://s8tvkc.top/wp-json/s8-image/f629eb2b-86fa-4bc4-a9f0-922b487beedc" group-title="10/11" , 🟢 03:30 10/11 ⚽ Tecnico Universitario vs Manta FC (NGƯỜI TRÂU) [flv]
-https://flv.lauthaitv.cc/live/tecnico-manta-ligapro.flv
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/zp5rzghjvepq82w/image/small" group-title="10/11" , 🟢 03:30 10/11 ⚽ Tecnico Uni. vs Manta FC (NEMO)
-https://live2.jorvakstreamcache.com/live/channel17.flv
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/zp5rzghjvepq82w/image/small" group-title="10/11" , 🟢 03:30 10/11 ⚽ Tecnico Uni. vs Manta FC (HD NEMO)
-https://live2.domaincdn.cc/livecdn/channel-17.flv?auth_key=3000001794262846-0-0-f0ea7f5a13e7f0389e6d82f4cf0e08d9
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/a5c19caa8f0d2c476156ece6470b15a0.png" group-title="10/11" , 🟢 03:30 10/11 ⚽ Tecnico Universitario vs Manta FC (Kayti) [hls]
-https://playback.livetl002.com/live/69b8e6f43bcf2231c35d5144.m3u8
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/a5c19caa8f0d2c476156ece6470b15a0.png" group-title="10/11" , 🟢 03:30 10/11 ⚽ Tecnico Universitario vs Manta FC (Kayti) [flv]
-https://playback.livetl002.com/live/69b8e6f43bcf2231c35d5144.flv
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133543_3bc92825.png" group-title="10/11" , 🟢 05:30 10/11 ⚽ Sportivo Luqueno vs 2 de Mayo (Trốc Tru) [FHD] [hls]
 https://gckc0525.edgemaxcdn.org/live/troctruhd/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://s8tvkc.top/wp-json/s8-image/f1e00aa8-cf18-4bcb-8feb-976bb48e045d" group-title="10/11" , 🟢 05:30 10/11 ⚽ Sportivo Luqueno vs Club Sportivo 2 de Mayo (NGƯỜI THỎ) [hls]
 https://hls.lauthaitv.cc/live/luqueno-2mayo-par/index.m3u8
 #EXTINF:-1 tvg-logo="https://s8tvkc.top/wp-json/s8-image/f1e00aa8-cf18-4bcb-8feb-976bb48e045d" group-title="10/11" , 🟢 05:30 10/11 ⚽ Sportivo Luqueno vs Club Sportivo 2 de Mayo (NGƯỜI THỎ) [flv]
 https://flv.lauthaitv.cc/live/luqueno-2mayo-par.flv
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/49687.png" group-title="10/11" , 🟢 05:30 10/11 ⚽ Luqueño vs 2 de Mayo (Long Ruồi) [hls]
+https://wtyi0525.edgemaxcdn.org/live/x1-hd-1111/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/gy0or5jhpdkqwzv/image/small" group-title="10/11" , 🟢 05:30 10/11 ⚽ Sportivo Luqueno vs Sportivo 2 de Mayo (SILVA)
 https://live2.jorvakstreamcache.com/live/channel20.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/gy0or5jhpdkqwzv/image/small" group-title="10/11" , 🟢 05:30 10/11 ⚽ Sportivo Luqueno vs Sportivo 2 de Mayo (HD SILVA)
-https://live2.domaincdn.cc/livecdn/channel-20.flv?auth_key=3000001794262829-0-0-c82417c9f91c6a8bfc747a8db0b20fce
+https://live2.domaincdn.cc/livecdn/channel-20.flv?auth_key=3000001794264632-0-0-229d231ab009710619acfd816bdd00aa
 #EXTINF:-1 tvg-logo="https://apiv3.apifootball.com/badges/544_junior.jpg" group-title="10/11" , 07:00 10/11 ⚽ Junior vs Cucuta (BLV Khô Mật) [hls]
 https://livecdn321.cdnfastter.xyz/live/live_b30ba5315c/index.m3u8?token=ZNaU8SPI--3-JASIZXv-JImAVGukJOEv6T9_GMWMfU0&expires=1852800615
 #EXTINF:-1 tvg-logo="https://apiv3.apifootball.com/badges/544_junior.jpg" group-title="10/11" , 07:00 10/11 ⚽ Junior vs Cucuta (BLV Khô Mật) [flv]
@@ -44,7 +32,7 @@ https://wtyi0525.edgemaxcdn.org/live/x4-hd-1111/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/gpxwrxlh887ryk0/image/small" group-title="10/11" , 07:00 10/11 ⚽ Atletico Junior vs Cucuta Deportivo (MAX)
 https://live2.jorvakstreamcache.com/live/channel6.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/gpxwrxlh887ryk0/image/small" group-title="10/11" , 07:00 10/11 ⚽ Atletico Junior vs Cucuta Deportivo (HD MAX)
-https://live2.domaincdn.cc/livecdn/channel-6.flv?auth_key=3000001794262866-0-0-ac35aa33e8ccc8c050aac691d5fa4726
+https://live2.domaincdn.cc/livecdn/channel-6.flv?auth_key=3000001794264655-0-0-c0e088fe5e97951dd38b75f0267b659a
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/fd3230c7fa4ad7bde28c640f2f32ca43.png" group-title="10/11" , 07:00 10/11 ⚽ Atletico Junior Barranquilla vs Cucuta Deportivo (Gà Siêu Son) [flv]
 https://live2.zktsva.app/live/306290.flv
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/fd3230c7fa4ad7bde28c640f2f32ca43.png" group-title="10/11" , 07:00 10/11 ⚽ Atletico Junior Barranquilla vs Cucuta Deportivo (Gà Siêu Son) [hls]
@@ -72,7 +60,7 @@ https://freem3u.xyz/static/no-signal/low.m3u8
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/vjxm8gh4e7zr6od/image/small" group-title="10/11" , 07:30 10/11 ⚽ Aurora vs UD Vinto (XMEN)
 https://live2.jorvakstreamcache.com/live/channel13.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/vjxm8gh4e7zr6od/image/small" group-title="10/11" , 07:30 10/11 ⚽ Aurora vs UD Vinto (HD XMEN)
-https://live2.domaincdn.cc/livecdn/channel-13.flv?auth_key=3000001794262871-0-0-722c27627e72769a9cbecf31f77da1a7
+https://live2.domaincdn.cc/livecdn/channel-13.flv?auth_key=3000001794264659-0-0-f708a8f21e171a25101ec0a8ee3fe5a5
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/ec2ed16825c0bf497854333615c4e2af.png" group-title="10/11" , 07:30 10/11 ⚽ Aurora vs Universitario De Vinto (Gà Siêu Tốc) [flv]
 https://live2.zktsva.app/live/307240.flv
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/ec2ed16825c0bf497854333615c4e2af.png" group-title="10/11" , 07:30 10/11 ⚽ Aurora vs Universitario De Vinto (Gà Siêu Tốc) [hls]
@@ -139,6 +127,8 @@ https://wncdnhls-global.losartang.org/live/vsc-channel-11.m3u8
 https://wncdnhls-global.losartang.org/live/vsc-channel-11.m3u8
 #EXTINF:-1 tvg-logo="https://apiv3.apifootball.com/badges/9472_qatar-u23.jpg" group-title="10/11" , 15:00 10/11 ⚽ Qatar U23 vs Singapore U23 (BLV Khô Cay) [hls]
 https://livecdn321.cdnfastter.xyz/live/live_753c90457f/index.m3u8?token=2DSSWeXAxyGpTCzUauOg-F4WPR6MfTkyCr51jCWcnQ0&expires=1852800615
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250902_191040_54e0d85a.png" group-title="10/11" , 15:00 10/11 ⚽ U23 Qatar vs Singapore U23 (Chuối Sấy) [FHD] [hls]
+https://gckc0525.edgemaxcdn.org/live/chuoisayhd/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://s8tvkc.top/wp-json/s8-image/523525d9-d3a8-4761-8d2c-072e17d634e8" group-title="10/11" , 15:00 10/11 ⚽ Qatar U23 vs Singapore U23 (NGƯỜI BẠC) [hls]
 https://hls.lauthaitv.cc/live/qat-sin-intfru23/index.m3u8
 #EXTINF:-1 tvg-logo="https://s8tvkc.top/wp-json/s8-image/523525d9-d3a8-4761-8d2c-072e17d634e8" group-title="10/11" , 15:00 10/11 ⚽ Qatar U23 vs Singapore U23 (NGƯỜI BẠC) [flv]
@@ -197,10 +187,20 @@ https://freem3u.xyz/static/no-signal/low.m3u8
 https://freem3u.xyz/static/no-signal/low.m3u8
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/4zp5rzgh98vq82w/image/small" group-title="10/11" , 15:00 10/11 ⚽ Qatar U23 vs Singapore U23 (LÝ LÀNG LÁ) [geo]
 https://pull1.digitalcdn.net/live/8ae2e1d0649843ada4203fcbf41ec8c2/index.m3u8
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/pxwrxlh9yzgryk0/image/small" group-title="10/11" , 17:30 10/11 ⚽ Bengaluru Utd vs Real Bengaluru (FELIX)
+https://live2.pro2cdnlive.com/live/channel24.flv
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/pxwrxlh9yzgryk0/image/small" group-title="10/11" , 17:30 10/11 ⚽ Bengaluru Utd vs Real Bengaluru (HD FELIX)
+https://live2.pro2cdnlive.com/live/channel-24.flv
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/jw2r09h12gyrz84/image/small" group-title="10/11" , 18:38 10/11 ⚽ Shaoyang Team vs Xiangtan Team (KEN)
+https://live2.pro2cdnlive.com/live/channel18.flv
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/jw2r09h12gyrz84/image/small" group-title="10/11" , 18:38 10/11 ⚽ Shaoyang Team vs Xiangtan Team (HD KEN)
+https://live2.pro2cdnlive.com/live/channel-18.flv
 #EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/14b75c2d38d88b747c19de8ea5509d16.png" group-title="10/11" , 19:00 10/11 ⚽ Vietnam U23 vs Thailand U23 (Lưu Bang)
 https://wncdnhls-global.losartang.org/live/vsc-channel-7.m3u8
 #EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/14b75c2d38d88b747c19de8ea5509d16.png" group-title="10/11" , 19:00 10/11 ⚽ Vietnam U23 vs Thailand U23 (Lưu Bang)
 https://wncdnhls-global.losartang.org/live/vsc-channel-7.m3u8
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250902_190503_cfcedb98.png" group-title="10/11" , 19:00 10/11 ⚽ U23 Vietnam vs U23 Thailand (Chuối Già) [FHD] [hls]
+https://gckc0525.edgemaxcdn.org/live/chuoigiahd/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://d1c0s7hi3ugzoc.cloudfront.net/teams/santa-clara-u23-269423" group-title="10/11" , 19:00 10/11 ⚽ Santa Clara U23 vs Torreense U23 (NEM NƯỚNG) [flv]
 https://cdnflv.xbdbotv.live/live/MTk3Njc4OTQ6dWppY2ViaXFnN2Fmazdhendla3Q3azE3Omdvc3BlaHhia3d1ajRldTlpM2x4NDZ5Nw.flv
 #EXTINF:-1 tvg-logo="https://d1c0s7hi3ugzoc.cloudfront.net/teams/santa-clara-u23-269423" group-title="10/11" , 19:00 10/11 ⚽ Santa Clara U23 vs Torreense U23 (NEM NƯỚNG) [hls]
