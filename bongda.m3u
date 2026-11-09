@@ -1,10 +1,6 @@
 #EXTM3U
 #Cập nhật động từ https://thtt.pages.dev/tttt.m3u
 #--- Lịch đấu 10/11 ---
-#EXTINF:-1 tvg-logo="https://d1c0s7hi3ugzoc.cloudfront.net/teams/torreense-7067" group-title="10/11" , 🟢 03:15 10/11 ⚽ Torreense vs União de Leiria (TÔM CHIÊN) [flv]
-https://cdnflv.xbdbotv.live/live/MTk3MzY0NjA6dGljMHIwY2xmNjhsaWxyajl3eDMyeXd6OnZiOXl2cGN4cnJ4YTMwaTVqN2w4c2N5ZA.flv
-#EXTINF:-1 tvg-logo="https://d1c0s7hi3ugzoc.cloudfront.net/teams/torreense-7067" group-title="10/11" , 🟢 03:15 10/11 ⚽ Torreense vs União de Leiria (TÔM CHIÊN) [hls]
-https://cdnhls.xbdbotv.live/live/MTk3MzY0NjA6dGljMHIwY2xmNjhsaWxyajl3eDMyeXd6OnZiOXl2cGN4cnJ4YTMwaTVqN2w4c2N5ZA/index.m3u8
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133543_3bc92825.png" group-title="10/11" , 🟢 05:30 10/11 ⚽ Sportivo Luqueno vs 2 de Mayo (Trốc Tru) [FHD] [hls]
 https://gckc0525.edgemaxcdn.org/live/troctruhd/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://s8tvkc.top/wp-json/s8-image/f1e00aa8-cf18-4bcb-8feb-976bb48e045d" group-title="10/11" , 🟢 05:30 10/11 ⚽ Sportivo Luqueno vs Club Sportivo 2 de Mayo (NGƯỜI THỎ) [hls]
@@ -16,23 +12,23 @@ https://wtyi0525.edgemaxcdn.org/live/x1-hd-1111/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/gy0or5jhpdkqwzv/image/small" group-title="10/11" , 🟢 05:30 10/11 ⚽ Sportivo Luqueno vs Sportivo 2 de Mayo (SILVA)
 https://live2.jorvakstreamcache.com/live/channel20.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/gy0or5jhpdkqwzv/image/small" group-title="10/11" , 🟢 05:30 10/11 ⚽ Sportivo Luqueno vs Sportivo 2 de Mayo (HD SILVA)
-https://live2.domaincdn.cc/livecdn/channel-20.flv?auth_key=3000001794265530-0-0-3476657f6bb0bdfec7cb69d4798efeb9
+https://live2.domaincdn.cc/livecdn/channel-20.flv?auth_key=3000001794266436-0-0-2b521d9fc7d3e28c3139156440187b6c
 #EXTINF:-1 tvg-logo="https://apiv3.apifootball.com/badges/544_junior.jpg" group-title="10/11" , 🟡 07:00 10/11 ⚽ Junior vs Cucuta (BLV Khô Mật) [hls]
 https://livecdn321.cdnfastter.xyz/live/live_b30ba5315c/index.m3u8?token=ZNaU8SPI--3-JASIZXv-JImAVGukJOEv6T9_GMWMfU0&expires=1852800615
 #EXTINF:-1 tvg-logo="https://apiv3.apifootball.com/badges/544_junior.jpg" group-title="10/11" , 🟡 07:00 10/11 ⚽ Junior vs Cucuta (BLV Khô Mật) [flv]
 https://live.khoga.space/live/livehub13.flv
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133534_095d7988.png" group-title="10/11" , 🟡 07:00 10/11 ⚽ Junior vs Cucuta (Chuối Kem) [FHD] [hls]
 https://gckc0525.edgemaxcdn.org/live/chuoikemhd/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://s8tvkc.top/wp-json/s8-image/9aa1df85-28d3-4d3c-be8f-4cf7d5f6d6cc" group-title="10/11" , 🟡 07:00 10/11 ⚽ Atletico Junior Barranquilla vs Cucuta Deportivo (NGƯỜI SÓI) [hls]
+#EXTINF:-1 tvg-logo="https://s8tvkc.top/wp-json/s8-image/9aa1df85-28d3-4d3c-be8f-4cf7d5f6d6cc" group-title="10/11" , 🟢 07:00 10/11 ⚽ Atletico Junior Barranquilla vs Cucuta Deportivo (NGƯỜI SÓI) [hls]
 https://hls.lauthaitv.cc/live/barran-cucuta-cate/index.m3u8
-#EXTINF:-1 tvg-logo="https://s8tvkc.top/wp-json/s8-image/9aa1df85-28d3-4d3c-be8f-4cf7d5f6d6cc" group-title="10/11" , 🟡 07:00 10/11 ⚽ Atletico Junior Barranquilla vs Cucuta Deportivo (NGƯỜI SÓI) [flv]
+#EXTINF:-1 tvg-logo="https://s8tvkc.top/wp-json/s8-image/9aa1df85-28d3-4d3c-be8f-4cf7d5f6d6cc" group-title="10/11" , 🟢 07:00 10/11 ⚽ Atletico Junior Barranquilla vs Cucuta Deportivo (NGƯỜI SÓI) [flv]
 https://flv.lauthaitv.cc/live/barran-cucuta-cate.flv
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/2254.png" group-title="10/11" , 🟡 07:00 10/11 ⚽ Junior FC vs Cúcuta (Nếp Cẩm) [hls]
 https://wtyi0525.edgemaxcdn.org/live/x4-hd-1111/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/gpxwrxlh887ryk0/image/small" group-title="10/11" , 🟡 07:00 10/11 ⚽ Atletico Junior vs Cucuta Deportivo (MAX)
 https://live2.jorvakstreamcache.com/live/channel6.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/gpxwrxlh887ryk0/image/small" group-title="10/11" , 🟡 07:00 10/11 ⚽ Atletico Junior vs Cucuta Deportivo (HD MAX)
-https://live2.domaincdn.cc/livecdn/channel-6.flv?auth_key=3000001794265564-0-0-a9a4a360be40a1505f2c8bca2532ad5b
+https://live2.domaincdn.cc/livecdn/channel-6.flv?auth_key=3000001794266457-0-0-48ee871faad7e66ddea41f813290a0ff
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/fd3230c7fa4ad7bde28c640f2f32ca43.png" group-title="10/11" , 🟡 07:00 10/11 ⚽ Atletico Junior Barranquilla vs Cucuta Deportivo (Gà Siêu Son) [flv]
 https://live2.zktsva.app/live/306290.flv
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/fd3230c7fa4ad7bde28c640f2f32ca43.png" group-title="10/11" , 🟡 07:00 10/11 ⚽ Atletico Junior Barranquilla vs Cucuta Deportivo (Gà Siêu Son) [hls]
@@ -64,7 +60,7 @@ https://freem3u.xyz/static/no-signal/low.m3u8
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/vjxm8gh4e7zr6od/image/small" group-title="10/11" , 07:30 10/11 ⚽ Aurora vs UD Vinto (XMEN)
 https://live2.jorvakstreamcache.com/live/channel13.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/vjxm8gh4e7zr6od/image/small" group-title="10/11" , 07:30 10/11 ⚽ Aurora vs UD Vinto (HD XMEN)
-https://live2.domaincdn.cc/livecdn/channel-13.flv?auth_key=3000001794265570-0-0-dfe6affd210928fe7b989e80ba8850ca
+https://live2.domaincdn.cc/livecdn/channel-13.flv?auth_key=3000001794266461-0-0-ace95f195dec67bdb9fab10f194632cb
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/ec2ed16825c0bf497854333615c4e2af.png" group-title="10/11" , 07:30 10/11 ⚽ Aurora vs Universitario De Vinto (Gà Siêu Tốc) [flv]
 https://live2.zktsva.app/live/307240.flv
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/ec2ed16825c0bf497854333615c4e2af.png" group-title="10/11" , 07:30 10/11 ⚽ Aurora vs Universitario De Vinto (Gà Siêu Tốc) [hls]
