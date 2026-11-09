@@ -1,20 +1,6 @@
 #EXTM3U
 #Cập nhật động từ https://thtt.pages.dev/tttt.m3u
 #--- Lịch đấu 09/11 ---
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/1l4rjnh152jm7vx/image/small" group-title="09/11" , 🟢 05:30 09/11 ⚽ Central Cordoba SDE vs CA Lanús (TONI)
-https://live2.jorvakstreamcache.com/live/channel9.flv
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/1l4rjnh152jm7vx/image/small" group-title="09/11" , 🟢 05:30 09/11 ⚽ Central Cordoba SDE vs CA Lanús (HD TONI)
-https://live2.domaincdn.cc/livecdn/channel-9.flv?auth_key=3000001794183631-0-0-709ba9a2a043cce0539eca244a01db26
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/73eb62698518ab54028aee31105931ae.png" group-title="09/11" , 🟢 05:30 09/11 ⚽ CA Central Cordoba SDE vs Club Atlético Lanús (Gà Siêu Ngố) [flv]
-https://live2.zktsva.app/live/301238.flv
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/73eb62698518ab54028aee31105931ae.png" group-title="09/11" , 🟢 05:30 09/11 ⚽ CA Central Cordoba SDE vs Club Atlético Lanús (Gà Siêu Ngố) [hls]
-https://live2.zktsva.app/live/301238.m3u8
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/73eb62698518ab54028aee31105931ae.png!w80" group-title="09/11" , 🟢 05:30 09/11 ⚽ Central Cordoba SDE vs Lanus (BLV REDBULL) [flv]
-https://live05.wecile.app/live/49572724.flv
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/73eb62698518ab54028aee31105931ae.png!w80" group-title="09/11" , 🟢 05:30 09/11 ⚽ Central Cordoba SDE vs Lanus (BLV REDBULL) [hls]
-https://live05.wecile.app/live/49572724.m3u8
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/73eb62698518ab54028aee31105931ae.png!w80" group-title="09/11" , 🟢 05:30 09/11 ⚽ Central Cordoba SDE vs Lanus (BLV REDBULL) [hls 2]
-https://live05.yefpwmc.app/live/49572724_tsc.m3u8
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133537_5e882eb3.png" group-title="09/11" , 🟢 06:10 09/11 ⚽ Deportes Tolima vs Millonarios (Trốc Tru) [FHD] [hls]
 https://gckc0525.edgemaxcdn.org/live/troctruhd/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/1894.png" group-title="09/11" , 🟢 06:10 09/11 ⚽ Tolima vs Millonarios (Nếp Cẩm) [hls]
@@ -22,7 +8,7 @@ https://wtyi0525.edgemaxcdn.org/live/x4-hd-1111/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/4wyrn4h88gxq86p/image/small" group-title="09/11" , 🟢 06:10 09/11 ⚽ Deportes Tolima vs Millonarios (BEE)
 https://live2.jorvakstreamcache.com/live/channel8.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/4wyrn4h88gxq86p/image/small" group-title="09/11" , 🟢 06:10 09/11 ⚽ Deportes Tolima vs Millonarios (HD BEE)
-https://live2.domaincdn.cc/livecdn/channel-8.flv?auth_key=3000001794183644-0-0-a0d03d7aec04f237cbb528936734d560
+https://live2.domaincdn.cc/livecdn/channel-8.flv?auth_key=3000001794184552-0-0-6ec3eb171aabc3b43977d076e7f3d3aa
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/40f17f08ff7bb44a641273044db78c64.png" group-title="09/11" , 🟢 06:10 09/11 ⚽ Deportes Tolima vs Millonarios (Gà Siêu Tồ) [flv]
 https://live2.zktsva.app/live/796315.flv
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/40f17f08ff7bb44a641273044db78c64.png" group-title="09/11" , 🟢 06:10 09/11 ⚽ Deportes Tolima vs Millonarios (Gà Siêu Tồ) [hls]
@@ -33,8 +19,12 @@ https://live05.wecile.app/live/82054853.flv
 https://live05.wecile.app/live/82054853.m3u8
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/40f17f08ff7bb44a641273044db78c64.png!w80" group-title="09/11" , 🟢 06:10 09/11 ⚽ Deportes Tolima vs CLB Millonarios (BLV ROCKSTAR) [hls 2]
 https://live05.yefpwmc.app/live/82054853_tsc.m3u8
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/40f17f08ff7bb44a641273044db78c64.png" group-title="09/11" , 🟢 06:10 09/11 ⚽ Deportes Tolima vs Millonarios (A Long) [hls]
+https://playback.livetl002.com/live/69ef10b47146e04fbe6d4363.m3u8
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/40f17f08ff7bb44a641273044db78c64.png" group-title="09/11" , 🟢 06:10 09/11 ⚽ Deportes Tolima vs Millonarios (A Long) [flv]
+https://playback.livetl002.com/live/69ef10b47146e04fbe6d4363.flv
 #EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/1142.webp" group-title="09/11" , 🟢 06:10 09/11 ⚽ Deportes Tolima vs Millonarios (Black Panther)
-https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.ns4Cb2Y4WaJ8.m3u8?expires=1794198030&signature=i0K3ba8764xTTAPpPVwS_Kni_2rZ0w8FJcTmKCEUXhw
+https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.ns4Cb2Y4WaJ8.m3u8?expires=1794198928&signature=HGU-h7cetq-MD8V7zqztVEzPfqKd3HIgfrKc0kHfJo8
 #EXTINF:-1 tvg-logo="https://apiv3.apifootball.com/badges/278_queretaro.jpg" group-title="09/11" , 🟢 07:00 09/11 ⚽ Queretaro vs Puebla (BLV Khô Bò) [hls]
 https://livecdn321.cdnfastter.xyz/live/live_f3d9c6a005/index.m3u8?token=rr1el4pzxOrMeroS7m-gXYnBMw8InO7dtXeJtJksyhA&expires=1852800615
 #EXTINF:-1 tvg-logo="https://apiv3.apifootball.com/badges/278_queretaro.jpg" group-title="09/11" , 🟢 07:00 09/11 ⚽ Queretaro vs Puebla (BLV Khô Bò) [flv]
@@ -46,7 +36,7 @@ https://flv.lauthaitv.cc/live/quere-puebla-mexliga.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/9vjxm8ghd6wr6od/image/small" group-title="09/11" , 🟢 07:00 09/11 ⚽ Queretaro FC vs Puebla (TOM)
 https://live2.jorvakstreamcache.com/live/channel4.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/9vjxm8ghd6wr6od/image/small" group-title="09/11" , 🟢 07:00 09/11 ⚽ Queretaro FC vs Puebla (HD TOM)
-https://live2.domaincdn.cc/livecdn/channel-4.flv?auth_key=3000001794183650-0-0-208d7d1a60a42df20dd870170039f228
+https://live2.domaincdn.cc/livecdn/channel-4.flv?auth_key=3000001794184557-0-0-34d6a57820f241d2d5b222b58900a36c
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/e93c69c95a943755907a17adf4d7d732.png!w80" group-title="09/11" , 🟢 07:00 09/11 ⚽ Queretaro vs CLB Puebla (BLV PEPSI) [flv]
 https://live05.wecile.app/live/59444581.flv
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/e93c69c95a943755907a17adf4d7d732.png!w80" group-title="09/11" , 🟢 07:00 09/11 ⚽ Queretaro vs CLB Puebla (BLV PEPSI) [hls]
@@ -54,11 +44,11 @@ https://live05.wecile.app/live/59444581.m3u8
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/e93c69c95a943755907a17adf4d7d732.png!w80" group-title="09/11" , 🟢 07:00 09/11 ⚽ Queretaro vs CLB Puebla (BLV PEPSI) [hls 2]
 https://live05.yefpwmc.app/live/59444581_tsc.m3u8
 #EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/2290.webp" group-title="09/11" , 🟢 07:00 09/11 ⚽ Club Queretaro vs Puebla (Joker)
-https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.TtunPkYe0LN0.m3u8?expires=1794198033&signature=fxIqHMhSwufshtezjVhYWxqRqNamf81eIb-eESeM4Cc
+https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.TtunPkYe0LN0.m3u8?expires=1794198930&signature=flUf1_cyJ4D093koLoMHVEFzYP-s4oOSsHLkwgtN92c
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/y0or5jh1pz6qwzv/image/small" group-title="09/11" , 🟡 08:00 09/11 ⚽ Piratas FC vs Cancun FC (ASTRA)
 https://live2.jorvakstreamcache.com/live/channel11.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/y0or5jh1pz6qwzv/image/small" group-title="09/11" , 🟡 08:00 09/11 ⚽ Piratas FC vs Cancun FC (HD ASTRA)
-https://live2.domaincdn.cc/livecdn/channel-11.flv?auth_key=3000001794183681-0-0-6ed2a0aa58e6f0d26047a0aa09549f29
+https://live2.domaincdn.cc/livecdn/channel-11.flv?auth_key=3000001794184594-0-0-03832c535e4db21575e8c5c84edbd98d
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261105/469928d301b725f56cda4a98f5e94cf2.png" group-title="09/11" , 🟡 08:00 09/11 ⚽ Piratas FC vs Cancun FC (BLV TOMIA)
 https://freem3u.xyz/static/no-signal/low.m3u8
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261105/469928d301b725f56cda4a98f5e94cf2.png" group-title="09/11" , 🟡 08:00 09/11 ⚽ Piratas FC vs Cancun FC (BLV YONE)
@@ -74,7 +64,7 @@ https://wtyi0525.edgemaxcdn.org/live/x22-hd-1111/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/3glrw7hw3njqdyj/image/small" group-title="09/11" , 🟡 08:15 09/11 ⚽ Alianza Petrolera vs Llaneros FC (RIO)
 https://live2.jorvakstreamcache.com/live/channel16.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/3glrw7hw3njqdyj/image/small" group-title="09/11" , 🟡 08:15 09/11 ⚽ Alianza Petrolera vs Llaneros FC (HD RIO)
-https://live2.domaincdn.cc/livecdn/channel-16.flv?auth_key=3000001794183688-0-0-2b3c3ebe3ec646aa1bc41b8705f85477
+https://live2.domaincdn.cc/livecdn/channel-16.flv?auth_key=3000001794184605-0-0-b3e500c485e897a07e04001ce8d7cbe8
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/242d6977e9b86cba5cea704d996edbf8.png" group-title="09/11" , 🟡 08:15 09/11 ⚽ Alianza Fútbol Club vs Llaneros FC (Gà Siêu Mõm) [flv]
 https://live2.zktsva.app/live/300523.flv
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/242d6977e9b86cba5cea704d996edbf8.png" group-title="09/11" , 🟡 08:15 09/11 ⚽ Alianza Fútbol Club vs Llaneros FC (Gà Siêu Mõm) [hls]
@@ -95,9 +85,13 @@ https://freem3u.xyz/static/no-signal/low.m3u8
 https://freem3u.xyz/static/no-signal/low.m3u8
 #EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/1141.webp" group-title="09/11" , 🟡 08:15 09/11 ⚽ Alianza Valledupar vs Llaneros (Raccoon)
 https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261105/01bab73ef7a860a5ca1e423b35841944.png" group-title="09/11" , 08:30 09/11 ⚽ Universitario De Deportes vs Moquegua (BLV CÁO)
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/2y8m4zh33xkql07/image/small" group-title="09/11" , 🟡 08:30 09/11 ⚽ Uni. Deportes vs Moquegua (ZANE)
+https://live2.jorvakstreamcache.com/live/channel22.flv
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/2y8m4zh33xkql07/image/small" group-title="09/11" , 🟡 08:30 09/11 ⚽ Uni. Deportes vs Moquegua (HD ZANE)
+https://live2.domaincdn.cc/livecdn/channel-22.flv?auth_key=3000001794184611-0-0-af0e2dc85eeb189d58947de9c8a2f27a
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261105/01bab73ef7a860a5ca1e423b35841944.png" group-title="09/11" , 🟡 08:30 09/11 ⚽ Universitario De Deportes vs Moquegua (BLV CÁO)
 https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261105/01bab73ef7a860a5ca1e423b35841944.png" group-title="09/11" , 08:30 09/11 ⚽ Universitario De Deportes vs Moquegua (BLV A TINH)
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261105/01bab73ef7a860a5ca1e423b35841944.png" group-title="09/11" , 🟡 08:30 09/11 ⚽ Universitario De Deportes vs Moquegua (BLV A TINH)
 https://freem3u.xyz/static/no-signal/low.m3u8
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_131434_fbad589d.png" group-title="09/11" , 09:00 09/11 ⚽ Leon vs Guadalajara Chivas (Chuối Tây) [FHD] [hls]
 https://gckc0525.edgemaxcdn.org/live/chuoitayhd/playlist.m3u8
@@ -107,6 +101,10 @@ https://freem3u.xyz/static/no-signal/low.m3u8
 https://hls.lauthaitv.cc/live/leon-guada-mexliga/index.m3u8
 #EXTINF:-1 tvg-logo="https://s8tvkc.top/wp-json/s8-image/a7fde817-1251-45c0-a7c2-5fea975ab599" group-title="09/11" , 09:00 09/11 ⚽ Club Leon vs Club Deportivo Guadalajara (NGƯỜI SÓI) [flv]
 https://flv.lauthaitv.cc/live/leon-guada-mexliga.flv
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/zp5rzghjkxvq82w/image/small" group-title="09/11" , 09:00 09/11 ⚽ Club Leon vs Club Guadalajara (MAX)
+https://live2.jorvakstreamcache.com/live/channel6.flv
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/zp5rzghjkxvq82w/image/small" group-title="09/11" , 09:00 09/11 ⚽ Club Leon vs Club Guadalajara (HD MAX)
+https://live2.domaincdn.cc/livecdn/channel-6.flv?auth_key=3000001794184618-0-0-20422e3143fd44822c61dfb8db38e885
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261105/8c483c10434f5da8857fdd41603d705e.png" group-title="09/11" , 09:00 09/11 ⚽ Club Leon vs Club Deportivo Guadalajara (RICKHANTER)
 https://freem3u.xyz/static/no-signal/low.m3u8
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261105/8c483c10434f5da8857fdd41603d705e.png" group-title="09/11" , 09:00 09/11 ⚽ Club Leon vs Club Deportivo Guadalajara (BLV TAP)
@@ -161,10 +159,6 @@ https://freem3u.xyz/static/no-signal/low.m3u8
 https://freem3u.xyz/static/no-signal/low.m3u8
 #EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/8027.webp" group-title="09/11" , 12:00 09/11 ⚽ Erchim vs Khovd Western (Raccoon)
 https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261105/8263ba445a83d74556a79563aa9d3fac.png" group-title="09/11" , 14:00 09/11 ⚽ Shanghai Women B vs Henan Wanxianshan Women (BLV GIÓ)
-https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261105/8263ba445a83d74556a79563aa9d3fac.png" group-title="09/11" , 14:00 09/11 ⚽ Shanghai Women B vs Henan Wanxianshan Women (BLV XO)
-https://freem3u.xyz/static/no-signal/low.m3u8
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261105/2547146256337ea16a2951e4b82ab80c.png" group-title="09/11" , 14:00 09/11 ⚽ Fujian Nanan Women vs Hebei Snow Ruyi  Women (5 LỬA)
 https://freem3u.xyz/static/no-signal/low.m3u8
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261105/2547146256337ea16a2951e4b82ab80c.png" group-title="09/11" , 14:00 09/11 ⚽ Fujian Nanan Women vs Hebei Snow Ruyi  Women (PEANUT)
@@ -174,6 +168,10 @@ https://freem3u.xyz/static/no-signal/low.m3u8
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261105/3a7b9ac722509517501df9ed3bf57713.png" group-title="09/11" , 14:00 09/11 ⚽ Qingdao West Coast Women vs Wuhan Sports University Women (BLV LION)
 https://freem3u.xyz/static/no-signal/low.m3u8
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261105/66936efbffc1577149473d95c7a82d05.png" group-title="09/11" , 14:00 09/11 ⚽ Shanghai Shenhua Women vs Chongqing Women (BLV RAMBO)
+https://freem3u.xyz/static/no-signal/low.m3u8
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261105/8263ba445a83d74556a79563aa9d3fac.png" group-title="09/11" , 14:00 09/11 ⚽ Shanghai Women B vs Henan Wanxianshan Women (BLV GIÓ)
+https://freem3u.xyz/static/no-signal/low.m3u8
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261105/8263ba445a83d74556a79563aa9d3fac.png" group-title="09/11" , 14:00 09/11 ⚽ Shanghai Women B vs Henan Wanxianshan Women (BLV XO)
 https://freem3u.xyz/static/no-signal/low.m3u8
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/cc0f42f7eec708cb429156b1becb3f93.png" group-title="09/11" , 15:00 09/11 ⚽ Ulaangom City vs Khovd Broncos (Gà Siêu Nhí) [flv]
 https://live2.zktsva.app/live/301263.flv
