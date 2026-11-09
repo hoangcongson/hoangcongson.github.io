@@ -1,67 +1,49 @@
 #EXTM3U
 #Cập nhật động từ https://thtt.pages.dev/tttt.m3u
 #--- Lịch đấu 09/11 ---
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_142515_2677a0e1.png" group-title="09/11" , 🟢 12:00 09/11 ⚽ Erchim vs Khovd Western (Chuối Kem) [FHD] [hls]
-https://gckc0525.edgemaxcdn.org/live/chuoikemhd/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_142515_2677a0e1.png" group-title="09/11" , 🟢 12:00 09/11 ⚽ Erchim vs Khovd Western (Teppy) [hls]
 https://wtyi0525.edgemaxcdn.org/live/x31-hd-1111/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/1l4rjnh12dgm7vx/image/small" group-title="09/11" , 🟢 12:00 09/11 ⚽ Khaan Khuns-Erchim FC vs Khovd Western (LOGAN)
-https://live2.jorvakstreamcache.com/live/channel23.flv
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/1l4rjnh12dgm7vx/image/small" group-title="09/11" , 🟢 12:00 09/11 ⚽ Khaan Khuns-Erchim FC vs Khovd Western (HD LOGAN)
-https://live2.domaincdn.cc/livecdn/channel-23.flv?auth_key=3000001794207048-0-0-bf177674d7ec1088fcafb74fba904bf4
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/c8188e3985db5cee9be1f4ea436f2fc2.png!w80" group-title="09/11" , 🟢 12:00 09/11 ⚽ Erchim vs Khovd Western (BLV 247) [flv]
-https://live05.wecile.app/live/90865415.flv
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/c8188e3985db5cee9be1f4ea436f2fc2.png!w80" group-title="09/11" , 🟢 12:00 09/11 ⚽ Erchim vs Khovd Western (BLV 247) [hls]
-https://live05.wecile.app/live/90865415.m3u8
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/c8188e3985db5cee9be1f4ea436f2fc2.png!w80" group-title="09/11" , 🟢 12:00 09/11 ⚽ Erchim vs Khovd Western (BLV 247) [hls 2]
-https://live05.yefpwmc.app/live/90865415_tsc.m3u8
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/c8188e3985db5cee9be1f4ea436f2fc2.png" group-title="09/11" , 🟢 12:00 09/11 ⚽ Erchim vs Khovd Western (Lucie23) [hls]
-https://playback.livetl002.com/live/6ae3500b1ba0f2f86b29d7a5.m3u8
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/c8188e3985db5cee9be1f4ea436f2fc2.png" group-title="09/11" , 🟢 12:00 09/11 ⚽ Erchim vs Khovd Western (Lucie23) [flv]
-https://playback.livetl002.com/live/6ae3500b1ba0f2f86b29d7a5.flv
-#EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/8027.webp" group-title="09/11" , 🟢 12:00 09/11 ⚽ Erchim vs Khovd Western (Raccoon)
-https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.tyv3PCyFmo0z.m3u8?expires=1794221424&signature=mtINxGteR4dMj_gb0ncWfViK1UhHKHm0XLngMtMVmds
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/l5ergphp3plr8k0/image/small" group-title="09/11" , 🟢 14:00 09/11 ⚽ Nữ Shanghai Huilong vs Nữ Henan (OLER)
 https://live2.jorvakstreamcache.com/live/channel28.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/l5ergphp3plr8k0/image/small" group-title="09/11" , 🟢 14:00 09/11 ⚽ Nữ Shanghai Huilong vs Nữ Henan (HD OLER)
-https://live2.domaincdn.cc/livecdn/channel-28.flv?auth_key=3000001794207028-0-0-cef7d9719affcd80d959cf1b0fd91c10
+https://live2.domaincdn.cc/livecdn/channel-28.flv?auth_key=3000001794207947-0-0-bac76739b374a05e9168511e78a827bf
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/pxwrxlhjz1pryk0/image/small" group-title="09/11" , 🟢 14:00 09/11 ⚽ Nữ Shanghai Shenhua vs Nữ Yongchuan (SILVA)
 https://live2.jorvakstreamcache.com/live/channel20.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/pxwrxlhjz1pryk0/image/small" group-title="09/11" , 🟢 14:00 09/11 ⚽ Nữ Shanghai Shenhua vs Nữ Yongchuan (HD SILVA)
-https://live2.domaincdn.cc/livecdn/channel-20.flv?auth_key=3000001794207038-0-0-3a1edf13daaa91e1c46dd57367456277
-#EXTINF:-1 tvg-logo="https://media.api-sports.io/football/teams/26667.png" group-title="09/11" , 15:00 09/11 ⚽ Ulaangom City vs Southern District (Chuối Già) [FHD] [hls]
+https://live2.domaincdn.cc/livecdn/channel-20.flv?auth_key=3000001794207954-0-0-f964dc007595f638eb675f3da106387a
+#EXTINF:-1 tvg-logo="https://media.api-sports.io/football/teams/26667.png" group-title="09/11" , 🟡 15:00 09/11 ⚽ Ulaangom City vs Southern District (Chuối Già) [FHD] [hls]
 https://gckc0525.edgemaxcdn.org/live/chuoigiahd/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20260624_155821_1ff2227f.png" group-title="09/11" , 15:00 09/11 ⚽ Ulaangom vs Southern District (Ricky) [hls]
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20260624_155821_1ff2227f.png" group-title="09/11" , 🟡 15:00 09/11 ⚽ Ulaangom vs Southern District (Ricky) [hls]
 https://wtyi0525.edgemaxcdn.org/live/x83-hd-1111/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/y39mp1h90k2mojx/image/small" group-title="09/11" , 15:00 09/11 ⚽ Ulaangom City vs Khovd Broncos (JEAN)
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/y39mp1h90k2mojx/image/small" group-title="09/11" , 🟡 15:00 09/11 ⚽ Ulaangom City vs Khovd Broncos (JEAN)
 https://live2.jorvakstreamcache.com/live/channel7.flv
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/y39mp1h90k2mojx/image/small" group-title="09/11" , 15:00 09/11 ⚽ Ulaangom City vs Khovd Broncos (HD JEAN)
-https://live2.domaincdn.cc/livecdn/channel-7.flv?auth_key=3000001794207062-0-0-9c7559768eeed3dceaef4475036aaa04
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/cc0f42f7eec708cb429156b1becb3f93.png" group-title="09/11" , 15:00 09/11 ⚽ Ulaangom City vs Khovd Broncos (Gà Siêu Nhí) [flv]
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/y39mp1h90k2mojx/image/small" group-title="09/11" , 🟡 15:00 09/11 ⚽ Ulaangom City vs Khovd Broncos (HD JEAN)
+https://live2.domaincdn.cc/livecdn/channel-7.flv?auth_key=3000001794207975-0-0-37c33a30cf030fc4a6ddbc51a2e9b29e
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/cc0f42f7eec708cb429156b1becb3f93.png" group-title="09/11" , 🟡 15:00 09/11 ⚽ Ulaangom City vs Khovd Broncos (Gà Siêu Nhí) [flv]
 https://live2.zktsva.app/live/301263.flv
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/cc0f42f7eec708cb429156b1becb3f93.png" group-title="09/11" , 15:00 09/11 ⚽ Ulaangom City vs Khovd Broncos (Gà Siêu Nhí) [hls]
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/cc0f42f7eec708cb429156b1becb3f93.png" group-title="09/11" , 🟡 15:00 09/11 ⚽ Ulaangom City vs Khovd Broncos (Gà Siêu Nhí) [hls]
 https://live2.zktsva.app/live/301263.m3u8
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/cc0f42f7eec708cb429156b1becb3f93.png!w80" group-title="09/11" , 15:00 09/11 ⚽ Ulaangom City FC vs Khovd (BLV PEPSI) [flv]
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/cc0f42f7eec708cb429156b1becb3f93.png!w80" group-title="09/11" , 🟡 15:00 09/11 ⚽ Ulaangom City FC vs Khovd (BLV PEPSI) [flv]
 https://live05.wecile.app/live/59444581.flv
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/cc0f42f7eec708cb429156b1becb3f93.png!w80" group-title="09/11" , 15:00 09/11 ⚽ Ulaangom City FC vs Khovd (BLV PEPSI) [hls]
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/cc0f42f7eec708cb429156b1becb3f93.png!w80" group-title="09/11" , 🟡 15:00 09/11 ⚽ Ulaangom City FC vs Khovd (BLV PEPSI) [hls]
 https://live05.wecile.app/live/59444581.m3u8
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/cc0f42f7eec708cb429156b1becb3f93.png!w80" group-title="09/11" , 15:00 09/11 ⚽ Ulaangom City FC vs Khovd (BLV PEPSI) [hls 2]
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/cc0f42f7eec708cb429156b1becb3f93.png!w80" group-title="09/11" , 🟡 15:00 09/11 ⚽ Ulaangom City FC vs Khovd (BLV PEPSI) [hls 2]
 https://live05.yefpwmc.app/live/59444581_tsc.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261105/b6199a511e0c5d41dae91570bbc43631.png" group-title="09/11" , 15:00 09/11 ⚽ Ulaangom City vs Khovd Broncos (TẠ BIÊN GIỚI)
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261105/b6199a511e0c5d41dae91570bbc43631.png" group-title="09/11" , 🟡 15:00 09/11 ⚽ Ulaangom City vs Khovd Broncos (TẠ BIÊN GIỚI)
 https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261105/b6199a511e0c5d41dae91570bbc43631.png" group-title="09/11" , 15:00 09/11 ⚽ Ulaangom City vs Khovd Broncos (ZIZOU)
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261105/b6199a511e0c5d41dae91570bbc43631.png" group-title="09/11" , 🟡 15:00 09/11 ⚽ Ulaangom City vs Khovd Broncos (ZIZOU)
 https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261105/b6199a511e0c5d41dae91570bbc43631.png" group-title="09/11" , 15:00 09/11 ⚽ Ulaangom City vs Khovd Broncos (BLV Củ Cải)
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261105/b6199a511e0c5d41dae91570bbc43631.png" group-title="09/11" , 🟡 15:00 09/11 ⚽ Ulaangom City vs Khovd Broncos (BLV Củ Cải)
 https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261105/b6199a511e0c5d41dae91570bbc43631.png" group-title="09/11" , 15:00 09/11 ⚽ Ulaangom City vs Khovd Broncos (CR Bưởi)
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261105/b6199a511e0c5d41dae91570bbc43631.png" group-title="09/11" , 🟡 15:00 09/11 ⚽ Ulaangom City vs Khovd Broncos (CR Bưởi)
 https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261105/b6199a511e0c5d41dae91570bbc43631.png" group-title="09/11" , 15:00 09/11 ⚽ Ulaangom City vs Khovd Broncos (BLV ĐỐM)
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261105/b6199a511e0c5d41dae91570bbc43631.png" group-title="09/11" , 🟡 15:00 09/11 ⚽ Ulaangom City vs Khovd Broncos (BLV ĐỐM)
 https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/869f9d5a3552f86ffbe7eed9c0e09d79.png" group-title="09/11" , 15:00 09/11 ⚽ Ulaangom City vs Khovd (Lá Chanh) [hls]
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/869f9d5a3552f86ffbe7eed9c0e09d79.png" group-title="09/11" , 🟡 15:00 09/11 ⚽ Ulaangom City vs Khovd (Lá Chanh) [hls]
 https://playback.livetl002.com/live/6acdcf4a1ba0f2f86b254fe9.m3u8
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/869f9d5a3552f86ffbe7eed9c0e09d79.png" group-title="09/11" , 15:00 09/11 ⚽ Ulaangom City vs Khovd (Lá Chanh) [flv]
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/869f9d5a3552f86ffbe7eed9c0e09d79.png" group-title="09/11" , 🟡 15:00 09/11 ⚽ Ulaangom City vs Khovd (Lá Chanh) [flv]
 https://playback.livetl002.com/live/6acdcf4a1ba0f2f86b254fe9.flv
-#EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/26667.webp" group-title="09/11" , 15:00 09/11 ⚽ Ulaangom City vs Khovd (Hawkeye)
+#EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/26667.webp" group-title="09/11" , 🟡 15:00 09/11 ⚽ Ulaangom City vs Khovd (Hawkeye)
 https://freem3u.xyz/static/no-signal/low.m3u8
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_131725_09716b66.png" group-title="09/11" , 16:00 09/11 ⚽ Metalourg vs Aral (Chuối Lá) [FHD] [hls]
 https://gckc0525.edgemaxcdn.org/live/chuoilahd/playlist.m3u8
@@ -74,7 +56,7 @@ https://wtyi0525.edgemaxcdn.org/live/x1-hd-1111/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/ednm9whep7kryox/image/small" group-title="09/11" , 16:00 09/11 ⚽ FK Gazalkent vs Respublika FA (ZANE)
 https://live2.jorvakstreamcache.com/live/channel22.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/ednm9whep7kryox/image/small" group-title="09/11" , 16:00 09/11 ⚽ FK Gazalkent vs Respublika FA (HD ZANE)
-https://live2.domaincdn.cc/livecdn/channel-22.flv?auth_key=3000001794207067-0-0-99c14b8aad64df024c6da1c347d770ac
+https://live2.domaincdn.cc/livecdn/channel-22.flv?auth_key=3000001794207999-0-0-5cbc254178494f7ef5a20aea69367e9b
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/4aa9ac9ceebfd497212c8f17ab6c7162.png!w80" group-title="09/11" , 16:00 09/11 ⚽ Metallurg Bekabad vs Aral Nukus (BLV REVIVE) [flv]
 https://live05.wecile.app/live/33982309.flv
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/4aa9ac9ceebfd497212c8f17ab6c7162.png!w80" group-title="09/11" , 16:00 09/11 ⚽ Metallurg Bekabad vs Aral Nukus (BLV REVIVE) [hls]
@@ -91,6 +73,10 @@ https://lilive1.eu.cc/live/ca0efed721ff640eccd23bc663163db9/playlist.m3u8
 https://hls.lauthaitv.cc/live/bento-aravat-arm1st/index.m3u8
 #EXTINF:-1 tvg-logo="https://s8tvkc.top/wp-json/s8-image/85419997-2359-41a2-8607-6b45c18667de" group-title="09/11" , 17:30 09/11 ⚽ Bentonit Idzhevan vs Araks Ararat (NGƯỜI NHỆN) [flv]
 https://flv.lauthaitv.cc/live/bento-aravat-arm1st.flv
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/x7lm7phkk50m2wd/image/small" group-title="09/11" , 17:30 09/11 ⚽ MIKA Ashtarak vs Shirak Gjumri B (XMEN)
+https://live2.jorvakstreamcache.com/live/channel13.flv
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/x7lm7phkk50m2wd/image/small" group-title="09/11" , 17:30 09/11 ⚽ MIKA Ashtarak vs Shirak Gjumri B (HD XMEN)
+https://live2.domaincdn.cc/livecdn/channel-13.flv?auth_key=3000001794208005-0-0-d8fe9cd9a5de260f5b1de83847dd71f3
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/b177b48f951b473e9e18dda8d1515b59.png" group-title="09/11" , 17:30 09/11 ⚽ Bentonit Idzhevan vs Araks Ararat (Gà Siêu Kiêu) [flv]
 https://live2.zktsva.app/live/741294.flv
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/b177b48f951b473e9e18dda8d1515b59.png" group-title="09/11" , 17:30 09/11 ⚽ Bentonit Idzhevan vs Araks Ararat (Gà Siêu Kiêu) [hls]
@@ -195,9 +181,9 @@ https://freem3u.xyz/static/no-signal/low.m3u8
 https://playback.livetl002.com/live/6a5b13ceb36a14387baeddaa.m3u8
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/0b565bf79378453da0982dfcf95ccc98.png" group-title="09/11" , 19:30 09/11 ⚽ Wadi Degla SC vs Kahraba Ismailia (Giàng A Dân) [flv]
 https://playback.livetl002.com/live/6a5b13ceb36a14387baeddaa.flv
-#EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/1046.webp" group-title="09/11" , 19:30 09/11 ⚽ Wadi Degla vs Kahraba Ismailia (Super Man)
-https://freem3u.xyz/static/no-signal/low.m3u8
 #EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/2606.webp" group-title="09/11" , 19:30 09/11 ⚽ FC Politehnica Timisoara vs CSM Reşiţa (Hawkeye)
+https://freem3u.xyz/static/no-signal/low.m3u8
+#EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/1046.webp" group-title="09/11" , 19:30 09/11 ⚽ Wadi Degla vs Kahraba Ismailia (Super Man)
 https://freem3u.xyz/static/no-signal/low.m3u8
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/gpxwrxlho70ryk0/image/small" group-title="09/11" , 19:30 09/11 ⚽ FC Politehnica Timisoara vs Scolar Resita (LÃM LÀNG) [geo]
 https://pull1.digitalcdn.net/live/0099f836e91844fcba59c33f63f99129/index.m3u8
@@ -287,6 +273,18 @@ https://live05.wecile.app/live/33982309.flv
 https://live05.wecile.app/live/33982309.m3u8
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/38f47a9528dd7f64ad462f6d9b26170e.png!w80" group-title="09/11" , 22:00 09/11 ⚽ CS Dinamo Bucharest vs Ramnicu Valcea (BLV REVIVE) [hls 2]
 https://live05.yefpwmc.app/live/33982309_tsc.m3u8
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261105/1faeec1b4d66155e80e8e9e0419976f6.png" group-title="09/11" , 22:00 09/11 ⚽ CS Dinamo Bucuresti vs SCM Ramnicu Valcea (THẠCH TÚ)
+https://freem3u.xyz/static/no-signal/low.m3u8
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261105/1faeec1b4d66155e80e8e9e0419976f6.png" group-title="09/11" , 22:00 09/11 ⚽ CS Dinamo Bucuresti vs SCM Ramnicu Valcea (BLV PIRLO)
+https://freem3u.xyz/static/no-signal/low.m3u8
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261105/1faeec1b4d66155e80e8e9e0419976f6.png" group-title="09/11" , 22:00 09/11 ⚽ CS Dinamo Bucuresti vs SCM Ramnicu Valcea (BLV BÉO)
+https://freem3u.xyz/static/no-signal/low.m3u8
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261105/1faeec1b4d66155e80e8e9e0419976f6.png" group-title="09/11" , 22:00 09/11 ⚽ CS Dinamo Bucuresti vs SCM Ramnicu Valcea (A BỆU)
+https://freem3u.xyz/static/no-signal/low.m3u8
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261105/1faeec1b4d66155e80e8e9e0419976f6.png" group-title="09/11" , 22:00 09/11 ⚽ CS Dinamo Bucuresti vs SCM Ramnicu Valcea (BLV CÒ)
+https://freem3u.xyz/static/no-signal/low.m3u8
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261105/1faeec1b4d66155e80e8e9e0419976f6.png" group-title="09/11" , 22:00 09/11 ⚽ CS Dinamo Bucuresti vs SCM Ramnicu Valcea (LOKA)
+https://freem3u.xyz/static/no-signal/low.m3u8
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261105/41fc9472612d7829f0d530917becea2a.png" group-title="09/11" , 22:00 09/11 ⚽ ZED FC vs Samanod (EG) (BLV RAMBO)
 https://freem3u.xyz/static/no-signal/low.m3u8
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261105/41fc9472612d7829f0d530917becea2a.png" group-title="09/11" , 22:00 09/11 ⚽ ZED FC vs Samanod (EG) (PEANUT)
@@ -306,18 +304,6 @@ https://freem3u.xyz/static/no-signal/low.m3u8
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261108/fd7a65b4127521fbfdfb7a1f842e87e1.png" group-title="09/11" , 22:00 09/11 ⚽ Etar vs PFK Montana (BLV ENZO)
 https://freem3u.xyz/static/no-signal/low.m3u8
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261108/fd7a65b4127521fbfdfb7a1f842e87e1.png" group-title="09/11" , 22:00 09/11 ⚽ Etar vs PFK Montana (BLV CHIVAS)
-https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261105/1faeec1b4d66155e80e8e9e0419976f6.png" group-title="09/11" , 22:00 09/11 ⚽ CS Dinamo Bucuresti vs SCM Ramnicu Valcea (THẠCH TÚ)
-https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261105/1faeec1b4d66155e80e8e9e0419976f6.png" group-title="09/11" , 22:00 09/11 ⚽ CS Dinamo Bucuresti vs SCM Ramnicu Valcea (BLV PIRLO)
-https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261105/1faeec1b4d66155e80e8e9e0419976f6.png" group-title="09/11" , 22:00 09/11 ⚽ CS Dinamo Bucuresti vs SCM Ramnicu Valcea (BLV BÉO)
-https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261105/1faeec1b4d66155e80e8e9e0419976f6.png" group-title="09/11" , 22:00 09/11 ⚽ CS Dinamo Bucuresti vs SCM Ramnicu Valcea (A BỆU)
-https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261105/1faeec1b4d66155e80e8e9e0419976f6.png" group-title="09/11" , 22:00 09/11 ⚽ CS Dinamo Bucuresti vs SCM Ramnicu Valcea (BLV CÒ)
-https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261105/1faeec1b4d66155e80e8e9e0419976f6.png" group-title="09/11" , 22:00 09/11 ⚽ CS Dinamo Bucuresti vs SCM Ramnicu Valcea (LOKA)
 https://freem3u.xyz/static/no-signal/low.m3u8
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/a08754ab96c283bacbf148154a50c7fc.png" group-title="09/11" , 22:00 09/11 ⚽ ZED FC vs Samanod (EG) (Người Kiến) [hls]
 https://playback.livetl002.com/live/6a439a7fb89dded67b208b87.m3u8
