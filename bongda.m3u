@@ -1,8 +1,6 @@
 #EXTM3U
 #Cập nhật động từ https://thtt.pages.dev/tttt.m3u
 #--- Lịch đấu 09/11 ---
-#EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/70d5c573c693c4053f908d9d9314ce87.png" group-title="09/11" , 🟢 19:00 09/11 ⚽ South Sudan U23 vs Senegal U23 (Trần Hoàng)
-https://wncdnhls-global.losartang.org/live/vsc-channel-19.m3u8
 #EXTINF:-1 tvg-logo="https://apiv3.apifootball.com/badges/2774_wadi-degla.jpg" group-title="09/11" , 🟢 19:30 09/11 ⚽ Wadi Degla vs Kahrabaa Ismailia (BLV Khô Mật) [hls]
 https://livecdn321.cdnfastter.xyz/live/live_b30ba5315c/index.m3u8?token=ZNaU8SPI--3-JASIZXv-JImAVGukJOEv6T9_GMWMfU0&expires=1852800615
 #EXTINF:-1 tvg-logo="https://apiv3.apifootball.com/badges/2774_wadi-degla.jpg" group-title="09/11" , 🟢 19:30 09/11 ⚽ Wadi Degla vs Kahrabaa Ismailia (BLV Khô Mật) [flv]
@@ -23,10 +21,6 @@ https://cdnflv.xbdbotv.live/live/MTk5MDI0NTk6aGY1ODc5dDVoeXprdGJiajd3azBucmU2OmR
 https://cdnhls.xbdbotv.live/live/MTk5MDI0NTk6aGY1ODc5dDVoeXprdGJiajd3azBucmU2OmRxbWt3NWIyYjh0MHZ2cmk2NDJpbXhhNQ/index.m3u8
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/205190.png" group-title="09/11" , 🟢 19:30 09/11 ⚽ Wadi Degla FC vs Kahrbaa Ismailia (Kai) [hls]
 https://wtyi0525.edgemaxcdn.org/live/x00-hd-1111/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/y0or5jhlkkyqwzv/image/small" group-title="09/11" , 🟢 19:30 09/11 ⚽ Wadi Degla SC vs Kahraba Ismailia (BRADY)
-https://live2.jorvakstreamcache.com/live/channel15.flv
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/y0or5jhlkkyqwzv/image/small" group-title="09/11" , 🟢 19:30 09/11 ⚽ Wadi Degla SC vs Kahraba Ismailia (HD BRADY)
-https://live2.domaincdn.cc/livecdn/channel-15.flv?auth_key=3000001794236729-0-0-79ac5161f208cd08c014452bb83ff28e
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/0b565bf79378453da0982dfcf95ccc98.png" group-title="09/11" , 🟢 19:30 09/11 ⚽ Wadi Degla SC vs Kahraba Ismailia (Gà Siêu Son) [flv]
 https://live2.zktsva.app/live/306290.flv
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/0b565bf79378453da0982dfcf95ccc98.png" group-title="09/11" , 🟢 19:30 09/11 ⚽ Wadi Degla SC vs Kahraba Ismailia (Gà Siêu Son) [hls]
@@ -37,10 +31,6 @@ https://live05.wecile.app/live/49572724.flv
 https://live05.wecile.app/live/49572724.m3u8
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/0b565bf79378453da0982dfcf95ccc98.png!w80" group-title="09/11" , 🟢 19:30 09/11 ⚽ CLB Wadi Degla vs Kahraba Ismailia (BLV REDBULL) [hls 2]
 https://live05.yefpwmc.app/live/49572724_tsc.m3u8
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/0b565bf79378453da0982dfcf95ccc98.png" group-title="09/11" , 🟢 19:30 09/11 ⚽ Wadi Degla SC vs Kahraba Ismailia (Giàng A Dân) [hls]
-https://playback.livetl002.com/live/6a5b13ceb36a14387baeddaa.m3u8
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/0b565bf79378453da0982dfcf95ccc98.png" group-title="09/11" , 🟢 19:30 09/11 ⚽ Wadi Degla SC vs Kahraba Ismailia (Giàng A Dân) [flv]
-https://playback.livetl002.com/live/6a5b13ceb36a14387baeddaa.flv
 #EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/a08754ab96c283bacbf148154a50c7fc.png" group-title="09/11" , 🟢 22:00 09/11 ⚽ ZED FC vs Samanod (EG) (Triệu Hằng)
 https://wncdnhls-global.losartang.org/live/vsc-channel-20.m3u8
 #EXTINF:-1 tvg-logo="https://apiv3.apifootball.com/badges/25722_cs-dinamo-bucureti.jpg" group-title="09/11" , 🟢 22:00 09/11 ⚽ CS Din. Bucuresti vs Ramnicu Valcea (BLV Lương Khô) [hls]
@@ -72,15 +62,15 @@ https://wtyi0525.edgemaxcdn.org/live/x22-hd-1111/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/zp5rzghp2pvq82w/image/small" group-title="09/11" , 🟢 22:00 09/11 ⚽ ZED FC vs Samanod (EG) (FABIO)
 https://live2.jorvakstreamcache.com/live/channel2.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/zp5rzghp2pvq82w/image/small" group-title="09/11" , 🟢 22:00 09/11 ⚽ ZED FC vs Samanod (EG) (HD FABIO)
-https://live2.domaincdn.cc/livecdn/channel-2.flv?auth_key=3000001794236738-0-0-ca73db0ff31a0e4a45cbc58c307d5f74
+https://live2.domaincdn.cc/livecdn/channel-2.flv?auth_key=3000001794237634-0-0-eb82793ef70e708c59b7d87dd42a22d1
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/jw2r09hl16yrz84/image/small" group-title="09/11" , 🟢 22:00 09/11 ⚽ FK Napredak vs Bor 1919 (KEN)
 https://live2.jorvakstreamcache.com/live/channel18.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/jw2r09hl16yrz84/image/small" group-title="09/11" , 🟢 22:00 09/11 ⚽ FK Napredak vs Bor 1919 (HD KEN)
-https://live2.domaincdn.cc/livecdn/channel-18.flv?auth_key=3000001794236745-0-0-712f37ae017683278655837d8f430133
+https://live2.domaincdn.cc/livecdn/channel-18.flv?auth_key=3000001794237659-0-0-79d3af5132c8f69a9fd4ed0c38167627
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/dn1m1gh3571moep/image/small" group-title="09/11" , 🟢 22:00 09/11 ⚽ CS Dinamo Bucuresti vs Ramnicu Valcea FC (ZANE)
 https://live2.jorvakstreamcache.com/live/channel22.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/dn1m1gh3571moep/image/small" group-title="09/11" , 🟢 22:00 09/11 ⚽ CS Dinamo Bucuresti vs Ramnicu Valcea FC (HD ZANE)
-https://live2.domaincdn.cc/livecdn/channel-22.flv?auth_key=3000001794236750-0-0-4d725c4fa833798bf76cdd19c0ee4304
+https://live2.domaincdn.cc/livecdn/channel-22.flv?auth_key=3000001794237666-0-0-46e89ec1a3ea7217fcc1bd835be7f765
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/df2cb8e6df5f64eb0e208d801da11e23.png" group-title="09/11" , 🟢 22:00 09/11 ⚽ Etar vs PFK Montana (Gà Siêu Tốc) [flv]
 https://live2.zktsva.app/live/307240.flv
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/df2cb8e6df5f64eb0e208d801da11e23.png" group-title="09/11" , 🟢 22:00 09/11 ⚽ Etar vs PFK Montana (Gà Siêu Tốc) [hls]
@@ -113,8 +103,12 @@ https://live05.wecile.app/live/33982309.flv
 https://live05.wecile.app/live/33982309.m3u8
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/38f47a9528dd7f64ad462f6d9b26170e.png!w80" group-title="09/11" , 🟢 22:00 09/11 ⚽ CS Dinamo Bucharest vs Ramnicu Valcea (BLV REVIVE) [hls 2]
 https://live05.yefpwmc.app/live/33982309_tsc.m3u8
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/a08754ab96c283bacbf148154a50c7fc.png" group-title="09/11" , 🟢 22:00 09/11 ⚽ ZED FC vs Samanod (EG) (Người Kiến) [hls]
+https://playback.livetl002.com/live/6a439a7fb89dded67b208b87.m3u8
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/a08754ab96c283bacbf148154a50c7fc.png" group-title="09/11" , 🟢 22:00 09/11 ⚽ ZED FC vs Samanod (EG) (Người Kiến) [flv]
+https://playback.livetl002.com/live/6a439a7fb89dded67b208b87.flv
 #EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/7520.webp" group-title="09/11" , 🟢 22:00 09/11 ⚽ Masr vs Samanod (Super Man)
-https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.hxBJkfewr8Ov.m3u8?expires=1794251124&signature=udvRXQlJ3-pys6hgyvON_Qdf22SAEj4J6KJhBE-2ls8
+https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.hxBJkfewr8Ov.m3u8?expires=1794252028&signature=A96PSg8I3VQkNlyIBBWibZNaHdSFnde1CRcNSlMYchg
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/dn1m1gh3571moep/image/small" group-title="09/11" , 🟢 22:00 09/11 ⚽ CS Dinamo Bucuresti vs Ramnicu Valcea FC (LÝ LONG) [geo]
 https://pull.digitalcdn.net/live/9102cf0432ec43e5a082ed94f816ae42/index.m3u8
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/dn1m1gh3571moep/image/small" group-title="09/11" , 🟢 22:00 09/11 ⚽ CS Dinamo Bucuresti vs Ramnicu Valcea FC (LÝ LONG) (HD2) [geo]
@@ -123,18 +117,20 @@ https://pull1.digitalcdn.net/live/9102cf0432ec43e5a082ed94f816ae42/index.m3u8
 https://lilive1.eu.cc/live/dd0bc54665763a5a2e685c0efe1503db/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/e80d49b16e8a1ea6b6d38643e1d429b0.png" group-title="09/11" , 🟡 23:00 09/11 ⚽ FC Iberia 1999 Tbilisi vs Gagra FC (Tôn Quyền)
 https://wncdnhls-global.losartang.org/live/vsc-channel-17.m3u8
+#EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/70d5c573c693c4053f908d9d9314ce87.png" group-title="09/11" , 🟡 23:00 09/11 ⚽ South Sudan U23 vs Senegal U23 (Trần Hoàng)
+https://wncdnhls-global.losartang.org/live/vsc-channel-19.m3u8
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132657_fcf6b990.png" group-title="09/11" , 🟡 23:00 09/11 ⚽ Saburtalo vs Gagra (Chuối Tây) [FHD] [hls]
 https://gckc0525.edgemaxcdn.org/live/chuoitayhd/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://s8tvkc.top/wp-json/s8-image/5aea0f94-8131-4fda-8571-91e2371ec9f0" group-title="09/11" , 🟡 23:00 09/11 ⚽ FC Iberia 1999 Tbilisi vs Gagra FC (NGƯỜI CAT) [hls]
+#EXTINF:-1 tvg-logo="https://s8tvkc.top/wp-json/s8-image/5aea0f94-8131-4fda-8571-91e2371ec9f0" group-title="09/11" , 🟢 23:00 09/11 ⚽ FC Iberia 1999 Tbilisi vs Gagra FC (NGƯỜI CAT) [hls]
 https://hls.lauthaitv.cc/live/tbili-gagra-geoliga/index.m3u8
-#EXTINF:-1 tvg-logo="https://s8tvkc.top/wp-json/s8-image/5aea0f94-8131-4fda-8571-91e2371ec9f0" group-title="09/11" , 🟡 23:00 09/11 ⚽ FC Iberia 1999 Tbilisi vs Gagra FC (NGƯỜI CAT) [flv]
+#EXTINF:-1 tvg-logo="https://s8tvkc.top/wp-json/s8-image/5aea0f94-8131-4fda-8571-91e2371ec9f0" group-title="09/11" , 🟢 23:00 09/11 ⚽ FC Iberia 1999 Tbilisi vs Gagra FC (NGƯỜI CAT) [flv]
 https://flv.lauthaitv.cc/live/tbili-gagra-geoliga.flv
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/480291.png" group-title="09/11" , 🟡 23:00 09/11 ⚽ Iberia 1999 vs FC Gagra (Tít) [hls]
 https://wtyi0525.edgemaxcdn.org/live/x2-hd-1111/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/4wyrn4he915q86p/image/small" group-title="09/11" , 🟡 23:00 09/11 ⚽ FC Saburtalo vs Gagra FC (FILIP)
 https://live2.jorvakstreamcache.com/live/channel19.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/4wyrn4he915q86p/image/small" group-title="09/11" , 🟡 23:00 09/11 ⚽ FC Saburtalo vs Gagra FC (HD FILIP)
-https://live2.domaincdn.cc/livecdn/channel-19.flv?auth_key=3000001794236762-0-0-f415a2d03ef7c130816a9c3b186c3b04
+https://live2.domaincdn.cc/livecdn/channel-19.flv?auth_key=3000001794237678-0-0-9be956fd0bafccccc515eb7f43a770b8
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/e80d49b16e8a1ea6b6d38643e1d429b0.png" group-title="09/11" , 🟡 23:00 09/11 ⚽ FC Iberia 1999 Tbilisi vs Gagra FC (Gà Siêu Kiêu) [flv]
 https://live2.zktsva.app/live/741294.flv
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/e80d49b16e8a1ea6b6d38643e1d429b0.png" group-title="09/11" , 🟡 23:00 09/11 ⚽ FC Iberia 1999 Tbilisi vs Gagra FC (Gà Siêu Kiêu) [hls]
@@ -166,7 +162,7 @@ https://wtyi0525.edgemaxcdn.org/live/x31-hd-1111/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/zp5rzgh753pq82w/image/small" group-title="09/11" , 23:30 09/11 ⚽ Veles Moscow vs FC KAMAZ (FELIX)
 https://live2.jorvakstreamcache.com/live/channel24.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/zp5rzgh753pq82w/image/small" group-title="09/11" , 23:30 09/11 ⚽ Veles Moscow vs FC KAMAZ (HD FELIX)
-https://live2.domaincdn.cc/livecdn/channel-24.flv?auth_key=3000001794236786-0-0-9500743c44272a50cf38a832516fc995
+https://live2.domaincdn.cc/livecdn/channel-24.flv?auth_key=3000001794237685-0-0-39acfe3c711208ff766d74637037052c
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/2f8d920e44771a9c4e6672dfab5669c1.png" group-title="09/11" , 23:30 09/11 ⚽ Veles Moscow vs KAMAZ Naberezhnye Chelny (Gà Siêu Bệu) [flv]
 https://live2.zktsva.app/live/289650.flv
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/2f8d920e44771a9c4e6672dfab5669c1.png" group-title="09/11" , 23:30 09/11 ⚽ Veles Moscow vs KAMAZ Naberezhnye Chelny (Gà Siêu Bệu) [hls]
@@ -185,6 +181,10 @@ https://freem3u.xyz/static/no-signal/low.m3u8
 https://freem3u.xyz/static/no-signal/low.m3u8
 #EXTINF:-1 tvg-logo="2f8d920e44771a9c4e6672dfab5669c1.webp" group-title="09/11" , 23:30 09/11 ⚽ Veles Moscow vs KAMAZ Naberezhnye Chelny (MP3)
 https://freem3u.xyz/static/no-signal/low.m3u8
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/08b74871ec0800b5ad7643b018f2a5bd.jpg" group-title="09/11" , 23:30 09/11 ⚽ Veles vs KAMAZ Naberezhnye Chelny (Rio) [hls]
+https://playback.livetl002.com/live/6a01a2511e8555d7a3685f5c.m3u8
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/08b74871ec0800b5ad7643b018f2a5bd.jpg" group-title="09/11" , 23:30 09/11 ⚽ Veles vs KAMAZ Naberezhnye Chelny (Rio) [flv]
+https://playback.livetl002.com/live/6a01a2511e8555d7a3685f5c.flv
 #EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/6833.webp" group-title="09/11" , 23:30 09/11 ⚽ Veles vs KAMAZ (Joker)
 https://freem3u.xyz/static/no-signal/low.m3u8
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/zp5rzgh753pq82w/image/small" group-title="09/11" , 23:30 09/11 ⚽ Veles vs FC KAMAZ (LÝ LẠNH LÙNG) [geo]
@@ -197,7 +197,7 @@ https://lilive1.eu.cc/live/d1e642bd12e0962533cd8afc3081d11d/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/p3glrw7hd10qdyj/image/small" group-title="10/11" , 00:00 10/11 ⚽ FK Javor Ivanjica vs Backa Topola (RAVEN)
 https://live2.jorvakstreamcache.com/live/channel21.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/p3glrw7hd10qdyj/image/small" group-title="10/11" , 00:00 10/11 ⚽ FK Javor Ivanjica vs Backa Topola (HD RAVEN)
-https://live2.domaincdn.cc/livecdn/channel-21.flv?auth_key=3000001794236793-0-0-44395754c1dd2ce541873feb6ec06547
+https://live2.domaincdn.cc/livecdn/channel-21.flv?auth_key=3000001794237691-0-0-192e254e9ebc26ff397b65467c472f3b
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/84e6861585c86b14524292db07d3a9e1.png" group-title="10/11" , 00:00 10/11 ⚽ Koln Women vs RB Leipzig Women (Gà Siêu Tồ) [flv]
 https://live2.zktsva.app/live/796315.flv
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/84e6861585c86b14524292db07d3a9e1.png" group-title="10/11" , 00:00 10/11 ⚽ Koln Women vs RB Leipzig Women (Gà Siêu Tồ) [hls]
@@ -253,19 +253,19 @@ https://wtyi0525.edgemaxcdn.org/live/x00-hd-1111/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/2y8m4zh3woxql07/image/small" group-title="10/11" , 01:00 10/11 ⚽ FC Botosani vs Otelul Galati (RIO)
 https://live2.jorvakstreamcache.com/live/channel16.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/2y8m4zh3woxql07/image/small" group-title="10/11" , 01:00 10/11 ⚽ FC Botosani vs Otelul Galati (HD RIO)
-https://live2.domaincdn.cc/livecdn/channel-16.flv?auth_key=3000001794236798-0-0-d3f55e4bddb54c3f96e497c249d7f420
+https://live2.domaincdn.cc/livecdn/channel-16.flv?auth_key=3000001794237695-0-0-386a70ba782c755a7f543e0eb7e2f288
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/23xmvkho9z1qg8n/image/small" group-title="10/11" , 01:00 10/11 ⚽ Mushuc Runa vs Delfin SC (HIRO)
 https://live2.jorvakstreamcache.com/live/channel14.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/23xmvkho9z1qg8n/image/small" group-title="10/11" , 01:00 10/11 ⚽ Mushuc Runa vs Delfin SC (HD HIRO)
-https://live2.domaincdn.cc/livecdn/channel-14.flv?auth_key=3000001794236802-0-0-af92e1fa8e9e6796197d053adf3ed441
+https://live2.domaincdn.cc/livecdn/channel-14.flv?auth_key=3000001794237703-0-0-64ddf3760f5f909b459cce3968cb3745
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/dj2ryohkpkyq1zp/image/small" group-title="10/11" , 01:00 10/11 ⚽ Nữ Atletico Madrid vs Nữ Levante Planas (BEE)
 https://live2.jorvakstreamcache.com/live/channel8.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/dj2ryohkpkyq1zp/image/small" group-title="10/11" , 01:00 10/11 ⚽ Nữ Atletico Madrid vs Nữ Levante Planas (HD BEE)
-https://live2.domaincdn.cc/livecdn/channel-8.flv?auth_key=3000001794236808-0-0-4dd32d9c2f5c8271052544919c7b08a2
+https://live2.domaincdn.cc/livecdn/channel-8.flv?auth_key=3000001794237709-0-0-2d354432f81e58acff1676da8bdcfbce
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/l965mkyhdeer1ge/image/small" group-title="10/11" , 01:00 10/11 ⚽ Hvidovre IF vs Aarhus Fremad (JOHAN)
 https://live2.jorvakstreamcache.com/live/channel12.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/l965mkyhdeer1ge/image/small" group-title="10/11" , 01:00 10/11 ⚽ Hvidovre IF vs Aarhus Fremad (HD JOHAN)
-https://live2.domaincdn.cc/livecdn/channel-12.flv?auth_key=3000001794236815-0-0-0fc480b7ae93b95eaea889695cef5ce9
+https://live2.domaincdn.cc/livecdn/channel-12.flv?auth_key=3000001794237716-0-0-9baeb89ac76dccfb30c49ae2f4a92dd6
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/44f50c40747300086bedc24981fb21f2.png" group-title="10/11" , 01:00 10/11 ⚽ Kristiansund BK vs Vålerenga Fotball Elite (Gà Siêu Mõm) [flv]
 https://live2.zktsva.app/live/300523.flv
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/44f50c40747300086bedc24981fb21f2.png" group-title="10/11" , 01:00 10/11 ⚽ Kristiansund BK vs Vålerenga Fotball Elite (Gà Siêu Mõm) [hls]
@@ -340,6 +340,10 @@ https://hls.lauthaitv.cc/live/saba-socieb-spa2nd/index.m3u8
 https://flv.lauthaitv.cc/live/saba-socieb-spa2nd.flv
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/674304.png" group-title="10/11" , 02:30 10/11 ⚽ Plymouth Parkway vs Berkhamsted (Ricky) [hls]
 https://wtyi0525.edgemaxcdn.org/live/x83-hd-1111/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/x7lm7phkk9lm2wd/image/small" group-title="10/11" , 02:30 10/11 ⚽ Sabadell vs Real Sociedad B (ASTRA)
+https://live2.pro2cdnlive.com/live/channel11.flv
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/x7lm7phkk9lm2wd/image/small" group-title="10/11" , 02:30 10/11 ⚽ Sabadell vs Real Sociedad B (HD ASTRA)
+https://live2.pro2cdnlive.com/live/channel-11.flv
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/dbebac8d5d7acc080bfddf620a56e213.png" group-title="10/11" , 02:30 10/11 ⚽ Sabadell vs Real Sociedad B (Gà Siêu Bệu) [flv]
 https://live2.zktsva.app/live/289650.flv
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/dbebac8d5d7acc080bfddf620a56e213.png" group-title="10/11" , 02:30 10/11 ⚽ Sabadell vs Real Sociedad B (Gà Siêu Bệu) [hls]
