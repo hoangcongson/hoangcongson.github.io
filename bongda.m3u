@@ -1,14 +1,6 @@
 #EXTM3U
 #Cập nhật động từ https://thtt.pages.dev/tttt.m3u
 #--- Lịch đấu 12/11 ---
-#EXTINF:-1 tvg-logo="https://apiv3.apifootball.com/badges/44_juventus-fc-w.jpg" group-title="12/11" , 🟢 03:00 12/11 ⚽ Juventus W vs OL Lyonnes W (BLV Xôi Gấc) [hls]
-https://livecdn321.cdnfastter.xyz/live/live_5e3f2549e4/index.m3u8?token=pCk_XLBJTDboKaC3LME17XPjU4pgaPXEOkc_CroCj0U&expires=1852800615
-#EXTINF:-1 tvg-logo="https://apiv3.apifootball.com/badges/44_juventus-fc-w.jpg" group-title="12/11" , 🟢 03:00 12/11 ⚽ Juventus W vs OL Lyonnes W (BLV Xôi Gấc) [flv]
-https://live.khoga.space/live/livehub11.flv
-#EXTINF:-1 tvg-logo="https://d1c0s7hi3ugzoc.cloudfront.net/teams/juventus-w-229269" group-title="12/11" , 🟢 03:00 12/11 ⚽ Juventus W vs Lyon W (SAPPORO) [flv]
-https://cdnflv.xbdbotv.live/live/MTk4Nzk1MTA6eGF6NjVwbnRsYnVzMmFsbGFrMXk3bTdyOm51OHV1djhsOXhmeDNmOGJmMWJldHliMQ.flv
-#EXTINF:-1 tvg-logo="https://d1c0s7hi3ugzoc.cloudfront.net/teams/juventus-w-229269" group-title="12/11" , 🟢 03:00 12/11 ⚽ Juventus W vs Lyon W (SAPPORO) [hls]
-https://cdnhls.xbdbotv.live/live/MTk4Nzk1MTA6eGF6NjVwbnRsYnVzMmFsbGFrMXk3bTdyOm51OHV1djhsOXhmeDNmOGJmMWJldHliMQ/index.m3u8
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_131459_dc14466b.png" group-title="12/11" , 🟢 05:00 12/11 ⚽ Londrina vs Nautico Recife (Chuối Sấy) [FHD] [hls]
 https://gckc0525.edgemaxcdn.org/live/chuoisayhd/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://s8tvkc.top/wp-json/s8-image/029fd8d1-4c57-4554-822c-4ddb9be74fdf" group-title="12/11" , 🟢 05:00 12/11 ⚽ Londrina PR vs Nautico (PE) (NGƯỜI THỎ) [hls]
@@ -20,7 +12,7 @@ https://wtyi0525.edgemaxcdn.org/live/x22-hd-1111/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/p4jwq2ghlpkm0ve/image/small" group-title="12/11" , 🟢 05:00 12/11 ⚽ Londrina PR vs Nautico (PE) (LOGAN)
 https://live2.jorvakstreamcache.com/live/channel23.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/p4jwq2ghlpkm0ve/image/small" group-title="12/11" , 🟢 05:00 12/11 ⚽ Londrina PR vs Nautico (PE) (HD LOGAN)
-https://live2.domaincdn.cc/livecdn/channel-23.flv?auth_key=3000001794437455-0-0-f1491d635c19454fcf07e18bb3b86a99
+https://live2.domaincdn.cc/livecdn/channel-23.flv?auth_key=3000001794438335-0-0-7722a7cdea6c877b0a80e378bd3f270e
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/9d3195be22d95cf5d35790272afc724a.png!w80" group-title="12/11" , 🟢 05:00 12/11 ⚽ Londrina vs Nautico (BLV PEPSI) [flv]
 https://live05.wecile.app/live/59444581.flv
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/9d3195be22d95cf5d35790272afc724a.png!w80" group-title="12/11" , 🟢 05:00 12/11 ⚽ Londrina vs Nautico (BLV PEPSI) [hls]
@@ -34,24 +26,24 @@ https://wtyi0525.edgemaxcdn.org/live/x4-hd-1111/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/4jwq2gh4zv4m0ve/image/small" group-title="12/11" , 🟢 06:00 12/11 ⚽ Valledupar FC vs Real Cartagena (JEAN)
 https://live2.jorvakstreamcache.com/live/channel7.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/4jwq2gh4zv4m0ve/image/small" group-title="12/11" , 🟢 06:00 12/11 ⚽ Valledupar FC vs Real Cartagena (HD JEAN)
-https://live2.domaincdn.cc/livecdn/channel-7.flv?auth_key=3000001794437432-0-0-31ade720f56047c4827eb3b3abc38c0a
+https://live2.domaincdn.cc/livecdn/channel-7.flv?auth_key=3000001794438358-0-0-a003c428fa7c88f449179c05432bc934
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/50fbe18e0f3a8bba0049607f8780eed0.png!w80" group-title="12/11" , 🟢 06:00 12/11 ⚽ Valledupar FC vs Cartagena (BLV ROCKSTAR) [flv]
 https://live05.wecile.app/live/82054853.flv
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/50fbe18e0f3a8bba0049607f8780eed0.png!w80" group-title="12/11" , 🟢 06:00 12/11 ⚽ Valledupar FC vs Cartagena (BLV ROCKSTAR) [hls]
 https://live05.wecile.app/live/82054853.m3u8
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/50fbe18e0f3a8bba0049607f8780eed0.png!w80" group-title="12/11" , 🟢 06:00 12/11 ⚽ Valledupar FC vs Cartagena (BLV ROCKSTAR) [hls 2]
 https://live05.yefpwmc.app/live/82054853_tsc.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261110/43bf2da96a4181898478a21f38d25cba.png" group-title="12/11" , 07:00 12/11 ⚽ Piratas FC vs Club Atletico La Paz (BLV RÔSI)
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261110/43bf2da96a4181898478a21f38d25cba.png" group-title="12/11" , 🟡 07:00 12/11 ⚽ Piratas FC vs Club Atletico La Paz (BLV RÔSI)
 https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261110/43bf2da96a4181898478a21f38d25cba.png" group-title="12/11" , 07:00 12/11 ⚽ Piratas FC vs Club Atletico La Paz (BLV TAP)
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261110/43bf2da96a4181898478a21f38d25cba.png" group-title="12/11" , 🟡 07:00 12/11 ⚽ Piratas FC vs Club Atletico La Paz (BLV TAP)
 https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261110/43bf2da96a4181898478a21f38d25cba.png" group-title="12/11" , 07:00 12/11 ⚽ Piratas FC vs Club Atletico La Paz (TYPN)
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261110/43bf2da96a4181898478a21f38d25cba.png" group-title="12/11" , 🟡 07:00 12/11 ⚽ Piratas FC vs Club Atletico La Paz (TYPN)
 https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261110/43bf2da96a4181898478a21f38d25cba.png" group-title="12/11" , 07:00 12/11 ⚽ Piratas FC vs Club Atletico La Paz (BLV TOMIA)
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261110/43bf2da96a4181898478a21f38d25cba.png" group-title="12/11" , 🟡 07:00 12/11 ⚽ Piratas FC vs Club Atletico La Paz (BLV TOMIA)
 https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261110/43bf2da96a4181898478a21f38d25cba.png" group-title="12/11" , 07:00 12/11 ⚽ Piratas FC vs Club Atletico La Paz (BLV PIRLO)
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261110/43bf2da96a4181898478a21f38d25cba.png" group-title="12/11" , 🟡 07:00 12/11 ⚽ Piratas FC vs Club Atletico La Paz (BLV PIRLO)
 https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261110/43bf2da96a4181898478a21f38d25cba.png" group-title="12/11" , 07:00 12/11 ⚽ Piratas FC vs Club Atletico La Paz (HẢI THANH)
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261110/43bf2da96a4181898478a21f38d25cba.png" group-title="12/11" , 🟡 07:00 12/11 ⚽ Piratas FC vs Club Atletico La Paz (HẢI THANH)
 https://freem3u.xyz/static/no-signal/low.m3u8
 #EXTINF:-1 tvg-logo="https://s8tvkc.top/wp-json/s8-image/3ac51242-5cd9-4f8c-b342-50352bfbb26e" group-title="12/11" , 08:00 12/11 ⚽ Toluca Women vs Club America Women (NGƯỜI SÓI) [hls]
 https://hls.lauthaitv.cc/live/toluca-america-mexligamx/index.m3u8
@@ -60,7 +52,7 @@ https://flv.lauthaitv.cc/live/toluca-america-mexligamx.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/3glrw7hjk57qdyj/image/small" group-title="12/11" , 08:00 12/11 ⚽ Nữ Club America vs Nữ Toluca (RAVEN)
 https://live2.jorvakstreamcache.com/live/channel21.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/3glrw7hjk57qdyj/image/small" group-title="12/11" , 08:00 12/11 ⚽ Nữ Club America vs Nữ Toluca (HD RAVEN)
-https://live2.domaincdn.cc/livecdn/channel-21.flv?auth_key=3000001794437467-0-0-5d599dafded55ad6ac613a53008f898b
+https://live2.domaincdn.cc/livecdn/channel-21.flv?auth_key=3000001794438371-0-0-e2adc1c05d5ef892b8e86b2a3749a2c9
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/988d4c293006d45d1f453c9ee2884022.png!w80" group-title="12/11" , 08:00 12/11 ⚽ Club America Nữ vs Toluca Nữ (BLV PEPSI) [flv]
 https://live05.wecile.app/live/59444581.flv
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/988d4c293006d45d1f453c9ee2884022.png!w80" group-title="12/11" , 08:00 12/11 ⚽ Club America Nữ vs Toluca Nữ (BLV PEPSI) [hls]
@@ -496,3 +488,5 @@ https://pull1.digitalcdn.net/live/c71e81c3a4674a76915d0db4ea2a6031/index.m3u8
 https://pull1.digitalcdn.net/live/f8a158d7222a4659b702bc73271aa685/index.m3u8
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/3glrw7hwk9zqdyj/image/small" group-title="13/11" , 19:00 13/11 ⚽ Singapore vs Paraguay (LÝ LÀNG LÁ) [geo]
 https://pull1.digitalcdn.net/live/4acc0b62e5d44a978cbfacae6af9a68d/index.m3u8
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/ednm9whk855ryox/image/small" group-title="13/11" , 21:00 13/11 ⚽ Kuwait vs Syria (LÃM LÀNG) [geo]
+https://pull1.digitalcdn.net/live/9f77dd7a926c49dfa62983cc16d1184c/index.m3u8
