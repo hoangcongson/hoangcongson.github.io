@@ -1,72 +1,28 @@
 #EXTM3U
 #Cập nhật động từ https://thtt.pages.dev/tttt.m3u
 #--- Lịch đấu 12/11 ---
-#EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/bfa20d86a59044ef90a4609dde03985c.png" group-title="12/11" , 🟢 19:00 12/11 ⚽ Singapore U23 vs Vietnam U23 (Trần Cảnh)
-https://wncdnhls-global.losartang.org/live/vsc-channel-18.m3u8
 #EXTINF:-1 tvg-logo="https://apiv3.apifootball.com/badges/10366_singapore-u23.jpg" group-title="12/11" , 🟢 19:00 12/11 ⚽ Singapore U23 vs U23 Việt Nam (Lương Khô + Khô Cóc) [hls]
 https://livecdn321.cdnfastter.xyz/live/live_f64016ed85/index.m3u8?token=2zFHBLZ7ZQ-fbhTLWfwNITX5zZlxj49JwHBeBRcyALM&expires=1852800615
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_144421_29dc3af1.png" group-title="12/11" , 🟢 19:00 12/11 ⚽ Singapore U23 vs U23 Vietnam (Chuối Kem) [FHD] [hls]
 https://gckc0525.edgemaxcdn.org/live/chuoikemhd/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/singapore-u23.png" group-title="12/11" , 🟢 19:00 12/11 ⚽ U23 Singapore vs U23 Việt Nam (Bee) [hls]
-https://pzhgifbkllliv.vcdn.cloud/1794460883_hd/1794460883_hd@720p.m3u8
 #EXTINF:-1 tvg-logo="https://d1c0s7hi3ugzoc.cloudfront.net/teams/vietnam-u23-131092" group-title="12/11" , 🟢 19:00 12/11 ⚽ Việt Nam U23 vs Singapore U23 (HÀU NƯỚNG) [flv]
 https://cdnflv.xbdbotv.live/live/MTk5MDUxNDg6ZjloaXUzaDRjanBxdHhoeGFvY3I1OGZkOndtazViNmNjd3NuZTRodWM3NHBrMjVjOA.flv
 #EXTINF:-1 tvg-logo="https://d1c0s7hi3ugzoc.cloudfront.net/teams/vietnam-u23-131092" group-title="12/11" , 🟢 19:00 12/11 ⚽ Việt Nam U23 vs Singapore U23 (HÀU NƯỚNG) [hls]
 https://cdnhls.xbdbotv.live/live/MTk5MDUxNDg6ZjloaXUzaDRjanBxdHhoeGFvY3I1OGZkOndtazViNmNjd3NuZTRodWM3NHBrMjVjOA/index.m3u8
-#EXTINF:-1 tvg-logo="https://s8tvkc.top/wp-json/s8-image/20cc5505-4b5d-4ad5-98ba-4bd0b97786b9" group-title="12/11" , 🟢 19:00 12/11 ⚽ Singapore U23 vs Vietnam U23 (NGƯỜI RÂM) [hls]
-https://hls.lauthaitv.cc/live/sin-vie-intfru23/index.m3u8
-#EXTINF:-1 tvg-logo="https://s8tvkc.top/wp-json/s8-image/20cc5505-4b5d-4ad5-98ba-4bd0b97786b9" group-title="12/11" , 🟢 19:00 12/11 ⚽ Singapore U23 vs Vietnam U23 (NGƯỜI RÂM) [flv]
-https://flv.lauthaitv.cc/live/sin-vie-intfru23.flv
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/C2Ka0kle-G01LILSk.png" group-title="12/11" , 🟢 19:00 12/11 ⚽ Singapore U23 vs Vietnam U23 (Teppy) [hls]
 https://wtyi0525.edgemaxcdn.org/live/x31-hd-1111/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/3glrw7hwelkqdyj/image/small" group-title="12/11" , 🟢 19:00 12/11 ⚽ Singapore U23 vs Việt Nam U23 (ROY)
 https://live2.jorvakstreamcache.com/live/channel1.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/3glrw7hwelkqdyj/image/small" group-title="12/11" , 🟢 19:00 12/11 ⚽ Singapore U23 vs Việt Nam U23 (FABIO)
-https://live2.domaincdn.cc/livecdn/channel-2.flv?auth_key=3000001794491449-0-0-222c94c7b279d50041364e4b0c0943ea
+https://live2.domaincdn.cc/livecdn/channel-2.flv?auth_key=3000001794492331-0-0-0ef960950ff236fd5cead225b26f0801
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/3glrw7hwelkqdyj/image/small" group-title="12/11" , 🟢 19:00 12/11 ⚽ Singapore U23 vs Việt Nam U23 (FABIO)
-https://live1.quickscoreboardz.com/live/channel2.flv?wsSecret=7c9dd6bea487645b80a62d7f459f1d3a&wsABSTime=1794534652
+https://live1.quickscoreboardz.com/live/channel2.flv?wsSecret=5e930a638423b5e346aaf313e6f02a67&wsABSTime=1794535532
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/3glrw7hwelkqdyj/image/small" group-title="12/11" , 🟢 19:00 12/11 ⚽ Singapore U23 vs Việt Nam U23 (FULL HD ROY)
-https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001794491454-0-0-07a49dbd187c125bb1db890a7b54a130
+https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001794492337-0-0-3defbc6e2c2553be5193dc58f8bdfe37
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/kjw2r09hd99rz84/image/small" group-title="12/11" , 🟢 19:00 12/11 ⚽ Arminia Bielefeld vs SV Meppen (RAVEN)
 https://live2.jorvakstreamcache.com/live/channel21.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/kjw2r09hd99rz84/image/small" group-title="12/11" , 🟢 19:00 12/11 ⚽ Arminia Bielefeld vs SV Meppen (HD RAVEN)
-https://live2.domaincdn.cc/livecdn/channel-21.flv?auth_key=3000001794491460-0-0-084798b3d685067aa6f006b3536f00cb
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/bfa20d86a59044ef90a4609dde03985c.png" group-title="12/11" , 🟢 19:00 12/11 ⚽ Singapore U23 vs Vietnam U23 (Gà Siêu Phệ) [flv]
-https://live2.zktsva.app/live/304565.flv
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/bfa20d86a59044ef90a4609dde03985c.png" group-title="12/11" , 🟢 19:00 12/11 ⚽ Singapore U23 vs Vietnam U23 (Gà Siêu Phệ) [hls]
-https://live2.zktsva.app/live/304565.m3u8
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/bfa20d86a59044ef90a4609dde03985c.png" group-title="12/11" , 🟢 19:00 12/11 ⚽ Singapore U23 vs Vietnam U23 (Gà Siêu Gáy + Gà Siêu Ngố) [flv]
-https://live2.zktsva.app/live/294335.flv
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/bfa20d86a59044ef90a4609dde03985c.png" group-title="12/11" , 🟢 19:00 12/11 ⚽ Singapore U23 vs Vietnam U23 (Gà Siêu Gáy + Gà Siêu Ngố) [hls]
-https://live2.zktsva.app/live/294335.m3u8
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/bfa20d86a59044ef90a4609dde03985c.png!w80" group-title="12/11" , 🟢 19:00 12/11 ⚽ Singapore U23 vs Việt Nam U23 (BLV C2) [flv]
-https://live05.wecile.app/live/08552895.flv
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/bfa20d86a59044ef90a4609dde03985c.png!w80" group-title="12/11" , 🟢 19:00 12/11 ⚽ Singapore U23 vs Việt Nam U23 (BLV C2) [hls]
-https://live05.wecile.app/live/08552895.m3u8
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/bfa20d86a59044ef90a4609dde03985c.png!w80" group-title="12/11" , 🟢 19:00 12/11 ⚽ Singapore U23 vs Việt Nam U23 (BLV C2) [hls 2]
-https://live05.yefpwmc.app/live/08552895_tsc.m3u8
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/bfa20d86a59044ef90a4609dde03985c.png!w80" group-title="12/11" , 🟢 19:00 12/11 ⚽ Singapore U23 vs Việt Nam U23 (BLV REVIVE) [flv]
-https://live05.wecile.app/live/33982309.flv
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/bfa20d86a59044ef90a4609dde03985c.png!w80" group-title="12/11" , 🟢 19:00 12/11 ⚽ Singapore U23 vs Việt Nam U23 (BLV REVIVE) [hls]
-https://live05.wecile.app/live/33982309.m3u8
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/bfa20d86a59044ef90a4609dde03985c.png!w80" group-title="12/11" , 🟢 19:00 12/11 ⚽ Singapore U23 vs Việt Nam U23 (BLV REVIVE) [hls 2]
-https://live05.yefpwmc.app/live/33982309_tsc.m3u8
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/bfa20d86a59044ef90a4609dde03985c.png!w80" group-title="12/11" , 🟢 19:00 12/11 ⚽ Singapore U23 vs Việt Nam U23 (BLV HỔ VẰN) [flv]
-https://live05.wecile.app/live/07428422.flv
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/bfa20d86a59044ef90a4609dde03985c.png!w80" group-title="12/11" , 🟢 19:00 12/11 ⚽ Singapore U23 vs Việt Nam U23 (BLV HỔ VẰN) [hls]
-https://live05.wecile.app/live/07428422.m3u8
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/bfa20d86a59044ef90a4609dde03985c.png!w80" group-title="12/11" , 🟢 19:00 12/11 ⚽ Singapore U23 vs Việt Nam U23 (BLV HỔ VẰN) [hls 2]
-https://live05.yefpwmc.app/live/07428422_tsc.m3u8
-#EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/10956.webp" group-title="12/11" , 🟢 19:00 12/11 ⚽ Singapore U23 vs Vietnam U23 (Super Man)
-https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.Dzq0a4jENMY7.m3u8?expires=1794505816&signature=9ZB5nXN_2CpdtikbpUlfsk8kzQZNpLSb3BQswWJv9sY
-#EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/10956.webp" group-title="12/11" , 🟢 19:00 12/11 ⚽ Singapore U23 vs Vietnam U23 (Nova)
-https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.6uVUwcxlxiq9.m3u8?expires=1794505827&signature=4hjP2SIspwwOfi5_WnluxhtflOxOekXoKTZ6ZrtcOEs
-#EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/10956.webp" group-title="12/11" , 🟢 19:00 12/11 ⚽ Singapore U23 vs Vietnam U23 (Hawkeye)
-https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.nbr0jCobKBnf.m3u8?expires=1794505829&signature=0hMwE05-0ESC5wkLZk0u3jY5F2u-8T3MU-jus7RFsTE
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/3glrw7hwelkqdyj/image/small" group-title="12/11" , 🟢 19:00 12/11 ⚽ Singapore U23 vs Việt Nam U23 (LÝ LẠNH LÙNG) [geo]
-https://pull.digitalcdn.net/live/7a690b7bc90649daaa4048a86be4f9cc/index.m3u8
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/3glrw7hwelkqdyj/image/small" group-title="12/11" , 🟢 19:00 12/11 ⚽ Singapore U23 vs Việt Nam U23 (Nhà đài)
-https://lilive1.eu.cc/live/38355234353b48858c1706513bfa3233/playlist.m3u8
+https://live2.domaincdn.cc/livecdn/channel-21.flv?auth_key=3000001794492342-0-0-5c8b1420aceb6d0dec73a547cceae8a5
 #EXTINF:-1 tvg-logo="https://d1c0s7hi3ugzoc.cloudfront.net/teams/el-entag-el-harby-6998" group-title="12/11" , 🟢 19:30 12/11 ⚽ El Entag El Harby vs Baladiyyat Al Mehalla (Lẩu Ếch) [flv]
 https://cdnflv.xbdbotv.live/live/MTk3NzYxMjg6YThsY2E2YTk4dWpna3Q2bXcydDZwYXRxOm13OWh4cXB6M2ZnYXJobjBveHVsMjlidw.flv
 #EXTINF:-1 tvg-logo="https://d1c0s7hi3ugzoc.cloudfront.net/teams/el-entag-el-harby-6998" group-title="12/11" , 🟢 19:30 12/11 ⚽ El Entag El Harby vs Baladiyyat Al Mehalla (Lẩu Ếch) [hls]
@@ -88,11 +44,11 @@ https://wtyi0525.edgemaxcdn.org/live/x22-hd-1111/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/kdj2ryoh379q1zp/image/small" group-title="12/11" , 🟢 20:00 12/11 ⚽ Greuther Fürth vs Würzburger Kickers (HIRO)
 https://live2.jorvakstreamcache.com/live/channel14.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/kdj2ryoh379q1zp/image/small" group-title="12/11" , 🟢 20:00 12/11 ⚽ Greuther Fürth vs Würzburger Kickers (HD HIRO)
-https://live2.domaincdn.cc/livecdn/channel-14.flv?auth_key=3000001794491489-0-0-1b97d71374c52c56bb9fbf730f1e8bb2
+https://live2.domaincdn.cc/livecdn/channel-14.flv?auth_key=3000001794492356-0-0-55ea9a9356aaddcf2db4539b83ae1630
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/9dn1m1ghylzmoep/image/small" group-title="12/11" , 🟢 20:00 12/11 ⚽ Holstein Kiel vs Odense BK (XMEN)
 https://live2.jorvakstreamcache.com/live/channel13.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/9dn1m1ghylzmoep/image/small" group-title="12/11" , 🟢 20:00 12/11 ⚽ Holstein Kiel vs Odense BK (HD XMEN)
-https://live2.domaincdn.cc/livecdn/channel-13.flv?auth_key=3000001794491493-0-0-060a1fcc7c72c11f26f01edd9e3a3b18
+https://live2.domaincdn.cc/livecdn/channel-13.flv?auth_key=3000001794492364-0-0-1eb34eecf72e1951ea8ca3be2f551797
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/5856c2f4a854359864b18f9aed3f8874.png" group-title="12/11" , 🟢 20:00 12/11 ⚽ Germany U19 vs Sweden U19 (Gà Siêu Tồ) [flv]
 https://live2.zktsva.app/live/796315.flv
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/5856c2f4a854359864b18f9aed3f8874.png" group-title="12/11" , 🟢 20:00 12/11 ⚽ Germany U19 vs Sweden U19 (Gà Siêu Tồ) [hls]
@@ -126,113 +82,113 @@ https://live05.yefpwmc.app/live/49572724_tsc.m3u8
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/9k82rekhpn0repz/image/small" group-title="12/11" , 🟢 20:00 12/11 ⚽ Iceland U21 vs Hy Lạp U21 (LÝ LINH LỰC) [geo]
 https://pull.digitalcdn.net/live/c7536db35f734e4c81e4b2b0398e4cc0/index.m3u8
 #EXTINF:-1 tvg-logo="https://xoigac.top/images/placeholder-team.svg" group-title="12/11" , 🟢 20:20 12/11 ⚽ Wolfsburg vs Union Berlin (Deal Pool)
-https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.IP4SXY1FzbKv.m3u8?expires=1794505832&signature=ipjBz5s9NlacBGj63v3CnBz1NTuY0Sz3Dgnurri_9CY
+https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.IP4SXY1FzbKv.m3u8?expires=1794506727&signature=ctMObFeAcsN03BXoCGDT-pD7GX_NqAX2pZ1dG90x9zA
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/56ypq3nhdnkmd7o/image/small" group-title="12/11" , 🟢 20:30 12/11 ⚽ VfL Wolfsburg vs Union Berlin (JOHAN)
 https://live2.jorvakstreamcache.com/live/channel12.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/56ypq3nhdnkmd7o/image/small" group-title="12/11" , 🟢 20:30 12/11 ⚽ VfL Wolfsburg vs Union Berlin (HD JOHAN)
-https://live2.domaincdn.cc/livecdn/channel-12.flv?auth_key=3000001794491501-0-0-f35fd1fe0095b0b8407e6eeb5821fcbb
+https://live2.domaincdn.cc/livecdn/channel-12.flv?auth_key=3000001794492387-0-0-8e2f7b5d4583aea48f7ca3d373a27318
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/03645e9c1d7fd2c48705622f52fd901e.png!w80" group-title="12/11" , 🟢 20:30 12/11 ⚽ VfL Wolfsburg vs 1. FC Union Berlin (BLV MOUNTAIN DEW) [flv]
 https://live05.wecile.app/live/87547578.flv
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/03645e9c1d7fd2c48705622f52fd901e.png!w80" group-title="12/11" , 🟢 20:30 12/11 ⚽ VfL Wolfsburg vs 1. FC Union Berlin (BLV MOUNTAIN DEW) [hls]
 https://live05.wecile.app/live/87547578.m3u8
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/03645e9c1d7fd2c48705622f52fd901e.png!w80" group-title="12/11" , 🟢 20:30 12/11 ⚽ VfL Wolfsburg vs 1. FC Union Berlin (BLV MOUNTAIN DEW) [hls 2]
 https://live05.yefpwmc.app/live/87547578_tsc.m3u8
-#EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/d22eb067fe4d496383acd1f38714e62b.png" group-title="12/11" , 22:00 12/11 ⚽ Ghana vs Somalia (Lưu Bang)
+#EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/d22eb067fe4d496383acd1f38714e62b.png" group-title="12/11" , 🟡 22:00 12/11 ⚽ Ghana vs Somalia (Lưu Bang)
 https://wncdnhls-global.losartang.org/live/vsc-channel-7.m3u8
-#EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/3016a701d47246f082016705f2f7267c.png" group-title="12/11" , 22:00 12/11 ⚽ Uzbekistan vs Russia (Dương Kiên)
+#EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/3016a701d47246f082016705f2f7267c.png" group-title="12/11" , 🟡 22:00 12/11 ⚽ Uzbekistan vs Russia (Dương Kiên)
 https://wncdnhls-global.losartang.org/live/vsc-channel-3.m3u8
-#EXTINF:-1 tvg-logo="https://apiv3.apifootball.com/badges/725_ghana.jpg" group-title="12/11" , 22:00 12/11 ⚽ Ghana vs Somalia (BLV Khô Cá) [hls]
+#EXTINF:-1 tvg-logo="https://apiv3.apifootball.com/badges/725_ghana.jpg" group-title="12/11" , 🟡 22:00 12/11 ⚽ Ghana vs Somalia (BLV Khô Cá) [hls]
 https://livecdn321.cdnfastter.xyz/live/live_062e5de010/index.m3u8?token=M6vDly-jvMUtRrO3xVQUwWJozWVPDQ0yVqDBWtZUbgM&expires=1852800615
-#EXTINF:-1 tvg-logo="https://apiv3.apifootball.com/badges/646_uzbekistan.jpg" group-title="12/11" , 22:00 12/11 ⚽ Uzbekistan vs Russia (BLV Tam Mao) [hls]
+#EXTINF:-1 tvg-logo="https://apiv3.apifootball.com/badges/646_uzbekistan.jpg" group-title="12/11" , 🟡 22:00 12/11 ⚽ Uzbekistan vs Russia (BLV Tam Mao) [hls]
 https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134316_7ff7b895.png" group-title="12/11" , 22:00 12/11 ⚽ Uzbekistan vs Russia (Chuối Nhỏ) [FHD] [hls]
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134316_7ff7b895.png" group-title="12/11" , 🟡 22:00 12/11 ⚽ Uzbekistan vs Russia (Chuối Nhỏ) [FHD] [hls]
 https://gckc0525.edgemaxcdn.org/live/chuoinhohd/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134305_fd6c1ece.png" group-title="12/11" , 22:00 12/11 ⚽ Ghana vs Somalia (Trốc Tru) [FHD] [hls]
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134305_fd6c1ece.png" group-title="12/11" , 🟡 22:00 12/11 ⚽ Ghana vs Somalia (Trốc Tru) [FHD] [hls]
 https://gckc0525.edgemaxcdn.org/live/troctruhd/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/uzbekistan.png" group-title="12/11" , 22:00 12/11 ⚽ Uzbekistan vs Russia (blv-beo) [hls]
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/uzbekistan.png" group-title="12/11" , 🟢 22:00 12/11 ⚽ Uzbekistan vs Russia (Bee) [hls]
+https://pzhgifbkllliv.vcdn.cloud/1794461081_hd/1794461081_hd@720p.m3u8
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/hacken.png" group-title="12/11" , 🟡 22:00 12/11 ⚽ Hacken vs Fredrikstad (blv-tri) [hls]
 https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/hacken.png" group-title="12/11" , 22:00 12/11 ⚽ Hacken vs Fredrikstad (blv-tri) [hls]
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/ghana.png" group-title="12/11" , 🟡 22:00 12/11 ⚽ Ghana vs Somalia (riko) [hls]
 https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/ghana.png" group-title="12/11" , 22:00 12/11 ⚽ Ghana vs Somalia (riko) [hls]
-https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://s8tvkc.top/wp-json/s8-image/ab65f5e1-fd02-491e-82fa-4cc90f491c13" group-title="12/11" , 22:00 12/11 ⚽ Uzbekistan vs Russia (NGƯỜI NẶN) [hls]
+#EXTINF:-1 tvg-logo="https://s8tvkc.top/wp-json/s8-image/ab65f5e1-fd02-491e-82fa-4cc90f491c13" group-title="12/11" , 🟡 22:00 12/11 ⚽ Uzbekistan vs Russia (NGƯỜI NẶN) [hls]
 https://hls.lauthaitv.cc/live/uzb-rus-intfr/index.m3u8
-#EXTINF:-1 tvg-logo="https://s8tvkc.top/wp-json/s8-image/ab65f5e1-fd02-491e-82fa-4cc90f491c13" group-title="12/11" , 22:00 12/11 ⚽ Uzbekistan vs Russia (NGƯỜI NẶN) [flv]
+#EXTINF:-1 tvg-logo="https://s8tvkc.top/wp-json/s8-image/ab65f5e1-fd02-491e-82fa-4cc90f491c13" group-title="12/11" , 🟡 22:00 12/11 ⚽ Uzbekistan vs Russia (NGƯỜI NẶN) [flv]
 https://flv.lauthaitv.cc/live/uzb-rus-intfr.flv
-#EXTINF:-1 tvg-logo="https://s8tvkc.top/wp-json/s8-image/c0b3a08d-9aa7-4a6c-bc85-3ee9153466b2" group-title="12/11" , 22:00 12/11 ⚽ Ghana vs Somalia (NGƯỜI TRÂU) [hls]
+#EXTINF:-1 tvg-logo="https://s8tvkc.top/wp-json/s8-image/c0b3a08d-9aa7-4a6c-bc85-3ee9153466b2" group-title="12/11" , 🟡 22:00 12/11 ⚽ Ghana vs Somalia (NGƯỜI TRÂU) [hls]
 https://hls.lauthaitv.cc/live/gha-som-cafacon/index.m3u8
-#EXTINF:-1 tvg-logo="https://s8tvkc.top/wp-json/s8-image/c0b3a08d-9aa7-4a6c-bc85-3ee9153466b2" group-title="12/11" , 22:00 12/11 ⚽ Ghana vs Somalia (NGƯỜI TRÂU) [flv]
+#EXTINF:-1 tvg-logo="https://s8tvkc.top/wp-json/s8-image/c0b3a08d-9aa7-4a6c-bc85-3ee9153466b2" group-title="12/11" , 🟡 22:00 12/11 ⚽ Ghana vs Somalia (NGƯỜI TRÂU) [flv]
 https://flv.lauthaitv.cc/live/gha-som-cafacon.flv
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6714.png" group-title="12/11" , 22:00 12/11 ⚽ Ghana vs Somalia (Kai) [hls]
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6714.png" group-title="12/11" , 🟡 22:00 12/11 ⚽ Ghana vs Somalia (Kai) [hls]
 https://wtyi0525.edgemaxcdn.org/live/x00-hd-1111/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/d22eb067fe4d496383acd1f38714e62b.png" group-title="12/11" , 22:00 12/11 ⚽ Ghana vs Somalia (Gà Siêu Kiêu) [flv]
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/d22eb067fe4d496383acd1f38714e62b.png" group-title="12/11" , 🟡 22:00 12/11 ⚽ Ghana vs Somalia (Gà Siêu Kiêu) [flv]
 https://live2.zktsva.app/live/741294.flv
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/d22eb067fe4d496383acd1f38714e62b.png" group-title="12/11" , 22:00 12/11 ⚽ Ghana vs Somalia (Gà Siêu Kiêu) [hls]
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/d22eb067fe4d496383acd1f38714e62b.png" group-title="12/11" , 🟡 22:00 12/11 ⚽ Ghana vs Somalia (Gà Siêu Kiêu) [hls]
 https://live2.zktsva.app/live/741294.m3u8
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/3016a701d47246f082016705f2f7267c.png" group-title="12/11" , 22:00 12/11 ⚽ Uzbekistan vs Russia (Gà Siêu Son) [flv]
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/3016a701d47246f082016705f2f7267c.png" group-title="12/11" , 🟡 22:00 12/11 ⚽ Uzbekistan vs Russia (Gà Siêu Son) [flv]
 https://live2.zktsva.app/live/306290.flv
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/3016a701d47246f082016705f2f7267c.png" group-title="12/11" , 22:00 12/11 ⚽ Uzbekistan vs Russia (Gà Siêu Son) [hls]
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/3016a701d47246f082016705f2f7267c.png" group-title="12/11" , 🟡 22:00 12/11 ⚽ Uzbekistan vs Russia (Gà Siêu Son) [hls]
 https://live2.zktsva.app/live/306290.m3u8
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/d92d7ec47187a662aacda2d4b4c7628e.png!w80" group-title="12/11" , 22:00 12/11 ⚽ Bồ Đào Nha U19 vs Litva U19 (BLV MONSTER) [flv]
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/d92d7ec47187a662aacda2d4b4c7628e.png!w80" group-title="12/11" , 🟡 22:00 12/11 ⚽ Bồ Đào Nha U19 vs Litva U19 (BLV MONSTER) [flv]
 https://live05.wecile.app/live/75915087.flv
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/d92d7ec47187a662aacda2d4b4c7628e.png!w80" group-title="12/11" , 22:00 12/11 ⚽ Bồ Đào Nha U19 vs Litva U19 (BLV MONSTER) [hls]
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/d92d7ec47187a662aacda2d4b4c7628e.png!w80" group-title="12/11" , 🟡 22:00 12/11 ⚽ Bồ Đào Nha U19 vs Litva U19 (BLV MONSTER) [hls]
 https://live05.wecile.app/live/75915087.m3u8
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/d92d7ec47187a662aacda2d4b4c7628e.png!w80" group-title="12/11" , 22:00 12/11 ⚽ Bồ Đào Nha U19 vs Litva U19 (BLV MONSTER) [hls 2]
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/d92d7ec47187a662aacda2d4b4c7628e.png!w80" group-title="12/11" , 🟡 22:00 12/11 ⚽ Bồ Đào Nha U19 vs Litva U19 (BLV MONSTER) [hls 2]
 https://live05.yefpwmc.app/live/75915087_tsc.m3u8
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/effa571bc3ca24dd7d1f2513bf849a52.png!w80" group-title="12/11" , 22:00 12/11 ⚽ Uzbekistan vs Nga (BLV SODA) [flv]
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/effa571bc3ca24dd7d1f2513bf849a52.png!w80" group-title="12/11" , 🟡 22:00 12/11 ⚽ Uzbekistan vs Nga (BLV SODA) [flv]
 https://live05.wecile.app/live/02456966.flv
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/effa571bc3ca24dd7d1f2513bf849a52.png!w80" group-title="12/11" , 22:00 12/11 ⚽ Uzbekistan vs Nga (BLV SODA) [hls]
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/effa571bc3ca24dd7d1f2513bf849a52.png!w80" group-title="12/11" , 🟡 22:00 12/11 ⚽ Uzbekistan vs Nga (BLV SODA) [hls]
 https://live05.wecile.app/live/02456966.m3u8
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/effa571bc3ca24dd7d1f2513bf849a52.png!w80" group-title="12/11" , 22:00 12/11 ⚽ Uzbekistan vs Nga (BLV SODA) [hls 2]
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/effa571bc3ca24dd7d1f2513bf849a52.png!w80" group-title="12/11" , 🟡 22:00 12/11 ⚽ Uzbekistan vs Nga (BLV SODA) [hls 2]
 https://live05.yefpwmc.app/live/02456966_tsc.m3u8
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/75800f73fa80f935216b8cfbedf77bfa.png!w80" group-title="12/11" , 22:00 12/11 ⚽ Ghana vs Somalia (BLV GIÀ LÀNG) [flv]
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/75800f73fa80f935216b8cfbedf77bfa.png!w80" group-title="12/11" , 🟡 22:00 12/11 ⚽ Ghana vs Somalia (BLV GIÀ LÀNG) [flv]
 https://live05.wecile.app/live/14830711.flv
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/75800f73fa80f935216b8cfbedf77bfa.png!w80" group-title="12/11" , 22:00 12/11 ⚽ Ghana vs Somalia (BLV GIÀ LÀNG) [hls]
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/75800f73fa80f935216b8cfbedf77bfa.png!w80" group-title="12/11" , 🟡 22:00 12/11 ⚽ Ghana vs Somalia (BLV GIÀ LÀNG) [hls]
 https://live05.wecile.app/live/14830711.m3u8
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/75800f73fa80f935216b8cfbedf77bfa.png!w80" group-title="12/11" , 22:00 12/11 ⚽ Ghana vs Somalia (BLV GIÀ LÀNG) [hls 2]
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/75800f73fa80f935216b8cfbedf77bfa.png!w80" group-title="12/11" , 🟡 22:00 12/11 ⚽ Ghana vs Somalia (BLV GIÀ LÀNG) [hls 2]
 https://live05.yefpwmc.app/live/14830711_tsc.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261108/8964c285d22c5165c897b8e0997c172f.png" group-title="12/11" , 22:00 12/11 ⚽ Uzbekistan vs Russia (CÔNG CHẤT)
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261108/8964c285d22c5165c897b8e0997c172f.png" group-title="12/11" , 🟡 22:00 12/11 ⚽ Uzbekistan vs Russia (CÔNG CHẤT)
 https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261108/8964c285d22c5165c897b8e0997c172f.png" group-title="12/11" , 22:00 12/11 ⚽ Uzbekistan vs Russia (BLV ĐỐM)
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261108/8964c285d22c5165c897b8e0997c172f.png" group-title="12/11" , 🟡 22:00 12/11 ⚽ Uzbekistan vs Russia (BLV ĐỐM)
 https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261108/8964c285d22c5165c897b8e0997c172f.png" group-title="12/11" , 22:00 12/11 ⚽ Uzbekistan vs Russia (BLV BÉO)
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261108/8964c285d22c5165c897b8e0997c172f.png" group-title="12/11" , 🟡 22:00 12/11 ⚽ Uzbekistan vs Russia (BLV BÉO)
 https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261108/8964c285d22c5165c897b8e0997c172f.png" group-title="12/11" , 22:00 12/11 ⚽ Uzbekistan vs Russia (LOKA)
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261108/8964c285d22c5165c897b8e0997c172f.png" group-title="12/11" , 🟡 22:00 12/11 ⚽ Uzbekistan vs Russia (LOKA)
 https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261108/8964c285d22c5165c897b8e0997c172f.png" group-title="12/11" , 22:00 12/11 ⚽ Uzbekistan vs Russia (NGƯỜI CÁ)
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261108/8964c285d22c5165c897b8e0997c172f.png" group-title="12/11" , 🟡 22:00 12/11 ⚽ Uzbekistan vs Russia (NGƯỜI CÁ)
 https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261108/8964c285d22c5165c897b8e0997c172f.png" group-title="12/11" , 22:00 12/11 ⚽ Uzbekistan vs Russia (BLV HEHE)
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261108/8964c285d22c5165c897b8e0997c172f.png" group-title="12/11" , 🟡 22:00 12/11 ⚽ Uzbekistan vs Russia (BLV HEHE)
 https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261108/ea0022ee6c6f24611cb10e6957536fa3.png" group-title="12/11" , 22:00 12/11 ⚽ Ghana vs Somalia (A PÁO)
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261108/ea0022ee6c6f24611cb10e6957536fa3.png" group-title="12/11" , 🟡 22:00 12/11 ⚽ Ghana vs Somalia (A PÁO)
 https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261108/ea0022ee6c6f24611cb10e6957536fa3.png" group-title="12/11" , 22:00 12/11 ⚽ Ghana vs Somalia (BLV LUCAS)
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261108/ea0022ee6c6f24611cb10e6957536fa3.png" group-title="12/11" , 🟡 22:00 12/11 ⚽ Ghana vs Somalia (BLV LUCAS)
 https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261108/ea0022ee6c6f24611cb10e6957536fa3.png" group-title="12/11" , 22:00 12/11 ⚽ Ghana vs Somalia (BLV VOI)
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261108/ea0022ee6c6f24611cb10e6957536fa3.png" group-title="12/11" , 🟡 22:00 12/11 ⚽ Ghana vs Somalia (BLV VOI)
 https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261108/ea0022ee6c6f24611cb10e6957536fa3.png" group-title="12/11" , 22:00 12/11 ⚽ Ghana vs Somalia (BLV CÒ)
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261108/ea0022ee6c6f24611cb10e6957536fa3.png" group-title="12/11" , 🟡 22:00 12/11 ⚽ Ghana vs Somalia (BLV CÒ)
 https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261108/ea0022ee6c6f24611cb10e6957536fa3.png" group-title="12/11" , 22:00 12/11 ⚽ Ghana vs Somalia (CACAO)
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261108/ea0022ee6c6f24611cb10e6957536fa3.png" group-title="12/11" , 🟡 22:00 12/11 ⚽ Ghana vs Somalia (CACAO)
 https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261108/ea0022ee6c6f24611cb10e6957536fa3.png" group-title="12/11" , 22:00 12/11 ⚽ Ghana vs Somalia (MP3)
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261108/ea0022ee6c6f24611cb10e6957536fa3.png" group-title="12/11" , 🟡 22:00 12/11 ⚽ Ghana vs Somalia (MP3)
 https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/1504.webp" group-title="12/11" , 22:00 12/11 ⚽ Ghana vs Somalia (Super Man)
+#EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/1504.webp" group-title="12/11" , 🟡 22:00 12/11 ⚽ Ghana vs Somalia (Super Man)
 https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/1568.webp" group-title="12/11" , 22:00 12/11 ⚽ Uzbekistan vs Russia (Hawkeye)
+#EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/1568.webp" group-title="12/11" , 🟡 22:00 12/11 ⚽ Uzbekistan vs Russia (Hawkeye)
 https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/965mkyh7x32r1ge/image/small" group-title="12/11" , 22:00 12/11 ⚽ Bồ Đào Nha U17 vs Andorra U17 (LÝ LONG) [geo]
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/965mkyh7x32r1ge/image/small" group-title="12/11" , 🟡 22:00 12/11 ⚽ Bồ Đào Nha U17 vs Andorra U17 (LÝ LONG) [geo]
 https://pull.digitalcdn.net/live/3a0671a0ab2e495190c49993af2b5d0b/index.m3u8
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/ednm9whk71vryox/image/small" group-title="12/11" , 22:00 12/11 ⚽ Bồ Đào Nha U19 vs Lithuania U19 (Unknown) [geo]
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/ednm9whk71vryox/image/small" group-title="12/11" , 🟡 22:00 12/11 ⚽ Bồ Đào Nha U19 vs Lithuania U19 (Unknown) [geo]
 https://pull.digitalcdn.net/live/8b3ff246da314c3db350cc23cfdfb54e/index.m3u8
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/d23xmvkhjweqg8n/image/small" group-title="12/11" , 22:00 12/11 ⚽ Uzbekistan vs Nga (LÝ LÊN LỬA) [geo]
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/d23xmvkhjweqg8n/image/small" group-title="12/11" , 🟡 22:00 12/11 ⚽ Uzbekistan vs Nga (LÝ LÊN LỬA) [geo]
 https://pull.digitalcdn.net/live/59809fab68014f058fd3fef2444f3930/index.m3u8
-#EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/ce991ab3a9bd4859bdb6cf6e9b623a35.png" group-title="12/11" , 23:00 12/11 ⚽ Democratic Republic of the Congo vs Sierra Leone (Lê Lợi)
-https://wncdnhls-global.losartang.org/live/vsc-channel-6.m3u8
-#EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/3d9171993c26e3bbe878122a09435451.png" group-title="12/11" , 23:00 12/11 ⚽ Equatorial Guinea vs Zimbabwe (Nguyễn Ánh)
-https://wncdnhls-global.losartang.org/live/vsc-channel-11.m3u8
 #EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/b3a153ec4be947cbee37d78cead6552b.png" group-title="12/11" , 23:00 12/11 ⚽ Madagascar vs Guinea Bissau (Trần Hoàng)
 https://wncdnhls-global.losartang.org/live/vsc-channel-19.m3u8
+#EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/3d9171993c26e3bbe878122a09435451.png" group-title="12/11" , 23:00 12/11 ⚽ Equatorial Guinea vs Zimbabwe (Nguyễn Ánh)
+https://wncdnhls-global.losartang.org/live/vsc-channel-11.m3u8
 #EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/9ff0bbc7c4dde77be85a27a1c5ba6d6c.png" group-title="12/11" , 23:00 12/11 ⚽ Guinea vs Eritrea (Tôn Quyền)
 https://wncdnhls-global.losartang.org/live/vsc-channel-17.m3u8
+#EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/ce991ab3a9bd4859bdb6cf6e9b623a35.png" group-title="12/11" , 23:00 12/11 ⚽ Democratic Republic of the Congo vs Sierra Leone (Lê Lợi)
+https://wncdnhls-global.losartang.org/live/vsc-channel-6.m3u8
 #EXTINF:-1 tvg-logo="https://apiv3.apifootball.com/badges/728_congo-dr.jpg" group-title="12/11" , 23:00 12/11 ⚽ CHDC Congo vs Sierra Leone (BLV Khô Mật) [hls]
 https://livecdn321.cdnfastter.xyz/live/live_b30ba5315c/index.m3u8?token=ZNaU8SPI--3-JASIZXv-JImAVGukJOEv6T9_GMWMfU0&expires=1852800615
 #EXTINF:-1 tvg-logo="https://apiv3.apifootball.com/badges/728_congo-dr.jpg" group-title="12/11" , 23:00 12/11 ⚽ CHDC Congo vs Sierra Leone (BLV Khô Mật) [flv]
@@ -328,14 +284,14 @@ https://freem3u.xyz/static/no-signal/low.m3u8
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/turkey.png" group-title="12/11" , 23:59 12/11 ⚽ Thổ Nhĩ Kỳ vs Bỉ (blv-ngong) [hls]
 https://freem3u.xyz/static/no-signal/low.m3u8
 #--- Lịch đấu 13/11 ---
-#EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/13d8532225dea4fca8e0ebdfb27b83e4.png" group-title="13/11" , 00:00 13/11 ⚽ Armenia vs Cyprus (Lê Hoàn)
-https://wncdnhls-global.losartang.org/live/vsc-channel-5.m3u8
 #EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/a175df50667b42ef97dcb52a9a8b1c1a.png" group-title="13/11" , 00:00 13/11 ⚽ Turkiye vs Belgium (Ngô Quyền)
 https://wncdnhls-global.losartang.org/live/vsc-channel-10.m3u8
 #EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/13d8532225dea4fca8e0ebdfb27b83e4.png" group-title="13/11" , 00:00 13/11 ⚽ Armenia vs Cyprus (Lê Hoàn)
 https://wncdnhls-global.losartang.org/live/vsc-channel-5.m3u8
 #EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/a175df50667b42ef97dcb52a9a8b1c1a.png" group-title="13/11" , 00:00 13/11 ⚽ Turkiye vs Belgium (Ngô Quyền)
 https://wncdnhls-global.losartang.org/live/vsc-channel-10.m3u8
+#EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/13d8532225dea4fca8e0ebdfb27b83e4.png" group-title="13/11" , 00:00 13/11 ⚽ Armenia vs Cyprus (Lê Hoàn)
+https://wncdnhls-global.losartang.org/live/vsc-channel-5.m3u8
 #EXTINF:-1 tvg-logo="https://apiv3.apifootball.com/badges/1_turkiye.jpg" group-title="13/11" , 00:00 13/11 ⚽ Thổ Nhĩ Kỳ vs Bỉ (BLV Khô Cóc) [hls]
 https://livecdn321.cdnfastter.xyz/live/live_22ba35ebaa/index.m3u8?token=rnGiAKd7Ef-B1Q39PpqAGJSIrNI8dj2Sz-3IRtLMfUs
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125503_f5da35f2.png" group-title="13/11" , 00:00 13/11 ⚽ Türkiye vs Belgium (Chuối Tây) [FHD] [hls]
@@ -530,24 +486,24 @@ https://freem3u.xyz/static/no-signal/low.m3u8
 https://freem3u.xyz/static/no-signal/low.m3u8
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261109/3f3ae920e6c5ed1415748d13cf6d08a0.png" group-title="13/11" , 02:00 13/11 ⚽ Cameroon vs Namibia (VINFAST)
 https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/848ef33f5e745846994a756f211e530b.png" group-title="13/11" , 02:45 13/11 ⚽ Albania vs Finland (Nguyễn Đảm)
-https://wncdnhls-global.losartang.org/live/vsc-channel-12.m3u8
 #EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/445f0bbb49694464b0fee3b1cbdfdafc.png" group-title="13/11" , 02:45 13/11 ⚽ Czechia vs Spain (Lưu Bang)
 https://wncdnhls-global.losartang.org/live/vsc-channel-7.m3u8
-#EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/775bc655c77d679c193f1982dac04668.png" group-title="13/11" , 02:45 13/11 ⚽ Italy vs France (Lê Lợi)
-https://wncdnhls-global.losartang.org/live/vsc-channel-6.m3u8
 #EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/9866b8a83d35abdd89ed76d565d71f75.png" group-title="13/11" , 02:45 13/11 ⚽ Montenegro vs Latvia (Trần Cảnh)
 https://wncdnhls-global.losartang.org/live/vsc-channel-18.m3u8
+#EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/775bc655c77d679c193f1982dac04668.png" group-title="13/11" , 02:45 13/11 ⚽ Italy vs France (Lê Lợi)
+https://wncdnhls-global.losartang.org/live/vsc-channel-6.m3u8
+#EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/848ef33f5e745846994a756f211e530b.png" group-title="13/11" , 02:45 13/11 ⚽ Albania vs Finland (Nguyễn Đảm)
+https://wncdnhls-global.losartang.org/live/vsc-channel-12.m3u8
 #EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/70fd3d5ba9c841ef932fae2cf0d7f3e7.png" group-title="13/11" , 02:45 13/11 ⚽ England vs Croatia (Ngô Quyền)
 https://wncdnhls-global.losartang.org/live/vsc-channel-10.m3u8
-#EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/848ef33f5e745846994a756f211e530b.png" group-title="13/11" , 02:45 13/11 ⚽ Albania vs Finland (Nguyễn Đảm)
-https://wncdnhls-global.losartang.org/live/vsc-channel-12.m3u8
 #EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/445f0bbb49694464b0fee3b1cbdfdafc.png" group-title="13/11" , 02:45 13/11 ⚽ Czechia vs Spain (Lưu Bang)
 https://wncdnhls-global.losartang.org/live/vsc-channel-7.m3u8
-#EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/775bc655c77d679c193f1982dac04668.png" group-title="13/11" , 02:45 13/11 ⚽ Italy vs France (Lê Lợi)
-https://wncdnhls-global.losartang.org/live/vsc-channel-6.m3u8
 #EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/9866b8a83d35abdd89ed76d565d71f75.png" group-title="13/11" , 02:45 13/11 ⚽ Montenegro vs Latvia (Trần Cảnh)
 https://wncdnhls-global.losartang.org/live/vsc-channel-18.m3u8
+#EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/775bc655c77d679c193f1982dac04668.png" group-title="13/11" , 02:45 13/11 ⚽ Italy vs France (Lê Lợi)
+https://wncdnhls-global.losartang.org/live/vsc-channel-6.m3u8
+#EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/848ef33f5e745846994a756f211e530b.png" group-title="13/11" , 02:45 13/11 ⚽ Albania vs Finland (Nguyễn Đảm)
+https://wncdnhls-global.losartang.org/live/vsc-channel-12.m3u8
 #EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/70fd3d5ba9c841ef932fae2cf0d7f3e7.png" group-title="13/11" , 02:45 13/11 ⚽ England vs Croatia (Ngô Quyền)
 https://wncdnhls-global.losartang.org/live/vsc-channel-10.m3u8
 #EXTINF:-1 tvg-logo="https://apiv3.apifootball.com/badges/13_czechia.jpg" group-title="13/11" , 02:45 13/11 ⚽ Cộng Hòa Séc vs Tây Ban Nha (BLV Khô Mật) [hls]
@@ -726,12 +682,6 @@ https://freem3u.xyz/static/no-signal/low.m3u8
 https://freem3u.xyz/static/no-signal/low.m3u8
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261109/4a65c35519bde89f82f87c5ac3ebccae.png" group-title="13/11" , 02:45 13/11 ⚽ Italy vs France (HẢI THANH)
 https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/768.webp" group-title="13/11" , 02:45 13/11 ⚽ Italy vs France (Thanos)
-https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/768.webp" group-title="13/11" , 02:45 13/11 ⚽ Italy vs France (Deal Pool)
-https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/768.webp" group-title="13/11" , 02:45 13/11 ⚽ Italy vs France (Hawkeye)
-https://freem3u.xyz/static/no-signal/low.m3u8
 #EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/10.webp" group-title="13/11" , 02:45 13/11 ⚽ England vs Croatia (Nova)
 https://freem3u.xyz/static/no-signal/low.m3u8
 #EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/10.webp" group-title="13/11" , 02:45 13/11 ⚽ England vs Croatia (Speed)
@@ -739,6 +689,12 @@ https://freem3u.xyz/static/no-signal/low.m3u8
 #EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/770.webp" group-title="13/11" , 02:45 13/11 ⚽ Czechia vs Spain (Joker)
 https://freem3u.xyz/static/no-signal/low.m3u8
 #EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/770.webp" group-title="13/11" , 02:45 13/11 ⚽ Czechia vs Spain (Black Panther)
+https://freem3u.xyz/static/no-signal/low.m3u8
+#EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/768.webp" group-title="13/11" , 02:45 13/11 ⚽ Italy vs France (Thanos)
+https://freem3u.xyz/static/no-signal/low.m3u8
+#EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/768.webp" group-title="13/11" , 02:45 13/11 ⚽ Italy vs France (Deal Pool)
+https://freem3u.xyz/static/no-signal/low.m3u8
+#EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/768.webp" group-title="13/11" , 02:45 13/11 ⚽ Italy vs France (Hawkeye)
 https://freem3u.xyz/static/no-signal/low.m3u8
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/56ypq3nh290md7o/image/small" group-title="13/11" , 02:45 13/11 ⚽ Italy vs Pháp (LÝ LA LÀNG) [geo]
 https://pull.digitalcdn.net/live/b47874e23a1045eeb8ffd873de9b1377/index.m3u8
@@ -890,18 +846,18 @@ https://wncdnhls-global.losartang.org/live/vsc-channel-11.m3u8
 https://pull.digitalcdn.net/live/f8a158d7222a4659b702bc73271aa685/index.m3u8
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/3glrw7hwk9zqdyj/image/small" group-title="13/11" , 19:00 13/11 ⚽ Singapore vs Paraguay (LÝ LÀNG LÁ) [geo]
 https://pull.digitalcdn.net/live/4acc0b62e5d44a978cbfacae6af9a68d/index.m3u8
-#EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/b26f48bd4e40423148b0089092638919.png" group-title="13/11" , 20:00 13/11 ⚽ Comoros vs Republic of the Congo (Huyền Diệp)
-https://wncdnhls-global.losartang.org/live/vsc-channel-4.m3u8
-#EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/4ebcf9e1e66c0ecb1723ddb6dfdddd43.png" group-title="13/11" , 20:00 13/11 ⚽ Mozambique vs Ethiopia (Tôn Quyền)
-https://wncdnhls-global.losartang.org/live/vsc-channel-17.m3u8
 #EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/3bb39baf42957397d3fae8e0e66b6554.png" group-title="13/11" , 20:00 13/11 ⚽ Zambia vs Burundi (Tào Duệ)
 https://wncdnhls-global.losartang.org/live/vsc-channel-15.m3u8
-#EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/b26f48bd4e40423148b0089092638919.png" group-title="13/11" , 20:00 13/11 ⚽ Comoros vs Republic of the Congo (Huyền Diệp)
-https://wncdnhls-global.losartang.org/live/vsc-channel-4.m3u8
 #EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/4ebcf9e1e66c0ecb1723ddb6dfdddd43.png" group-title="13/11" , 20:00 13/11 ⚽ Mozambique vs Ethiopia (Tôn Quyền)
 https://wncdnhls-global.losartang.org/live/vsc-channel-17.m3u8
+#EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/b26f48bd4e40423148b0089092638919.png" group-title="13/11" , 20:00 13/11 ⚽ Comoros vs Republic of the Congo (Huyền Diệp)
+https://wncdnhls-global.losartang.org/live/vsc-channel-4.m3u8
 #EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/3bb39baf42957397d3fae8e0e66b6554.png" group-title="13/11" , 20:00 13/11 ⚽ Zambia vs Burundi (Tào Duệ)
 https://wncdnhls-global.losartang.org/live/vsc-channel-15.m3u8
+#EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/4ebcf9e1e66c0ecb1723ddb6dfdddd43.png" group-title="13/11" , 20:00 13/11 ⚽ Mozambique vs Ethiopia (Tôn Quyền)
+https://wncdnhls-global.losartang.org/live/vsc-channel-17.m3u8
+#EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/b26f48bd4e40423148b0089092638919.png" group-title="13/11" , 20:00 13/11 ⚽ Comoros vs Republic of the Congo (Huyền Diệp)
+https://wncdnhls-global.losartang.org/live/vsc-channel-4.m3u8
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/ednm9whk855ryox/image/small" group-title="13/11" , 21:00 13/11 ⚽ Kuwait vs Syria (LÝ LONG) [geo]
 https://pull.digitalcdn.net/live/9f77dd7a926c49dfa62983cc16d1184c/index.m3u8
 #EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/1b141c19b8516ff9a26065d66ecd7146.png" group-title="13/11" , 21:10 13/11 ⚽ United Arab Emirates vs Honduras (Trần Cảnh)
@@ -918,19 +874,21 @@ https://pull.digitalcdn.net/live/cd08eb1cab7246d5b1528666eeb2e293/index.m3u8
 https://wncdnhls-global.losartang.org/live/vsc-channel-12.m3u8
 #EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/efa8ac06cc6747b1835520f01650a0ab.png" group-title="13/11" , 21:45 13/11 ⚽ Qatar vs Australia (Nguyễn Đảm)
 https://wncdnhls-global.losartang.org/live/vsc-channel-12.m3u8
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/d23xmvkh1y9qg8n/image/small" group-title="13/11" , 21:45 13/11 ⚽ Qatar vs Australia (LÝ LIỀU LĨNH) [geo]
+https://pull.digitalcdn.net/live/3aa3415396c6489fbde7b6e8d513d875/index.m3u8
 #EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/f5537e8960824e848e5a9bac16514483.png" group-title="13/11" , 23:00 13/11 ⚽ South Africa vs Kenya (Dương Kiên)
 https://wncdnhls-global.losartang.org/live/vsc-channel-3.m3u8
-#EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/3367956ae5c44991af49e1e2137f415b.png" group-title="13/11" , 23:00 13/11 ⚽ Cabo Verde vs Liberia (Triệu Hằng)
-https://wncdnhls-global.losartang.org/live/vsc-channel-20.m3u8
-#EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/7967d550a306a50276991b19ddb4d72e.png" group-title="13/11" , 23:00 13/11 ⚽ Nigeria vs Tanzania (Lê Lợi)
-https://wncdnhls-global.losartang.org/live/vsc-channel-6.m3u8
 #EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/2e667fca5e24ac13dcee94ddc4aa751a.png" group-title="13/11" , 23:00 13/11 ⚽ Burkina Faso vs Mauritania (Trần Hoàng)
 https://wncdnhls-global.losartang.org/live/vsc-channel-19.m3u8
+#EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/7967d550a306a50276991b19ddb4d72e.png" group-title="13/11" , 23:00 13/11 ⚽ Nigeria vs Tanzania (Lê Lợi)
+https://wncdnhls-global.losartang.org/live/vsc-channel-6.m3u8
+#EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/3367956ae5c44991af49e1e2137f415b.png" group-title="13/11" , 23:00 13/11 ⚽ Cabo Verde vs Liberia (Triệu Hằng)
+https://wncdnhls-global.losartang.org/live/vsc-channel-20.m3u8
 #EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/f5537e8960824e848e5a9bac16514483.png" group-title="13/11" , 23:00 13/11 ⚽ South Africa vs Kenya (Dương Kiên)
 https://wncdnhls-global.losartang.org/live/vsc-channel-3.m3u8
-#EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/3367956ae5c44991af49e1e2137f415b.png" group-title="13/11" , 23:00 13/11 ⚽ Cabo Verde vs Liberia (Triệu Hằng)
-https://wncdnhls-global.losartang.org/live/vsc-channel-20.m3u8
-#EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/7967d550a306a50276991b19ddb4d72e.png" group-title="13/11" , 23:00 13/11 ⚽ Nigeria vs Tanzania (Lê Lợi)
-https://wncdnhls-global.losartang.org/live/vsc-channel-6.m3u8
 #EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/2e667fca5e24ac13dcee94ddc4aa751a.png" group-title="13/11" , 23:00 13/11 ⚽ Burkina Faso vs Mauritania (Trần Hoàng)
 https://wncdnhls-global.losartang.org/live/vsc-channel-19.m3u8
+#EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/7967d550a306a50276991b19ddb4d72e.png" group-title="13/11" , 23:00 13/11 ⚽ Nigeria vs Tanzania (Lê Lợi)
+https://wncdnhls-global.losartang.org/live/vsc-channel-6.m3u8
+#EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/3367956ae5c44991af49e1e2137f415b.png" group-title="13/11" , 23:00 13/11 ⚽ Cabo Verde vs Liberia (Triệu Hằng)
+https://wncdnhls-global.losartang.org/live/vsc-channel-20.m3u8
