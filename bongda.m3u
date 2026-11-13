@@ -1,43 +1,33 @@
 #EXTM3U
 #Cập nhật động từ https://thtt.pages.dev/tttt.m3u
 #--- Lịch đấu 13/11 ---
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/y0or5jhe68lqwzv/image/small" group-title="13/11" , 🟢 12:00 13/11 ⚽ FC Ulaanbaatar vs Hunters FC (HIRO)
-https://live2.jorvakstreamcache.com/live/channel14.flv
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/y0or5jhe68lqwzv/image/small" group-title="13/11" , 🟢 12:00 13/11 ⚽ FC Ulaanbaatar vs Hunters FC (HD HIRO)
-https://live2.domaincdn.cc/livecdn/channel-14.flv?auth_key=3000001794552627-0-0-f02328eb22283355066d825216eeaac1
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/0c7d6546c9204e45c17bc2d9d05f7a4b.png!w80" group-title="13/11" , 🟢 12:00 13/11 ⚽ FC Ulaanbaatar vs Thợ săn FC (BLV PEPSI) [flv]
-https://live05.wecile.app/live/59444581.flv
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/0c7d6546c9204e45c17bc2d9d05f7a4b.png!w80" group-title="13/11" , 🟢 12:00 13/11 ⚽ FC Ulaanbaatar vs Thợ săn FC (BLV PEPSI) [hls]
-https://live05.wecile.app/live/59444581.m3u8
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/0c7d6546c9204e45c17bc2d9d05f7a4b.png!w80" group-title="13/11" , 🟢 12:00 13/11 ⚽ FC Ulaanbaatar vs Thợ săn FC (BLV PEPSI) [hls 2]
-https://live05.yefpwmc.app/live/59444581_tsc.m3u8
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/vjxm8gh8nknr6od/image/small" group-title="13/11" , 🟡 14:55 13/11 ⚽ Kodagu FC vs Technico FF (FILIP)
 https://live2.jorvakstreamcache.com/live/channel19.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/vjxm8gh8nknr6od/image/small" group-title="13/11" , 🟡 14:55 13/11 ⚽ Kodagu FC vs Technico FF (HD FILIP)
-https://live2.domaincdn.cc/livecdn/channel-19.flv?auth_key=3000001794552642-0-0-42c604b800d66419a4d18cd5364d9e5e
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_142515_21a2fe99.png" group-title="13/11" , 15:00 13/11 ⚽ Deren vs Tuv Azarganuud (Chuối Kem) [FHD] [hls]
+https://live2.domaincdn.cc/livecdn/channel-19.flv?auth_key=3000001794553535-0-0-c289dc1df2eaf3070e6ce5175ae1e1ae
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_142515_21a2fe99.png" group-title="13/11" , 🟡 15:00 13/11 ⚽ Deren vs Tuv Azarganuud (Chuối Kem) [FHD] [hls]
 https://gckc0525.edgemaxcdn.org/live/chuoikemhd/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/n54qllhxeyvqvy9/image/small" group-title="13/11" , 15:00 13/11 ⚽ Deren FC vs Central Stallions (JOHAN)
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/n54qllhxeyvqvy9/image/small" group-title="13/11" , 🟡 15:00 13/11 ⚽ Deren FC vs Central Stallions (JOHAN)
 https://live2.jorvakstreamcache.com/live/channel12.flv
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/n54qllhxeyvqvy9/image/small" group-title="13/11" , 15:00 13/11 ⚽ Deren FC vs Central Stallions (HD JOHAN)
-https://live2.domaincdn.cc/livecdn/channel-12.flv?auth_key=3000001794552648-0-0-352ad3c43059982b9031ac1c72296b08
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/e4f8faa800643a16387371e8f8234079.png" group-title="13/11" , 15:00 13/11 ⚽ Deren FC vs Central Stallions (Gà Siêu Tồ) [flv]
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/n54qllhxeyvqvy9/image/small" group-title="13/11" , 🟡 15:00 13/11 ⚽ Deren FC vs Central Stallions (HD JOHAN)
+https://live2.domaincdn.cc/livecdn/channel-12.flv?auth_key=3000001794553542-0-0-d24241f10880b26fb60bc2976bd06a85
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/e4f8faa800643a16387371e8f8234079.png" group-title="13/11" , 🟡 15:00 13/11 ⚽ Deren FC vs Central Stallions (Gà Siêu Tồ) [flv]
 https://live2.zktsva.app/live/796315.flv
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/e4f8faa800643a16387371e8f8234079.png" group-title="13/11" , 15:00 13/11 ⚽ Deren FC vs Central Stallions (Gà Siêu Tồ) [hls]
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/e4f8faa800643a16387371e8f8234079.png" group-title="13/11" , 🟡 15:00 13/11 ⚽ Deren FC vs Central Stallions (Gà Siêu Tồ) [hls]
 https://live2.zktsva.app/live/796315.m3u8
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/e4f8faa800643a16387371e8f8234079.png!w80" group-title="13/11" , 15:00 13/11 ⚽ Deren FC vs Bồ câu ở Buganut (BLV 247) [flv]
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/e4f8faa800643a16387371e8f8234079.png!w80" group-title="13/11" , 🟡 15:00 13/11 ⚽ Deren FC vs Bồ câu ở Buganut (BLV 247) [flv]
 https://live05.wecile.app/live/90865415.flv
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/e4f8faa800643a16387371e8f8234079.png!w80" group-title="13/11" , 15:00 13/11 ⚽ Deren FC vs Bồ câu ở Buganut (BLV 247) [hls]
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/e4f8faa800643a16387371e8f8234079.png!w80" group-title="13/11" , 🟡 15:00 13/11 ⚽ Deren FC vs Bồ câu ở Buganut (BLV 247) [hls]
 https://live05.wecile.app/live/90865415.m3u8
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/e4f8faa800643a16387371e8f8234079.png!w80" group-title="13/11" , 15:00 13/11 ⚽ Deren FC vs Bồ câu ở Buganut (BLV 247) [hls 2]
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/e4f8faa800643a16387371e8f8234079.png!w80" group-title="13/11" , 🟡 15:00 13/11 ⚽ Deren FC vs Bồ câu ở Buganut (BLV 247) [hls 2]
 https://live05.yefpwmc.app/live/90865415_tsc.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261109/da3803c2164ca472c71ca84925a75a9a.png" group-title="13/11" , 15:00 13/11 ⚽ Deren FC vs Central Stallions (TẠ BIÊN GIỚI)
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261109/da3803c2164ca472c71ca84925a75a9a.png" group-title="13/11" , 🟡 15:00 13/11 ⚽ Deren FC vs Central Stallions (TẠ BIÊN GIỚI)
 https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261109/da3803c2164ca472c71ca84925a75a9a.png" group-title="13/11" , 15:00 13/11 ⚽ Deren FC vs Central Stallions (BLV RAMBO)
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261109/da3803c2164ca472c71ca84925a75a9a.png" group-title="13/11" , 🟡 15:00 13/11 ⚽ Deren FC vs Central Stallions (BLV RAMBO)
 https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261109/da3803c2164ca472c71ca84925a75a9a.png" group-title="13/11" , 15:00 13/11 ⚽ Deren FC vs Central Stallions (BLV CÁO)
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261109/da3803c2164ca472c71ca84925a75a9a.png" group-title="13/11" , 🟡 15:00 13/11 ⚽ Deren FC vs Central Stallions (BLV CÁO)
 https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261109/da3803c2164ca472c71ca84925a75a9a.png" group-title="13/11" , 15:00 13/11 ⚽ Deren FC vs Central Stallions (SẾU ĐẦU ĐỎ)
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261109/da3803c2164ca472c71ca84925a75a9a.png" group-title="13/11" , 🟡 15:00 13/11 ⚽ Deren FC vs Central Stallions (SẾU ĐẦU ĐỎ)
 https://freem3u.xyz/static/no-signal/low.m3u8
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_141355_fc3fb07a.png" group-title="13/11" , 15:30 13/11 ⚽ Oakleigh Cannons vs Marconi Stallions (Chuối Già) [FHD] [hls]
 https://gckc0525.edgemaxcdn.org/live/chuoigiahd/playlist.m3u8
@@ -60,11 +50,11 @@ https://wtyi0525.edgemaxcdn.org/live/x22-hd-1111/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/23xmvkh39x2qg8n/image/small" group-title="13/11" , 15:30 13/11 ⚽ Oakleigh Cannons vs Marconi Stallions (FELIX)
 https://live2.jorvakstreamcache.com/live/channel24.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/23xmvkh39x2qg8n/image/small" group-title="13/11" , 15:30 13/11 ⚽ Oakleigh Cannons vs Marconi Stallions (HD FELIX)
-https://live2.domaincdn.cc/livecdn/channel-24.flv?auth_key=3000001794552655-0-0-1732cf6634883d4b5aa1dca76690ae48
+https://live2.domaincdn.cc/livecdn/channel-24.flv?auth_key=3000001794553549-0-0-1d659f4f0f496a9e5eb5f3729e06d79c
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/x7lm7phkynxm2wd/image/small" group-title="13/11" , 15:30 13/11 ⚽ Preston Lions vs Queensland Lions SC (ASTRA)
 https://live2.jorvakstreamcache.com/live/channel11.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/x7lm7phkynxm2wd/image/small" group-title="13/11" , 15:30 13/11 ⚽ Preston Lions vs Queensland Lions SC (HD ASTRA)
-https://live2.domaincdn.cc/livecdn/channel-11.flv?auth_key=3000001794552661-0-0-1bd46eefeb3e7efd6f3a6be510b3fd37
+https://live2.domaincdn.cc/livecdn/channel-11.flv?auth_key=3000001794553556-0-0-0c2c827743fa2f7eb0cd76b70fc23c85
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/873f655c74783dbb85de6cacc8f503c0.png" group-title="13/11" , 15:30 13/11 ⚽ Oakleigh Cannons vs Marconi Stallions (Gà Siêu Kiêu) [flv]
 https://live2.zktsva.app/live/741294.flv
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/873f655c74783dbb85de6cacc8f503c0.png" group-title="13/11" , 15:30 13/11 ⚽ Oakleigh Cannons vs Marconi Stallions (Gà Siêu Kiêu) [hls]
@@ -111,10 +101,14 @@ https://freem3u.xyz/static/no-signal/low.m3u8
 https://freem3u.xyz/static/no-signal/low.m3u8
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/x7lm7phkynxm2wd/image/small" group-title="13/11" , 15:30 13/11 ⚽ Preston Lions vs Queensland Lions SC (LÝ LÊN LỬA) [geo]
 https://pull1.digitalcdn.net/live/c71e81c3a4674a76915d0db4ea2a6031/index.m3u8
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/gx7lm7phdnem2wd/image/small" group-title="13/11" , 17:00 13/11 ⚽ Schwarz-Weiss Bregenz vs Rheindorf Altach (ZANE)
+https://live2.jorvakstreamcache.com/live/channel22.flv
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/gx7lm7phdnem2wd/image/small" group-title="13/11" , 17:00 13/11 ⚽ Schwarz-Weiss Bregenz vs Rheindorf Altach (HD ZANE)
+https://live2.domaincdn.cc/livecdn/channel-22.flv?auth_key=3000001794553569-0-0-58ae2f416812323bb8ade1d9609697cb
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/y0or5jh1g6wqwzv/image/small" group-title="13/11" , 17:25 13/11 ⚽ Parikrma FC vs Hal FC (KEN)
 https://live2.jorvakstreamcache.com/live/channel18.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/y0or5jh1g6wqwzv/image/small" group-title="13/11" , 17:25 13/11 ⚽ Parikrma FC vs Hal FC (HD KEN)
-https://live2.domaincdn.cc/livecdn/channel-18.flv?auth_key=3000001794552668-0-0-789faa1d1ebb2cd1d51679c462e4cb5e
+https://live2.domaincdn.cc/livecdn/channel-18.flv?auth_key=3000001794553563-0-0-885a748cacfaa146b96f29faf1ed22aa
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/51e1cbc15a7ae90e176b1c1dfb096928.png!w80" group-title="13/11" , 18:30 13/11 ⚽ VfL Bochum vs SC Verl (BLV BÍ ĐAO) [flv]
 https://live05.wecile.app/live/99121525.flv
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/51e1cbc15a7ae90e176b1c1dfb096928.png!w80" group-title="13/11" , 18:30 13/11 ⚽ VfL Bochum vs SC Verl (BLV BÍ ĐAO) [hls]
@@ -127,6 +121,10 @@ https://live05.wecile.app/live/07808742.flv
 https://live05.wecile.app/live/07808742.m3u8
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/f3aa37eff0023279c42b6e99eecc31d0.png!w80" group-title="13/11" , 18:30 13/11 ⚽ TPS vs Ilves (BLV SAMURAI) [hls 2]
 https://live05.yefpwmc.app/live/07808742_tsc.m3u8
+#EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/985e51b605c92cc968c1b313eef9dd95.png" group-title="13/11" , 19:00 13/11 ⚽ Chinese Taipei vs Kyrgyzstan (Nguyễn Ánh)
+https://wncdnhls-global.losartang.org/live/vsc-channel-11.m3u8
+#EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/985e51b605c92cc968c1b313eef9dd95.png" group-title="13/11" , 19:00 13/11 ⚽ Chinese Taipei vs Kyrgyzstan (Nguyễn Ánh)
+https://wncdnhls-global.losartang.org/live/vsc-channel-11.m3u8
 #EXTINF:-1 tvg-logo="https://apiv3.apifootball.com/badges/483_singapore.jpg" group-title="13/11" , 19:00 13/11 ⚽ Singapore vs Paraguay (BLV Tam Mao) [hls]
 https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132714_c2b04cf4.png" group-title="13/11" , 19:00 13/11 ⚽ Singapore vs Paraguay (Chuối Sấy) [FHD] [hls]
