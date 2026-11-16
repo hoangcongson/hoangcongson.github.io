@@ -1,10 +1,6 @@
 #EXTM3U
 #Cập nhật động từ https://thtt.pages.dev/tttt.m3u
 #--- Lịch đấu 16/11 ---
-#EXTINF:-1 tvg-logo="https://s8tvkc.top/wp-json/s8-image/509cfb1e-9501-492b-8d5e-621efb440523" group-title="16/11" , 🟢 08:00 16/11 ⚽ Monterrey Women vs Pachuca Women (NGƯỜI SÓI) [hls]
-https://hls.lauthaitv.cc/live/monte-pachu-mexligaw/index.m3u8
-#EXTINF:-1 tvg-logo="https://s8tvkc.top/wp-json/s8-image/509cfb1e-9501-492b-8d5e-621efb440523" group-title="16/11" , 🟢 08:00 16/11 ⚽ Monterrey Women vs Pachuca Women (NGƯỜI SÓI) [flv]
-https://flv.lauthaitv.cc/live/monte-pachu-mexligaw.flv
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20261106_011319_f53708fb.png" group-title="16/11" , 🟢 10:10 16/11 ⚽ Piratas FC vs América W (Chuối Sấy) [FHD] [hls]
 https://gckc0525.edgemaxcdn.org/live/chuoisayhd/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://s8tvkc.top/wp-json/s8-image/3ac51242-5cd9-4f8c-b342-50352bfbb26e" group-title="16/11" , 🟢 10:10 16/11 ⚽ Toluca Women vs Club America Women (NGƯỜI SÓI) [hls]
@@ -24,11 +20,11 @@ https://live05.wecile.app/live/49572724.m3u8
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/680f427a2bc69ae676240a60d8aa2bdb.png!w80" group-title="16/11" , 🟢 10:10 16/11 ⚽ Toluca Nữ vs Club America Nữ (BLV REDBULL) [hls 2]
 https://live05.yefpwmc.app/live/49572724_tsc.m3u8
 #EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/14885.webp" group-title="16/11" , 🟢 10:10 16/11 ⚽ Toluca W vs América W (Nova)
-https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.p8DUWUp5O9Q0.m3u8?expires=1794813616&signature=QbFifQXBP5C8xCgVXvdXo3YqGIW4YqyfgtsuLBuoEdc
+https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.p8DUWUp5O9Q0.m3u8?expires=1794814529&signature=97mqYNLIFcHmgM7njnHDAP8g5c90j3cod7j53ZHPf0c
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/zp5rzghx1p7q82w/image/small" group-title="16/11" , 12:25 16/11 ⚽ Bengaluru Roots FC vs Technico FF (TONI)
 https://live2.jorvakstreamcache.com/live/channel9.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/zp5rzghx1p7q82w/image/small" group-title="16/11" , 12:25 16/11 ⚽ Bengaluru Roots FC vs Technico FF (HD TONI)
-https://live2.domaincdn.cc/livecdn/channel-9.flv?auth_key=3000001794799256-0-0-ed80c131e986278465fa042048ee0f74
+https://live2.domaincdn.cc/livecdn/channel-9.flv?auth_key=3000001794800145-0-0-bbeee18616848595128ef1bea49f281b
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/l7oqdeh47lvr510/image/small" group-title="16/11" , 14:55 16/11 ⚽ Kickstart Karnataka vs MEG (NEMO)
 https://live2.pro2cdnlive.com/live/channel17.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/l7oqdeh47lvr510/image/small" group-title="16/11" , 14:55 16/11 ⚽ Kickstart Karnataka vs MEG (HD NEMO)
