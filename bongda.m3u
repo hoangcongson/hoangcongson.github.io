@@ -3,18 +3,6 @@
 #--- Lịch đấu 19/11 ---
 #EXTINF:-1 tvg-logo="https://apiv3.apifootball.com/badges/486_real-madrid-w.jpg" group-title="19/11" , 🟢 00:45 19/11 ⚽ Real Madrid W vs Inter W (BLV Khô Cá) [hls]
 https://livecdn321.cdnfastter.xyz/live/live_062e5de010/index.m3u8?token=M6vDly-jvMUtRrO3xVQUwWJozWVPDQ0yVqDBWtZUbgM&expires=1852800615
-#EXTINF:-1 tvg-logo="https://d1c0s7hi3ugzoc.cloudfront.net/teams/real-madrid-w-250321" group-title="19/11" , 🟢 00:45 19/11 ⚽ Real Madrid W vs Inter Milano W (TIGER) [flv]
-https://cdnflv.xbdbotv.live/live/MTk4Nzk1MDc6ZDBuMm5wczd6c2ZuaXBpZ290dzI4bDd4OmdiY3U1N3VwNWNjMWliM2hqbndlbWhhaw.flv
-#EXTINF:-1 tvg-logo="https://d1c0s7hi3ugzoc.cloudfront.net/teams/real-madrid-w-250321" group-title="19/11" , 🟢 00:45 19/11 ⚽ Real Madrid W vs Inter Milano W (TIGER) [hls]
-https://cdnhls.xbdbotv.live/live/MTk4Nzk1MDc6ZDBuMm5wczd6c2ZuaXBpZ290dzI4bDd4OmdiY3U1N3VwNWNjMWliM2hqbndlbWhhaw/index.m3u8
-#EXTINF:-1 tvg-logo="https://d1c0s7hi3ugzoc.cloudfront.net/teams/real-madrid-w-250321" group-title="19/11" , 🟢 00:45 19/11 ⚽ Real Madrid W vs Inter Milano W (Vịt Nướng) [flv]
-https://cdnflv.xbdbotv.live/live/MTk4Nzk1MDc6aGd5eDdwZGEwMmRlNWExZXZhMThvNnRnOmUwOGxyY24zcG0xNmJuYWMyaXE4bDY4Yw.flv
-#EXTINF:-1 tvg-logo="https://d1c0s7hi3ugzoc.cloudfront.net/teams/real-madrid-w-250321" group-title="19/11" , 🟢 00:45 19/11 ⚽ Real Madrid W vs Inter Milano W (Vịt Nướng) [hls]
-https://cdnhls.xbdbotv.live/live/MTk4Nzk1MDc6aGd5eDdwZGEwMmRlNWExZXZhMThvNnRnOmUwOGxyY24zcG0xNmJuYWMyaXE4bDY4Yw/index.m3u8
-#EXTINF:-1 tvg-logo="https://d1c0s7hi3ugzoc.cloudfront.net/teams/hacken-w-253910" group-title="19/11" , 🟢 00:45 19/11 ⚽ BK Häcken W vs Manchester City W (Lẩu Ếch) [flv]
-https://cdnflv.xbdbotv.live/live/MTk4Nzk1MDg6YThsY2E2YTk4dWpna3Q2bXcydDZwYXRxOnYycTFncHFuaWRtY2RkcTAzNTE2NGlkcQ.flv
-#EXTINF:-1 tvg-logo="https://d1c0s7hi3ugzoc.cloudfront.net/teams/hacken-w-253910" group-title="19/11" , 🟢 00:45 19/11 ⚽ BK Häcken W vs Manchester City W (Lẩu Ếch) [hls]
-https://cdnhls.xbdbotv.live/live/MTk4Nzk1MDg6YThsY2E2YTk4dWpna3Q2bXcydDZwYXRxOnYycTFncHFuaWRtY2RkcTAzNTE2NGlkcQ/index.m3u8
 #EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/e3a1113b18fb03bd46b73099a2ec8e00.png" group-title="19/11" , 🟢 02:00 19/11 ⚽ CD Badajoz vs Tenerife (Triệu Hằng)
 https://wncdnhls-global.losartang.org/live/vsc-channel-20.m3u8
 #EXTINF:-1 tvg-logo="https://apiv3.apifootball.com/badges/7249_alcoyano.jpg" group-title="19/11" , 🟢 02:00 19/11 ⚽ Alcoyano vs Mallorca (BLV Tam Mao) [hls]
@@ -30,23 +18,23 @@ https://wtyi0525.edgemaxcdn.org/live/x1-hd-1111/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/dn1m1gh4nndmoep/image/small" group-title="19/11" , 🟢 02:00 19/11 ⚽ CD Alcoyano vs RCD Mallorca (NEMO)
 https://live2.jorvakstreamcache.com/live/channel17.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/dn1m1gh4nndmoep/image/small" group-title="19/11" , 🟢 02:00 19/11 ⚽ CD Alcoyano vs RCD Mallorca (HD NEMO)
-https://live2.domaincdn.cc/livecdn/channel-17.flv?auth_key=3000001795032328-0-0-db8da3a83200b3d00da4ffce886f2876
+https://live2.domaincdn.cc/livecdn/channel-17.flv?auth_key=3000001795033233-0-0-9796e7086ceca08830518f847bcc7c4b
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/pxwrxlhggvpryk0/image/small" group-title="19/11" , 🟢 02:00 19/11 ⚽ CD Badajoz vs Tenerife (XMEN)
 https://live2.jorvakstreamcache.com/live/channel13.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/pxwrxlhggvpryk0/image/small" group-title="19/11" , 🟢 02:00 19/11 ⚽ CD Badajoz vs Tenerife (HD XMEN)
-https://live2.domaincdn.cc/livecdn/channel-13.flv?auth_key=3000001795032353-0-0-992d91bce2a9640b49072a93b2fd37fb
+https://live2.domaincdn.cc/livecdn/channel-13.flv?auth_key=3000001795033261-0-0-a4a362522a08d4017efc031880648b78
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/k82rekhvwxjrepz/image/small" group-title="19/11" , 🟢 02:00 19/11 ⚽ Nữ Nottingham Forest vs Nữ Liverpool (FABIO)
 https://live2.jorvakstreamcache.com/live/channel2.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/k82rekhvwxjrepz/image/small" group-title="19/11" , 🟢 02:00 19/11 ⚽ Nữ Nottingham Forest vs Nữ Liverpool (HD FABIO)
-https://live2.domaincdn.cc/livecdn/channel-2.flv?auth_key=3000001795032359-0-0-a93962468881aeb7fcb36c9c6c15b542
+https://live2.domaincdn.cc/livecdn/channel-2.flv?auth_key=3000001795033267-0-0-a9d771da35e70717b11561e95c5fc20a
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/318q66h0vngqo9j/image/small" group-title="19/11" , 🟢 02:00 19/11 ⚽ Nữ Tottenham vs Nữ Leicester City (RIO)
 https://live2.jorvakstreamcache.com/live/channel16.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/318q66h0vngqo9j/image/small" group-title="19/11" , 🟢 02:00 19/11 ⚽ Nữ Tottenham vs Nữ Leicester City (HD RIO)
-https://live2.domaincdn.cc/livecdn/channel-16.flv?auth_key=3000001795032365-0-0-7e4ed66ed481ad549788370e022c7acb
+https://live2.domaincdn.cc/livecdn/channel-16.flv?auth_key=3000001795033274-0-0-c83a161e5a52f05eb2d070f4d575ae91
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/k82rekhyxl9repz/image/small" group-title="19/11" , 🟢 02:00 19/11 ⚽ Nữ Manchester Utd vs Nữ Everton (MAX)
 https://live2.jorvakstreamcache.com/live/channel6.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/k82rekhyxl9repz/image/small" group-title="19/11" , 🟢 02:00 19/11 ⚽ Nữ Manchester Utd vs Nữ Everton (HD MAX)
-https://live2.domaincdn.cc/livecdn/channel-6.flv?auth_key=3000001795032371-0-0-3611aca0d3557fbefa3e46969e81548d
+https://live2.domaincdn.cc/livecdn/channel-6.flv?auth_key=3000001795033281-0-0-771b6c5f0a8e1a4c54bccd2544ea90ac
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/a06b8319ae33c0654c51d29df15c55b0.png" group-title="19/11" , 🟢 02:00 19/11 ⚽ CD Alcoyano vs RCD Mallorca (Gà Siêu Nhí) [flv]
 https://live2.zktsva.app/live/301263.flv
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/a06b8319ae33c0654c51d29df15c55b0.png" group-title="19/11" , 🟢 02:00 19/11 ⚽ CD Alcoyano vs RCD Mallorca (Gà Siêu Nhí) [hls]
@@ -70,11 +58,11 @@ https://live05.yefpwmc.app/live/18812304_tsc.m3u8
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/6ypq3nhzxzjmd7o/image/small" group-title="19/11" , 🟢 02:30 19/11 ⚽ Nữ CD Samper vs Nữ Valencia (ZANE)
 https://live2.jorvakstreamcache.com/live/channel22.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/6ypq3nhzxzjmd7o/image/small" group-title="19/11" , 🟢 02:30 19/11 ⚽ Nữ CD Samper vs Nữ Valencia (HD ZANE)
-https://live2.domaincdn.cc/livecdn/channel-22.flv?auth_key=3000001795032378-0-0-3b6c5f8d38eb9610e93dbfc380df46b6
+https://live2.domaincdn.cc/livecdn/channel-22.flv?auth_key=3000001795033288-0-0-8bcdc20bbe2d6a6f588a5c6e40212ae7
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/n54qllhek83qvy9/image/small" group-title="19/11" , 🟢 02:30 19/11 ⚽ Deportiva Minera vs FC Cartagena (OLER)
 https://live2.jorvakstreamcache.com/live/channel28.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/n54qllhek83qvy9/image/small" group-title="19/11" , 🟢 02:30 19/11 ⚽ Deportiva Minera vs FC Cartagena (HD OLER)
-https://live2.domaincdn.cc/livecdn/channel-28.flv?auth_key=3000001795032385-0-0-8aade258741f94b587c3886ee21b4742
+https://live2.domaincdn.cc/livecdn/channel-28.flv?auth_key=3000001795033295-0-0-a490bf5ae275745b8eea6a61cf4e4986
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/71d86f9b07854b3c5352ff6558cd1e73.png" group-title="19/11" , 🟢 02:30 19/11 ⚽ Deportiva Minera vs FC Cartagena (Gà Siêu Péo) [flv]
 https://live2.zktsva.app/live/303098.flv
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/71d86f9b07854b3c5352ff6558cd1e73.png" group-title="19/11" , 🟢 02:30 19/11 ⚽ Deportiva Minera vs FC Cartagena (Gà Siêu Péo) [hls]
@@ -114,25 +102,25 @@ https://flv.lauthaitv.cc/live/che-psg-c1w2.flv
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/258661.png" group-title="19/11" , 🟢 03:00 19/11 ⚽ Chelsea (W) vs Paris Saint Germain (W) (Kai) [hls]
 https://wtyi0525.edgemaxcdn.org/live/x00-hd-1111/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/z318q66hlo5qo9j/image/small" group-title="19/11" , 🟢 03:00 19/11 ⚽ Nữ Chelsea vs Nữ PSG (NICK)
-https://live1.quickscoreboardz.com/live/channel5.flv?wsSecret=b0eb22167ebb743236b7d201e788b962&wsABSTime=1795075589
+https://live1.quickscoreboardz.com/live/channel5.flv?wsSecret=92d5899d99f9a2d30f80461b7164a2cc&wsABSTime=1795076497
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/z318q66hlo5qo9j/image/small" group-title="19/11" , 🟢 03:00 19/11 ⚽ Nữ Chelsea vs Nữ PSG (KEN)
-https://live2.domaincdn.cc/livecdn/channel-18.flv?auth_key=3000001795032390-0-0-af214843c5517e5d1b281a732661a869
+https://live2.domaincdn.cc/livecdn/channel-18.flv?auth_key=3000001795033299-0-0-ff7568fff67d58249e2a12242d5ffbb2
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/z318q66hlo5qo9j/image/small" group-title="19/11" , 🟢 03:00 19/11 ⚽ Nữ Chelsea vs Nữ PSG (KEN)
 https://live2.jorvakstreamcache.com/live/channel18.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/z318q66hlo5qo9j/image/small" group-title="19/11" , 🟢 03:00 19/11 ⚽ Nữ Chelsea vs Nữ PSG (FULL HD NICK)
-https://live2.domaincdn.cc/livecdn/channel-5.flv?auth_key=3000001795032395-0-0-55b15d93fd5742e420fcb666e2aa9512
+https://live2.domaincdn.cc/livecdn/channel-5.flv?auth_key=3000001795033303-0-0-09c3e47b05e2596ec1502ab5a551c88a
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/y0or5jheexeqwzv/image/small" group-title="19/11" , 🟢 03:00 19/11 ⚽ Nữ Juventus vs Nữ O. Heverlee Leuven (ASTRA)
 https://live2.jorvakstreamcache.com/live/channel11.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/y0or5jheexeqwzv/image/small" group-title="19/11" , 🟢 03:00 19/11 ⚽ Nữ Juventus vs Nữ O. Heverlee Leuven (TONI)
-https://live2.domaincdn.cc/livecdn/channel-9.flv?auth_key=3000001795032402-0-0-ecff7d0fd639dfd662d66072865dd722
+https://live2.domaincdn.cc/livecdn/channel-9.flv?auth_key=3000001795033310-0-0-12c57d8e6ebf24d0d02adc593ca464a6
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/y0or5jheexeqwzv/image/small" group-title="19/11" , 🟢 03:00 19/11 ⚽ Nữ Juventus vs Nữ O. Heverlee Leuven (TONI)
-https://live1.quickscoreboardz.com/live/channel9.flv?wsSecret=fc37022af12dc5f08c930b9258cc694e&wsABSTime=1795075604
+https://live1.quickscoreboardz.com/live/channel9.flv?wsSecret=c3f08175b42c7c5e55f559e3f87c03ca&wsABSTime=1795076511
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/y0or5jheexeqwzv/image/small" group-title="19/11" , 🟢 03:00 19/11 ⚽ Nữ Juventus vs Nữ O. Heverlee Leuven (FULL HD ASTRA)
-https://live2.domaincdn.cc/livecdn/channel-11.flv?auth_key=3000001795032406-0-0-5115af42829d6f2aa96dcdfea0c043e5
+https://live2.domaincdn.cc/livecdn/channel-11.flv?auth_key=3000001795033314-0-0-dafaa59b1b3c94e2d078bb4ef9776ba5
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/pxwrxlhg9o6ryk0/image/small" group-title="19/11" , 🟢 03:00 19/11 ⚽ Alianza Atletico vs FBC Melgar (LOGAN)
 https://live2.jorvakstreamcache.com/live/channel23.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/pxwrxlhg9o6ryk0/image/small" group-title="19/11" , 🟢 03:00 19/11 ⚽ Alianza Atletico vs FBC Melgar (HD LOGAN)
-https://live2.domaincdn.cc/livecdn/channel-23.flv?auth_key=3000001795032413-0-0-33692a39346b23fd463c353c01e43d17
+https://live2.domaincdn.cc/livecdn/channel-23.flv?auth_key=3000001795033322-0-0-2f000e7a96e88a85390e365664020527
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/be4671c3b73541959a18e358dd8de4d2.png" group-title="19/11" , 🟢 03:00 19/11 ⚽ Chelsea FC Women vs Paris Saint Germain Women (Gà Siêu Bệu) [flv]
 https://live2.zktsva.app/live/289650.flv
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/be4671c3b73541959a18e358dd8de4d2.png" group-title="19/11" , 🟢 03:00 19/11 ⚽ Chelsea FC Women vs Paris Saint Germain Women (Gà Siêu Bệu) [hls]
@@ -160,13 +148,13 @@ https://live05.wecile.app/live/02456966.m3u8
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/0ce10ff2713268ab8db9fad32d2ab54e.png!w80" group-title="19/11" , 🟢 03:00 19/11 ⚽ Alianza Atl vs FBC Melgar (BLV SODA) [hls 2]
 https://live05.yefpwmc.app/live/02456966_tsc.m3u8
 #EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/1853.webp" group-title="19/11" , 🟢 03:00 19/11 ⚽ Chelsea W vs Paris Saint Germain W (Super Man)
-https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.PkORN4fUMBMl.m3u8?expires=1795046724&signature=76N-PoqsQlIy5Pl1bKRRKhU_Q9qiKi5Y0unVsnAkEzY
+https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.PkORN4fUMBMl.m3u8?expires=1795047628&signature=aE78wptkD5WbE7ZJcZPO7CmXFrVH56WRPZFwIcV_8_Q
 #EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/1853.webp" group-title="19/11" , 🟢 03:00 19/11 ⚽ Chelsea W vs Paris Saint Germain W (Deal Pool)
-https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.ZEv4JJQLn6fl.m3u8?expires=1795046727&signature=uZ8jY9aLvpDCfxrOXHs9RHahSGTZO-UGA1xkLerYi9Y
+https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.ZEv4JJQLn6fl.m3u8?expires=1795047630&signature=l5xXym0M9vw2lgImw8oserVrYVxA424q-OrESaBzy10
 #EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/1886.webp" group-title="19/11" , 🟢 03:00 19/11 ⚽ Juventus W vs OH Leuven W (Speed)
-https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.qshDLs6nDWIM.m3u8?expires=1795046729&signature=eCMyp-1rBVOmcPsdvJ1rQk7aXazII4R4YsmC5Bdcgm4
+https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.qshDLs6nDWIM.m3u8?expires=1795047633&signature=onuTf7WC8mkb-s3jWRI5ReUelp0tZH7Ylc9O-IotFCU
 #EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/1886.webp" group-title="19/11" , 🟢 03:00 19/11 ⚽ Juventus W vs OH Leuven W (Hawkeye)
-https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.BTQND6SNLFcP.m3u8?expires=1795046732&signature=pdJwu64gT_yGcPsTFSLvuOT7i1LjwNH-pQfa2sn8dh4
+https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.BTQND6SNLFcP.m3u8?expires=1795047635&signature=PLAnk5AL24iJ-ny2OP5byIE3E0dgSWJyRsHTGYlEJ7I
 #EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/4f7a0095b9a3a4756318efd55451badb.png" group-title="19/11" , 05:30 19/11 ⚽ Coritiba SAF _ PR vs Santos FC _ SP (Nguyễn Đảm)
 https://wncdnhls-global.losartang.org/live/vsc-channel-12.m3u8
 #EXTINF:-1 tvg-logo="https://apiv3.apifootball.com/badges/2019_coritiba.jpg" group-title="19/11" , 05:30 19/11 ⚽ Coritiba vs Santos (BLV Khô Mật) [hls]
@@ -341,6 +329,58 @@ https://freem3u.xyz/static/no-signal/low.m3u8
 https://hls.lauthaitv.cc/live/queens-south-auschamp/index.m3u8
 #EXTINF:-1 tvg-logo="https://s8tvkc.top/wp-json/s8-image/ebb1e2d3-4580-41b2-a381-1f21c61f32b6" group-title="19/11" , 15:30 19/11 ⚽ Queensland Lions SC vs South Coast Wolves (NGƯỜI BẠC) [flv]
 https://flv.lauthaitv.cc/live/queens-south-auschamp.flv
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/6dff2291fe2e822de2e8068a182c4759.jpg" group-title="19/11" , 15:30 19/11 ⚽ Preston Lions vs South Hobart (Gà Siêu Kiêu) [flv]
+https://live2.zktsva.app/live/741294.flv
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/6dff2291fe2e822de2e8068a182c4759.jpg" group-title="19/11" , 15:30 19/11 ⚽ Preston Lions vs South Hobart (Gà Siêu Kiêu) [hls]
+https://live2.zktsva.app/live/741294.m3u8
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/ae6301924eac2e5f0ad32a32ab7355f2.png" group-title="19/11" , 15:30 19/11 ⚽ Queensland Lions SC vs South Coast Wolves (Gà Siêu Tồ) [flv]
+https://live2.zktsva.app/live/796315.flv
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/ae6301924eac2e5f0ad32a32ab7355f2.png" group-title="19/11" , 15:30 19/11 ⚽ Queensland Lions SC vs South Coast Wolves (Gà Siêu Tồ) [hls]
+https://live2.zktsva.app/live/796315.m3u8
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/6dff2291fe2e822de2e8068a182c4759.jpg!w80" group-title="19/11" , 15:30 19/11 ⚽ Preston Lions vs South Hobart (BLV BÍ ĐAO) [flv]
+https://live05.wecile.app/live/99121525.flv
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/6dff2291fe2e822de2e8068a182c4759.jpg!w80" group-title="19/11" , 15:30 19/11 ⚽ Preston Lions vs South Hobart (BLV BÍ ĐAO) [hls]
+https://live05.wecile.app/live/99121525.m3u8
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/6dff2291fe2e822de2e8068a182c4759.jpg!w80" group-title="19/11" , 15:30 19/11 ⚽ Preston Lions vs South Hobart (BLV BÍ ĐAO) [hls 2]
+https://live05.yefpwmc.app/live/99121525_tsc.m3u8
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/ae6301924eac2e5f0ad32a32ab7355f2.png!w80" group-title="19/11" , 15:30 19/11 ⚽ CLB Queensland Lions SC vs CLB Wollongong Wolves (BLV MONSTER) [flv]
+https://live05.wecile.app/live/75915087.flv
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/ae6301924eac2e5f0ad32a32ab7355f2.png!w80" group-title="19/11" , 15:30 19/11 ⚽ CLB Queensland Lions SC vs CLB Wollongong Wolves (BLV MONSTER) [hls]
+https://live05.wecile.app/live/75915087.m3u8
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/ae6301924eac2e5f0ad32a32ab7355f2.png!w80" group-title="19/11" , 15:30 19/11 ⚽ CLB Queensland Lions SC vs CLB Wollongong Wolves (BLV MONSTER) [hls 2]
+https://live05.yefpwmc.app/live/75915087_tsc.m3u8
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261115/a40fd47c3b55a9f33c520c144c60a1e5.png" group-title="19/11" , 15:30 19/11 ⚽ Queensland Lions SC vs South Coast Wolves (TẠ BIÊN GIỚI)
+https://freem3u.xyz/static/no-signal/low.m3u8
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261115/a40fd47c3b55a9f33c520c144c60a1e5.png" group-title="19/11" , 15:30 19/11 ⚽ Queensland Lions SC vs South Coast Wolves (ZIZOU)
+https://freem3u.xyz/static/no-signal/low.m3u8
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261115/a40fd47c3b55a9f33c520c144c60a1e5.png" group-title="19/11" , 15:30 19/11 ⚽ Queensland Lions SC vs South Coast Wolves (TYPN)
+https://freem3u.xyz/static/no-signal/low.m3u8
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261115/a40fd47c3b55a9f33c520c144c60a1e5.png" group-title="19/11" , 15:30 19/11 ⚽ Queensland Lions SC vs South Coast Wolves (CR Bưởi)
+https://freem3u.xyz/static/no-signal/low.m3u8
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261115/a40fd47c3b55a9f33c520c144c60a1e5.png" group-title="19/11" , 15:30 19/11 ⚽ Queensland Lions SC vs South Coast Wolves (CURRY)
+https://freem3u.xyz/static/no-signal/low.m3u8
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261115/a40fd47c3b55a9f33c520c144c60a1e5.png" group-title="19/11" , 15:30 19/11 ⚽ Queensland Lions SC vs South Coast Wolves (A MÂN)
+https://freem3u.xyz/static/no-signal/low.m3u8
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261115/9c852a5d9316d7cce82d938c2f737fd1.png" group-title="19/11" , 15:30 19/11 ⚽ Preston Lions vs South Hobart (RICKHANTER)
+https://freem3u.xyz/static/no-signal/low.m3u8
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261115/9c852a5d9316d7cce82d938c2f737fd1.png" group-title="19/11" , 15:30 19/11 ⚽ Preston Lions vs South Hobart (BLV TAP)
+https://freem3u.xyz/static/no-signal/low.m3u8
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261115/9c852a5d9316d7cce82d938c2f737fd1.png" group-title="19/11" , 15:30 19/11 ⚽ Preston Lions vs South Hobart (THẠCH TÚ)
+https://freem3u.xyz/static/no-signal/low.m3u8
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261115/9c852a5d9316d7cce82d938c2f737fd1.png" group-title="19/11" , 15:30 19/11 ⚽ Preston Lions vs South Hobart (BLV Củ Cải)
+https://freem3u.xyz/static/no-signal/low.m3u8
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261115/9c852a5d9316d7cce82d938c2f737fd1.png" group-title="19/11" , 15:30 19/11 ⚽ Preston Lions vs South Hobart (BLV ENZO)
+https://freem3u.xyz/static/no-signal/low.m3u8
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261115/9c852a5d9316d7cce82d938c2f737fd1.png" group-title="19/11" , 15:30 19/11 ⚽ Preston Lions vs South Hobart (BLV MESSI)
+https://freem3u.xyz/static/no-signal/low.m3u8
+#EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/10217.webp" group-title="19/11" , 15:30 19/11 ⚽ Lions vs Wollongong Wolves (Joker)
+https://freem3u.xyz/static/no-signal/low.m3u8
+#EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/10217.webp" group-title="19/11" , 15:30 19/11 ⚽ Lions vs Wollongong Wolves (Moon Kight)
+https://freem3u.xyz/static/no-signal/low.m3u8
+#EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/19705.webp" group-title="19/11" , 15:30 19/11 ⚽ Preston Lions vs South Hobart (Raccoon)
+https://freem3u.xyz/static/no-signal/low.m3u8
+#EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/19705.webp" group-title="19/11" , 15:30 19/11 ⚽ Preston Lions vs South Hobart (Iron Man)
+https://freem3u.xyz/static/no-signal/low.m3u8
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/x7lm7phkynxm2wd/image/small" group-title="19/11" , 15:30 19/11 ⚽ Preston Lions vs South Hobart (LÝ LẠNH LÙNG) [geo]
 https://pull1.digitalcdn.net/live/7c79f29788fd4f43858df4e2e3dc02f6/index.m3u8
 #EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/b2004093bf25a5a8d1768970d6e49d71.png" group-title="19/11" , 19:00 19/11 ⚽ Persib Bandung vs Shan United (Lê Lợi)
