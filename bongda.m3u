@@ -1,22 +1,12 @@
 #EXTM3U
 #Cập nhật động từ https://thtt.pages.dev/tttt.m3u
 #--- Lịch đấu 18/11 ---
-#EXTINF:-1 tvg-logo="https://apiv3.apifootball.com/badges/438_cong-an-h-chi-minh.jpg" group-title="18/11" , 🟢 18:00 18/11 ⚽ Ho Chi Minh vs Buriram (BLV Khô Cóc) [hls]
-https://livecdn321.cdnfastter.xyz/live/live_22ba35ebaa/index.m3u8?token=rnGiAKd7Ef-B1Q39PpqAGJSIrNI8dj2Sz-3IRtLMfUs
 #EXTINF:-1 tvg-logo="https://d1c0s7hi3ugzoc.cloudfront.net/teams/tampines-rovers-8105" group-title="18/11" , 🟢 18:30 18/11 ⚽ Tampines Rovers vs Ratchaburi Mitrphol FC (Lẩu Ếch) [flv]
 https://cdnflv.xbdbotv.live/live/MTk3MjA0NzM6YThsY2E2YTk4dWpna3Q2bXcydDZwYXRxOndjZ2UwNTFpbnVscGF6Nmo3Y284a3pwZA.flv
 #EXTINF:-1 tvg-logo="https://d1c0s7hi3ugzoc.cloudfront.net/teams/tampines-rovers-8105" group-title="18/11" , 🟢 18:30 18/11 ⚽ Tampines Rovers vs Ratchaburi Mitrphol FC (Lẩu Ếch) [hls]
 https://cdnhls.xbdbotv.live/live/MTk3MjA0NzM6YThsY2E2YTk4dWpna3Q2bXcydDZwYXRxOndjZ2UwNTFpbnVscGF6Nmo3Y284a3pwZA/index.m3u8
-#EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/5a0893c2c8fbdbbf734c07c71c8025b4.png" group-title="18/11" , 🟢 19:00 18/11 ⚽ Borneo FC Samarinda vs Manila Digger FC (Dương Kiên)
-https://wncdnhls-global.losartang.org/live/vsc-channel-3.m3u8
-#EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/5a0893c2c8fbdbbf734c07c71c8025b4.png" group-title="18/11" , 🟢 19:00 18/11 ⚽ Borneo FC Samarinda vs Manila Digger FC (Dương Kiên)
-https://wncdnhls-global.losartang.org/live/vsc-channel-3.m3u8
 #EXTINF:-1 tvg-logo="https://apiv3.apifootball.com/badges/4716_borneo.jpg" group-title="18/11" , 🟢 19:00 18/11 ⚽ Borneo vs Manila Digger (BLV Khô Cá) [hls]
 https://livecdn321.cdnfastter.xyz/live/live_062e5de010/index.m3u8?token=M6vDly-jvMUtRrO3xVQUwWJozWVPDQ0yVqDBWtZUbgM&expires=1852800615
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134616_2456a9ca.png" group-title="18/11" , 🟢 19:00 18/11 ⚽ Pusamania Borneo vs Manila Digger (Chuối Kem) [FHD] [hls]
-https://gckc0525.edgemaxcdn.org/live/chuoikemhd/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/borneo-fc-samarinda.png" group-title="18/11" , 🟢 19:00 18/11 ⚽ Borneo FC Samarinda vs Manila Digger FC (Tỵ) [hls]
-https://pzhgifbkllliv.vcdn.cloud/1794979295_hd/1794979295_hd@720p.m3u8
 #EXTINF:-1 tvg-logo="https://d1c0s7hi3ugzoc.cloudfront.net/teams/borneo-3157" group-title="18/11" , 🟢 19:00 18/11 ⚽ Borneo vs Manila Digger (TÔM CHIÊN) [flv]
 https://cdnflv.xbdbotv.live/live/MTk3MjA0NzE6dGljMHIwY2xmNjhsaWxyajl3eDMyeXd6OnQ1NnRoYzR4cHFqMDlrbTVheXd3d3lqaw.flv
 #EXTINF:-1 tvg-logo="https://d1c0s7hi3ugzoc.cloudfront.net/teams/borneo-3157" group-title="18/11" , 🟢 19:00 18/11 ⚽ Borneo vs Manila Digger (TÔM CHIÊN) [hls]
@@ -25,54 +15,14 @@ https://cdnhls.xbdbotv.live/live/MTk3MjA0NzE6dGljMHIwY2xmNjhsaWxyajl3eDMyeXd6OnQ
 https://hls.lauthaitv.cc/live/borneo-manila-shopee/index.m3u8
 #EXTINF:-1 tvg-logo="https://s8tvkc.top/wp-json/s8-image/7e32ce13-840c-4eb2-9f81-5d6c989a8e1c" group-title="18/11" , 🟢 19:00 18/11 ⚽ Borneo FC vs Manila Digger FC (NGƯỜI TRÂU) [flv]
 https://flv.lauthaitv.cc/live/borneo-manila-shopee.flv
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/585858.png" group-title="18/11" , 🟢 19:00 18/11 ⚽ Borneo Samarinda vs Manila Digger (Teppy) [hls]
-https://wtyi0525.edgemaxcdn.org/live/x31-hd-1111/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/vjxm8ghg2jlr6od/image/small" group-title="18/11" , 🟢 19:00 18/11 ⚽ Borneo FC Samarinda vs Manila Digger FC (MAX)
-https://live2.jorvakstreamcache.com/live/channel6.flv
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/vjxm8ghg2jlr6od/image/small" group-title="18/11" , 🟢 19:00 18/11 ⚽ Borneo FC Samarinda vs Manila Digger FC (HD MAX)
-https://live2.domaincdn.cc/livecdn/channel-6.flv?auth_key=3000001795009841-0-0-863096a9cfffc44b285779bebca74747
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/y0or5jhgny2qwzv/image/small" group-title="18/11" , 🟢 19:00 18/11 ⚽ Tekstilac vs FK Zeleznicar (XMEN)
 https://live2.jorvakstreamcache.com/live/channel13.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/y0or5jhgny2qwzv/image/small" group-title="18/11" , 🟢 19:00 18/11 ⚽ Tekstilac vs FK Zeleznicar (HD XMEN)
-https://live2.domaincdn.cc/livecdn/channel-13.flv?auth_key=3000001795009855-0-0-cddec75aa465506823616a84a6e8609c
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/5a0893c2c8fbdbbf734c07c71c8025b4.png" group-title="18/11" , 🟢 19:00 18/11 ⚽ Borneo FC Samarinda vs Manila Digger FC (Gà Siêu Ngố) [flv]
-https://live2.zktsva.app/live/301238.flv
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/5a0893c2c8fbdbbf734c07c71c8025b4.png" group-title="18/11" , 🟢 19:00 18/11 ⚽ Borneo FC Samarinda vs Manila Digger FC (Gà Siêu Ngố) [hls]
-https://live2.zktsva.app/live/301238.m3u8
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/b0005d6d783d438b47420c2bfbd18550.png" group-title="18/11" , 🟢 19:00 18/11 ⚽ Tekstilac vs FK Zeleznicar Pancevo (Gà Siêu Son) [flv]
-https://live2.zktsva.app/live/306290.flv
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/b0005d6d783d438b47420c2bfbd18550.png" group-title="18/11" , 🟢 19:00 18/11 ⚽ Tekstilac vs FK Zeleznicar Pancevo (Gà Siêu Son) [hls]
-https://live2.zktsva.app/live/306290.m3u8
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/5a0893c2c8fbdbbf734c07c71c8025b4.png!w80" group-title="18/11" , 🟢 19:00 18/11 ⚽ Pusamania Borneo FC vs Manila Digger FC (BLV MOUNTAIN DEW) [flv]
-https://live05.wecile.app/live/87547578.flv
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/5a0893c2c8fbdbbf734c07c71c8025b4.png!w80" group-title="18/11" , 🟢 19:00 18/11 ⚽ Pusamania Borneo FC vs Manila Digger FC (BLV MOUNTAIN DEW) [hls]
-https://live05.wecile.app/live/87547578.m3u8
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/5a0893c2c8fbdbbf734c07c71c8025b4.png!w80" group-title="18/11" , 🟢 19:00 18/11 ⚽ Pusamania Borneo FC vs Manila Digger FC (BLV MOUNTAIN DEW) [hls 2]
-https://live05.yefpwmc.app/live/87547578_tsc.m3u8
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/b0005d6d783d438b47420c2bfbd18550.png!w80" group-title="18/11" , 🟢 19:00 18/11 ⚽ Tekstilac vs FK Zeleznicar Pancevo (BLV SAMURAI) [flv]
-https://live05.wecile.app/live/07808742.flv
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/b0005d6d783d438b47420c2bfbd18550.png!w80" group-title="18/11" , 🟢 19:00 18/11 ⚽ Tekstilac vs FK Zeleznicar Pancevo (BLV SAMURAI) [hls]
-https://live05.wecile.app/live/07808742.m3u8
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/b0005d6d783d438b47420c2bfbd18550.png!w80" group-title="18/11" , 🟢 19:00 18/11 ⚽ Tekstilac vs FK Zeleznicar Pancevo (BLV SAMURAI) [hls 2]
-https://live05.yefpwmc.app/live/07808742_tsc.m3u8
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/5a0893c2c8fbdbbf734c07c71c8025b4.png" group-title="18/11" , 🟢 19:00 18/11 ⚽ Borneo FC Samarinda vs Manila Digger FC (Cris) [hls]
-https://playback.livetl002.com/live/69aa9525f5ec459ae275b43f.m3u8
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/5a0893c2c8fbdbbf734c07c71c8025b4.png" group-title="18/11" , 🟢 19:00 18/11 ⚽ Borneo FC Samarinda vs Manila Digger FC (Cris) [flv]
-https://playback.livetl002.com/live/69aa9525f5ec459ae275b43f.flv
-#EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/2442.webp" group-title="18/11" , 🟢 19:00 18/11 ⚽ Pusamania Borneo vs Manila Digger (Deal Pool)
-https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.FzwNtsxBjL4v.m3u8?expires=1795024236&signature=lGP4zn7yt4DhaTrjY25n4s0yiEJuSQqmsyRg0tjSQCw
-#EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/2442.webp" group-title="18/11" , 🟢 19:00 18/11 ⚽ Pusamania Borneo vs Manila Digger (Hawkeye)
-https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.BSQTXJUS7oiM.m3u8?expires=1795024239&signature=46z-CnyIrIbJl9gU0ZRi_8PFV_3opWYeTmoELEGQpwg
-#EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/2442.webp" group-title="18/11" , 🟢 19:00 18/11 ⚽ Pusamania Borneo vs Manila Digger (Super Man)
-https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.lrWcJBDDSUwJ.m3u8?expires=1795024241&signature=hw7ABR6k4s2O_XsVLFhF_vm8pImVOQPo6MRm9p0fKbo
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/vjxm8ghg2jlr6od/image/small" group-title="18/11" , 🟢 19:00 18/11 ⚽ Borneo FC vs Manila Digger FC (LÃM LÀNG) [geo]
-https://pull.digitalcdn.net/live/42c4cc53bbd042b7a64152fac2e27e89/index.m3u8
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/vjxm8ghg2jlr6od/image/small" group-title="18/11" , 🟢 19:00 18/11 ⚽ Borneo FC vs Manila Digger FC (Nhà đài)
-https://lilive1.eu.cc/live/734929d1b17aff0c403446f0353ce1b7/playlist.m3u8
+https://live2.domaincdn.cc/livecdn/channel-13.flv?auth_key=3000001795010728-0-0-97eaa15757414bef883ec0cafcb4c669
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/pxwrxlh9yzgryk0/image/small" group-title="18/11" , 🟢 20:00 18/11 ⚽ Bengaluru Utd vs Sreenidi Deccan (SILVA)
 https://live2.jorvakstreamcache.com/live/channel20.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/pxwrxlh9yzgryk0/image/small" group-title="18/11" , 🟢 20:00 18/11 ⚽ Bengaluru Utd vs Sreenidi Deccan (HD SILVA)
-https://live2.domaincdn.cc/livecdn/channel-20.flv?auth_key=3000001795009860-0-0-520474385b82924ae437a645660e2f45
+https://live2.domaincdn.cc/livecdn/channel-20.flv?auth_key=3000001795010735-0-0-9b7847e0117bf92be7fef64c58eefae1
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/3e4ab507d5b1007d9932d22ac716be74.png" group-title="18/11" , 🟢 20:00 18/11 ⚽ FC Bengaluru United vs Sreenidi Deccan (Gà Siêu Tốc) [flv]
 https://live2.zktsva.app/live/307240.flv
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/3e4ab507d5b1007d9932d22ac716be74.png" group-title="18/11" , 🟢 20:00 18/11 ⚽ FC Bengaluru United vs Sreenidi Deccan (Gà Siêu Tốc) [hls]
@@ -95,9 +45,9 @@ https://wncdnhls-global.losartang.org/live/vsc-channel-13.m3u8
 https://gckc0525.edgemaxcdn.org/live/chuoiluahd/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/582816.png" group-title="18/11" , 🟡 21:30 18/11 ⚽ Al-Adalah vs Al-Orobah FC (Long Ruồi) [hls]
 https://wtyi0525.edgemaxcdn.org/live/x1-hd-1111/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/56eaace9b1e134a8a019029f1fbaa0c5.png" group-title="18/11" , 🟡 21:30 18/11 ⚽ Al-Adalah vs Al-Orobah FC (Gà Siêu Gáy) [flv]
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/56eaace9b1e134a8a019029f1fbaa0c5.png" group-title="18/11" , 🟢 21:30 18/11 ⚽ Al-Adalah vs Al-Orobah FC (Gà Siêu Gáy) [flv]
 https://live2.zktsva.app/live/294335.flv
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/56eaace9b1e134a8a019029f1fbaa0c5.png" group-title="18/11" , 🟡 21:30 18/11 ⚽ Al-Adalah vs Al-Orobah FC (Gà Siêu Gáy) [hls]
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/56eaace9b1e134a8a019029f1fbaa0c5.png" group-title="18/11" , 🟢 21:30 18/11 ⚽ Al-Adalah vs Al-Orobah FC (Gà Siêu Gáy) [hls]
 https://live2.zktsva.app/live/294335.m3u8
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/56eaace9b1e134a8a019029f1fbaa0c5.png!w80" group-title="18/11" , 🟡 21:30 18/11 ⚽ Al-Adalah vs Al-Orubah (BLV SODA) [flv]
 https://live05.wecile.app/live/02456966.flv
@@ -117,95 +67,95 @@ https://freem3u.xyz/static/no-signal/low.m3u8
 https://freem3u.xyz/static/no-signal/low.m3u8
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261115/089397768fb5dcd081588d743f973d10.png" group-title="18/11" , 🟡 21:30 18/11 ⚽ Al-Adalah vs Al-Orobah FC (BLV HEHE)
 https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/2af31d7d31ede6bdc78d73574aec1751.png" group-title="18/11" , 22:00 18/11 ⚽ FK Dubocica vs Radnicki Nis (Tào Duệ)
+#EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/2af31d7d31ede6bdc78d73574aec1751.png" group-title="18/11" , 🟡 22:00 18/11 ⚽ FK Dubocica vs Radnicki Nis (Tào Duệ)
 https://wncdnhls-global.losartang.org/live/vsc-channel-15.m3u8
-#EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/2af31d7d31ede6bdc78d73574aec1751.png" group-title="18/11" , 22:00 18/11 ⚽ FK Dubocica vs Radnicki Nis (Tào Duệ)
+#EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/2af31d7d31ede6bdc78d73574aec1751.png" group-title="18/11" , 🟡 22:00 18/11 ⚽ FK Dubocica vs Radnicki Nis (Tào Duệ)
 https://wncdnhls-global.losartang.org/live/vsc-channel-15.m3u8
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133934_9428f679.png" group-title="18/11" , 22:00 18/11 ⚽ Dubočica vs Radnicki NIS (Chuối Chao) [FHD] [hls]
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133934_9428f679.png" group-title="18/11" , 🟡 22:00 18/11 ⚽ Dubočica vs Radnicki NIS (Chuối Chao) [FHD] [hls]
 https://gckc0525.edgemaxcdn.org/live/chuoichaohd/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_130127_d5250566.png" group-title="18/11" , 22:00 18/11 ⚽ El Gouna FC vs Al Ittihad (Chuối Sấy) [FHD] [hls]
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_130127_d5250566.png" group-title="18/11" , 🟡 22:00 18/11 ⚽ El Gouna FC vs Al Ittihad (Chuối Sấy) [FHD] [hls]
 https://gckc0525.edgemaxcdn.org/live/chuoisayhd/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/el-gouna-fc.png" group-title="18/11" , 22:00 18/11 ⚽ El Gounah vs Al Ittihad (blv Mù) [hls]
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/el-gouna-fc.png" group-title="18/11" , 🟡 22:00 18/11 ⚽ El Gounah vs Al Ittihad (blv Mù) [hls]
 https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://s8tvkc.top/wp-json/s8-image/73a89033-18da-455c-a720-4efbe9fded0f" group-title="18/11" , 22:00 18/11 ⚽ El Gounah vs Al Ittihad (NGƯỜI RÂM) [hls]
+#EXTINF:-1 tvg-logo="https://s8tvkc.top/wp-json/s8-image/73a89033-18da-455c-a720-4efbe9fded0f" group-title="18/11" , 🟡 22:00 18/11 ⚽ El Gounah vs Al Ittihad (NGƯỜI RÂM) [hls]
 https://hls.lauthaitv.cc/live/gounah-ittihad-egycup/index.m3u8
-#EXTINF:-1 tvg-logo="https://s8tvkc.top/wp-json/s8-image/73a89033-18da-455c-a720-4efbe9fded0f" group-title="18/11" , 22:00 18/11 ⚽ El Gounah vs Al Ittihad (NGƯỜI RÂM) [flv]
+#EXTINF:-1 tvg-logo="https://s8tvkc.top/wp-json/s8-image/73a89033-18da-455c-a720-4efbe9fded0f" group-title="18/11" , 🟡 22:00 18/11 ⚽ El Gounah vs Al Ittihad (NGƯỜI RÂM) [flv]
 https://flv.lauthaitv.cc/live/gounah-ittihad-egycup.flv
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/178268.png" group-title="18/11" , 22:00 18/11 ⚽ El Gouna FC vs Al Ittihad Alexandria (Nếp Cẩm) [hls]
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/178268.png" group-title="18/11" , 🟡 22:00 18/11 ⚽ El Gouna FC vs Al Ittihad Alexandria (Nếp Cẩm) [hls]
 https://wtyi0525.edgemaxcdn.org/live/x4-hd-1111/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/bLpwCyAN-tQFWRClH.png" group-title="18/11" , 22:00 18/11 ⚽ Dubocica vs Radnicki Nis (Kai) [hls]
+#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/bLpwCyAN-tQFWRClH.png" group-title="18/11" , 🟡 22:00 18/11 ⚽ Dubocica vs Radnicki Nis (Kai) [hls]
 https://wtyi0525.edgemaxcdn.org/live/x00-hd-1111/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/l965mkyhv2wr1ge/image/small" group-title="18/11" , 22:00 18/11 ⚽ Al-Baqs vs Jerash Club (ASTRA)
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/l965mkyhv2wr1ge/image/small" group-title="18/11" , 🟡 22:00 18/11 ⚽ Al-Baqs vs Jerash Club (ASTRA)
 https://live2.jorvakstreamcache.com/live/channel11.flv
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/l965mkyhv2wr1ge/image/small" group-title="18/11" , 22:00 18/11 ⚽ Al-Baqs vs Jerash Club (HD ASTRA)
-https://live2.domaincdn.cc/livecdn/channel-11.flv?auth_key=3000001795009907-0-0-473bb6adc1703658ce53d0ac84e6dfc1
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/dn1m1ghn2y1moep/image/small" group-title="18/11" , 22:00 18/11 ⚽ FK Dubocica vs Radnicki Nis (RIO)
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/l965mkyhv2wr1ge/image/small" group-title="18/11" , 🟡 22:00 18/11 ⚽ Al-Baqs vs Jerash Club (HD ASTRA)
+https://live2.domaincdn.cc/livecdn/channel-11.flv?auth_key=3000001795010759-0-0-df22429bef55f5c0144d09fb0ea881e9
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/dn1m1ghn2y1moep/image/small" group-title="18/11" , 🟡 22:00 18/11 ⚽ FK Dubocica vs Radnicki Nis (RIO)
 https://live2.jorvakstreamcache.com/live/channel16.flv
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/dn1m1ghn2y1moep/image/small" group-title="18/11" , 22:00 18/11 ⚽ FK Dubocica vs Radnicki Nis (HD RIO)
-https://live2.domaincdn.cc/livecdn/channel-16.flv?auth_key=3000001795009913-0-0-5c015758e817834331c644711ce4c476
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/y0or5jhl59lqwzv/image/small" group-title="18/11" , 22:00 18/11 ⚽ El Gounah vs Ittihad Alexandria (NICK)
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/dn1m1ghn2y1moep/image/small" group-title="18/11" , 🟡 22:00 18/11 ⚽ FK Dubocica vs Radnicki Nis (HD RIO)
+https://live2.domaincdn.cc/livecdn/channel-16.flv?auth_key=3000001795010765-0-0-b0497764d65394dd7eeee12f6f2e1097
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/y0or5jhl59lqwzv/image/small" group-title="18/11" , 🟡 22:00 18/11 ⚽ El Gounah vs Ittihad Alexandria (NICK)
 https://live2.jorvakstreamcache.com/live/channel5.flv
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/y0or5jhl59lqwzv/image/small" group-title="18/11" , 22:00 18/11 ⚽ El Gounah vs Ittihad Alexandria (HD NICK)
-https://live2.domaincdn.cc/livecdn/channel-5.flv?auth_key=3000001795009918-0-0-5127802bd8a347a1916efeeaadcebb01
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/2af31d7d31ede6bdc78d73574aec1751.png" group-title="18/11" , 22:00 18/11 ⚽ FK Dubocica vs Radnicki Nis (Gà Siêu Nhí) [flv]
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/y0or5jhl59lqwzv/image/small" group-title="18/11" , 🟡 22:00 18/11 ⚽ El Gounah vs Ittihad Alexandria (HD NICK)
+https://live2.domaincdn.cc/livecdn/channel-5.flv?auth_key=3000001795010771-0-0-4eb23526771a76491f4f5de9e4644e89
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/2af31d7d31ede6bdc78d73574aec1751.png" group-title="18/11" , 🟡 22:00 18/11 ⚽ FK Dubocica vs Radnicki Nis (Gà Siêu Nhí) [flv]
 https://live2.zktsva.app/live/301263.flv
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/2af31d7d31ede6bdc78d73574aec1751.png" group-title="18/11" , 22:00 18/11 ⚽ FK Dubocica vs Radnicki Nis (Gà Siêu Nhí) [hls]
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/2af31d7d31ede6bdc78d73574aec1751.png" group-title="18/11" , 🟡 22:00 18/11 ⚽ FK Dubocica vs Radnicki Nis (Gà Siêu Nhí) [hls]
 https://live2.zktsva.app/live/301263.m3u8
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/c6ab1000cdf1cf451a95c235150901b0.png" group-title="18/11" , 22:00 18/11 ⚽ Al-Baqaa vs Jerash Club (Gà Siêu Kiêu) [flv]
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/c6ab1000cdf1cf451a95c235150901b0.png" group-title="18/11" , 🟡 22:00 18/11 ⚽ Al-Baqaa vs Jerash Club (Gà Siêu Kiêu) [flv]
 https://live2.zktsva.app/live/741294.flv
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/c6ab1000cdf1cf451a95c235150901b0.png" group-title="18/11" , 22:00 18/11 ⚽ Al-Baqaa vs Jerash Club (Gà Siêu Kiêu) [hls]
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/c6ab1000cdf1cf451a95c235150901b0.png" group-title="18/11" , 🟡 22:00 18/11 ⚽ Al-Baqaa vs Jerash Club (Gà Siêu Kiêu) [hls]
 https://live2.zktsva.app/live/741294.m3u8
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/35e665fa4086e183fda582249d625c2b.png" group-title="18/11" , 22:00 18/11 ⚽ El Gounah vs Ittihad Alexandria SC (Gà Siêu Mõm) [flv]
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/35e665fa4086e183fda582249d625c2b.png" group-title="18/11" , 🟡 22:00 18/11 ⚽ El Gounah vs Ittihad Alexandria SC (Gà Siêu Mõm) [flv]
 https://live2.zktsva.app/live/300523.flv
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/35e665fa4086e183fda582249d625c2b.png" group-title="18/11" , 22:00 18/11 ⚽ El Gounah vs Ittihad Alexandria SC (Gà Siêu Mõm) [hls]
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/35e665fa4086e183fda582249d625c2b.png" group-title="18/11" , 🟡 22:00 18/11 ⚽ El Gounah vs Ittihad Alexandria SC (Gà Siêu Mõm) [hls]
 https://live2.zktsva.app/live/300523.m3u8
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/c6ab1000cdf1cf451a95c235150901b0.png!w80" group-title="18/11" , 22:00 18/11 ⚽ Shabab Al Ordon vs Jerash Club (BLV MONSTER) [flv]
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/c6ab1000cdf1cf451a95c235150901b0.png!w80" group-title="18/11" , 🟡 22:00 18/11 ⚽ Shabab Al Ordon vs Jerash Club (BLV MONSTER) [flv]
 https://live05.wecile.app/live/75915087.flv
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/c6ab1000cdf1cf451a95c235150901b0.png!w80" group-title="18/11" , 22:00 18/11 ⚽ Shabab Al Ordon vs Jerash Club (BLV MONSTER) [hls]
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/c6ab1000cdf1cf451a95c235150901b0.png!w80" group-title="18/11" , 🟡 22:00 18/11 ⚽ Shabab Al Ordon vs Jerash Club (BLV MONSTER) [hls]
 https://live05.wecile.app/live/75915087.m3u8
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/c6ab1000cdf1cf451a95c235150901b0.png!w80" group-title="18/11" , 22:00 18/11 ⚽ Shabab Al Ordon vs Jerash Club (BLV MONSTER) [hls 2]
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/c6ab1000cdf1cf451a95c235150901b0.png!w80" group-title="18/11" , 🟡 22:00 18/11 ⚽ Shabab Al Ordon vs Jerash Club (BLV MONSTER) [hls 2]
 https://live05.yefpwmc.app/live/75915087_tsc.m3u8
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/2af31d7d31ede6bdc78d73574aec1751.png!w80" group-title="18/11" , 22:00 18/11 ⚽ FK Dubocica vs Radnicki Nis (BLV TEPPY) [flv]
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/2af31d7d31ede6bdc78d73574aec1751.png!w80" group-title="18/11" , 🟡 22:00 18/11 ⚽ FK Dubocica vs Radnicki Nis (BLV TEPPY) [flv]
 https://live05.wecile.app/live/33860426.flv
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/2af31d7d31ede6bdc78d73574aec1751.png!w80" group-title="18/11" , 22:00 18/11 ⚽ FK Dubocica vs Radnicki Nis (BLV TEPPY) [hls]
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/2af31d7d31ede6bdc78d73574aec1751.png!w80" group-title="18/11" , 🟡 22:00 18/11 ⚽ FK Dubocica vs Radnicki Nis (BLV TEPPY) [hls]
 https://live05.wecile.app/live/33860426.m3u8
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/2af31d7d31ede6bdc78d73574aec1751.png!w80" group-title="18/11" , 22:00 18/11 ⚽ FK Dubocica vs Radnicki Nis (BLV TEPPY) [hls 2]
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/2af31d7d31ede6bdc78d73574aec1751.png!w80" group-title="18/11" , 🟡 22:00 18/11 ⚽ FK Dubocica vs Radnicki Nis (BLV TEPPY) [hls 2]
 https://live05.yefpwmc.app/live/33860426_tsc.m3u8
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/35e665fa4086e183fda582249d625c2b.png!w80" group-title="18/11" , 22:00 18/11 ⚽ El Gouna vs Al Ittihad Alexandria (BLV SPRITE) [flv]
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/35e665fa4086e183fda582249d625c2b.png!w80" group-title="18/11" , 🟡 22:00 18/11 ⚽ El Gouna vs Al Ittihad Alexandria (BLV SPRITE) [flv]
 https://live05.wecile.app/live/75748097.flv
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/35e665fa4086e183fda582249d625c2b.png!w80" group-title="18/11" , 22:00 18/11 ⚽ El Gouna vs Al Ittihad Alexandria (BLV SPRITE) [hls]
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/35e665fa4086e183fda582249d625c2b.png!w80" group-title="18/11" , 🟡 22:00 18/11 ⚽ El Gouna vs Al Ittihad Alexandria (BLV SPRITE) [hls]
 https://live05.wecile.app/live/75748097.m3u8
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/35e665fa4086e183fda582249d625c2b.png!w80" group-title="18/11" , 22:00 18/11 ⚽ El Gouna vs Al Ittihad Alexandria (BLV SPRITE) [hls 2]
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/35e665fa4086e183fda582249d625c2b.png!w80" group-title="18/11" , 🟡 22:00 18/11 ⚽ El Gouna vs Al Ittihad Alexandria (BLV SPRITE) [hls 2]
 https://live05.yefpwmc.app/live/75748097_tsc.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261116/b777371aa79a3d49953942b74bf65162.png" group-title="18/11" , 22:00 18/11 ⚽ FK Dubocica vs Radnicki Nis (BLV LUCAS)
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261116/b777371aa79a3d49953942b74bf65162.png" group-title="18/11" , 🟡 22:00 18/11 ⚽ FK Dubocica vs Radnicki Nis (BLV LUCAS)
 https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261116/b777371aa79a3d49953942b74bf65162.png" group-title="18/11" , 22:00 18/11 ⚽ FK Dubocica vs Radnicki Nis (BLV VOI)
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261116/b777371aa79a3d49953942b74bf65162.png" group-title="18/11" , 🟡 22:00 18/11 ⚽ FK Dubocica vs Radnicki Nis (BLV VOI)
 https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261116/b777371aa79a3d49953942b74bf65162.png" group-title="18/11" , 22:00 18/11 ⚽ FK Dubocica vs Radnicki Nis (BLV CÒ)
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261116/b777371aa79a3d49953942b74bf65162.png" group-title="18/11" , 🟡 22:00 18/11 ⚽ FK Dubocica vs Radnicki Nis (BLV CÒ)
 https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261116/b777371aa79a3d49953942b74bf65162.png" group-title="18/11" , 22:00 18/11 ⚽ FK Dubocica vs Radnicki Nis (BLV RYO)
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261116/b777371aa79a3d49953942b74bf65162.png" group-title="18/11" , 🟡 22:00 18/11 ⚽ FK Dubocica vs Radnicki Nis (BLV RYO)
 https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261116/b777371aa79a3d49953942b74bf65162.png" group-title="18/11" , 22:00 18/11 ⚽ FK Dubocica vs Radnicki Nis (MP3)
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261116/b777371aa79a3d49953942b74bf65162.png" group-title="18/11" , 🟡 22:00 18/11 ⚽ FK Dubocica vs Radnicki Nis (MP3)
 https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261116/b777371aa79a3d49953942b74bf65162.png" group-title="18/11" , 22:00 18/11 ⚽ FK Dubocica vs Radnicki Nis (NHỊ CA)
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261116/b777371aa79a3d49953942b74bf65162.png" group-title="18/11" , 🟡 22:00 18/11 ⚽ FK Dubocica vs Radnicki Nis (NHỊ CA)
 https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261116/9eb920e416d22376ceffcea9a1a64b3a.png" group-title="18/11" , 22:00 18/11 ⚽ El Gounah vs Ittihad Alexandria SC (BLV LONG)
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261116/9eb920e416d22376ceffcea9a1a64b3a.png" group-title="18/11" , 🟡 22:00 18/11 ⚽ El Gounah vs Ittihad Alexandria SC (BLV LONG)
 https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261116/9eb920e416d22376ceffcea9a1a64b3a.png" group-title="18/11" , 22:00 18/11 ⚽ El Gounah vs Ittihad Alexandria SC (5 LỬA)
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261116/9eb920e416d22376ceffcea9a1a64b3a.png" group-title="18/11" , 🟡 22:00 18/11 ⚽ El Gounah vs Ittihad Alexandria SC (5 LỬA)
 https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261116/9eb920e416d22376ceffcea9a1a64b3a.png" group-title="18/11" , 22:00 18/11 ⚽ El Gounah vs Ittihad Alexandria SC (CÔNG CHẤT)
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261116/9eb920e416d22376ceffcea9a1a64b3a.png" group-title="18/11" , 🟡 22:00 18/11 ⚽ El Gounah vs Ittihad Alexandria SC (CÔNG CHẤT)
 https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261116/9eb920e416d22376ceffcea9a1a64b3a.png" group-title="18/11" , 22:00 18/11 ⚽ El Gounah vs Ittihad Alexandria SC (XUÂN SON)
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261116/9eb920e416d22376ceffcea9a1a64b3a.png" group-title="18/11" , 🟡 22:00 18/11 ⚽ El Gounah vs Ittihad Alexandria SC (XUÂN SON)
 https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261116/9eb920e416d22376ceffcea9a1a64b3a.png" group-title="18/11" , 22:00 18/11 ⚽ El Gounah vs Ittihad Alexandria SC (BLV A TÚ)
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261116/9eb920e416d22376ceffcea9a1a64b3a.png" group-title="18/11" , 🟡 22:00 18/11 ⚽ El Gounah vs Ittihad Alexandria SC (BLV A TÚ)
 https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261116/9eb920e416d22376ceffcea9a1a64b3a.png" group-title="18/11" , 22:00 18/11 ⚽ El Gounah vs Ittihad Alexandria SC (LOKA)
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261116/9eb920e416d22376ceffcea9a1a64b3a.png" group-title="18/11" , 🟡 22:00 18/11 ⚽ El Gounah vs Ittihad Alexandria SC (LOKA)
 https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/1574.webp" group-title="18/11" , 22:00 18/11 ⚽ El Gouna FC vs Al Ittihad (Super Man)
+#EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/1574.webp" group-title="18/11" , 🟡 22:00 18/11 ⚽ El Gouna FC vs Al Ittihad (Super Man)
 https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/1574.webp" group-title="18/11" , 22:00 18/11 ⚽ El Gouna FC vs Al Ittihad (Speed)
+#EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/1574.webp" group-title="18/11" , 🟡 22:00 18/11 ⚽ El Gouna FC vs Al Ittihad (Speed)
 https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/y0or5jhl59lqwzv/image/small" group-title="18/11" , 22:00 18/11 ⚽ El Gounah vs Ittihad Alexandria (LÝ LINH LỰC) [geo]
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/y0or5jhl59lqwzv/image/small" group-title="18/11" , 🟡 22:00 18/11 ⚽ El Gounah vs Ittihad Alexandria (LÝ LINH LỰC) [geo]
 https://pull.digitalcdn.net/live/ae06eef5b29f4fbe988095040e869386/index.m3u8
 #EXTINF:-1 tvg-logo="https://s8tvkc.top/wp-json/s8-image/04bb1f5f-d310-4bef-9885-c3ec6509533b" group-title="18/11" , 22:30 18/11 ⚽ Al Buqaa vs Jerash Club (NGƯỜI CAT) [hls]
 https://hls.lauthaitv.cc/live/buqa-jerash-jorcup/index.m3u8
@@ -215,6 +165,10 @@ https://flv.lauthaitv.cc/live/buqa-jerash-jorcup.flv
 https://hls.lauthaitv.cc/live/tabor-fuzi-slocup/index.m3u8
 #EXTINF:-1 tvg-logo="https://s8tvkc.top/wp-json/s8-image/507afe7e-c9d6-4a35-aaa2-5f1925892668" group-title="18/11" , 23:00 18/11 ⚽ Tabor Sezana vs NK Fuzinar (NGƯỜI NHỆN) [flv]
 https://flv.lauthaitv.cc/live/tabor-fuzi-slocup.flv
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/3glrw7hj28kqdyj/image/small" group-title="18/11" , 23:00 18/11 ⚽ NK Race vs NK Radomlje (JOHAN)
+https://live2.jorvakstreamcache.com/live/channel12.flv
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/3glrw7hj28kqdyj/image/small" group-title="18/11" , 23:00 18/11 ⚽ NK Race vs NK Radomlje (HD JOHAN)
+https://live2.domaincdn.cc/livecdn/channel-12.flv?auth_key=3000001795010777-0-0-ecf8cd30a6ada134145b1752d097898f
 #EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/10715.webp" group-title="18/11" , 23:45 18/11 ⚽ Témouchent vs JS El Biar (Deal Pool)
 https://freem3u.xyz/static/no-signal/low.m3u8
 #--- Lịch đấu 19/11 ---
@@ -232,10 +186,10 @@ https://live05.yefpwmc.app/live/97885009_tsc.m3u8
 https://freem3u.xyz/static/no-signal/low.m3u8
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261116/7d60f66e28dd9185b1db39218c3dae36.png" group-title="19/11" , 00:30 19/11 ⚽ Zemun vs Radnicki 1923 Kragujevac (BLV CÒ)
 https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/be7fe57ffae201d4d8e1f8a8bf33232f.png" group-title="19/11" , 00:45 19/11 ⚽ Real Madrid Women vs Inter Milan Women (Trần Cảnh)
-https://wncdnhls-global.losartang.org/live/vsc-channel-18.m3u8
 #EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/e121cced31de682c590d3305327061df.png" group-title="19/11" , 00:45 19/11 ⚽ BK Hacken Women vs Manchester City Women (Lê Lợi)
 https://wncdnhls-global.losartang.org/live/vsc-channel-6.m3u8
+#EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/be7fe57ffae201d4d8e1f8a8bf33232f.png" group-title="19/11" , 00:45 19/11 ⚽ Real Madrid Women vs Inter Milan Women (Trần Cảnh)
+https://wncdnhls-global.losartang.org/live/vsc-channel-18.m3u8
 #EXTINF:-1 tvg-logo="https://apiv3.apifootball.com/badges/9859_hacken-w.jpg" group-title="19/11" , 00:45 19/11 ⚽ Hacken W vs Manchester City W (BLV Lương Khô) [hls]
 https://livecdn321.cdnfastter.xyz/live/live_f64016ed85/index.m3u8?token=2zFHBLZ7ZQ-fbhTLWfwNITX5zZlxj49JwHBeBRcyALM&expires=1852800615
 #EXTINF:-1 tvg-logo="https://apiv3.apifootball.com/badges/486_real-madrid-w.jpg" group-title="19/11" , 00:45 19/11 ⚽ Real Madrid W vs Inter W (BLV Khô Cá) [hls]
@@ -358,6 +312,8 @@ https://freem3u.xyz/static/no-signal/low.m3u8
 https://freem3u.xyz/static/no-signal/low.m3u8
 #EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/e3a1113b18fb03bd46b73099a2ec8e00.png" group-title="19/11" , 02:00 19/11 ⚽ CD Badajoz vs Tenerife (Triệu Hằng)
 https://wncdnhls-global.losartang.org/live/vsc-channel-20.m3u8
+#EXTINF:-1 tvg-logo="https://apiv3.apifootball.com/badges/7249_alcoyano.jpg" group-title="19/11" , 02:00 19/11 ⚽ Alcoyano vs Mallorca (BLV Tam Mao) [hls]
+https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133731_6dff7e1a.png" group-title="19/11" , 02:00 19/11 ⚽ Manchester United W vs Everton W (Trốc Tru) [FHD] [hls]
 https://gckc0525.edgemaxcdn.org/live/troctruhd/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_140025_e761fef0.png" group-title="19/11" , 02:00 19/11 ⚽ Alcoyano vs Mallorca (Chuối Kem) [FHD] [hls]
@@ -534,6 +490,8 @@ https://freem3u.xyz/static/no-signal/low.m3u8
 https://freem3u.xyz/static/no-signal/low.m3u8
 #EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/147.webp" group-title="19/11" , 05:30 19/11 ⚽ Coritiba vs Santos (Black Panther)
 https://freem3u.xyz/static/no-signal/low.m3u8
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/9vjxm8ghoenr6od/image/small" group-title="19/11" , 05:30 19/11 ⚽ Coritiba SAF vs Santos (LÝ LẠNH LÙNG) [geo]
+https://pull.digitalcdn.net/live/970f5f1793354badbcfd97bca59531c5/index.m3u8
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/8d4ae02740684681d297792508ed0e70.png" group-title="19/11" , 06:00 19/11 ⚽ Remo _ PA vs Chapecoense _ SC (Gà Siêu Son) [flv]
 https://live2.zktsva.app/live/306290.flv
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/8d4ae02740684681d297792508ed0e70.png" group-title="19/11" , 06:00 19/11 ⚽ Remo _ PA vs Chapecoense _ SC (Gà Siêu Son) [hls]
@@ -552,10 +510,10 @@ https://freem3u.xyz/static/no-signal/low.m3u8
 https://freem3u.xyz/static/no-signal/low.m3u8
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261115/ad9b815046eb1a3f756237c2760de7b5.png" group-title="19/11" , 06:00 19/11 ⚽ Remo _ PA vs Chapecoense _ SC (KINH VÂN)
 https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/f19b2f9fa5b0c72acc262bc4f0d2cd77.png" group-title="19/11" , 06:30 19/11 ⚽ Flamengo _ RJ vs Athletico Paranaense _ PR (Lê Hoàn)
-https://wncdnhls-global.losartang.org/live/vsc-channel-5.m3u8
 #EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/3fe9281df0fdaf026741ff54ac24bdeb.png" group-title="19/11" , 06:30 19/11 ⚽ Cruzeiro _ MG vs Palmeiras _ SP (Doanh Chính)
 https://wncdnhls-global.losartang.org/live/vsc-channel-2.m3u8
+#EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/f19b2f9fa5b0c72acc262bc4f0d2cd77.png" group-title="19/11" , 06:30 19/11 ⚽ Flamengo _ RJ vs Athletico Paranaense _ PR (Lê Hoàn)
+https://wncdnhls-global.losartang.org/live/vsc-channel-5.m3u8
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125537_af573eed.png" group-title="19/11" , 06:30 19/11 ⚽ Flamengo vs Atletico Paranaense (Chuối Chao) [FHD] [hls]
 https://gckc0525.edgemaxcdn.org/live/chuoichaohd/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/cruzeiro.png" group-title="19/11" , 06:30 19/11 ⚽ Cruzeiro (MG) vs Palmeiras (blv Mù) [hls]
@@ -662,10 +620,10 @@ https://freem3u.xyz/static/no-signal/low.m3u8
 https://freem3u.xyz/static/no-signal/low.m3u8
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/x7lm7phkynxm2wd/image/small" group-title="19/11" , 15:30 19/11 ⚽ Preston Lions vs South Hobart (LÝ LẠNH LÙNG) [geo]
 https://pull.digitalcdn.net/live/7c79f29788fd4f43858df4e2e3dc02f6/index.m3u8
-#EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/8b784b23ff2eac9bbdb4437cbc291d52.png" group-title="19/11" , 19:00 19/11 ⚽ Preah Khan Reach Svay Rieng FC vs Port FC (Dương Kiên)
-https://wncdnhls-global.losartang.org/live/vsc-channel-3.m3u8
 #EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/b2004093bf25a5a8d1768970d6e49d71.png" group-title="19/11" , 19:00 19/11 ⚽ Persib Bandung vs Shan United (Lê Lợi)
 https://wncdnhls-global.losartang.org/live/vsc-channel-6.m3u8
+#EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/8b784b23ff2eac9bbdb4437cbc291d52.png" group-title="19/11" , 19:00 19/11 ⚽ Preah Khan Reach Svay Rieng FC vs Port FC (Dương Kiên)
+https://wncdnhls-global.losartang.org/live/vsc-channel-3.m3u8
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/vjxm8ghg80kr6od/image/small" group-title="19/11" , 19:00 19/11 ⚽ Svay Rieng FC vs Port FC (LÝ LINH LỰC) [geo]
 https://pull.digitalcdn.net/live/9f511d4c663e48cb802c6b835269d2e8/index.m3u8
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/vjxm8gh4z7xr6od/image/small" group-title="19/11" , 19:00 19/11 ⚽ Persib Bandung vs Shan United (LÃM LÀNG) [geo]
