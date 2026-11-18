@@ -1,22 +1,6 @@
 #EXTM3U
 #Cập nhật động từ https://thtt.pages.dev/tttt.m3u
 #--- Lịch đấu 18/11 ---
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_144234_c354b94d.png" group-title="18/11" , 🟢 12:00 18/11 ⚽ Albirex Niigata W vs Elfen Saitama W (Chuối Tây) [FHD] [hls]
-https://gckc0525.edgemaxcdn.org/live/chuoitayhd/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/318q66ho00gqo9j/image/small" group-title="18/11" , 🟢 12:00 18/11 ⚽ Nữ Albirex Niigata vs Nữ Elfen Saitama (XMEN)
-https://live2.jorvakstreamcache.com/live/channel13.flv
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/318q66ho00gqo9j/image/small" group-title="18/11" , 🟢 12:00 18/11 ⚽ Nữ Albirex Niigata vs Nữ Elfen Saitama (HD XMEN)
-https://live2.domaincdn.cc/livecdn/channel-13.flv?auth_key=3000001794984632-0-0-9ce50003d3fa47d2143ac847eb169bef
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/9ec54f1321212a6ea3f3d97cd1776fc6.png!w80" group-title="18/11" , 🟢 12:00 18/11 ⚽ Vegalta Sendai Nữ (Jpn) vs Beleza Nữ (Jpn) (BLV AQUA) [flv]
-https://live05.wecile.app/live/18812304.flv
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/9ec54f1321212a6ea3f3d97cd1776fc6.png!w80" group-title="18/11" , 🟢 12:00 18/11 ⚽ Vegalta Sendai Nữ (Jpn) vs Beleza Nữ (Jpn) (BLV AQUA) [hls]
-https://live05.wecile.app/live/18812304.m3u8
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/9ec54f1321212a6ea3f3d97cd1776fc6.png!w80" group-title="18/11" , 🟢 12:00 18/11 ⚽ Vegalta Sendai Nữ (Jpn) vs Beleza Nữ (Jpn) (BLV AQUA) [hls 2]
-https://live05.yefpwmc.app/live/18812304_tsc.m3u8
-#EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/16956.webp" group-title="18/11" , 🟢 12:00 18/11 ⚽ Vegalta Sendai W vs Tokyo Verdy Beleza W (Moon Kight)
-https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.ZUzMjjHM1lSN.m3u8?expires=1794999027&signature=Lg9qdvN6hiCdUrXHFu6IVEoNg3vSsTlJoOVj5OEF0fI
-#EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/16956.webp" group-title="18/11" , 🟢 12:00 18/11 ⚽ Vegalta Sendai W vs Tokyo Verdy Beleza W (Hawkeye)
-https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.UfuhXi6fdv4C.m3u8?expires=1794999030&signature=bTGOcMOeLeJGz6igjbhKaofDqNks1cuaRwQ554sN99A
 #EXTINF:-1 tvg-logo="https://media.api-sports.io/football/teams/15810.png" group-title="18/11" , 15:30 18/11 ⚽ Persibangga Purbalingga vs Persibo (Chuối Nhỏ) [FHD] [hls]
 https://gckc0525.edgemaxcdn.org/live/chuoinhohd/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/MJ5SByBN-hv4PRfM0.png" group-title="18/11" , 15:30 18/11 ⚽ Purbalingga vs Persibo Bojonegoro (Tít) [hls]
@@ -32,7 +16,7 @@ https://wtyi0525.edgemaxcdn.org/live/x00-hd-1111/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/l5ergphok74r8k0/image/small" group-title="18/11" , 16:30 18/11 ⚽ Nữ Cerezo Osaka vs Nữ Urawa Red (RAVEN)
 https://live2.jorvakstreamcache.com/live/channel21.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/l5ergphok74r8k0/image/small" group-title="18/11" , 16:30 18/11 ⚽ Nữ Cerezo Osaka vs Nữ Urawa Red (HD RAVEN)
-https://live2.domaincdn.cc/livecdn/channel-21.flv?auth_key=3000001794984654-0-0-de7f630a9ba53fef0f2494f639d34d67
+https://live2.domaincdn.cc/livecdn/channel-21.flv?auth_key=3000001794985558-0-0-e77f7de6d0158c3cb70f7fa32e1cf922
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/e3eeed340658b68dc6b1cc2997997954.png" group-title="18/11" , 16:30 18/11 ⚽ Cerezo Osaka Sakai vs Urawa Red Diamonds Ladies Women (Gà Siêu Péo) [flv]
 https://live2.zktsva.app/live/303098.flv
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/e3eeed340658b68dc6b1cc2997997954.png" group-title="18/11" , 16:30 18/11 ⚽ Cerezo Osaka Sakai vs Urawa Red Diamonds Ladies Women (Gà Siêu Péo) [hls]
@@ -76,11 +60,11 @@ https://wtyi0525.edgemaxcdn.org/live/x22-hd-1111/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/2y8m4zh3d4oql07/image/small" group-title="18/11" , 17:00 18/11 ⚽ Nữ Suwon FMC vs Nữ Gyeongju (FILIP)
 https://live2.jorvakstreamcache.com/live/channel19.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/2y8m4zh3d4oql07/image/small" group-title="18/11" , 17:00 18/11 ⚽ Nữ Suwon FMC vs Nữ Gyeongju (HD FILIP)
-https://live2.domaincdn.cc/livecdn/channel-19.flv?auth_key=3000001794984659-0-0-4ff6208eefa27a50b69863310ae9d951
+https://live2.domaincdn.cc/livecdn/channel-19.flv?auth_key=3000001794985563-0-0-951f561e7aca312f0e0734f63f0908ee
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/n54qllh8143qvy9/image/small" group-title="18/11" , 17:00 18/11 ⚽ Nữ Sanfrecce Hiroshima vs Nữ Nojima Stella (HIRO)
 https://live2.jorvakstreamcache.com/live/channel14.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/n54qllh8143qvy9/image/small" group-title="18/11" , 17:00 18/11 ⚽ Nữ Sanfrecce Hiroshima vs Nữ Nojima Stella (HD HIRO)
-https://live2.domaincdn.cc/livecdn/channel-14.flv?auth_key=3000001794984666-0-0-8d1b668677b611aedbe0cd72554d7eda
+https://live2.domaincdn.cc/livecdn/channel-14.flv?auth_key=3000001794985569-0-0-d1bcac36c6a9f63864621460a914cb1e
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/0ca690140522d4a0594850a0d24ec222.png" group-title="18/11" , 17:00 18/11 ⚽ Sanfrecce Hiroshima Regina Women vs Nojima Stella Kanagawa Sagamihara Women (Gà Siêu Bệu) [flv]
 https://live2.zktsva.app/live/289650.flv
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/0ca690140522d4a0594850a0d24ec222.png" group-title="18/11" , 17:00 18/11 ⚽ Sanfrecce Hiroshima Regina Women vs Nojima Stella Kanagawa Sagamihara Women (Gà Siêu Bệu) [hls]
@@ -251,6 +235,14 @@ https://gckc0525.edgemaxcdn.org/live/chuoigiahd/playlist.m3u8
 https://hls.lauthaitv.cc/live/cahcm-buriram-shopee/index.m3u8
 #EXTINF:-1 tvg-logo="https://s8tvkc.top/wp-json/s8-image/77a85d93-97a0-4994-9997-809d505e5ae5" group-title="18/11" , 19:30 18/11 ⚽ Cong An Ho Chi Minh FC vs Buriram United (NGƯỜI RÂM) [flv]
 https://flv.lauthaitv.cc/live/cahcm-buriram-shopee.flv
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/dn1m1gheowwmoep/image/small" group-title="18/11" , 19:30 18/11 ⚽ Hồ Chí Minh vs Buriram United (ROY)
+https://live2.pro2cdnlive.com/live/channel1.flv
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/dn1m1gheowwmoep/image/small" group-title="18/11" , 19:30 18/11 ⚽ Hồ Chí Minh vs Buriram United (FABIO)
+https://live2.pro2cdnlive.com/live/channel-2.flv
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/dn1m1gheowwmoep/image/small" group-title="18/11" , 19:30 18/11 ⚽ Hồ Chí Minh vs Buriram United (FABIO)
+https://live2.pro2cdnlive.com/live/channel2.flv
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/dn1m1gheowwmoep/image/small" group-title="18/11" , 19:30 18/11 ⚽ Hồ Chí Minh vs Buriram United (FULL HD ROY)
+https://live2.pro2cdnlive.com/live/channel-1.flv
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261115/dcb8f4e87b07ef8312732d4e5f36cf8a.png" group-title="18/11" , 19:30 18/11 ⚽ Cong An Ho Chi Minh City vs Buriram United (RICKHANTER)
 https://freem3u.xyz/static/no-signal/low.m3u8
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261115/dcb8f4e87b07ef8312732d4e5f36cf8a.png" group-title="18/11" , 19:30 18/11 ⚽ Cong An Ho Chi Minh City vs Buriram United (BLV TAP)
@@ -476,13 +468,13 @@ https://freem3u.xyz/static/no-signal/low.m3u8
 https://freem3u.xyz/static/no-signal/low.m3u8
 #EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/15224.webp" group-title="19/11" , 00:45 19/11 ⚽ Real Madrid W vs Inter Milano W (Joker)
 https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/15224.webp" group-title="19/11" , 00:45 19/11 ⚽ Real Madrid W vs Inter Milano W (Speed)
-https://freem3u.xyz/static/no-signal/low.m3u8
 #EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/16483.webp" group-title="19/11" , 00:45 19/11 ⚽ Häcken W vs Manchester City W (Super Man)
 https://freem3u.xyz/static/no-signal/low.m3u8
 #EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/16483.webp" group-title="19/11" , 00:45 19/11 ⚽ Häcken W vs Manchester City W (Nova)
 https://freem3u.xyz/static/no-signal/low.m3u8
 #EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/16483.webp" group-title="19/11" , 00:45 19/11 ⚽ Häcken W vs Manchester City W (Thanos)
+https://freem3u.xyz/static/no-signal/low.m3u8
+#EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/15224.webp" group-title="19/11" , 00:45 19/11 ⚽ Real Madrid W vs Inter Milano W (Speed)
 https://freem3u.xyz/static/no-signal/low.m3u8
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/318q66h0pxxqo9j/image/small" group-title="19/11" , 00:45 19/11 ⚽ Nữ Real Madrid vs Nữ Inter Milan (LÝ LÀNG LÁ) [geo]
 https://pull1.digitalcdn.net/live/b9e499d21e4d481ebd56daf119c3c6e3/index.m3u8
