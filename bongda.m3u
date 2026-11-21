@@ -1,18 +1,6 @@
 #EXTM3U
 #Cập nhật động từ https://thtt.pages.dev/tttt.m3u
 #--- Lịch đấu 21/11 ---
-#EXTINF:-1 tvg-logo="https://apiv3.apifootball.com/badges/399_brisbane-roar-fc.jpg" group-title="21/11" , 🟢 15:40 21/11 ⚽ Brisbane Roar vs Sydney FC (BLV Xôi Gấc) [hls]
-https://livecdn321.cdnfastter.xyz/live/live_5e3f2549e4/index.m3u8?token=pCk_XLBJTDboKaC3LME17XPjU4pgaPXEOkc_CroCj0U&expires=1852800615
-#EXTINF:-1 tvg-logo="https://apiv3.apifootball.com/badges/399_brisbane-roar-fc.jpg" group-title="21/11" , 🟢 15:40 21/11 ⚽ Brisbane Roar vs Sydney FC (BLV Xôi Gấc) [flv]
-https://live.khoga.space/live/livehub11.flv
-#EXTINF:-1 tvg-logo="https://d1c0s7hi3ugzoc.cloudfront.net/teams/brisbane-roar-1238" group-title="21/11" , 🟢 15:40 21/11 ⚽ Brisbane Roar vs Sydney (ASAHI) [flv]
-https://cdnflv.xbdbotv.live/live/MTk3NTg3OTU6aGY1ODc5dDVoeXprdGJiajd3azBucmU2OmRlYjZmaDI1bDZlZ3o2MHVhaGtnZG1jNQ.flv
-#EXTINF:-1 tvg-logo="https://d1c0s7hi3ugzoc.cloudfront.net/teams/brisbane-roar-1238" group-title="21/11" , 🟢 15:40 21/11 ⚽ Brisbane Roar vs Sydney (ASAHI) [hls]
-https://cdnhls.xbdbotv.live/live/MTk3NTg3OTU6aGY1ODc5dDVoeXprdGJiajd3azBucmU2OmRlYjZmaDI1bDZlZ3o2MHVhaGtnZG1jNQ/index.m3u8
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/ednm9whzg57ryox/image/small" group-title="21/11" , 🟢 16:30 21/11 ⚽ Mahar United vs Myawady (LÝ LẮC) [geo]
-https://pull.digitalcdn.net/live/ba0e2638ad95496eba566596976c4122/index.m3u8
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/ednm9whzg57ryox/image/small" group-title="21/11" , 🟢 16:30 21/11 ⚽ Mahar United vs Myawady (Nhà đài)
-https://lilive1.eu.cc/live/42ce2ac0590874da6429e7ac34c8dafa/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://s8tvkc.top/wp-json/s8-image/c4e4a4d5-90da-4a05-b314-31bd1da42c9e" group-title="21/11" , 🟢 17:00 21/11 ⚽ FC Orenburg vs Baltika Kaliningrad (NGƯỜI NẶN) [hls]
 https://hls.lauthaitv.cc/live/orenburg-baltika-rusprem/index.m3u8
 #EXTINF:-1 tvg-logo="https://s8tvkc.top/wp-json/s8-image/c4e4a4d5-90da-4a05-b314-31bd1da42c9e" group-title="21/11" , 🟢 17:00 21/11 ⚽ FC Orenburg vs Baltika Kaliningrad (NGƯỜI NẶN) [flv]
@@ -20,7 +8,7 @@ https://flv.lauthaitv.cc/live/orenburg-baltika-rusprem.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/y39mp1h3wj2mojx/image/small" group-title="21/11" , 🟢 17:00 21/11 ⚽ FC Orenburg vs Baltika Kaliningrad (FILIP)
 https://live2.jorvakstreamcache.com/live/channel19.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/y39mp1h3wj2mojx/image/small" group-title="21/11" , 🟢 17:00 21/11 ⚽ FC Orenburg vs Baltika Kaliningrad (HD FILIP)
-https://live2.domaincdn.cc/livecdn/channel-19.flv?auth_key=3000001795260049-0-0-2aac668d3cfe2b305e4b365972a1e45f
+https://live2.domaincdn.cc/livecdn/channel-19.flv?auth_key=3000001795261837-0-0-98bc3950373c7eb2395ef15d0181fdb7
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/6d81ef01fa7aaedf7144c933bdcc62d8.png" group-title="21/11" , 🟢 17:00 21/11 ⚽ FC Orenburg vs Baltika Kaliningrad (Gà Siêu Mõm) [flv]
 https://live2.zktsva.app/live/300523.flv
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/6d81ef01fa7aaedf7144c933bdcc62d8.png" group-title="21/11" , 🟢 17:00 21/11 ⚽ FC Orenburg vs Baltika Kaliningrad (Gà Siêu Mõm) [hls]
@@ -34,7 +22,7 @@ https://live05.yefpwmc.app/live/99121525_tsc.m3u8
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/gx7lm7phd6wm2wd/image/small" group-title="21/11" , 🟢 17:30 21/11 ⚽ Genclerbirligi vs Gaziantep Futbol Kulübü (JOHAN)
 https://live2.jorvakstreamcache.com/live/channel12.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/gx7lm7phd6wm2wd/image/small" group-title="21/11" , 🟢 17:30 21/11 ⚽ Genclerbirligi vs Gaziantep Futbol Kulübü (HD JOHAN)
-https://live2.domaincdn.cc/livecdn/channel-12.flv?auth_key=3000001795260055-0-0-483fa5c071d99bd79ba4dd486502cc3e
+https://live2.domaincdn.cc/livecdn/channel-12.flv?auth_key=3000001795261845-0-0-bef39dd7dcaf4f11ca9bf0954167d6a2
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/ec111e88997dce5a5f76c26b8e85d7f3.png" group-title="21/11" , 🟢 17:30 21/11 ⚽ Genclerbirligi vs Gaziantep Futbol Kulübü (Gà Siêu Péo) [flv]
 https://live2.zktsva.app/live/303098.flv
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/ec111e88997dce5a5f76c26b8e85d7f3.png" group-title="21/11" , 🟢 17:30 21/11 ⚽ Genclerbirligi vs Gaziantep Futbol Kulübü (Gà Siêu Péo) [hls]
@@ -88,19 +76,23 @@ https://wtyi0525.edgemaxcdn.org/live/x4-hd-1111/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/y0or5jhedgxqwzv/image/small" group-title="21/11" , 🟢 18:00 21/11 ⚽ Xuân Thiện Phú Thọ vs Đồng Tâm Long An (NEMO)
 https://live2.jorvakstreamcache.com/live/channel17.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/y0or5jhedgxqwzv/image/small" group-title="21/11" , 🟢 18:00 21/11 ⚽ Xuân Thiện Phú Thọ vs Đồng Tâm Long An (HD NEMO)
-https://live2.domaincdn.cc/livecdn/channel-17.flv?auth_key=3000001795260062-0-0-e292e9e0faf3207d1fb14775fb3ddfcf
+https://live2.domaincdn.cc/livecdn/channel-17.flv?auth_key=3000001795261853-0-0-1e19b8ba7175d1a4ba110c8cbe825c5b
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/4wyrn4h8d9gq86p/image/small" group-title="21/11" , 🟢 18:00 21/11 ⚽ Becamex Hồ Chí Minh vs Huda Huế (FELIX)
 https://live2.jorvakstreamcache.com/live/channel24.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/4wyrn4h8d9gq86p/image/small" group-title="21/11" , 🟢 18:00 21/11 ⚽ Becamex Hồ Chí Minh vs Huda Huế (HD FELIX)
-https://live2.domaincdn.cc/livecdn/channel-24.flv?auth_key=3000001795260067-0-0-2022ad324d5ad1173b2ee08681e9b9e1
+https://live2.domaincdn.cc/livecdn/channel-24.flv?auth_key=3000001795261859-0-0-f5643e9929a22b8ac67fa54ae78264da
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/4wyrn4h826oq86p/image/small" group-title="21/11" , 🟢 18:00 21/11 ⚽ Nam Định vs Hải Phòng FC (MAX)
 https://live2.jorvakstreamcache.com/live/channel6.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/4wyrn4h826oq86p/image/small" group-title="21/11" , 🟢 18:00 21/11 ⚽ Nam Định vs Hải Phòng FC (HD MAX)
-https://live2.domaincdn.cc/livecdn/channel-6.flv?auth_key=3000001795260074-0-0-408056aed2fcf1a5a099ce83b2ba1373
+https://live2.domaincdn.cc/livecdn/channel-6.flv?auth_key=3000001795261864-0-0-99e27ad418ca0a07c5c02a0cd9ae6c28
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/4wyrn4he7kjq86p/image/small" group-title="21/11" , 🟢 18:00 21/11 ⚽ Bình Phước vs Hà Nội FC (BRADY)
 https://live2.jorvakstreamcache.com/live/channel15.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/4wyrn4he7kjq86p/image/small" group-title="21/11" , 🟢 18:00 21/11 ⚽ Bình Phước vs Hà Nội FC (HD BRADY)
-https://live2.domaincdn.cc/livecdn/channel-15.flv?auth_key=3000001795260079-0-0-4146d76e9543e52089eedbec59081f09
+https://live2.domaincdn.cc/livecdn/channel-15.flv?auth_key=3000001795261869-0-0-80d6c9289a6c5a0339db4d195e3db571
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/4jwq2ghk04ym0ve/image/small" group-title="21/11" , 🟢 18:00 21/11 ⚽ Pattani vs Sukhothai FC (ZANE)
+https://live2.jorvakstreamcache.com/live/channel22.flv
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/4jwq2ghk04ym0ve/image/small" group-title="21/11" , 🟢 18:00 21/11 ⚽ Pattani vs Sukhothai FC (HD ZANE)
+https://live2.domaincdn.cc/livecdn/channel-22.flv?auth_key=3000001795261876-0-0-8f790d3b82db4ede378801ec0b42155e
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/bc5db4dd418cb566a4475649876b55bb.png" group-title="21/11" , 🟢 18:00 21/11 ⚽ Thep Xanh Nam Dinh FC vs XM Hai Phong FC (Gà Siêu Gáy) [flv]
 https://live2.zktsva.app/live/294335.flv
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/bc5db4dd418cb566a4475649876b55bb.png" group-title="21/11" , 🟢 18:00 21/11 ⚽ Thep Xanh Nam Dinh FC vs XM Hai Phong FC (Gà Siêu Gáy) [hls]
@@ -122,13 +114,13 @@ https://live05.wecile.app/live/75748097.m3u8
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/a9741c7972e214b1c312092c8b51acd8.png!w80" group-title="21/11" , 🟢 18:00 21/11 ⚽ Đồng Nai vs Hà Nội FC (BLV SPRITE) [hls 2]
 https://live05.yefpwmc.app/live/75748097_tsc.m3u8
 #EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/3674.webp" group-title="21/11" , 🟢 18:00 21/11 ⚽ Nam Dinh vs Hai Phong (Nova)
-https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.wGtgr2r76OBb.m3u8?expires=1795274435&signature=J6D_sMErIvYIkU5m_0OnBDJvQxbZ6J2AtfH3YayB_Gw
+https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.wGtgr2r76OBb.m3u8?expires=1795276231&signature=h-BUhOVI2u8fVJFLYCODrHQIB76q8RE56oqrQSeU4Wk
 #EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/3674.webp" group-title="21/11" , 🟢 18:00 21/11 ⚽ Nam Dinh vs Hai Phong (Black Panther)
-https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.fJJfiHr4lzhb.m3u8?expires=1795274437&signature=0NzdGTjgjswwnfui0xqgpV75Gek8wduMOXuMqT8TYiU
+https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.fJJfiHr4lzhb.m3u8?expires=1795276234&signature=VZtTufrHvTD11M2gaIcfiVrC8Fdl_mJXOBm2dTCi7YE
 #EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/9161.webp" group-title="21/11" , 🟢 18:00 21/11 ⚽ Bình Phước vs Ha Noi (Iron Man)
-https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.JDCZ1OHnPD72.m3u8?expires=1795274439&signature=z4KTH4jO5F2Bd1cfzy9LyAClOmMfDmJZnQVE3ER8mws
+https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.JDCZ1OHnPD72.m3u8?expires=1795276236&signature=DPOokJcE_YnszIBPjzvLfLq6kLWZ86TdPSm-D_qnWC0
 #EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/9161.webp" group-title="21/11" , 🟢 18:00 21/11 ⚽ Bình Phước vs Ha Noi (Hawkeye)
-https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.FgNPblughji2.m3u8?expires=1795274442&signature=EZ6CG4eLx2x-9IK6W0-xu83hzlYa-YTMO1Fw7hGGOJA
+https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.FgNPblughji2.m3u8?expires=1795276238&signature=WEK_8AeVDkrr75PJFhgQ5hqfmj2pnClF6e0Q0RFf-Ng
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/4wyrn4h8d9gq86p/image/small" group-title="21/11" , 🟢 18:00 21/11 ⚽ Becamex Hồ Chí Minh vs Huda Huế (LÝ LẦY LỘI) [geo]
 https://pull.digitalcdn.net/live/ae3b3e73e0da45c7a328daeb431a8f4b/index.m3u8
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/4wyrn4h8d9gq86p/image/small" group-title="21/11" , 🟢 18:00 21/11 ⚽ Becamex Hồ Chí Minh vs Huda Huế (Nhà đài)
@@ -141,161 +133,137 @@ https://lilive1.eu.cc/live/b23f4a503b0b5da8d44b72c89007aa8f/playlist.m3u8
 https://pull.digitalcdn.net/live/7bee746d31c646c798294006d1fd3c14/index.m3u8
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/4wyrn4he7kjq86p/image/small" group-title="21/11" , 🟢 18:00 21/11 ⚽ Bình Phước vs Hà Nội FC (Nhà đài)
 https://lilive1.eu.cc/live/41c002de2651c896d4bbca913511a5d1/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/895a263ae5237d0edbaf850a907a59b0.png" group-title="21/11" , 🟡 19:00 21/11 ⚽ 1. FC Nürnberg vs Eintracht Braunschweig (Tôn Quyền)
+#EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/895a263ae5237d0edbaf850a907a59b0.png" group-title="21/11" , 🟢 19:00 21/11 ⚽ 1. FC Nürnberg vs Eintracht Braunschweig (Tôn Quyền)
 https://wncdnhls-global.losartang.org/live/vsc-channel-17.m3u8
-#EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/ae286cec620b19e61e90a0bc55b4cdaa.png" group-title="21/11" , 🟡 19:00 21/11 ⚽ VfL Wolfsburg vs Holstein Kiel (Lê Hoàn)
+#EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/ae286cec620b19e61e90a0bc55b4cdaa.png" group-title="21/11" , 🟢 19:00 21/11 ⚽ VfL Wolfsburg vs Holstein Kiel (Lê Hoàn)
 https://wncdnhls-global.losartang.org/live/vsc-channel-5.m3u8
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/1800be60204966114d63970b5d0873da.png" group-title="21/11" , 🟡 19:00 21/11 ⚽ Hannover 96 vs SpVgg Greuther Fürth (Gà Siêu Bệu) [flv]
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/1800be60204966114d63970b5d0873da.png" group-title="21/11" , 🟢 19:00 21/11 ⚽ Hannover 96 vs SpVgg Greuther Fürth (Gà Siêu Bệu) [flv]
 https://live2.zktsva.app/live/289650.flv
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/1800be60204966114d63970b5d0873da.png" group-title="21/11" , 🟡 19:00 21/11 ⚽ Hannover 96 vs SpVgg Greuther Fürth (Gà Siêu Bệu) [hls]
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/1800be60204966114d63970b5d0873da.png" group-title="21/11" , 🟢 19:00 21/11 ⚽ Hannover 96 vs SpVgg Greuther Fürth (Gà Siêu Bệu) [hls]
 https://live2.zktsva.app/live/289650.m3u8
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/895a263ae5237d0edbaf850a907a59b0.png" group-title="21/11" , 🟡 19:00 21/11 ⚽ 1. FC Nürnberg vs Eintracht Braunschweig (Gà Siêu Nhí) [flv]
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/895a263ae5237d0edbaf850a907a59b0.png" group-title="21/11" , 🟢 19:00 21/11 ⚽ 1. FC Nürnberg vs Eintracht Braunschweig (Gà Siêu Nhí) [flv]
 https://live2.zktsva.app/live/301263.flv
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/895a263ae5237d0edbaf850a907a59b0.png" group-title="21/11" , 🟡 19:00 21/11 ⚽ 1. FC Nürnberg vs Eintracht Braunschweig (Gà Siêu Nhí) [hls]
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/895a263ae5237d0edbaf850a907a59b0.png" group-title="21/11" , 🟢 19:00 21/11 ⚽ 1. FC Nürnberg vs Eintracht Braunschweig (Gà Siêu Nhí) [hls]
 https://live2.zktsva.app/live/301263.m3u8
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/03645e9c1d7fd2c48705622f52fd901e.png!w80" group-title="21/11" , 🟡 19:00 21/11 ⚽ VfL Wolfsburg vs CLB Holstein Kiel (BLV SAMURAI) [flv]
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/03645e9c1d7fd2c48705622f52fd901e.png!w80" group-title="21/11" , 🟢 19:00 21/11 ⚽ VfL Wolfsburg vs CLB Holstein Kiel (BLV SAMURAI) [flv]
 https://live05.wecile.app/live/07808742.flv
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/03645e9c1d7fd2c48705622f52fd901e.png!w80" group-title="21/11" , 🟡 19:00 21/11 ⚽ VfL Wolfsburg vs CLB Holstein Kiel (BLV SAMURAI) [hls]
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/03645e9c1d7fd2c48705622f52fd901e.png!w80" group-title="21/11" , 🟢 19:00 21/11 ⚽ VfL Wolfsburg vs CLB Holstein Kiel (BLV SAMURAI) [hls]
 https://live05.wecile.app/live/07808742.m3u8
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/03645e9c1d7fd2c48705622f52fd901e.png!w80" group-title="21/11" , 🟡 19:00 21/11 ⚽ VfL Wolfsburg vs CLB Holstein Kiel (BLV SAMURAI) [hls 2]
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/03645e9c1d7fd2c48705622f52fd901e.png!w80" group-title="21/11" , 🟢 19:00 21/11 ⚽ VfL Wolfsburg vs CLB Holstein Kiel (BLV SAMURAI) [hls 2]
 https://live05.yefpwmc.app/live/07808742_tsc.m3u8
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/895a263ae5237d0edbaf850a907a59b0.png!w80" group-title="21/11" , 🟡 19:00 21/11 ⚽ Nurnberg vs Braunschweig (BLV WARRIOR) [flv]
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/895a263ae5237d0edbaf850a907a59b0.png!w80" group-title="21/11" , 🟢 19:00 21/11 ⚽ Nurnberg vs Braunschweig (BLV WARRIOR) [flv]
 https://live05.wecile.app/live/97885009.flv
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/895a263ae5237d0edbaf850a907a59b0.png!w80" group-title="21/11" , 🟡 19:00 21/11 ⚽ Nurnberg vs Braunschweig (BLV WARRIOR) [hls]
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/895a263ae5237d0edbaf850a907a59b0.png!w80" group-title="21/11" , 🟢 19:00 21/11 ⚽ Nurnberg vs Braunschweig (BLV WARRIOR) [hls]
 https://live05.wecile.app/live/97885009.m3u8
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/895a263ae5237d0edbaf850a907a59b0.png!w80" group-title="21/11" , 🟡 19:00 21/11 ⚽ Nurnberg vs Braunschweig (BLV WARRIOR) [hls 2]
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/895a263ae5237d0edbaf850a907a59b0.png!w80" group-title="21/11" , 🟢 19:00 21/11 ⚽ Nurnberg vs Braunschweig (BLV WARRIOR) [hls 2]
 https://live05.yefpwmc.app/live/97885009_tsc.m3u8
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/1800be60204966114d63970b5d0873da.png!w80" group-title="21/11" , 🟡 19:00 21/11 ⚽ Hannover 96 vs Greuther Furth (BLV 7UP) [flv]
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/1800be60204966114d63970b5d0873da.png!w80" group-title="21/11" , 🟢 19:00 21/11 ⚽ Hannover 96 vs Greuther Furth (BLV 7UP) [flv]
 https://live05.wecile.app/live/78905744.flv
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/1800be60204966114d63970b5d0873da.png!w80" group-title="21/11" , 🟡 19:00 21/11 ⚽ Hannover 96 vs Greuther Furth (BLV 7UP) [hls]
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/1800be60204966114d63970b5d0873da.png!w80" group-title="21/11" , 🟢 19:00 21/11 ⚽ Hannover 96 vs Greuther Furth (BLV 7UP) [hls]
 https://live05.wecile.app/live/78905744.m3u8
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/1800be60204966114d63970b5d0873da.png!w80" group-title="21/11" , 🟡 19:00 21/11 ⚽ Hannover 96 vs Greuther Furth (BLV 7UP) [hls 2]
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/1800be60204966114d63970b5d0873da.png!w80" group-title="21/11" , 🟢 19:00 21/11 ⚽ Hannover 96 vs Greuther Furth (BLV 7UP) [hls 2]
 https://live05.yefpwmc.app/live/78905744_tsc.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261117/e16e051eacddd75c0ef62f2db7a09bf6.png" group-title="21/11" , 🟡 19:00 21/11 ⚽ Hannover 96 vs SpVgg Greuther Fürth (BLV WUKONG)
-https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261117/e16e051eacddd75c0ef62f2db7a09bf6.png" group-title="21/11" , 🟡 19:00 21/11 ⚽ Hannover 96 vs SpVgg Greuther Fürth (BLV BẢY)
-https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261117/f7afe9169d650ca17e2d03cc202bb24e.png" group-title="21/11" , 🟡 19:00 21/11 ⚽ 1. FC Nürnberg vs Eintracht Braunschweig (BLV VIP)
-https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261117/f7afe9169d650ca17e2d03cc202bb24e.png" group-title="21/11" , 🟡 19:00 21/11 ⚽ 1. FC Nürnberg vs Eintracht Braunschweig (TRÀ ĐÁ)
-https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261117/4c43f2f385f62273cb8a17056de757c8.png" group-title="21/11" , 🟡 19:00 21/11 ⚽ VfL Wolfsburg vs Holstein Kiel (BLV ENZO)
-https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261117/4c43f2f385f62273cb8a17056de757c8.png" group-title="21/11" , 🟡 19:00 21/11 ⚽ VfL Wolfsburg vs Holstein Kiel (BLV XO)
-https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/4623d3fa1cda20d1f289dce9dc803527.png" group-title="21/11" , 19:30 21/11 ⚽ Southampton vs Derby County (Nguyễn Đảm)
-https://wncdnhls-global.losartang.org/live/vsc-channel-12.m3u8
-#EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/0ae228b68fbaf8bb4accc5fafe482a43.png" group-title="21/11" , 19:30 21/11 ⚽ Millwall vs Queens Park Rangers (Triệu Hằng)
+#EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/0ae228b68fbaf8bb4accc5fafe482a43.png" group-title="21/11" , 🟡 19:30 21/11 ⚽ Millwall vs Queens Park Rangers (Triệu Hằng)
 https://wncdnhls-global.losartang.org/live/vsc-channel-20.m3u8
-#EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/c4a6528a2ee147b99c9885ef24385a4e.png" group-title="21/11" , 19:30 21/11 ⚽ Manchester City vs Fulham (Lưu Bang)
+#EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/c4a6528a2ee147b99c9885ef24385a4e.png" group-title="21/11" , 🟡 19:30 21/11 ⚽ Manchester City vs Fulham (Lưu Bang)
 https://wncdnhls-global.losartang.org/live/vsc-channel-7.m3u8
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125550_090f6609.png" group-title="21/11" , 19:30 21/11 ⚽ Manchester City vs Fulham (Chuối Chao) [FHD] [hls]
+#EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/4623d3fa1cda20d1f289dce9dc803527.png" group-title="21/11" , 🟡 19:30 21/11 ⚽ Southampton vs Derby County (Nguyễn Đảm)
+https://wncdnhls-global.losartang.org/live/vsc-channel-12.m3u8
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125550_090f6609.png" group-title="21/11" , 🟡 19:30 21/11 ⚽ Manchester City vs Fulham (Chuối Chao) [FHD] [hls]
 https://gckc0525.edgemaxcdn.org/live/chuoichaohd/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/manchester-city.png" group-title="21/11" , 19:30 21/11 ⚽ Manchester City vs Fulham (benchon) [hls]
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/manchester-city.png" group-title="21/11" , 🟡 19:30 21/11 ⚽ Manchester City vs Fulham (benchon) [hls]
 https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/manchester-city.png" group-title="21/11" , 19:30 21/11 ⚽ Manchester City vs Fulham (trunglap-sup) [hls]
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/manchester-city.png" group-title="21/11" , 🟡 19:30 21/11 ⚽ Manchester City vs Fulham (trunglap-sup) [hls]
 https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/japan-u17.png" group-title="21/11" , 19:30 21/11 ⚽ Nhật Bản U17 vs Colombia U17 (blv-tri) [hls]
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/japan-u17.png" group-title="21/11" , 🟡 19:30 21/11 ⚽ Nhật Bản U17 vs Colombia U17 (blv-tri) [hls]
 https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://d1c0s7hi3ugzoc.cloudfront.net/teams/manchester-city-9" group-title="21/11" , 19:30 21/11 ⚽ Manchester City vs Fulham (SAPPORO) [flv]
+#EXTINF:-1 tvg-logo="https://d1c0s7hi3ugzoc.cloudfront.net/teams/manchester-city-9" group-title="21/11" , 🟡 19:30 21/11 ⚽ Manchester City vs Fulham (SAPPORO) [flv]
 https://cdnflv.xbdbotv.live/live/MTk3MjIwOTY6eGF6NjVwbnRsYnVzMmFsbGFrMXk3bTdyOnEybTEwb25neHhtZTZjazY1Y2c3enpzMw.flv
-#EXTINF:-1 tvg-logo="https://d1c0s7hi3ugzoc.cloudfront.net/teams/manchester-city-9" group-title="21/11" , 19:30 21/11 ⚽ Manchester City vs Fulham (SAPPORO) [hls]
+#EXTINF:-1 tvg-logo="https://d1c0s7hi3ugzoc.cloudfront.net/teams/manchester-city-9" group-title="21/11" , 🟡 19:30 21/11 ⚽ Manchester City vs Fulham (SAPPORO) [hls]
 https://cdnhls.xbdbotv.live/live/MTk3MjIwOTY6eGF6NjVwbnRsYnVzMmFsbGFrMXk3bTdyOnEybTEwb25neHhtZTZjazY1Y2c3enpzMw/index.m3u8
-#EXTINF:-1 tvg-logo="https://s8tvkc.top/wp-json/s8-image/f250c09e-1ce1-46cc-946d-f135679b6242" group-title="21/11" , 19:30 21/11 ⚽ Manchester City vs Fulham (NGƯỜI CAT) [hls]
+#EXTINF:-1 tvg-logo="https://s8tvkc.top/wp-json/s8-image/f250c09e-1ce1-46cc-946d-f135679b6242" group-title="21/11" , 🟡 19:30 21/11 ⚽ Manchester City vs Fulham (NGƯỜI CAT) [hls]
 https://hls.lauthaitv.cc/live/mnc-ful-prem/index.m3u8
-#EXTINF:-1 tvg-logo="https://s8tvkc.top/wp-json/s8-image/f250c09e-1ce1-46cc-946d-f135679b6242" group-title="21/11" , 19:30 21/11 ⚽ Manchester City vs Fulham (NGƯỜI CAT) [flv]
+#EXTINF:-1 tvg-logo="https://s8tvkc.top/wp-json/s8-image/f250c09e-1ce1-46cc-946d-f135679b6242" group-title="21/11" , 🟡 19:30 21/11 ⚽ Manchester City vs Fulham (NGƯỜI CAT) [flv]
 https://flv.lauthaitv.cc/live/mnc-ful-prem.flv
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8456.png" group-title="21/11" , 19:30 21/11 ⚽ Manchester City vs Fulham (Ricky) [hls]
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8456.png" group-title="21/11" , 🟡 19:30 21/11 ⚽ Manchester City vs Fulham (Ricky) [hls]
 https://wtyi0525.edgemaxcdn.org/live/x83-hd-1111/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/p4jwq2ghd57m0ve/image/small" group-title="21/11" , 19:30 21/11 ⚽ Manchester City vs Fulham (ROY)
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/p4jwq2ghd57m0ve/image/small" group-title="21/11" , 🟡 19:30 21/11 ⚽ Manchester City vs Fulham (ROY)
 https://live2.jorvakstreamcache.com/live/channel1.flv
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/p4jwq2ghd57m0ve/image/small" group-title="21/11" , 19:30 21/11 ⚽ Manchester City vs Fulham (HD ROY)
-https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001795260094-0-0-ce3ab490aacde6cac2b80bde638ed407
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/p4jwq2ghd57m0ve/image/small" group-title="21/11" , 19:30 21/11 ⚽ Manchester City vs Fulham (FABIO)
-https://live1.quickscoreboardz.com/live/channel2.flv?wsSecret=f40c6ce586d5a1c1bd18dadafe6fa4f1&wsABSTime=1795303297
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/p4jwq2ghd57m0ve/image/small" group-title="21/11" , 19:30 21/11 ⚽ Manchester City vs Fulham (HD FABIO)
-https://live2.domaincdn.cc/livecdn/channel-2.flv?auth_key=3000001795260100-0-0-37d06f6722cdef049a890ab47c6ef70a
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/p4jwq2ghd57m0ve/image/small" group-title="21/11" , 19:30 21/11 ⚽ Manchester City vs Fulham (NICK)
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/p4jwq2ghd57m0ve/image/small" group-title="21/11" , 🟡 19:30 21/11 ⚽ Manchester City vs Fulham (HD ROY)
+https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001795261888-0-0-02803d576512ffb92cd6ff02c8cd5648
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/p4jwq2ghd57m0ve/image/small" group-title="21/11" , 🟡 19:30 21/11 ⚽ Manchester City vs Fulham (FABIO)
+https://live1.quickscoreboardz.com/live/channel2.flv?wsSecret=749d3f3bf600992a11d9eff39d7ef637&wsABSTime=1795305090
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/p4jwq2ghd57m0ve/image/small" group-title="21/11" , 🟡 19:30 21/11 ⚽ Manchester City vs Fulham (HD FABIO)
+https://live2.domaincdn.cc/livecdn/channel-2.flv?auth_key=3000001795261893-0-0-af599c774fa0d6de1215c458d251670f
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/p4jwq2ghd57m0ve/image/small" group-title="21/11" , 🟡 19:30 21/11 ⚽ Manchester City vs Fulham (NICK)
 https://live2.jorvakstreamcache.com/live/channel5.flv
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/p4jwq2ghd57m0ve/image/small" group-title="21/11" , 19:30 21/11 ⚽ Manchester City vs Fulham (HD NICK)
-https://live2.domaincdn.cc/livecdn/channel-5.flv?auth_key=3000001795260106-0-0-8cef349d8df23f1dcd5a0055f4df5aba
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/ec2c30faf28746e7b60788b56ae1b6e3.png" group-title="21/11" , 19:30 21/11 ⚽ Manchester City vs Fulham (Gà Siêu Quỷ) [flv]
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/p4jwq2ghd57m0ve/image/small" group-title="21/11" , 🟡 19:30 21/11 ⚽ Manchester City vs Fulham (HD NICK)
+https://live2.domaincdn.cc/livecdn/channel-5.flv?auth_key=3000001795261898-0-0-ced2a11cbf37492adb4362556325a0b5
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/ec2c30faf28746e7b60788b56ae1b6e3.png" group-title="21/11" , 🟡 19:30 21/11 ⚽ Manchester City vs Fulham (Gà Siêu Phệ + Gà Siêu Quỷ) [flv]
 https://live2.zktsva.app/live/304565.flv
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/ec2c30faf28746e7b60788b56ae1b6e3.png" group-title="21/11" , 19:30 21/11 ⚽ Manchester City vs Fulham (Gà Siêu Quỷ) [hls]
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/ec2c30faf28746e7b60788b56ae1b6e3.png" group-title="21/11" , 🟡 19:30 21/11 ⚽ Manchester City vs Fulham (Gà Siêu Phệ + Gà Siêu Quỷ) [hls]
 https://live2.zktsva.app/live/304565.m3u8
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/4623d3fa1cda20d1f289dce9dc803527.png" group-title="21/11" , 19:30 21/11 ⚽ Southampton vs Derby County (Gà Siêu Kiêu) [flv]
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/4623d3fa1cda20d1f289dce9dc803527.png" group-title="21/11" , 🟡 19:30 21/11 ⚽ Southampton vs Derby County (Gà Siêu Kiêu) [flv]
 https://live2.zktsva.app/live/741294.flv
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/4623d3fa1cda20d1f289dce9dc803527.png" group-title="21/11" , 19:30 21/11 ⚽ Southampton vs Derby County (Gà Siêu Kiêu) [hls]
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/4623d3fa1cda20d1f289dce9dc803527.png" group-title="21/11" , 🟡 19:30 21/11 ⚽ Southampton vs Derby County (Gà Siêu Kiêu) [hls]
 https://live2.zktsva.app/live/741294.m3u8
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/c4a6528a2ee147b99c9885ef24385a4e.png!w80" group-title="21/11" , 19:30 21/11 ⚽ Câu lạc bộ bóng đá thành phố Manchester vs Câu lạc bộ bóng đá Fulham (BLV C2) [flv]
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/c4a6528a2ee147b99c9885ef24385a4e.png!w80" group-title="21/11" , 🟡 19:30 21/11 ⚽ Câu lạc bộ bóng đá thành phố Manchester vs Câu lạc bộ bóng đá Fulham (BLV C2) [flv]
 https://live05.wecile.app/live/08552895.flv
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/c4a6528a2ee147b99c9885ef24385a4e.png!w80" group-title="21/11" , 19:30 21/11 ⚽ Câu lạc bộ bóng đá thành phố Manchester vs Câu lạc bộ bóng đá Fulham (BLV C2) [hls]
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/c4a6528a2ee147b99c9885ef24385a4e.png!w80" group-title="21/11" , 🟡 19:30 21/11 ⚽ Câu lạc bộ bóng đá thành phố Manchester vs Câu lạc bộ bóng đá Fulham (BLV C2) [hls]
 https://live05.wecile.app/live/08552895.m3u8
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/c4a6528a2ee147b99c9885ef24385a4e.png!w80" group-title="21/11" , 19:30 21/11 ⚽ Câu lạc bộ bóng đá thành phố Manchester vs Câu lạc bộ bóng đá Fulham (BLV C2) [hls 2]
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/c4a6528a2ee147b99c9885ef24385a4e.png!w80" group-title="21/11" , 🟡 19:30 21/11 ⚽ Câu lạc bộ bóng đá thành phố Manchester vs Câu lạc bộ bóng đá Fulham (BLV C2) [hls 2]
 https://live05.yefpwmc.app/live/08552895_tsc.m3u8
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/c4a6528a2ee147b99c9885ef24385a4e.png!w80" group-title="21/11" , 19:30 21/11 ⚽ Câu lạc bộ bóng đá thành phố Manchester vs Câu lạc bộ bóng đá Fulham (BLV GIÀ LÀNG) [flv]
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/c4a6528a2ee147b99c9885ef24385a4e.png!w80" group-title="21/11" , 🟡 19:30 21/11 ⚽ Câu lạc bộ bóng đá thành phố Manchester vs Câu lạc bộ bóng đá Fulham (BLV GIÀ LÀNG) [flv]
 https://live05.wecile.app/live/14830711.flv
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/c4a6528a2ee147b99c9885ef24385a4e.png!w80" group-title="21/11" , 19:30 21/11 ⚽ Câu lạc bộ bóng đá thành phố Manchester vs Câu lạc bộ bóng đá Fulham (BLV GIÀ LÀNG) [hls]
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/c4a6528a2ee147b99c9885ef24385a4e.png!w80" group-title="21/11" , 🟡 19:30 21/11 ⚽ Câu lạc bộ bóng đá thành phố Manchester vs Câu lạc bộ bóng đá Fulham (BLV GIÀ LÀNG) [hls]
 https://live05.wecile.app/live/14830711.m3u8
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/c4a6528a2ee147b99c9885ef24385a4e.png!w80" group-title="21/11" , 19:30 21/11 ⚽ Câu lạc bộ bóng đá thành phố Manchester vs Câu lạc bộ bóng đá Fulham (BLV GIÀ LÀNG) [hls 2]
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/c4a6528a2ee147b99c9885ef24385a4e.png!w80" group-title="21/11" , 🟡 19:30 21/11 ⚽ Câu lạc bộ bóng đá thành phố Manchester vs Câu lạc bộ bóng đá Fulham (BLV GIÀ LÀNG) [hls 2]
 https://live05.yefpwmc.app/live/14830711_tsc.m3u8
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/c4a6528a2ee147b99c9885ef24385a4e.png!w80" group-title="21/11" , 19:30 21/11 ⚽ Câu lạc bộ bóng đá thành phố Manchester vs Câu lạc bộ bóng đá Fulham (BLV REVIVE) [flv]
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/c4a6528a2ee147b99c9885ef24385a4e.png!w80" group-title="21/11" , 🟡 19:30 21/11 ⚽ Câu lạc bộ bóng đá thành phố Manchester vs Câu lạc bộ bóng đá Fulham (BLV REVIVE) [flv]
 https://live05.wecile.app/live/33982309.flv
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/c4a6528a2ee147b99c9885ef24385a4e.png!w80" group-title="21/11" , 19:30 21/11 ⚽ Câu lạc bộ bóng đá thành phố Manchester vs Câu lạc bộ bóng đá Fulham (BLV REVIVE) [hls]
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/c4a6528a2ee147b99c9885ef24385a4e.png!w80" group-title="21/11" , 🟡 19:30 21/11 ⚽ Câu lạc bộ bóng đá thành phố Manchester vs Câu lạc bộ bóng đá Fulham (BLV REVIVE) [hls]
 https://live05.wecile.app/live/33982309.m3u8
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/c4a6528a2ee147b99c9885ef24385a4e.png!w80" group-title="21/11" , 19:30 21/11 ⚽ Câu lạc bộ bóng đá thành phố Manchester vs Câu lạc bộ bóng đá Fulham (BLV REVIVE) [hls 2]
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/c4a6528a2ee147b99c9885ef24385a4e.png!w80" group-title="21/11" , 🟡 19:30 21/11 ⚽ Câu lạc bộ bóng đá thành phố Manchester vs Câu lạc bộ bóng đá Fulham (BLV REVIVE) [hls 2]
 https://live05.yefpwmc.app/live/33982309_tsc.m3u8
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/4623d3fa1cda20d1f289dce9dc803527.png!w80" group-title="21/11" , 19:30 21/11 ⚽ Southampton vs CLB Derby County (BLV MOUNTAIN DEW) [flv]
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/4623d3fa1cda20d1f289dce9dc803527.png!w80" group-title="21/11" , 🟡 19:30 21/11 ⚽ Southampton vs CLB Derby County (BLV MOUNTAIN DEW) [flv]
 https://live05.wecile.app/live/87547578.flv
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/4623d3fa1cda20d1f289dce9dc803527.png!w80" group-title="21/11" , 19:30 21/11 ⚽ Southampton vs CLB Derby County (BLV MOUNTAIN DEW) [hls]
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/4623d3fa1cda20d1f289dce9dc803527.png!w80" group-title="21/11" , 🟡 19:30 21/11 ⚽ Southampton vs CLB Derby County (BLV MOUNTAIN DEW) [hls]
 https://live05.wecile.app/live/87547578.m3u8
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/4623d3fa1cda20d1f289dce9dc803527.png!w80" group-title="21/11" , 19:30 21/11 ⚽ Southampton vs CLB Derby County (BLV MOUNTAIN DEW) [hls 2]
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/4623d3fa1cda20d1f289dce9dc803527.png!w80" group-title="21/11" , 🟡 19:30 21/11 ⚽ Southampton vs CLB Derby County (BLV MOUNTAIN DEW) [hls 2]
 https://live05.yefpwmc.app/live/87547578_tsc.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261117/4f5d9ee59c78232270873352fbe0794b.png" group-title="21/11" , 19:30 21/11 ⚽ Manchester City vs Fulham (TẠ BIÊN GIỚI)
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261117/4f5d9ee59c78232270873352fbe0794b.png" group-title="21/11" , 🟡 19:30 21/11 ⚽ Manchester City vs Fulham (TẠ BIÊN GIỚI)
 https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261117/4f5d9ee59c78232270873352fbe0794b.png" group-title="21/11" , 19:30 21/11 ⚽ Manchester City vs Fulham (BLV TAP)
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261117/4f5d9ee59c78232270873352fbe0794b.png" group-title="21/11" , 🟡 19:30 21/11 ⚽ Manchester City vs Fulham (BLV TAP)
 https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261117/4f5d9ee59c78232270873352fbe0794b.png" group-title="21/11" , 19:30 21/11 ⚽ Manchester City vs Fulham (ZIZOU)
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261117/4f5d9ee59c78232270873352fbe0794b.png" group-title="21/11" , 🟡 19:30 21/11 ⚽ Manchester City vs Fulham (ZIZOU)
 https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261117/4f5d9ee59c78232270873352fbe0794b.png" group-title="21/11" , 19:30 21/11 ⚽ Manchester City vs Fulham (TYPN)
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261117/4f5d9ee59c78232270873352fbe0794b.png" group-title="21/11" , 🟡 19:30 21/11 ⚽ Manchester City vs Fulham (TYPN)
 https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261117/4f5d9ee59c78232270873352fbe0794b.png" group-title="21/11" , 19:30 21/11 ⚽ Manchester City vs Fulham (THẠCH TÚ)
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261117/4f5d9ee59c78232270873352fbe0794b.png" group-title="21/11" , 🟡 19:30 21/11 ⚽ Manchester City vs Fulham (THẠCH TÚ)
 https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261117/4f5d9ee59c78232270873352fbe0794b.png" group-title="21/11" , 19:30 21/11 ⚽ Manchester City vs Fulham (BLV Củ Cải)
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261117/4f5d9ee59c78232270873352fbe0794b.png" group-title="21/11" , 🟡 19:30 21/11 ⚽ Manchester City vs Fulham (BLV Củ Cải)
 https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261117/4f5d9ee59c78232270873352fbe0794b.png" group-title="21/11" , 19:30 21/11 ⚽ Manchester City vs Fulham (CR Bưởi)
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261117/4f5d9ee59c78232270873352fbe0794b.png" group-title="21/11" , 🟡 19:30 21/11 ⚽ Manchester City vs Fulham (CR Bưởi)
 https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261117/4f5d9ee59c78232270873352fbe0794b.png" group-title="21/11" , 19:30 21/11 ⚽ Manchester City vs Fulham (BLV ĐỐM)
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261117/4f5d9ee59c78232270873352fbe0794b.png" group-title="21/11" , 🟡 19:30 21/11 ⚽ Manchester City vs Fulham (BLV ĐỐM)
 https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261117/4f5d9ee59c78232270873352fbe0794b.png" group-title="21/11" , 19:30 21/11 ⚽ Manchester City vs Fulham (BLV MESSI)
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261117/4f5d9ee59c78232270873352fbe0794b.png" group-title="21/11" , 🟡 19:30 21/11 ⚽ Manchester City vs Fulham (BLV MESSI)
 https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261117/4f5d9ee59c78232270873352fbe0794b.png" group-title="21/11" , 19:30 21/11 ⚽ Manchester City vs Fulham (CURRY)
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261117/4f5d9ee59c78232270873352fbe0794b.png" group-title="21/11" , 🟡 19:30 21/11 ⚽ Manchester City vs Fulham (CURRY)
 https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261117/4f5d9ee59c78232270873352fbe0794b.png" group-title="21/11" , 19:30 21/11 ⚽ Manchester City vs Fulham (BLV HEHE)
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261117/4f5d9ee59c78232270873352fbe0794b.png" group-title="21/11" , 🟡 19:30 21/11 ⚽ Manchester City vs Fulham (BLV HEHE)
 https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261117/4f5d9ee59c78232270873352fbe0794b.png" group-title="21/11" , 19:30 21/11 ⚽ Manchester City vs Fulham (A MÂN)
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261117/4f5d9ee59c78232270873352fbe0794b.png" group-title="21/11" , 🟡 19:30 21/11 ⚽ Manchester City vs Fulham (A MÂN)
 https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/c4a6528a2ee147b99c9885ef24385a4e.png" group-title="21/11" , 19:30 21/11 ⚽ Man City vs Fulham (Cris) [hls]
-https://playback.livetl002.com/live/69aa9525f5ec459ae275b43f.m3u8
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/c4a6528a2ee147b99c9885ef24385a4e.png" group-title="21/11" , 19:30 21/11 ⚽ Man City vs Fulham (Cris) [flv]
-https://playback.livetl002.com/live/69aa9525f5ec459ae275b43f.flv
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/c4a6528a2ee147b99c9885ef24385a4e.png" group-title="21/11" , 19:30 21/11 ⚽ Man City vs Fulham (Saitama) [hls]
-https://playback.livetl002.com/live/69f42e961f739deff81510c0.m3u8
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/c4a6528a2ee147b99c9885ef24385a4e.png" group-title="21/11" , 19:30 21/11 ⚽ Man City vs Fulham (Saitama) [flv]
-https://playback.livetl002.com/live/69f42e961f739deff81510c0.flv
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/c4a6528a2ee147b99c9885ef24385a4e.png" group-title="21/11" , 19:30 21/11 ⚽ Man City vs Fulham (Giàng A Dân) [hls]
-https://playback.livetl002.com/live/6a5b13ceb36a14387baeddaa.m3u8
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/c4a6528a2ee147b99c9885ef24385a4e.png" group-title="21/11" , 19:30 21/11 ⚽ Man City vs Fulham (Giàng A Dân) [flv]
-https://playback.livetl002.com/live/6a5b13ceb36a14387baeddaa.flv
-#EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/50.webp" group-title="21/11" , 19:30 21/11 ⚽ Manchester City vs Fulham (Joker)
+#EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/50.webp" group-title="21/11" , 🟡 19:30 21/11 ⚽ Manchester City vs Fulham (Joker)
 https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/50.webp" group-title="21/11" , 19:30 21/11 ⚽ Manchester City vs Fulham (test1)
+#EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/50.webp" group-title="21/11" , 🟡 19:30 21/11 ⚽ Manchester City vs Fulham (test1)
 https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/50.webp" group-title="21/11" , 19:30 21/11 ⚽ Manchester City vs Fulham (Thanos)
+#EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/50.webp" group-title="21/11" , 🟡 19:30 21/11 ⚽ Manchester City vs Fulham (Thanos)
 https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/p4jwq2ghd57m0ve/image/small" group-title="21/11" , 19:30 21/11 ⚽ Man City vs Fulham (LÝ LONG) [geo]
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/p4jwq2ghd57m0ve/image/small" group-title="21/11" , 🟡 19:30 21/11 ⚽ Man City vs Fulham (LÝ LONG) [geo]
 https://pull.digitalcdn.net/live/300b8633bb38436a9b3eca4535234675/index.m3u8
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/gx7lm7phezgm2wd/image/small" group-title="21/11" , 19:30 21/11 ⚽ Nhật Bản U17 vs Colombia U17 (LÝ LẮC) [geo]
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/gx7lm7phezgm2wd/image/small" group-title="21/11" , 🟡 19:30 21/11 ⚽ Nhật Bản U17 vs Colombia U17 (LÝ LẮC) [geo]
 https://pull.digitalcdn.net/live/fd71c76d0ad64297bb4236d2ce223c11/index.m3u8
 #EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/fffbebaa7a0c3c2db7e8d637a3de1811.png" group-title="21/11" , 20:00 21/11 ⚽ Deportivo Alavés vs RC Deportivo (Nguyễn Ánh)
 https://wncdnhls-global.losartang.org/live/vsc-channel-11.m3u8
@@ -318,7 +286,7 @@ https://flv.lauthaitv.cc/live/galata-samsun-tursup.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/yl5ergph6lkr8k0/image/small" group-title="21/11" , 20:00 21/11 ⚽ Alavés vs Dep. La Coruna (FILIP)
 https://live2.jorvakstreamcache.com/live/channel19.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/yl5ergph6lkr8k0/image/small" group-title="21/11" , 20:00 21/11 ⚽ Alavés vs Dep. La Coruna (HD FILIP)
-https://live2.domaincdn.cc/livecdn/channel-19.flv?auth_key=3000001795260111-0-0-e4702233e66e3ad892f757ab2a7b1bcc
+https://live2.domaincdn.cc/livecdn/channel-19.flv?auth_key=3000001795261903-0-0-901bd0b142793349e3b40ba3d9b380ac
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/4014cd779b8949c5ab21908ea3dcda31.png" group-title="21/11" , 20:00 21/11 ⚽ Deportivo Alavés vs RC Deportivo (Gà Siêu Péo) [flv]
 https://live2.zktsva.app/live/303098.flv
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/4014cd779b8949c5ab21908ea3dcda31.png" group-title="21/11" , 20:00 21/11 ⚽ Deportivo Alavés vs RC Deportivo (Gà Siêu Péo) [hls]
@@ -411,12 +379,12 @@ https://pull.digitalcdn.net/live/e632b0deb0e545b7a54676ff2bcb5c94/index.m3u8
 https://lilive1.eu.cc/live/bac8ae293db3469bbe9648e7147bd69b/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/45ab4c846b0d4df5b002c571b16112dc.png" group-title="21/11" , 21:30 21/11 ⚽ 1. FC Union Berlin vs RB Leipzig (Doanh Chính)
 https://wncdnhls-global.losartang.org/live/vsc-channel-2.m3u8
+#EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/fe636189a2f3db78d0554c34f0bdaae6.png" group-title="21/11" , 21:30 21/11 ⚽ Eintracht Frankfurt vs TSG Hoffenheim (Tào Duệ)
+https://wncdnhls-global.losartang.org/live/vsc-channel-15.m3u8
 #EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/20f905fb0975e88482cf157ad9da4874.png" group-title="21/11" , 21:30 21/11 ⚽ SV 07 Elversberg vs SC Freiburg (Tôn Quyền)
 https://wncdnhls-global.losartang.org/live/vsc-channel-17.m3u8
 #EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/89cdadf6cf1eb6f8d2507de1e01f806c.png" group-title="21/11" , 21:30 21/11 ⚽ Borussia Monchengladbach vs Borussia Dortmund (Lê Hoàn)
 https://wncdnhls-global.losartang.org/live/vsc-channel-5.m3u8
-#EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/fe636189a2f3db78d0554c34f0bdaae6.png" group-title="21/11" , 21:30 21/11 ⚽ Eintracht Frankfurt vs TSG Hoffenheim (Tào Duệ)
-https://wncdnhls-global.losartang.org/live/vsc-channel-15.m3u8
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125554_b218cb7e.png" group-title="21/11" , 21:30 21/11 ⚽ Borussia Mönchengladbach vs Borussia Dortmund (Trốc Tru) [FHD] [hls]
 https://gckc0525.edgemaxcdn.org/live/troctruhd/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/bayer-leverkusen.png" group-title="21/11" , 21:30 21/11 ⚽ Bayer Leverkusen vs SC Paderborn 07 (blv-ngu) [hls]
@@ -491,8 +459,6 @@ https://freem3u.xyz/static/no-signal/low.m3u8
 https://freem3u.xyz/static/no-signal/low.m3u8
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261117/af233954ea2d0ac8007caeec3115851d.png" group-title="21/11" , 21:30 21/11 ⚽ Borussia Monchengladbach vs Borussia Dortmund (ASHAHI)
 https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261117/814365d4b7c1a0bf9b4bee3657e0066e.png" group-title="21/11" , 21:30 21/11 ⚽ Eintracht Frankfurt vs TSG Hoffenheim (BLV ANH TÀI)
-https://freem3u.xyz/static/no-signal/low.m3u8
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261117/814365d4b7c1a0bf9b4bee3657e0066e.png" group-title="21/11" , 21:30 21/11 ⚽ Eintracht Frankfurt vs TSG Hoffenheim (BOSS)
 https://freem3u.xyz/static/no-signal/low.m3u8
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261117/bde76075f21574c31ef56b3d81f2fc6e.png" group-title="21/11" , 21:30 21/11 ⚽ SV 07 Elversberg vs SC Freiburg (BLV GIÓ)
@@ -519,12 +485,12 @@ https://freem3u.xyz/static/no-signal/low.m3u8
 https://pull.digitalcdn.net/live/26f89cb90f6a4041a92c602576c1eb5b/index.m3u8
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/l965mkyh9o4r1ge/image/small" group-title="21/11" , 21:30 21/11 ⚽ B. Monchengladbach vs Dortmund (LÝ LINH LỰC) [geo]
 https://pull.digitalcdn.net/live/6bfacee90c984d35bae29d39470cf665/index.m3u8
-#EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/8b22ab4041e666b996a2d96f20dea707.png" group-title="21/11" , 22:00 21/11 ⚽ Tottenham Hotspur vs Ipswich Town (Lưu Bang)
-https://wncdnhls-global.losartang.org/live/vsc-channel-7.m3u8
 #EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/759f19ccaecadd33a5c09b535e543410.png" group-title="21/11" , 22:00 21/11 ⚽ Coventry City vs Crystal Palace (Dương Kiên)
 https://wncdnhls-global.losartang.org/live/vsc-channel-3.m3u8
 #EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/a0cf8f551e9440acb3f4ff533dcc58a4.png" group-title="21/11" , 22:00 21/11 ⚽ Chelsea vs Leeds United (Ngô Quyền)
 https://wncdnhls-global.losartang.org/live/vsc-channel-10.m3u8
+#EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/8b22ab4041e666b996a2d96f20dea707.png" group-title="21/11" , 22:00 21/11 ⚽ Tottenham Hotspur vs Ipswich Town (Lưu Bang)
+https://wncdnhls-global.losartang.org/live/vsc-channel-7.m3u8
 #EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/a3c32d6a906083118cac2cb796edaab3.png" group-title="21/11" , 22:00 21/11 ⚽ Aston Villa vs Sunderland (Nguyễn Đảm)
 https://wncdnhls-global.losartang.org/live/vsc-channel-12.m3u8
 #EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/240b30d333c97d293752ab7afd77ccd6.png" group-title="21/11" , 22:00 21/11 ⚽ Bournemouth AFC vs Nottingham Forest (Lê Lợi)
@@ -581,30 +547,30 @@ https://wtyi0525.edgemaxcdn.org/live/x22-hd-1111/playlist.m3u8
 https://wtyi0525.edgemaxcdn.org/live/x00-hd-1111/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8586.png" group-title="21/11" , 22:00 21/11 ⚽ Tottenham Hotspur vs Ipswich Town (Long Ruồi) [hls]
 https://wtyi0525.edgemaxcdn.org/live/x1-hd-1111/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/l965mkyh90gr1ge/image/small" group-title="21/11" , 22:00 21/11 ⚽ Tottenham vs Ipswich Town (BRADY)
-https://live1.quickscoreboardz.com/live/channel15.flv?wsSecret=00a5ed9cf367a947e0008b8e1de22ca1&wsABSTime=1795303316
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/l965mkyh90gr1ge/image/small" group-title="21/11" , 22:00 21/11 ⚽ Tottenham vs Ipswich Town (HD BRADY)
-https://live2.domaincdn.cc/livecdn/channel-15.flv?auth_key=3000001795260118-0-0-36bfd6f879ff54da44cacee9755c371c
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/l965mkyh90gr1ge/image/small" group-title="21/11" , 22:00 21/11 ⚽ Tottenham vs Ipswich Town (RAVEN)
-https://live2.jorvakstreamcache.com/live/channel21.flv
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/l965mkyh90gr1ge/image/small" group-title="21/11" , 22:00 21/11 ⚽ Tottenham vs Ipswich Town (HD RAVEN)
-https://live2.domaincdn.cc/livecdn/channel-21.flv?auth_key=3000001795260123-0-0-4feaa76613e50d4b2bec66c769ecabf6
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/l965mkyh90gr1ge/image/small" group-title="21/11" , 22:00 21/11 ⚽ Tottenham vs Ipswich Town (FELIX)
-https://live1.quickscoreboardz.com/live/channel24.flv?wsSecret=e6bb4685548e2200dd38409d7ccd63c5&wsABSTime=1795303325
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/l965mkyh90gr1ge/image/small" group-title="21/11" , 22:00 21/11 ⚽ Tottenham vs Ipswich Town (HD FELIX)
-https://live2.domaincdn.cc/livecdn/channel-24.flv?auth_key=3000001795260128-0-0-39b48aa97ba357d1a3a9aa8cfd579e1f
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/j1l4rjnhpdxm7vx/image/small" group-title="21/11" , 22:00 21/11 ⚽ Chelsea vs Leeds United (ROY)
 https://live2.jorvakstreamcache.com/live/channel1.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/j1l4rjnhpdxm7vx/image/small" group-title="21/11" , 22:00 21/11 ⚽ Chelsea vs Leeds United (HD ROY)
-https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001795260137-0-0-14bf6c70d5e8519a36c422188ff20094
+https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001795261909-0-0-b62a0e8b43f26b8e92bcc01d8ea9d4fe
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/j1l4rjnhpdxm7vx/image/small" group-title="21/11" , 22:00 21/11 ⚽ Chelsea vs Leeds United (TOM)
-https://live1.quickscoreboardz.com/live/channel4.flv?wsSecret=8c763bc967ea9ab9df5345dd856742c7&wsABSTime=1795303340
+https://live1.quickscoreboardz.com/live/channel4.flv?wsSecret=dfb5231a4d04cf25dbfbac87ffe1e2ae&wsABSTime=1795305111
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/j1l4rjnhpdxm7vx/image/small" group-title="21/11" , 22:00 21/11 ⚽ Chelsea vs Leeds United (HD TOM)
-https://live2.domaincdn.cc/livecdn/channel-4.flv?auth_key=3000001795260142-0-0-e25e25367a50d9b71751140c3eea9ce7
+https://live2.domaincdn.cc/livecdn/channel-4.flv?auth_key=3000001795261913-0-0-cad2c3283b67bda05951aedf7503925b
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/j1l4rjnhpdxm7vx/image/small" group-title="21/11" , 22:00 21/11 ⚽ Chelsea vs Leeds United (RIO)
 https://live2.jorvakstreamcache.com/live/channel16.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/j1l4rjnhpdxm7vx/image/small" group-title="21/11" , 22:00 21/11 ⚽ Chelsea vs Leeds United (HD RIO)
-https://live2.domaincdn.cc/livecdn/channel-16.flv?auth_key=3000001795260146-0-0-0e60842eb7f4801395460642d2e77c96
+https://live2.domaincdn.cc/livecdn/channel-16.flv?auth_key=3000001795261917-0-0-b84239b958f76d329361e0487b457795
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/l965mkyh90gr1ge/image/small" group-title="21/11" , 22:00 21/11 ⚽ Tottenham vs Ipswich Town (BRADY)
+https://live1.quickscoreboardz.com/live/channel15.flv?wsSecret=afd2f455800941010189113cb2d304b2&wsABSTime=1795305122
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/l965mkyh90gr1ge/image/small" group-title="21/11" , 22:00 21/11 ⚽ Tottenham vs Ipswich Town (HD BRADY)
+https://live2.domaincdn.cc/livecdn/channel-15.flv?auth_key=3000001795261924-0-0-f151105c5c2d8d14522f50facfa700d5
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/l965mkyh90gr1ge/image/small" group-title="21/11" , 22:00 21/11 ⚽ Tottenham vs Ipswich Town (RAVEN)
+https://live2.jorvakstreamcache.com/live/channel21.flv
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/l965mkyh90gr1ge/image/small" group-title="21/11" , 22:00 21/11 ⚽ Tottenham vs Ipswich Town (HD RAVEN)
+https://live2.domaincdn.cc/livecdn/channel-21.flv?auth_key=3000001795261928-0-0-835e6e6edeab94fe75cc1c57dcfc7272
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/l965mkyh90gr1ge/image/small" group-title="21/11" , 22:00 21/11 ⚽ Tottenham vs Ipswich Town (FELIX)
+https://live1.quickscoreboardz.com/live/channel24.flv?wsSecret=15af5dc4c2ef808164254b028a6026d7&wsABSTime=1795305131
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/l965mkyh90gr1ge/image/small" group-title="21/11" , 22:00 21/11 ⚽ Tottenham vs Ipswich Town (HD FELIX)
+https://live2.domaincdn.cc/livecdn/channel-24.flv?auth_key=3000001795261933-0-0-088149cec9cd7a9206bb9402d7a91996
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/42703a6d65494454a252c12de6606767.png" group-title="21/11" , 22:00 21/11 ⚽ Aston Villa vs Sunderland (Gà Siêu Ngố) [flv]
 https://live2.zktsva.app/live/301238.flv
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/42703a6d65494454a252c12de6606767.png" group-title="21/11" , 22:00 21/11 ⚽ Aston Villa vs Sunderland (Gà Siêu Ngố) [hls]
@@ -617,9 +583,9 @@ https://live2.zktsva.app/live/306290.m3u8
 https://live2.zktsva.app/live/294335.flv
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/e498984443da45129524c96731153e82.png" group-title="21/11" , 22:00 21/11 ⚽ Chelsea vs Leeds United (Gà Siêu Gáy) [hls]
 https://live2.zktsva.app/live/294335.m3u8
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/25f7ecf7a7274adfad2f458d1cca63d2.png" group-title="21/11" , 22:00 21/11 ⚽ Tottenham Hotspur vs Ipswich Town (Gà Siêu Quỷ) [flv]
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/25f7ecf7a7274adfad2f458d1cca63d2.png" group-title="21/11" , 22:00 21/11 ⚽ Tottenham Hotspur vs Ipswich Town (Gà Siêu Phệ + Gà Siêu Quỷ) [flv]
 https://live2.zktsva.app/live/304565.flv
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/25f7ecf7a7274adfad2f458d1cca63d2.png" group-title="21/11" , 22:00 21/11 ⚽ Tottenham Hotspur vs Ipswich Town (Gà Siêu Quỷ) [hls]
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/25f7ecf7a7274adfad2f458d1cca63d2.png" group-title="21/11" , 22:00 21/11 ⚽ Tottenham Hotspur vs Ipswich Town (Gà Siêu Phệ + Gà Siêu Quỷ) [hls]
 https://live2.zktsva.app/live/304565.m3u8
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/53e7ec5b7e144f6b8c52a49599dc37ef.png" group-title="21/11" , 22:00 21/11 ⚽ Coventry City vs Crystal Palace (Gà Ô Long) [flv]
 https://live2.zktsva.app/live/432017.flv
@@ -713,34 +679,6 @@ https://freem3u.xyz/static/no-signal/low.m3u8
 https://freem3u.xyz/static/no-signal/low.m3u8
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261117/36dfba5dedcfc6081d87734a9701a6f8.png" group-title="21/11" , 22:00 21/11 ⚽ Tottenham Hotspur vs Ipswich Town (BLV HEHE)
 https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/a3c32d6a906083118cac2cb796edaab3.png" group-title="21/11" , 22:00 21/11 ⚽ Aston Villa vs Sunderland (Cá Mập) [hls]
-https://playback.livetl002.com/live/6a0c7c4b1ae4d6db02433c48.m3u8
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/a3c32d6a906083118cac2cb796edaab3.png" group-title="21/11" , 22:00 21/11 ⚽ Aston Villa vs Sunderland (Cá Mập) [flv]
-https://playback.livetl002.com/live/6a0c7c4b1ae4d6db02433c48.flv
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/a3c32d6a906083118cac2cb796edaab3.png" group-title="21/11" , 22:00 21/11 ⚽ Aston Villa vs Sunderland (Người Kiến) [hls]
-https://playback.livetl002.com/live/6a439a7fb89dded67b208b87.m3u8
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/a3c32d6a906083118cac2cb796edaab3.png" group-title="21/11" , 22:00 21/11 ⚽ Aston Villa vs Sunderland (Người Kiến) [flv]
-https://playback.livetl002.com/live/6a439a7fb89dded67b208b87.flv
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/240b30d333c97d293752ab7afd77ccd6.png" group-title="21/11" , 22:00 21/11 ⚽ Bournemouth vs Nott'm Forest (Lữ Bố.Vip) [hls]
-https://playback.livetl002.com/live/6a9776215126529dede9bf51.m3u8
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/240b30d333c97d293752ab7afd77ccd6.png" group-title="21/11" , 22:00 21/11 ⚽ Bournemouth vs Nott'm Forest (Lữ Bố.Vip) [flv]
-https://playback.livetl002.com/live/6a9776215126529dede9bf51.flv
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/b365ad0e85e2b1bcbf63f7a0f2f70a79.png" group-title="21/11" , 22:00 21/11 ⚽ Chelsea vs Leeds United (Cris) [hls]
-https://playback.livetl002.com/live/69aa9525f5ec459ae275b43f.m3u8
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/b365ad0e85e2b1bcbf63f7a0f2f70a79.png" group-title="21/11" , 22:00 21/11 ⚽ Chelsea vs Leeds United (Cris) [flv]
-https://playback.livetl002.com/live/69aa9525f5ec459ae275b43f.flv
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/b365ad0e85e2b1bcbf63f7a0f2f70a79.png" group-title="21/11" , 22:00 21/11 ⚽ Chelsea vs Leeds United (Saitama) [hls]
-https://playback.livetl002.com/live/69f42e961f739deff81510c0.m3u8
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/b365ad0e85e2b1bcbf63f7a0f2f70a79.png" group-title="21/11" , 22:00 21/11 ⚽ Chelsea vs Leeds United (Saitama) [flv]
-https://playback.livetl002.com/live/69f42e961f739deff81510c0.flv
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/8b22ab4041e666b996a2d96f20dea707.png" group-title="21/11" , 22:00 21/11 ⚽ Spurs vs Ipswich (Siêu Quậy) [hls]
-https://playback.livetl002.com/live/6a2a59b347bbddd62a8dc4e4.m3u8
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/8b22ab4041e666b996a2d96f20dea707.png" group-title="21/11" , 22:00 21/11 ⚽ Spurs vs Ipswich (Siêu Quậy) [flv]
-https://playback.livetl002.com/live/6a2a59b347bbddd62a8dc4e4.flv
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/759f19ccaecadd33a5c09b535e543410.png" group-title="21/11" , 22:00 21/11 ⚽ Coventry City vs Crystal Palace (Đoàn Dự) [hls]
-https://playback.livetl002.com/live/6a5df755b89dded67b39b8bc.m3u8
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/759f19ccaecadd33a5c09b535e543410.png" group-title="21/11" , 22:00 21/11 ⚽ Coventry City vs Crystal Palace (Đoàn Dự) [flv]
-https://playback.livetl002.com/live/6a5df755b89dded67b39b8bc.flv
 #EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/49.webp" group-title="21/11" , 22:00 21/11 ⚽ Chelsea vs Leeds (Joker)
 https://freem3u.xyz/static/no-signal/low.m3u8
 #EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/66.webp" group-title="21/11" , 22:00 21/11 ⚽ Aston Villa vs Sunderland (Nova)
@@ -803,8 +741,8 @@ https://live05.wecile.app/live/07808742.m3u8
 https://live05.yefpwmc.app/live/07808742_tsc.m3u8
 #EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/ff8991853f7aabce7cb66f09cda0c58e.png" group-title="21/11" , 23:15 21/11 ⚽ OGC Nice vs Paris Saint Germain (Trần Cảnh)
 https://wncdnhls-global.losartang.org/live/vsc-channel-18.m3u8
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125513_8de90bbd.png" group-title="21/11" , 23:15 21/11 ⚽ Nice vs Paris Saint Germain (Chuối Tây) [FHD] [hls]
-https://gckc0525.edgemaxcdn.org/live/chuoitayhd/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125513_8de90bbd.png" group-title="21/11" , 23:15 21/11 ⚽ Nice vs Paris Saint Germain (Chuối Kem) [FHD] [hls]
+https://gckc0525.edgemaxcdn.org/live/chuoikemhd/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/nice.png" group-title="21/11" , 23:15 21/11 ⚽ Nice vs Paris Saint Germain (blv-beo) [hls]
 https://freem3u.xyz/static/no-signal/low.m3u8
 #EXTINF:-1 tvg-logo="https://d1c0s7hi3ugzoc.cloudfront.net/teams/nice-450" group-title="21/11" , 23:15 21/11 ⚽ OGC Nice vs Paris Saint-Germain (NEM NƯỚNG) [flv]
@@ -858,6 +796,8 @@ https://cdnhls.xbdbotv.live/live/MTk3MTM0OTk6dGljMHIwY2xmNjhsaWxyajl3eDMyeXd6OmM
 https://hls.lauthaitv.cc/live/parma-roma-seriea/index.m3u8
 #EXTINF:-1 tvg-logo="https://s8tvkc.top/wp-json/s8-image/a9b6f82b-60c8-4336-8db6-3fc159ac8e20" group-title="22/11" , 00:00 22/11 ⚽ Parma vs AS Roma (NGƯỜI CÁO) [flv]
 https://flv.lauthaitv.cc/live/parma-roma-seriea.flv
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/10167.png" group-title="22/11" , 00:00 22/11 ⚽ Parma vs Roma (Kai) [hls]
+https://wtyi0525.edgemaxcdn.org/live/x00-hd-1111/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/4bcaf303d62c48df9e94380c0d8981a2.png" group-title="22/11" , 00:00 22/11 ⚽ Parma vs AS Roma (Gà Siêu Kiêu) [flv]
 https://live2.zktsva.app/live/741294.flv
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/4bcaf303d62c48df9e94380c0d8981a2.png" group-title="22/11" , 00:00 22/11 ⚽ Parma vs AS Roma (Gà Siêu Kiêu) [hls]
@@ -886,8 +826,8 @@ https://freem3u.xyz/static/no-signal/low.m3u8
 https://pull.digitalcdn.net/live/d0a5297d5b3e4a6ba8555adb9571897e/index.m3u8
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125545_2cdfd5d4.png" group-title="22/11" , 00:30 22/11 ⚽ Newcastle vs Arsenal (Chuối Lá) [FHD] [hls]
 https://gckc0525.edgemaxcdn.org/live/chuoilahd/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125623_bcacccf3.png" group-title="22/11" , 00:30 22/11 ⚽ Sevilla vs Real Betis (Chuối Kem) [FHD] [hls]
-https://gckc0525.edgemaxcdn.org/live/chuoikemhd/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125623_bcacccf3.png" group-title="22/11" , 00:30 22/11 ⚽ Sevilla vs Real Betis (Chuối Tây) [FHD] [hls]
+https://gckc0525.edgemaxcdn.org/live/chuoitayhd/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_130300_280f64ff.png" group-title="22/11" , 00:30 22/11 ⚽ FC Schalke 04 vs VfB Stuttgart (Chuối Chao) [FHD] [hls]
 https://gckc0525.edgemaxcdn.org/live/chuoichaohd/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/newcastle-united.png" group-title="22/11" , 00:30 22/11 ⚽ Newcastle United vs Arsenal (blv-ngong) [hls]
@@ -924,9 +864,9 @@ https://flv.lauthaitv.cc/live/sevilla-betis-laliga.flv
 https://wtyi0525.edgemaxcdn.org/live/x83-hd-1111/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8302.png" group-title="22/11" , 00:30 22/11 ⚽ Sevilla vs Real Betis (Nếp Cẩm) [hls]
 https://wtyi0525.edgemaxcdn.org/live/x4-hd-1111/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/7d4b8f9a64624fa5bc64080b6f137780.png" group-title="22/11" , 00:30 22/11 ⚽ Newcastle United vs Arsenal (Gà Siêu Quỷ) [flv]
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/7d4b8f9a64624fa5bc64080b6f137780.png" group-title="22/11" , 00:30 22/11 ⚽ Newcastle United vs Arsenal (Gà Siêu Phệ + Gà Siêu Quỷ) [flv]
 https://live2.zktsva.app/live/304565.flv
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/7d4b8f9a64624fa5bc64080b6f137780.png" group-title="22/11" , 00:30 22/11 ⚽ Newcastle United vs Arsenal (Gà Siêu Quỷ) [hls]
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/7d4b8f9a64624fa5bc64080b6f137780.png" group-title="22/11" , 00:30 22/11 ⚽ Newcastle United vs Arsenal (Gà Siêu Phệ + Gà Siêu Quỷ) [hls]
 https://live2.zktsva.app/live/304565.m3u8
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/7d4b8f9a64624fa5bc64080b6f137780.png" group-title="22/11" , 00:30 22/11 ⚽ Newcastle United vs Arsenal (Gà Siêu Ngố) [flv]
 https://live2.zktsva.app/live/301238.flv
@@ -1002,14 +942,6 @@ https://freem3u.xyz/static/no-signal/low.m3u8
 https://freem3u.xyz/static/no-signal/low.m3u8
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261118/da6450fc8bf2b0e2e4b35fb5bc7c0d91.png" group-title="22/11" , 00:30 22/11 ⚽ Newcastle United vs Arsenal (CURRY)
 https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/5dbe320855e3ba772dbce54f940c6fa5.png" group-title="22/11" , 00:30 22/11 ⚽ Newcastle vs Arsenal (Cris) [hls]
-https://playback.livetl002.com/live/69aa9525f5ec459ae275b43f.m3u8
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/5dbe320855e3ba772dbce54f940c6fa5.png" group-title="22/11" , 00:30 22/11 ⚽ Newcastle vs Arsenal (Cris) [flv]
-https://playback.livetl002.com/live/69aa9525f5ec459ae275b43f.flv
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/5dbe320855e3ba772dbce54f940c6fa5.png" group-title="22/11" , 00:30 22/11 ⚽ Newcastle vs Arsenal (Saitama) [hls]
-https://playback.livetl002.com/live/69f42e961f739deff81510c0.m3u8
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/5dbe320855e3ba772dbce54f940c6fa5.png" group-title="22/11" , 00:30 22/11 ⚽ Newcastle vs Arsenal (Saitama) [flv]
-https://playback.livetl002.com/live/69f42e961f739deff81510c0.flv
 #EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/34.webp" group-title="22/11" , 00:30 22/11 ⚽ Newcastle vs Arsenal (Joker)
 https://freem3u.xyz/static/no-signal/low.m3u8
 #EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/34.webp" group-title="22/11" , 00:30 22/11 ⚽ Newcastle vs Arsenal (Super Man)
@@ -1148,9 +1080,9 @@ https://hls.lauthaitv.cc/live/real-celta-laliga/index.m3u8
 https://flv.lauthaitv.cc/live/real-celta-laliga.flv
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8633.png" group-title="22/11" , 03:00 22/11 ⚽ Real Madrid vs Celta Vigo (Bút Chì) [hls]
 https://wtyi0525.edgemaxcdn.org/live/x22-hd-1111/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/5d83fbd4a22c445080c53e8ab832a889.png" group-title="22/11" , 03:00 22/11 ⚽ Real Madrid vs RC Celta (Gà Siêu Quỷ) [flv]
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/5d83fbd4a22c445080c53e8ab832a889.png" group-title="22/11" , 03:00 22/11 ⚽ Real Madrid vs RC Celta (Gà Siêu Phệ + Gà Siêu Quỷ) [flv]
 https://live2.zktsva.app/live/304565.flv
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/5d83fbd4a22c445080c53e8ab832a889.png" group-title="22/11" , 03:00 22/11 ⚽ Real Madrid vs RC Celta (Gà Siêu Quỷ) [hls]
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/5d83fbd4a22c445080c53e8ab832a889.png" group-title="22/11" , 03:00 22/11 ⚽ Real Madrid vs RC Celta (Gà Siêu Phệ + Gà Siêu Quỷ) [hls]
 https://live2.zktsva.app/live/304565.m3u8
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/98a1646fa8a5b6f02b0505cf3857f6d5.png!w80" group-title="22/11" , 03:00 22/11 ⚽ Groningen vs SC Heerenveen (BLV TEPPY) [flv]
 https://live05.wecile.app/live/33860426.flv
@@ -1285,6 +1217,16 @@ https://freem3u.xyz/static/no-signal/low.m3u8
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261118/aba08b764091aa211ad17072f233d4c1.png" group-title="22/11" , 06:30 22/11 ⚽ Universidad de Concepcion vs Nublense (BLV PEWPEW)
 https://freem3u.xyz/static/no-signal/low.m3u8
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261118/aba08b764091aa211ad17072f233d4c1.png" group-title="22/11" , 06:30 22/11 ⚽ Universidad de Concepcion vs Nublense (BLV RAMBO)
+https://freem3u.xyz/static/no-signal/low.m3u8
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261118/b97fd28d05dcf48ba32b38c0c2afe5a2.png" group-title="22/11" , 07:00 22/11 ⚽ Chapecoense _ SC vs Cruzeiro _ MG (BLV LONG)
+https://freem3u.xyz/static/no-signal/low.m3u8
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261118/b97fd28d05dcf48ba32b38c0c2afe5a2.png" group-title="22/11" , 07:00 22/11 ⚽ Chapecoense _ SC vs Cruzeiro _ MG (BLV TOMIA)
+https://freem3u.xyz/static/no-signal/low.m3u8
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261118/b97fd28d05dcf48ba32b38c0c2afe5a2.png" group-title="22/11" , 07:00 22/11 ⚽ Chapecoense _ SC vs Cruzeiro _ MG (BLV ANH TÀI)
+https://freem3u.xyz/static/no-signal/low.m3u8
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261118/b97fd28d05dcf48ba32b38c0c2afe5a2.png" group-title="22/11" , 07:00 22/11 ⚽ Chapecoense _ SC vs Cruzeiro _ MG (BLV VIP)
+https://freem3u.xyz/static/no-signal/low.m3u8
+#EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/132.webp" group-title="22/11" , 07:00 22/11 ⚽ Chapecoense-sc vs Cruzeiro (Black Panther)
 https://freem3u.xyz/static/no-signal/low.m3u8
 #EXTINF:-1 tvg-logo="https://s8tvkc.top/wp-json/s8-image/ed50aba2-8386-485d-95e3-d1dd191a8fba" group-title="22/11" , 08:00 22/11 ⚽ Pumas U.N.A.M vs Rayados de Monterrey (NGƯỜI THỎ) [hls]
 https://hls.lauthaitv.cc/live/pumas-rayados-mexliga/index.m3u8
