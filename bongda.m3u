@@ -1,10 +1,6 @@
 #EXTM3U
 #Cập nhật động từ https://thtt.pages.dev/tttt.m3u
 #--- Lịch đấu 23/11 ---
-#EXTINF:-1 tvg-logo="https://s8tvkc.top/wp-json/s8-image/93a96394-e15f-4576-9bde-2056cfe52c45" group-title="23/11" , 🟢 06:30 23/11 ⚽ Chicago Fire vs Charlotte FC (NGƯỜI SÓI) [hls]
-https://hls.lauthaitv.cc/live/chicago-charlotte-mls/index.m3u8
-#EXTINF:-1 tvg-logo="https://s8tvkc.top/wp-json/s8-image/93a96394-e15f-4576-9bde-2056cfe52c45" group-title="23/11" , 🟢 06:30 23/11 ⚽ Chicago Fire vs Charlotte FC (NGƯỜI SÓI) [flv]
-https://flv.lauthaitv.cc/live/chicago-charlotte-mls.flv
 #EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/a01279fdf6589b3c11529ca1ab4201fc.png" group-title="23/11" , 🟢 08:00 23/11 ⚽ Instituto de Córdoba vs CA Huracan (Huyền Diệp)
 https://wncdnhls-global.losartang.org/live/vsc-channel-4.m3u8
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133839_2ee7b0dd.png" group-title="23/11" , 🟢 08:00 23/11 ⚽ Club Queretaro vs Necaxa (Chuối Già) [FHD] [hls]
@@ -20,11 +16,11 @@ https://flv.lauthaitv.cc/live/quere-necaxa-mexliga.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/gx7lm7ph40vm2wd/image/small" group-title="23/11" , 🟢 08:00 23/11 ⚽ Instituto vs CA Huracan (ASTRA)
 https://live200.kravonstreamdelivery.com/live/channel11.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/gx7lm7ph40vm2wd/image/small" group-title="23/11" , 🟢 08:00 23/11 ⚽ Instituto vs CA Huracan (HD ASTRA)
-https://live2.domaincdn.cc/livecdn/channel-11.flv?auth_key=3000001795398629-0-0-7a9b47f9adace13c4ee6c00c2d6f5847
+https://live2.domaincdn.cc/livecdn/channel-11.flv?auth_key=3000001795399526-0-0-0795c064f033b4452b301e9e362ab4db
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/9vjxm8ghd6wr6od/image/small" group-title="23/11" , 🟢 08:00 23/11 ⚽ Queretaro FC vs Necaxa (BRADY)
 https://live200.kravonstreamdelivery.com/live/channel15.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/9vjxm8ghd6wr6od/image/small" group-title="23/11" , 🟢 08:00 23/11 ⚽ Queretaro FC vs Necaxa (HD BRADY)
-https://live2.domaincdn.cc/livecdn/channel-15.flv?auth_key=3000001795398640-0-0-9ff93fb3a409828158aaa733c38a0149
+https://live2.domaincdn.cc/livecdn/channel-15.flv?auth_key=3000001795399536-0-0-d81e8aa23591de5cff65cc25f31a5428
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/a01279fdf6589b3c11529ca1ab4201fc.png!w80" group-title="23/11" , 🟢 08:00 23/11 ⚽ Instituto vs Huracan (BLV BÍ ĐAO) [flv]
 https://live05.wecile.app/live/99121525.flv
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/a01279fdf6589b3c11529ca1ab4201fc.png!w80" group-title="23/11" , 🟢 08:00 23/11 ⚽ Instituto vs Huracan (BLV BÍ ĐAO) [hls]
@@ -38,7 +34,7 @@ https://live2.zktsva.app/live/289650.flv
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/74eb06ea57f32cb35dcc025665caa97e.png" group-title="23/11" , 🟢 08:10 23/11 ⚽ Queretaro FC vs Necaxa (Gà Siêu Bệu) [hls]
 https://live2.zktsva.app/live/289650.m3u8
 #EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/2290.webp" group-title="23/11" , 🟢 08:10 23/11 ⚽ Club Queretaro vs Necaxa (Joker)
-https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.LtThVrNJanBT.m3u8?expires=1795413024&signature=v18KfLfjQpS4lZTE7Kl27N18gSedjqh8CnF-Se5AyQM
+https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.LtThVrNJanBT.m3u8?expires=1795413923&signature=rDsIYftzbT5FPWLz7Ta6bJeTrnxF2EKYYuqGZhdBcIk
 #EXTINF:-1 tvg-logo="https://apiv3.apifootball.com/badges/289_vancouver-whitecaps-fc.jpg" group-title="23/11" , 🟢 08:30 23/11 ⚽ Vancouver Whitecaps vs Real Salt Lake (BLV Khô Mật) [hls]
 https://livecdn321.cdnfastter.xyz/live/live_b30ba5315c/index.m3u8?token=ZNaU8SPI--3-JASIZXv-JImAVGukJOEv6T9_GMWMfU0&expires=1852800615
 #EXTINF:-1 tvg-logo="https://apiv3.apifootball.com/badges/289_vancouver-whitecaps-fc.jpg" group-title="23/11" , 🟢 08:30 23/11 ⚽ Vancouver Whitecaps vs Real Salt Lake (BLV Khô Mật) [flv]
@@ -46,9 +42,9 @@ https://live.khoga.space/live/livehub13.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/e4wyrn4hpv2q86p/image/small" group-title="23/11" , 🟢 08:30 23/11 ⚽ Vancouver Whitecaps vs Real Salt Lake (ZANE)
 https://live200.kravonstreamdelivery.com/live/channel22.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/e4wyrn4hpv2q86p/image/small" group-title="23/11" , 🟢 08:30 23/11 ⚽ Vancouver Whitecaps vs Real Salt Lake (HD ZANE)
-https://live2.domaincdn.cc/livecdn/channel-22.flv?auth_key=3000001795398646-0-0-b805603ae6b95bc37ac5fce081ee8421
+https://live2.domaincdn.cc/livecdn/channel-22.flv?auth_key=3000001795399543-0-0-77072741c36c7333d769bc38aa0599df
 #EXTINF:-1 tvg-logo="https://xoigac.top/images/placeholder-team.svg" group-title="23/11" , 🟢 08:30 23/11 ⚽ Vancouver Whitecaps vs Winner of West Wild Card (Iron Man)
-https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.ey2rII3uUIx4.m3u8?expires=1795413031&signature=ksqBQRpKSAmhZJh8ytbY1QezWoTRPmiMA_TySORI2Sk
+https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.ey2rII3uUIx4.m3u8?expires=1795413930&signature=C3H3bRMOtF4GH1VcX1HbW0Yoa5Ow2HmP-8CeqRyvlLs
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/527dcdb6260004a2c8f61fae9345f133.png" group-title="23/11" , 🟢 08:40 23/11 ⚽ Vancouver Whitecaps vs Real Salt Lake (Gà Siêu Kiêu) [flv]
 https://live2.zktsva.app/live/741294.flv
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/527dcdb6260004a2c8f61fae9345f133.png" group-title="23/11" , 🟢 08:40 23/11 ⚽ Vancouver Whitecaps vs Real Salt Lake (Gà Siêu Kiêu) [hls]
@@ -66,7 +62,7 @@ https://wtyi0525.edgemaxcdn.org/live/x1-hd-1111/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/318q66ho00gqo9j/image/small" group-title="23/11" , 11:00 23/11 ⚽ Nữ Albirex Niigata vs Nữ Sanfrecce Hiroshima (KEN)
 https://live200.kravonstreamdelivery.com/live/channel18.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/318q66ho00gqo9j/image/small" group-title="23/11" , 11:00 23/11 ⚽ Nữ Albirex Niigata vs Nữ Sanfrecce Hiroshima (HD KEN)
-https://live2.domaincdn.cc/livecdn/channel-18.flv?auth_key=3000001795398673-0-0-6cf7cf22ea7cfbfdaabdcfc646d111dd
+https://live2.domaincdn.cc/livecdn/channel-18.flv?auth_key=3000001795399565-0-0-40a137a134c91341bd538d538a75e0e8
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/5568ced004ac6d705da33b97a1379069.png!w80" group-title="23/11" , 11:00 23/11 ⚽ Nojima Stella Nữ (Jpn) vs Omiya Ardija Ventus (BLV POCARI) [flv]
 https://live05.wecile.app/live/19919577.flv
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/5568ced004ac6d705da33b97a1379069.png!w80" group-title="23/11" , 11:00 23/11 ⚽ Nojima Stella Nữ (Jpn) vs Omiya Ardija Ventus (BLV POCARI) [hls]
@@ -116,9 +112,9 @@ https://freem3u.xyz/static/no-signal/low.m3u8
 #EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/16954.webp" group-title="23/11" , 12:00 23/11 ⚽ Parceiro Nagano W vs Urawa Reds W (Nova)
 https://freem3u.xyz/static/no-signal/low.m3u8
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/6ypq3nh0gk3md7o/image/small" group-title="23/11" , 13:00 23/11 ⚽ Nữ Tokyo Verdy vs Nữ Inac Kobe (FILIP)
-https://live2.pro2cdnlive.com/live/channel19.flv
+https://live200.kravonstreamdelivery.com/live/channel19.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/6ypq3nh0gk3md7o/image/small" group-title="23/11" , 13:00 23/11 ⚽ Nữ Tokyo Verdy vs Nữ Inac Kobe (HD FILIP)
-https://live2.pro2cdnlive.com/live/channel-19.flv
+https://live2.domaincdn.cc/livecdn/channel-19.flv?auth_key=3000001795399570-0-0-529b9a329bd8dcc8544e2e18d19273d3
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/ce447e0e3ad2662871036938cbb0edbc.png!w80" group-title="23/11" , 13:00 23/11 ⚽ Beleza Nữ (Jpn) vs Inac Kobe Leonesa Nữ (Jpn) (BLV Cozy) [flv]
 https://live05.wecile.app/live/87379114.flv
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/ce447e0e3ad2662871036938cbb0edbc.png!w80" group-title="23/11" , 13:00 23/11 ⚽ Beleza Nữ (Jpn) vs Inac Kobe Leonesa Nữ (Jpn) (BLV Cozy) [hls]
@@ -167,6 +163,10 @@ https://freem3u.xyz/static/no-signal/low.m3u8
 https://freem3u.xyz/static/no-signal/low.m3u8
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/k82rekh1035repz/image/small" group-title="23/11" , 16:00 23/11 ⚽ Yangon City vs Hantharwady Utd (LÝ LẮC) [geo]
 https://pull1.digitalcdn.net/live/86d893253bc94a9cb1aadce3c4d25a3f/index.m3u8
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/y0or5jhe91wqwzv/image/small" group-title="23/11" , 16:30 23/11 ⚽ Chinland FC vs Ayeyawady (POLO)
+https://live2.pro2cdnlive.com/live/channel10.flv
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/y0or5jhe91wqwzv/image/small" group-title="23/11" , 16:30 23/11 ⚽ Chinland FC vs Ayeyawady (HD POLO)
+https://live2.pro2cdnlive.com/live/channel-10.flv
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/a5cb434d8e844bd1ba4fe4317516ca63.png" group-title="23/11" , 16:30 23/11 ⚽ Chinland FC vs Ayeyawady united (Gà Siêu Ngố) [flv]
 https://live2.zktsva.app/live/301238.flv
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/a5cb434d8e844bd1ba4fe4317516ca63.png" group-title="23/11" , 16:30 23/11 ⚽ Chinland FC vs Ayeyawady united (Gà Siêu Ngố) [hls]
@@ -427,12 +427,12 @@ https://pull1.digitalcdn.net/live/9e0555ebb5154c5db850f856c29f262d/index.m3u8
 https://pull1.digitalcdn.net/live/e1f639b78e6e4aeabc3be1bbc85a1886/index.m3u8
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/l5ergphovz1r8k0/image/small" group-title="23/11" , 22:30 23/11 ⚽ Việt Nam U17 vs New Zealand U17 (LÝ LA LÀNG) [geo]
 https://pull1.digitalcdn.net/live/a102733aa68b4e13afbbad68a5223bc5/index.m3u8
-#EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/bf2316e90a47ed6d1181458350b0714b.png" group-title="23/11" , 23:00 23/11 ⚽ Tractor S.C. vs Al-Wasl SC (Trần Cảnh)
-https://wncdnhls-global.losartang.org/live/vsc-channel-18.m3u8
 #EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/0a275ee78225885853d8bb904e037247.png" group-title="23/11" , 23:00 23/11 ⚽ Al-Ain FC vs Esteghlal Tehran (Triệu Hằng)
 https://wncdnhls-global.losartang.org/live/vsc-channel-20.m3u8
 #EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/af47207f36a49c89502312138e54f6a7.png" group-title="23/11" , 23:00 23/11 ⚽ Al-Shamal Sports Club vs Al Ahli SC (Trần Hoàng)
 https://wncdnhls-global.losartang.org/live/vsc-channel-19.m3u8
+#EXTINF:-1 tvg-logo="https://global-cdn.cdnx.tech/football/team/bf2316e90a47ed6d1181458350b0714b.png" group-title="23/11" , 23:00 23/11 ⚽ Tractor S.C. vs Al-Wasl SC (Trần Cảnh)
+https://wncdnhls-global.losartang.org/live/vsc-channel-18.m3u8
 #EXTINF:-1 tvg-logo="https://apiv3.apifootball.com/badges/374_al-ain.jpg" group-title="23/11" , 23:00 23/11 ⚽ Al Ain vs Esteghlal F.C. (BLV Xôi Gấc) [hls]
 https://livecdn321.cdnfastter.xyz/live/live_5e3f2549e4/index.m3u8?token=pCk_XLBJTDboKaC3LME17XPjU4pgaPXEOkc_CroCj0U&expires=1852800615
 #EXTINF:-1 tvg-logo="https://apiv3.apifootball.com/badges/374_al-ain.jpg" group-title="23/11" , 23:00 23/11 ⚽ Al Ain vs Esteghlal F.C. (BLV Xôi Gấc) [flv]
